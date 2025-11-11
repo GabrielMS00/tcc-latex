@@ -317,6 +317,9 @@ INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex\latex\stickstoo\t1stickst
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex\latex\stickstoo\t1stickstootext-tlf.fd
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex\latex\stickstoo\t1stickstootext-tlf.fd
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Regular-tlf-t1.tfm
+INPUT .\unbtex-example.aux
+INPUT .\unbtex-example.aux
+INPUT unbtex-example.aux
 OUTPUT unbtex-example.aux
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxstx2mi.fd
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex\latex\newtx\omlntxstx2mi.fd
@@ -459,6 +462,30 @@ OUTPUT unbtex-example\capitulo3.aux
 INPUT .\unbtex-example\capitulo3.tex
 INPUT .\unbtex-example\capitulo3.tex
 INPUT unbtex-example\capitulo3.tex
+INPUT .\unbtex-example\figuras\metodologias_pesquisa.png
+INPUT .\unbtex-example\figuras\metodologias_pesquisa.png
+INPUT .\unbtex-example\figuras\metodologias_pesquisa.png
+INPUT .\unbtex-example\figuras\metodologias_pesquisa.png
+INPUT .\unbtex-example\figuras\metodologias_pesquisa.png
+INPUT .\unbtex-example\figuras\metodologias_pesquisa.png
+INPUT .\unbtex-example\figuras\ciclo-de-vida-scrum.png
+INPUT .\unbtex-example\figuras\ciclo-de-vida-scrum.png
+INPUT .\unbtex-example\figuras\ciclo-de-vida-scrum.png
+INPUT .\unbtex-example\figuras\ciclo-de-vida-scrum.png
+INPUT .\unbtex-example\figuras\ciclo-de-vida-scrum.png
+INPUT .\unbtex-example\figuras\ciclo-de-vida-scrum.png
+INPUT .\unbtex-example\figuras\arquitetura-componentizada.png
+INPUT .\unbtex-example\figuras\arquitetura-componentizada.png
+INPUT .\unbtex-example\figuras\arquitetura-componentizada.png
+INPUT .\unbtex-example\figuras\arquitetura-componentizada.png
+INPUT .\unbtex-example\figuras\arquitetura-componentizada.png
+INPUT .\unbtex-example\figuras\arquitetura-componentizada.png
+INPUT .\unbtex-example\figuras\organização-github.png
+INPUT .\unbtex-example\figuras\organização-github.png
+INPUT .\unbtex-example\figuras\organização-github.png
+INPUT .\unbtex-example\figuras\organização-github.png
+INPUT .\unbtex-example\figuras\organização-github.png
+INPUT .\unbtex-example\figuras\organização-github.png
 INPUT .\unbtex-example\capitulo4.tex
 INPUT .\unbtex-example\capitulo4.tex
 OUTPUT unbtex-example\capitulo4.aux
@@ -466,7 +493,31 @@ INPUT .\unbtex-example\capitulo4.tex
 INPUT .\unbtex-example\capitulo4.tex
 INPUT unbtex-example\capitulo4.tex
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\tex-gyre\ec-qhvbi.tfm
+INPUT .\unbtex-example\figuras\paleta.jpg
+INPUT .\unbtex-example\figuras\paleta.jpg
+INPUT .\unbtex-example\figuras\paleta.jpg
+INPUT .\unbtex-example\figuras\paleta.jpg
+INPUT .\unbtex-example\figuras\paleta.jpg
+INPUT .\unbtex-example\figuras\paleta.jpg
+INPUT .\unbtex-example\figuras\logo.png
+INPUT .\unbtex-example\figuras\logo.png
+INPUT .\unbtex-example\figuras\logo.png
+INPUT .\unbtex-example\figuras\logo.png
+INPUT .\unbtex-example\figuras\logo.png
+INPUT .\unbtex-example\figuras\logo.png
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\inconsolata\t1-zi4b-0.tfm
+INPUT .\unbtex-example\figuras\modelorelacional.png
+INPUT .\unbtex-example\figuras\modelorelacional.png
+INPUT .\unbtex-example\figuras\modelorelacional.png
+INPUT .\unbtex-example\figuras\modelorelacional.png
+INPUT .\unbtex-example\figuras\modelorelacional.png
+INPUT .\unbtex-example\figuras\modelorelacional.png
+INPUT .\unbtex-example\figuras\fluxograma-regra.png
+INPUT .\unbtex-example\figuras\fluxograma-regra.png
+INPUT .\unbtex-example\figuras\fluxograma-regra.png
+INPUT .\unbtex-example\figuras\fluxograma-regra.png
+INPUT .\unbtex-example\figuras\fluxograma-regra.png
+INPUT .\unbtex-example\figuras\fluxograma-regra.png
 INPUT .\unbtex-example\capitulo5.tex
 INPUT .\unbtex-example\capitulo5.tex
 OUTPUT unbtex-example\capitulo5.aux
@@ -476,12 +527,51 @@ INPUT unbtex-example\capitulo5.tex
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Bold-tlf-ts1.tfm
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\vf\public\stickstoo\SticksTooText-Bold-tlf-ts1.vf
 INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Bold-tlf-ts1--base.tfm
+INPUT .\unbtex-example.bbl
+INPUT .\unbtex-example.bbl
+INPUT unbtex-example.bbl
 INPUT .\unbtex-example\apendice-a.tex
 INPUT .\unbtex-example\apendice-a.tex
 OUTPUT unbtex-example\apendice-a.aux
 INPUT .\unbtex-example\apendice-a.tex
 INPUT .\unbtex-example\apendice-a.tex
 INPUT unbtex-example\apendice-a.tex
+INPUT .\unbtex-example\figuras\prototipo (1).jpg
+INPUT .\unbtex-example\figuras\prototipo (1).jpg
+INPUT .\unbtex-example\figuras\prototipo (1).jpg
+INPUT .\unbtex-example\figuras\prototipo (1).jpg
+INPUT .\unbtex-example\figuras\prototipo (1).jpg
+INPUT .\unbtex-example\figuras\prototipo (1).jpg
+INPUT .\unbtex-example\figuras\prototipo (2).jpg
+INPUT .\unbtex-example\figuras\prototipo (2).jpg
+INPUT .\unbtex-example\figuras\prototipo (2).jpg
+INPUT .\unbtex-example\figuras\prototipo (2).jpg
+INPUT .\unbtex-example\figuras\prototipo (2).jpg
+INPUT .\unbtex-example\figuras\prototipo (2).jpg
+INPUT .\unbtex-example\figuras\prototipo (3).jpg
+INPUT .\unbtex-example\figuras\prototipo (3).jpg
+INPUT .\unbtex-example\figuras\prototipo (3).jpg
+INPUT .\unbtex-example\figuras\prototipo (3).jpg
+INPUT .\unbtex-example\figuras\prototipo (3).jpg
+INPUT .\unbtex-example\figuras\prototipo (3).jpg
+INPUT .\unbtex-example\figuras\prototipo (4).jpg
+INPUT .\unbtex-example\figuras\prototipo (4).jpg
+INPUT .\unbtex-example\figuras\prototipo (4).jpg
+INPUT .\unbtex-example\figuras\prototipo (4).jpg
+INPUT .\unbtex-example\figuras\prototipo (4).jpg
+INPUT .\unbtex-example\figuras\prototipo (4).jpg
+INPUT .\unbtex-example\figuras\prototipo (5).jpg
+INPUT .\unbtex-example\figuras\prototipo (5).jpg
+INPUT .\unbtex-example\figuras\prototipo (5).jpg
+INPUT .\unbtex-example\figuras\prototipo (5).jpg
+INPUT .\unbtex-example\figuras\prototipo (5).jpg
+INPUT .\unbtex-example\figuras\prototipo (5).jpg
+INPUT .\unbtex-example\figuras\prototipo (6).jpg
+INPUT .\unbtex-example\figuras\prototipo (6).jpg
+INPUT .\unbtex-example\figuras\prototipo (6).jpg
+INPUT .\unbtex-example\figuras\prototipo (6).jpg
+INPUT .\unbtex-example\figuras\prototipo (6).jpg
+INPUT .\unbtex-example\figuras\prototipo (6).jpg
 OUTPUT unbtex-example\apendice-b.aux
 OUTPUT unbtex-example\apendice-c.aux
 INPUT .\unbtexcover\contracapa.pdf

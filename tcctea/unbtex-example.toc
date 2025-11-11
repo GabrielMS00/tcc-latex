@@ -33,51 +33,51 @@
 \contentsline {section}{\numberline {3.1}Metodologia de pesquisa}{27}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Metodologia de Desenvolvimento de Software}{28}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Ciclo de Vida}{28}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Artefatos}{30}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Fases de Desenvolvimento}{31}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Requisitos}{32}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Arquitetura}{33}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Estilo Arquitetural Baseado em Componentes}{34}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Arquitetura Monolítica}{35}{subsection.3.2.7}%
-\contentsline {subsection}{\numberline {3.2.8}Desenvolvimento de Software}{36}{subsection.3.2.8}%
-\contentsline {subsection}{\numberline {3.2.9}Gerência de configuração de software}{36}{subsection.3.2.9}%
-\contentsline {subsection}{\numberline {3.2.10}Repositório}{37}{subsection.3.2.10}%
-\contentsline {subsection}{\numberline {3.2.11}Política de Branchs}{37}{subsection.3.2.11}%
-\contentsline {subsection}{\numberline {3.2.12}Política de commits}{38}{subsection.3.2.12}%
-\contentsline {section}{\numberline {3.3}Métricas}{39}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}GQM}{39}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Testes}{42}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Testes unitários}{42}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Testes de integração}{42}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Testes Funcionais e de Interface (UI)}{43}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Tecnologias}{44}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Gestão do projeto}{44}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Ferramentas de comunicação}{45}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Persistência de dados}{45}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.2.2}Artefatos}{29}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Fases de Desenvolvimento}{30}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Requisitos}{31}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Arquitetura}{32}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Estilo Arquitetural Baseado em Componentes}{32}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Arquitetura Monolítica}{34}{subsection.3.2.7}%
+\contentsline {subsection}{\numberline {3.2.8}Desenvolvimento de Software}{35}{subsection.3.2.8}%
+\contentsline {subsection}{\numberline {3.2.9}Gerência de configuração de software}{35}{subsection.3.2.9}%
+\contentsline {subsection}{\numberline {3.2.10}Repositório}{36}{subsection.3.2.10}%
+\contentsline {subsection}{\numberline {3.2.11}Política de Branchs}{36}{subsection.3.2.11}%
+\contentsline {subsection}{\numberline {3.2.12}Política de commits}{37}{subsection.3.2.12}%
+\contentsline {section}{\numberline {3.3}Métricas}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}GQM}{38}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Testes}{41}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Testes unitários}{41}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Testes de integração}{41}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Testes Funcionais e de Interface (UI)}{42}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Tecnologias}{43}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Gestão do projeto}{43}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Ferramentas de comunicação}{44}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Persistência de dados}{44}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}PostgreSQL}{45}{subsection.3.5.4}%
-\contentsline {chapter}{\chapternumberline {4}Proposta de Solução}{47}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Sobre o Aplicativo}{47}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}O Público Alvo}{47}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}\textit {Backlog} do produto}{50}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Identidade Visual}{52}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Logotipo}{53}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Protótipo de Alta Fidelidade}{54}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Organização dos Dados}{55}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Estrutura de Usuários, Pacientes e Acompanhamento Profissional}{55}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Armazenamento de Dados de Avaliação (Questionários)}{55}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Base de Conhecimento Alimentar e Perfil Sensorial}{56}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Modelo de Sugestão, Opções e Feedback}{56}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Questionários e Métricas}{57}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Regra de negócio}{58}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Fundamentos e Modelo de Dados de Suporte}{59}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}O Fluxo Operacional do Algoritmo de Sugestão}{60}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Dinamismo e Adaptação: O Ciclo de Feedback}{60}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Agência do Usuário e o Papel do Profissional}{61}{subsection.4.6.4}%
-\contentsline {chapter}{\chapternumberline {5}Conclusões}{63}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Evolução das Questões de Pesquisa e Desenvolvimento}{63}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Andamento dos Objetivos}{64}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Próximas Metas}{66}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Resumo do Capítulo}{67}{section.5.4}%
+\contentsline {chapter}{\chapternumberline {4}Proposta de Solução}{46}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Sobre o Aplicativo}{46}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}O Público Alvo}{46}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}\textit {Backlog} do produto}{49}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Identidade Visual}{51}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Logotipo}{52}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Protótipo de Alta Fidelidade}{53}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Organização dos Dados}{54}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Estrutura de Usuários, Pacientes e Acompanhamento Profissional}{54}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Armazenamento de Dados de Avaliação (Questionários)}{54}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Base de Conhecimento Alimentar e Perfil Sensorial}{55}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Modelo de Sugestão, Opções e Feedback}{55}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Questionários e Métricas}{56}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Regra de negócio}{57}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Fundamentos e Modelo de Dados de Suporte}{58}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}O Fluxo Operacional do Algoritmo de Sugestão}{58}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Dinamismo e Adaptação: O Ciclo de Feedback}{59}{subsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.6.4}Agência do Usuário e o Papel do Profissional}{59}{subsection.4.6.4}%
+\contentsline {chapter}{\chapternumberline {5}Conclusões}{61}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Evolução das Questões de Pesquisa e Desenvolvimento}{61}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Andamento dos Objetivos}{62}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Próximas Metas}{64}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Resumo do Capítulo}{65}{section.5.4}%
 \vspace {\cftbeforepartskip }
 \renewcommand *{\cftappendixname }{Apêndice \space }
-\contentsline {part}{Ap\^endices}{68}{section*.33}%
+\contentsline {part}{Ap\^endices}{66}{section*.33}%

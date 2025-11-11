@@ -1,0 +1,162 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+\setlength{\baselineskip}{1.25\baselineskip}
+\setlength{\itemsep}{0pt}
+
+\bibitem[{American Psychiatric Association}
+  2013]{americanpsychiatricassociation2013}
+\abntrefinfo{{American Psychiatric Association}}{{American Psychiatric
+  Association}}{2013}
+{{American Psychiatric Association}. \textbf{Diagnostic and statistical manual
+  of mental disorders ({DSM-5})}. 5. ed. [\emph{S.l.}]: American Psychiatric
+  Publishing, 2013.}
+
+\bibitem[Basili, Caldiera e Rombach 1994]{basili1994}
+\abntrefinfo{Basili, Caldiera e Rombach}{Basili; Caldiera; Rombach}{1994}
+{BASILI, V.~R.; CALDIERA, G.; ROMBACH, H.~D. The goal question metric approach.
+  \emph{In}: MARCINIAK, J.~J. (Ed.). \textbf{Encyclopedia of Software
+  Engineering}. [\emph{S.l.}]: John Wiley \& Sons, 1994. v.~1, p. 528--532.}
+
+\bibitem[Bicer e Alsaffar 2020]{bicer2020}
+\abntrefinfo{Bicer e Alsaffar}{Bicer; Alsaffar}{2020}
+{BICER, A.; ALSAFFAR, A.~A. The prevalence of feeding problems and food
+  selectivity in children with autism spectrum disorder in kuwait.
+\textbf{Kuwait Medical Journal}, v.~52, n.~3, 2020.}
+
+\bibitem[Domingues Daniel e~Moreira 2020]{domingues2020}
+\abntrefinfo{Domingues Daniel e~Moreira}{Domingues Daniel e~Moreira}{2020}
+{DOMINGUES DANIEL E~MOREIRA, F. \textbf{A Ado{\c c}{\~a}o da Biblioteca de
+  Testes do React para Testes de Componentes}. 2020. Artigo em blog t{\'e}cnico
+  ou confer{\^e}ncia.
+Entrada representativa baseada na cita{\c c}{\~a}o. Detalhes espec{\'i}ficos da
+  publica{\c c}{\~a}o n{\~a}o foram encontrados.}
+
+\bibitem[Driessen 2010]{driessen2010}
+\abntrefinfo{Driessen}{Driessen}{2010}
+{DRIESSEN, V. \textbf{A successful Git branching model}. 2010. Dispon{\'i}vel
+  em: \url{https://nvie.com/posts/a-successful-git-branching-model/}.
+Acessado em 08 de Julho de 2025.}
+
+\bibitem[Ferreira, Silva e Souza 2018]{ferreira2018}
+\abntrefinfo{Ferreira, Silva e Souza}{Ferreira; Silva; Souza}{2018}
+{FERREIRA, J.; SILVA, C.; SOUZA, A. Personas e cen{\'a}rios no processo de
+  design de intera{\c c}{\~a}o. \emph{In}: \textbf{Anais da Confer{\^e}ncia
+  Brasileira sobre Intera{\c c}{\~a}o Humano-Computador}. Bel{\'e}m:
+  [\emph{s.n.}], 2018. Entrada representativa baseada na cita{\c c}{\~a}o.}
+
+\bibitem[{Geekhunter} 2024]{Geekhunter2024}
+\abntrefinfo{{Geekhunter}}{{Geekhunter}}{2024}
+{{Geekhunter}. \textbf{Por que diabos usar o Node.js? Uma justificativa passo a
+  passo}. 2024.
+Dispon{\'\i}vel em:
+  \url{https://blog.geekhunter.com.br/por-que-usar-node-js-uma-justificativa-passo-a-passo/}.}
+
+\bibitem[Guller e Yaylaci 2024]{guller2024}
+\abntrefinfo{Guller e Yaylaci}{Guller; Yaylaci}{2024}
+{GULLER, M.; YAYLACI, F. The relationship between feeding problems, parental
+  stress, and quality of life in children with autism spectrum disorder.
+\textbf{Journal of Pediatric Nursing}, v.~74, 2024.}
+
+\bibitem[Halle 2001]{vonhalle2001}
+\abntrefinfo{Halle}{Halle}{2001}
+{HALLE, B. V. \textbf{Business Rules Applied: Building Better Systems Using the
+  Business Rules Approach}. [\emph{S.l.}]: John Wiley \& Sons, 2001.}
+
+\bibitem[Heller 2012]{heller2012}
+\abntrefinfo{Heller}{Heller}{2012}
+{HELLER, E. \textbf{A Psicologia das Cores: Como as cores afetam a emo{\c
+  c}{\~a}o e a raz{\~a}o}. Barcelona: Editora G. Gili, 2012.}
+
+\bibitem[Kuederle 2018]{kuederle2018}
+\abntrefinfo{Kuederle}{Kuederle}{2018}
+{KUEDERLE, O. \textbf{React Native - A great choice for mobile development}.
+  2018. Medium.
+Acessado em 08 de Julho de 2025.}
+
+\bibitem[Lukens e Linscheid 2008]{lukens2008}
+\abntrefinfo{Lukens e Linscheid}{Lukens; Linscheid}{2008}
+{LUKENS, C.~T.; LINSCHEID, T.~R. Development and validation of an inventory to
+  assess mealtime behavior problems in children with autism.
+\textbf{Journal of Autism and Developmental Disorders}, v.~38, 2008.}
+
+\bibitem[Pressman e Maxim 2021]{pressman2021}
+\abntrefinfo{Pressman e Maxim}{Pressman; Maxim}{2021}
+{PRESSMAN, R.~S.; MAXIM, B.~R. \textbf{Engenharia de Software: Uma Abordagem
+  Profissional}. 9. ed. [\emph{S.l.}]: McGraw-Hill, 2021.}
+
+\bibitem[Schwaber e Sutherland 2020]{schwaber2020}
+\abntrefinfo{Schwaber e Sutherland}{Schwaber; Sutherland}{2020}
+{SCHWABER, K.; SUTHERLAND, J. \textbf{The Scrum Guide}. 2020. Dispon{\'i}vel
+  em: \url{https://scrumguides.org}.
+Acessado em 08 de Julho de 2025.}
+
+\bibitem[Seiverling, Hendy e Williams 2011]{seiverling2011}
+\abntrefinfo{Seiverling, Hendy e Williams}{Seiverling; Hendy; Williams}{2011}
+{SEIVERLING, L.; HENDY, H.~M.; WILLIAMS, K. The screening tool of feeding
+  problems applied to children (step-child): psychometric characteristics and
+  associations with child and parent variables.
+\textbf{Research in Developmental Disabilities}, v.~32, 2011.}
+
+\bibitem[Silberschatz, Korth e Sudarshan 2011]{silberschatz2011}
+\abntrefinfo{Silberschatz, Korth e Sudarshan}{Silberschatz; Korth;
+  Sudarshan}{2011}
+{SILBERSCHATZ, A.; KORTH, H.~F.; SUDARSHAN, S. \textbf{Sistemas de Banco de
+  Dados}. 6. ed. Rio de Janeiro: Editora Campus/Elsevier, 2011.}
+
+\bibitem[Sommerville 2007]{sommerville2007}
+\abntrefinfo{Sommerville}{Sommerville}{2007}
+{SOMMERVILLE, I. \textbf{Engenharia de Software}. 8. ed. S{\~a}o Paulo: Pearson
+  Addison-Wesley, 2007.}
+
+\bibitem[Sommerville 2011]{sommerville2011}
+\abntrefinfo{Sommerville}{Sommerville}{2011}
+{SOMMERVILLE, I. \textbf{Engenharia de Software}. 9. ed. S{\~a}o Paulo:
+  Pearson, 2011.}
+
+\bibitem[Sommerville e Sawyer 1997]{sommerville1997}
+\abntrefinfo{Sommerville e Sawyer}{Sommerville; Sawyer}{1997}
+{SOMMERVILLE, I.; SAWYER, P. \textbf{Requirements Engineering: A Good Practice
+  Guide}. [\emph{S.l.}]: John Wiley \& Sons, 1997.}
+
+\bibitem[Spinellis 2021]{spinellis2021}
+\abntrefinfo{Spinellis}{Spinellis}{2021}
+{SPINELLIS, D. The rise of visual studio code.
+\textbf{IEEE Software}, v.~38, n.~3, 2021.}
+
+\bibitem[Taylor, DeQuinzio e Hao 2017]{taylor2017}
+\abntrefinfo{Taylor, DeQuinzio e Hao}{Taylor; DeQuinzio; Hao}{2017}
+{TAYLOR, B.~A.; DEQUINZIO, J.~A.; HAO, Y. A review of behavioral interventions
+  for food selectivity in children with autism spectrum disorder.
+\textbf{Journal of Applied Behavior Analysis}, v.~50, n.~3, 2017.}
+
+\bibitem[The PostgreSQL Global Development Group 2024]{postgresql2024}
+\abntrefinfo{The PostgreSQL Global Development Group}{The PostgreSQL Global
+  Development Group}{2024}
+{THE POSTGRESQL GLOBAL DEVELOPMENT GROUP. \textbf{PostgreSQL: The World's Most
+  Advanced Open Source Relational Database}.
+[\emph{S.l.}], 2024. Dispon{\'i}vel em: \url{https://www.postgresql.org}.
+  Acessado em 08 de Julho de 2025.}
+
+\bibitem[Ulloa e Tereshkov 2020]{ulloa2020}
+\abntrefinfo{Ulloa e Tereshkov}{Ulloa; Tereshkov}{2020}
+{ULLOA, J.; TERESHKOV, A. Differential reinforcement to increase food
+  acceptance in children with asd: A systematic review.
+\textbf{Behavior Analysis: Research and Practice}, v.~20, n.~1, 2020.}
+
+\bibitem[Ulloa, Tereshkov e Aranki 2022]{ulloa2022}
+\abntrefinfo{Ulloa, Tereshkov e Aranki}{Ulloa; Tereshkov; Aranki}{2022}
+{ULLOA, J.; TERESHKOV, A.; ARANKI, J. Sensory-based interventions for feeding
+  difficulties in autism: A systematic review.
+\textbf{Review Journal of Autism and Developmental Disorders}, v.~9, 2022.}
+
+\bibitem[Vazquez, Fitt e Rich 2019]{vazquez2019}
+\abntrefinfo{Vazquez, Fitt e Rich}{Vazquez; Fitt; Rich}{2019}
+{VAZQUEZ, M.; FITT, C.; RICH, E. Nutritional interventions for individuals with
+  autism spectrum disorder: A systematic review of the literature.
+\textbf{Research in Autism Spectrum Disorders}, v.~67, 2019.}
+
+\end{thebibliography}

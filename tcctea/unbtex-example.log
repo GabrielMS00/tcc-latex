@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.10)  10 NOV 2025 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.10)  10 NOV 2025 23:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1448,7 +1448,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@nomenclaturefile=\write5
 \openout5 = `unbtex-example.nlo'.
 
-Package nomencl Info: Writing nomenclature file unbtex-example.nlo on input line 50.
+Package nomencl Info: Writing nomenclature file unbtex-example.nlo on input line 51.
 > \l__scontents_processed_body_lines_tl=Este documento exemplifica a
 elaboração de trabalho acadêmico (trabalho de conclusão de curso,
 dissertação e tese) a partir da classe UnB\TeX, uma extensão da classe
@@ -1472,7 +1472,7 @@ writing. The goal is to simplify the use of the UnB\TeX\ class, enabling even
 users with minimal \LaTeX\ experience to produce visually high-quality
 academic documents.%^^Ascheol%.
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 192.
+(babel)             Reported on input line 193.
 > \l__scontents_processed_body_lines_tl=
 Agradeço primeiramente à minha família, pelo amor, apoio incondicional e
 por acreditarem em mim em cada etapa dessa jornada acadêmica. Vocês foram
@@ -1532,55 +1532,54 @@ perseverança para chegar até aqui.%^^Ascheol%.
 \\buscar seu último limite e dar o melhor de si.''\\
     (Ayrton Senna)}
 \end{flushright}%^^Ascheol%.
-LaTeX Font Info:    Trying to load font information for T1+SticksTooText-TLF on input line 262.
+LaTeX Font Info:    Trying to load font information for T1+SticksTooText-TLF on input line 263.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\t1stickstootext-tlf.fd
 File: T1SticksTooText-TLF.fd 2018/04/26 (autoinst) Font definitions for T1/SticksTooText-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 262.
-
-No file unbtex-example.aux.
+(Font)              scaled to size 12.0pt on input line 263.
+ (unbtex-example.aux)
 \openout1 = `unbtex-example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxstx2mi/m/it on input line 262.
-LaTeX Font Info:    Trying to load font information for OML+ntxstx2mi on input line 262.
-(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxstx2mi.fd
+LaTeX Font Info:    Checking defaults for OML/ntxstx2mi/m/it on input line 263.
+LaTeX Font Info:    Trying to load font information for OML+ntxstx2mi on input line 263.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxstx2mi.fd
 File: omlntxstx2mi.fd 2018/04/26 Fontinst v1.933 font definitions for OML/ntxstx2mi.
 )
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for U/stixonebb/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 262.
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 262.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 262.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for U/stixonebb/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 263.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 263.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 263.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 262.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 262.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 262.
+LaTeX Font Info:    ... okay on input line 263.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 263.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 263.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 262.
-Package hyperref Info: Link coloring ON on input line 262.
+LaTeX Font Info:    ... okay on input line 263.
+Package hyperref Info: Link coloring ON on input line 263.
 \myptabbox=\box98
 \myptabboxwidth=\skip377
-LaTeX Info: Command `\dddot' is already robust on input line 262.
-LaTeX Info: Command `\ddddot' is already robust on input line 262.
+LaTeX Info: Command `\dddot' is already robust on input line 263.
+LaTeX Info: Command `\ddddot' is already robust on input line 263.
 \c@mv@tabular=\count474
 \c@mv@boldtabular=\count475
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -1612,14 +1611,14 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count482
-Package tocbasic Info: setting babel extension for `lol' on input line 262.
-LaTeX Info: Redefining \microtypecontext on input line 262.
-Package microtype Info: Applying patch `item' on input line 262.
-Package microtype Info: Applying patch `toc' on input line 262.
-Package microtype Info: Applying patch `eqnum' on input line 262.
-Package microtype Info: Applying patch `footnote' on input line 262.
-Package microtype Info: Applying patch `verbatim' on input line 262.
-LaTeX Info: Redefining \microtypesetup on input line 262.
+Package tocbasic Info: setting babel extension for `lol' on input line 263.
+LaTeX Info: Redefining \microtypecontext on input line 263.
+Package microtype Info: Applying patch `item' on input line 263.
+Package microtype Info: Applying patch `toc' on input line 263.
+Package microtype Info: Applying patch `eqnum' on input line 263.
+Package microtype Info: Applying patch `footnote' on input line 263.
+Package microtype Info: Applying patch `verbatim' on input line 263.
+LaTeX Info: Redefining \microtypesetup on input line 263.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1638,116 +1637,116 @@ Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Option `pageanchor' set `false' on input line 271.
+Package hyperref Info: Option `pageanchor' set `false' on input line 272.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 271.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 271.
+(Font)              scaled to size 20.74pt on input line 272.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 272.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 271.
+(Font)              scaled to size 18.66588pt on input line 272.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 271.
+(Font)              scaled to size 18.66588pt on input line 272.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 271.
+(Font)              scaled to size 10.79993pt on input line 272.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 271.
+(Font)              scaled to size 22.39185pt on input line 272.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 271.
+(Font)              scaled to size 22.39185pt on input line 272.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 271.
+(Font)              scaled to size 17.28pt on input line 272.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 271.
+(Font)              scaled to size 12.9599pt on input line 272.
 <unbtexcover/capa.pdf, id=3, 597.23137pt x 844.15375pt>
 File: unbtexcover/capa.pdf Graphic file (type pdf)
 <use unbtexcover/capa.pdf>
-Package pdftex.def Info: unbtexcover/capa.pdf  used on input line 271.
+Package pdftex.def Info: unbtexcover/capa.pdf  used on input line 272.
 (pdftex.def)             Requested size: 597.87692pt x 845.04684pt.
  [1
 
 {C:/Users/gabri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stickstoo/stx2_slv267.enc} <./unbtexcover/capa.pdf>]
-Package hyperref Info: Option `pageanchor' set `true' on input line 271.
-LaTeX Font Info:    Trying to load font information for OT1+SticksTooText-TLF on input line 275.
+Package hyperref Info: Option `pageanchor' set `true' on input line 272.
+LaTeX Font Info:    Trying to load font information for OT1+SticksTooText-TLF on input line 276.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\ot1stickstootext-tlf.fd
 File: OT1SticksTooText-TLF.fd 2018/04/21 (autoinst) Font definitions for OT1/SticksTooText-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/12'
-(microtype)             (new value: 12.0pt) on input line 275.
+(microtype)             (new value: 12.0pt) on input line 276.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/8.8'
-(microtype)             (new value: 8.8pt) on input line 275.
+(microtype)             (new value: 8.8pt) on input line 276.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/6.6'
-(microtype)             (new value: 6.6pt) on input line 275.
+(microtype)             (new value: 6.6pt) on input line 276.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 275.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 276.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 275.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 276.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 275.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 276.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 275.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 276.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 275.
+(Font)              scaled to size 12.0pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 275.
+(Font)              scaled to size 8.8pt on input line 276.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 275.
+(Font)              scaled to size 6.6pt on input line 276.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 275.
+(Font)              scaled to size 14.4pt on input line 276.
  [1
 
 
@@ -1755,54 +1754,54 @@ LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 277.
+(Font)              scaled to size 10.95pt on input line 278.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 277.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 277.
+(Font)              scaled to size 9.85492pt on input line 278.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 278.
  (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 277.
+(Font)              scaled to size 10.95pt on input line 278.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 277--277
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 277--277
+Underfull \hbox (badness 6094) in paragraph at lines 278--278
 | \T1/SticksTooText-TLF/m/n/10.95 (+20) 1. Trans-torno do Es-pec-tro Au-tista. 2. Se-le-ti-vi-dade Ali-men-tar. 3.
  []
 
 [2{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 280.
+(Font)              scaled to size 15.55188pt on input line 281.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 280.
+(Font)              scaled to size 15.55188pt on input line 281.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 280.
+(Font)              scaled to size 12.9599pt on input line 281.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 280.
+(Font)              scaled to size 12.0pt on input line 281.
  [3
 
 ]
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 283.
+(Font)              scaled to size 12.0pt on input line 284.
  [4
 
 
 ]
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 286.
+(Font)              scaled to size 10.79993pt on input line 287.
  [5
 
 
@@ -1904,132 +1903,94 @@ Overfull \hbox (5.23637pt too wide) in paragraph at lines 150--151
 
  (unbtex-example/capitulo3.tex
 Cap\'{\i }tulo 3.
-
-LaTeX Warning: File `metodologias_pesquisa.png' not found on input line 23.
-
-
-unbtex-example/capitulo3.tex:23: Package pdftex.def Error: File `metodologias_pesquisa.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.23 ...0.75\linewidth]{metodologias_pesquisa.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<unbtex-example/figuras/metodologias_pesquisa.png, id=180, 482.80376pt x 208.78pt>
+File: unbtex-example/figuras/metodologias_pesquisa.png Graphic file (type png)
+<use unbtex-example/figuras/metodologias_pesquisa.png>
+Package pdftex.def Info: unbtex-example/figuras/metodologias_pesquisa.png  used on input line 23.
+(pdftex.def)             Requested size: 341.25pt x 147.57219pt.
 [27
 
 
 
 
-] [28]
+ <./unbtex-example/figuras/metodologias_pesquisa.png>]
+<unbtex-example/figuras/ciclo-de-vida-scrum.png, id=190, 523.9575pt x 277.035pt>
+File: unbtex-example/figuras/ciclo-de-vida-scrum.png Graphic file (type png)
+<use unbtex-example/figuras/ciclo-de-vida-scrum.png>
+Package pdftex.def Info: unbtex-example/figuras/ciclo-de-vida-scrum.png  used on input line 47.
+(pdftex.def)             Requested size: 455.0pt x 240.5831pt.
+ [28] [29 <./unbtex-example/figuras/ciclo-de-vida-scrum.png>] [30]
 
-LaTeX Warning: File `ciclo-de-vida-scrum.png' not found on input line 47.
+LaTeX Warning: Citation `sommerville1997' on page 31 undefined on input line 111.
 
+[31]
 
-unbtex-example/capitulo3.tex:47: Package pdftex.def Error: File `ciclo-de-vida-scrum.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 ...idth=1\linewidth]{ciclo-de-vida-scrum.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[29] [30] [31] [32]
-
-LaTeX Warning: Citation `sommerville1997' on page 33 undefined on input line 111.
+LaTeX Warning: Citation `pressman2021' on page 32 undefined on input line 129.
 
 
-LaTeX Warning: Citation `pressman2021' on page 33 undefined on input line 129.
+LaTeX Warning: Citation `pressman2021' on page 32 undefined on input line 137.
 
-[33]
+[32]
+<unbtex-example/figuras/arquitetura-componentizada.png, id=221, 1027.84pt x 1541.76pt>
+File: unbtex-example/figuras/arquitetura-componentizada.png Graphic file (type png)
+<use unbtex-example/figuras/arquitetura-componentizada.png>
+Package pdftex.def Info: unbtex-example/figuras/arquitetura-componentizada.png  used on input line 161.
+(pdftex.def)             Requested size: 227.5pt x 341.23495pt.
+ [33]
 
-LaTeX Warning: Citation `pressman2021' on page 34 undefined on input line 137.
+LaTeX Warning: Citation `sommerville2011' on page 34 undefined on input line 171.
 
-[34]
+[34 <./unbtex-example/figuras/arquitetura-componentizada.png (PNG copy)>]
 
-LaTeX Warning: File `arquitetura-componentizada.png' not found on input line 161.
-
-
-unbtex-example/capitulo3.tex:161: Package pdftex.def Error: File `arquitetura-componentizada.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.161 ...inewidth]{arquitetura-componentizada.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation `kuederle2018' on page 35 undefined on input line 179.
 
 
-LaTeX Warning: Citation `sommerville2011' on page 35 undefined on input line 171.
+LaTeX Warning: Citation `Geekhunter2024' on page 35 undefined on input line 181.
+
+
+LaTeX Warning: Citation `spinellis2021' on page 35 undefined on input line 185.
 
 [35]
 
-LaTeX Warning: Citation `kuederle2018' on page 36 undefined on input line 179.
+LaTeX Warning: Citation `sommerville2007' on page 36 undefined on input line 195.
 
 
-LaTeX Warning: Citation `Geekhunter2024' on page 36 undefined on input line 181.
+LaTeX Warning: Citation `driessen2010' on page 36 undefined on input line 203.
+
+[36] [37]
+
+LaTeX Warning: Citation `pressman2021' on page 38 undefined on input line 277.
 
 
-LaTeX Warning: Citation `spinellis2021' on page 36 undefined on input line 185.
+LaTeX Warning: Citation `basili1994' on page 38 undefined on input line 287.
 
-[36]
+[38] [39] [40] [41]
 
-LaTeX Warning: Citation `sommerville2007' on page 37 undefined on input line 195.
+LaTeX Warning: Citation `domingues2020' on page 42 undefined on input line 398.
 
+[42]
+<unbtex-example/figuras/organização-github.png, id=278, 543.53062pt x 680.5425pt>
+File: unbtex-example/figuras/organização-github.png Graphic file (type png)
+<use unbtex-example/figuras/organização-github.png>
+Package pdftex.def Info: unbtex-example/figuras/organização-github.png  used on input line 420.
+(pdftex.def)             Requested size: 227.5pt x 284.84978pt.
+ [43]
 
-LaTeX Warning: Citation `driessen2010' on page 37 undefined on input line 203.
+LaTeX Warning: Citation `silberschatz2011' on page 44 undefined on input line 438.
 
-[37] [38]
-
-LaTeX Warning: Citation `pressman2021' on page 39 undefined on input line 277.
-
-
-LaTeX Warning: Citation `basili1994' on page 39 undefined on input line 287.
-
-[39] [40] [41] [42]
-
-LaTeX Warning: Citation `domingues2020' on page 43 undefined on input line 398.
-
-[43]
-
-LaTeX Warning: File `organização-github.png' not found on input line 420.
-
-
-unbtex-example/capitulo3.tex:420: Package pdftex.def Error: File `organização-github.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.420 ...=0.5\linewidth]{organização-github.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[44]
-
-LaTeX Warning: Citation `silberschatz2011' on page 45 undefined on input line 438.
-
+[44 <./unbtex-example/figuras/organização-github.png>]
 
 LaTeX Warning: Citation `postgresql2024' on page 45 undefined on input line 446.
 
-[45]) [46]
+) [45]
 \openout2 = `unbtex-example/capitulo4.aux'.
 
  (unbtex-example/capitulo4.tex
 Cap\'{\i }tulo 4.
 
-LaTeX Warning: Citation `ferreira2018' on page 47 undefined on input line 17.
+LaTeX Warning: Citation `ferreira2018' on page 46 undefined on input line 17.
 
-[47
+[46
 
 
 
@@ -2044,7 +2005,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--57
 []|\T1/SticksTooText-TLF/b/n/12 (+20) Objetivos no
  []
 
-[48]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 79--79
 []|\T1/SticksTooText-TLF/b/n/12 (+20) Objetivos no
  []
@@ -2059,232 +2020,82 @@ Underfull \hbox (badness 3769) in paragraph at lines 101--101
 \T1/SticksTooText-TLF/b/n/12 (+20) n�o uti-li-zar o
  []
 
-[49]
+[48]
 LaTeX Font Info:    Font shape `T1/qhv/b/it' will be
 (Font)              scaled to size 15.55188pt on input line 109.
- [50] [51]
+ [49] [50]
 
-LaTeX Warning: Citation `heller2012' on page 52 undefined on input line 189.
+LaTeX Warning: Citation `heller2012' on page 51 undefined on input line 189.
 
-[52]
+[51]
 
-LaTeX Warning: Citation `schwaber2020' on page 53 undefined on input line 191.
+LaTeX Warning: Citation `schwaber2020' on page 52 undefined on input line 191.
 
-
-LaTeX Warning: File `paleta.jpg' not found on input line 195.
-
-
-unbtex-example/capitulo4.tex:195: Package pdftex.def Error: File `paleta.jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 ...raphics[width=0.75\linewidth]{paleta.jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[53]
-
-LaTeX Warning: File `logo.png' not found on input line 213.
-
-
-unbtex-example/capitulo4.tex:213: Package pdftex.def Error: File `logo.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.213 ...degraphics[width=0.5\linewidth]{logo.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[54]
+<unbtex-example/figuras/paleta.jpg, id=335, 1158.3275pt x 752.8125pt>
+File: unbtex-example/figuras/paleta.jpg Graphic file (type jpg)
+<use unbtex-example/figuras/paleta.jpg>
+Package pdftex.def Info: unbtex-example/figuras/paleta.jpg  used on input line 195.
+(pdftex.def)             Requested size: 341.25pt x 221.7791pt.
+[52 <./unbtex-example/figuras/paleta.jpg>]
+<unbtex-example/figuras/logo.png, id=342, 715.67375pt x 823.075pt>
+File: unbtex-example/figuras/logo.png Graphic file (type png)
+<use unbtex-example/figuras/logo.png>
+Package pdftex.def Info: unbtex-example/figuras/logo.png  used on input line 213.
+(pdftex.def)             Requested size: 227.5pt x 261.6311pt.
+ [53 <./unbtex-example/figuras/logo.png>]
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 12.0pt on input line 237.
- [55] [56]
+ [54]
+<unbtex-example/figuras/modelorelacional.png, id=359, 1596.96625pt x 1134.2375pt>
+File: unbtex-example/figuras/modelorelacional.png Graphic file (type png)
+<use unbtex-example/figuras/modelorelacional.png>
+Package pdftex.def Info: unbtex-example/figuras/modelorelacional.png  used on input line 279.
+(pdftex.def)             Requested size: 455.0pt x 323.15721pt.
+ [55]
 
-LaTeX Warning: File `modelorelacional.png' not found on input line 279.
-
-
-unbtex-example/capitulo4.tex:279: Package pdftex.def Error: File `modelorelacional.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 ...[width=1\linewidth]{modelorelacional.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+LaTeX Warning: Citation `seiverling2011' on page 56 undefined on input line 289.
 
 
-LaTeX Warning: Citation `seiverling2011' on page 57 undefined on input line 289.
+LaTeX Warning: Citation `lukens2008' on page 56 undefined on input line 289.
 
 
-LaTeX Warning: Citation `lukens2008' on page 57 undefined on input line 289.
+LaTeX Warning: Citation `seiverling2011' on page 56 undefined on input line 289.
 
 
-LaTeX Warning: Citation `seiverling2011' on page 57 undefined on input line 289.
+LaTeX Warning: Citation `lukens2008' on page 56 undefined on input line 289.
+
+[56 <./unbtex-example/figuras/modelorelacional.png>]
+
+LaTeX Warning: Citation `vonhalle2001' on page 57 undefined on input line 300.
 
 
-LaTeX Warning: Citation `lukens2008' on page 57 undefined on input line 289.
+LaTeX Warning: Citation `vonhalle2001' on page 57 undefined on input line 300.
 
-[57]
-
-LaTeX Warning: Citation `vonhalle2001' on page 58 undefined on input line 300.
-
-
-LaTeX Warning: Citation `vonhalle2001' on page 58 undefined on input line 300.
-
-[58] [59] [60]
-
-LaTeX Warning: File `fluxograma-regra.png' not found on input line 343.
-
-
-unbtex-example/capitulo4.tex:343: Package pdftex.def Error: File `fluxograma-regra.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.343 ...idth=1.1\linewidth]{fluxograma-regra.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[57] [58] [59]
+<unbtex-example/figuras/fluxograma-regra.png, id=394, 1078.78032pt x 527.72156pt>
+File: unbtex-example/figuras/fluxograma-regra.png Graphic file (type png)
+<use unbtex-example/figuras/fluxograma-regra.png>
+Package pdftex.def Info: unbtex-example/figuras/fluxograma-regra.png  used on input line 343.
+(pdftex.def)             Requested size: 500.50278pt x 244.84042pt.
 
 Overfull \hbox (45.50278pt too wide) in paragraph at lines 343--344
  [][] 
  []
 
-[61]) [62]
+) [60 <./unbtex-example/figuras/fluxograma-regra.png>]
 \openout2 = `unbtex-example/capitulo5.aux'.
 
  (unbtex-example/capitulo5.tex
 Cap\'{\i }tulo 5.
-[63
+[61
 
 
 
 
-] [64] [65]
+] [62] [63]
 LaTeX Font Info:    Font shape `TS1/SticksTooText-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 128.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.128 }
-       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[66]) [67]
-No file unbtex-example.bbl.
-[68
+ [64]) [65] (unbtex-example.bbl) [66
 
 
 
@@ -2293,97 +2104,37 @@ No file unbtex-example.bbl.
 \openout2 = `unbtex-example/apendice-a.aux'.
 
  (unbtex-example/apendice-a.tex
-
-LaTeX Warning: File `prototipo (1).jpg' not found on input line 3.
-
-
-unbtex-example/apendice-a.tex:3: Package pdftex.def Error: File `prototipo (1).jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...phics[width=1\linewidth]{prototipo (1).jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `prototipo (2).jpg' not found on input line 10.
-
-
-unbtex-example/apendice-a.tex:10: Package pdftex.def Error: File `prototipo (2).jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...hics[width=1\linewidth]{prototipo (2).jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `prototipo (3).jpg' not found on input line 17.
-
-
-unbtex-example/apendice-a.tex:17: Package pdftex.def Error: File `prototipo (3).jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.17 ...hics[width=1\linewidth]{prototipo (3).jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `prototipo (4).jpg' not found on input line 24.
-
-
-unbtex-example/apendice-a.tex:24: Package pdftex.def Error: File `prototipo (4).jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 ...hics[width=1\linewidth]{prototipo (4).jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `prototipo (5).jpg' not found on input line 31.
-
-
-unbtex-example/apendice-a.tex:31: Package pdftex.def Error: File `prototipo (5).jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 ...hics[width=1\linewidth]{prototipo (5).jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `prototipo (6).jpg' not found on input line 38.
-
-
-unbtex-example/apendice-a.tex:38: Package pdftex.def Error: File `prototipo (6).jpg' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 ...hics[width=1\linewidth]{prototipo (6).jpg}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) [69] [70] [71] [72] [73] [74]
+<unbtex-example/figuras/prototipo (1).jpg, id=438, 768.8725pt x 766.865pt>
+File: unbtex-example/figuras/prototipo (1).jpg Graphic file (type jpg)
+<use unbtex-example/figuras/prototipo (1).jpg>
+Package pdftex.def Info: unbtex-example/figuras/prototipo (1).jpg  used on input line 3.
+(pdftex.def)             Requested size: 455.0pt x 453.82721pt.
+<unbtex-example/figuras/prototipo (2).jpg, id=439, 981.6675pt x 650.43pt>
+File: unbtex-example/figuras/prototipo (2).jpg Graphic file (type jpg)
+<use unbtex-example/figuras/prototipo (2).jpg>
+Package pdftex.def Info: unbtex-example/figuras/prototipo (2).jpg  used on input line 10.
+(pdftex.def)             Requested size: 455.0pt x 301.4742pt.
+<unbtex-example/figuras/prototipo (3).jpg, id=440, 732.7375pt x 559.08875pt>
+File: unbtex-example/figuras/prototipo (3).jpg Graphic file (type jpg)
+<use unbtex-example/figuras/prototipo (3).jpg>
+Package pdftex.def Info: unbtex-example/figuras/prototipo (3).jpg  used on input line 17.
+(pdftex.def)             Requested size: 455.0pt x 347.17741pt.
+<unbtex-example/figuras/prototipo (4).jpg, id=441, 896.34875pt x 787.94376pt>
+File: unbtex-example/figuras/prototipo (4).jpg Graphic file (type jpg)
+<use unbtex-example/figuras/prototipo (4).jpg>
+Package pdftex.def Info: unbtex-example/figuras/prototipo (4).jpg  used on input line 24.
+(pdftex.def)             Requested size: 455.0pt x 399.9704pt.
+<unbtex-example/figuras/prototipo (5).jpg, id=442, 570.13pt x 687.56876pt>
+File: unbtex-example/figuras/prototipo (5).jpg Graphic file (type jpg)
+<use unbtex-example/figuras/prototipo (5).jpg>
+Package pdftex.def Info: unbtex-example/figuras/prototipo (5).jpg  used on input line 31.
+(pdftex.def)             Requested size: 455.0pt x 548.72334pt.
+<unbtex-example/figuras/prototipo (6).jpg, id=443, 1179.40625pt x 732.7375pt>
+File: unbtex-example/figuras/prototipo (6).jpg Graphic file (type jpg)
+<use unbtex-example/figuras/prototipo (6).jpg>
+Package pdftex.def Info: unbtex-example/figuras/prototipo (6).jpg  used on input line 38.
+(pdftex.def)             Requested size: 455.0pt x 282.68062pt.
+) [67 <./unbtex-example/figuras/prototipo (1).jpg>] [68 <./unbtex-example/figuras/prototipo (2).jpg>] [69 <./unbtex-example/figuras/prototipo (3).jpg>] [70 <./unbtex-example/figuras/prototipo (4).jpg>] [71 <./unbtex-example/figuras/prototipo (5).jpg>] [72 <./unbtex-example/figuras/prototipo (6).jpg>]
 \openout2 = `unbtex-example/apendice-b.aux'.
 
 
@@ -2391,34 +2142,34 @@ No file unbtex-example/apendice-b.tex.
 \openout2 = `unbtex-example/apendice-c.aux'.
 
 No file unbtex-example/apendice-c.tex.
-Package hyperref Info: Option `pageanchor' set `false' on input line 375.
-<unbtexcover/contracapa.pdf, id=462, 597.23137pt x 844.15375pt>
+Package hyperref Info: Option `pageanchor' set `false' on input line 376.
+<unbtexcover/contracapa.pdf, id=475, 597.23137pt x 844.15375pt>
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf>
-Package pdftex.def Info: unbtexcover/contracapa.pdf  used on input line 375.
+Package pdftex.def Info: unbtexcover/contracapa.pdf  used on input line 376.
 (pdftex.def)             Requested size: 597.2299pt x 844.15169pt.
-<unbtexcover/contracapa.pdf, id=464, page=1, 597.23137pt x 844.15375pt>
+<unbtexcover/contracapa.pdf, id=477, page=1, 597.23137pt x 844.15375pt>
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
 (pdftex.def)             Requested size: 597.87692pt x 845.04684pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
-[74
+[72
 
 
 
@@ -2432,7 +2183,7 @@ Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 3
 
 
  <./unbtexcover/contracapa.pdf>]
-Package hyperref Info: Option `pageanchor' set `true' on input line 375.
+Package hyperref Info: Option `pageanchor' set `true' on input line 376.
 \tf@lof=\write6
 \openout6 = `unbtex-example.lof'.
 
@@ -2456,17 +2207,17 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 35509 strings out of 467870
- 629430 string characters out of 5418354
- 1181812 words of memory out of 5000000
- 63274 multiletter control sequences out of 15000+600000
+ 35220 strings out of 467870
+ 622984 string characters out of 5418354
+ 1181902 words of memory out of 5000000
+ 62982 multiletter control sequences out of 15000+600000
  768632 words of font info for 331 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,17n,147p,1519b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Bold.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Italic.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Regular.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
-Output written on unbtex-example.pdf (76 pages, 575859 bytes).
+Output written on unbtex-example.pdf (74 pages, 4062640 bytes).
 PDF statistics:
- 824 PDF objects out of 1000 (max. 8388607)
- 208 named destinations out of 1000 (max. 500000)
- 71893 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
+ 71963 words of extra memory for PDF output out of 74296 (max. 10000000)
 
