@@ -1,0 +1,2472 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.10)  10 NOV 2025 22:43
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/gabri/OneDrive/Desktop/doc_tcc/tcctea/unbtex-example.tex
+(c:/Users/gabri/OneDrive/Desktop/doc_tcc/tcctea/unbtex-example.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
+(unbtex.cls
+Document Class: unbtex 2024/01/10 v1.5.4 Modelo da Universidade de Brasília baseado em abnTeX2
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2.cls
+Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2025/11/04 v3.8.4b configurable book, report, article document class
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-10-24 L3 programming layer (loader) 
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count276
+))
+\onelineskip=\skip49
+\lxvchars=\skip50
+\xlvchars=\skip51
+\@memcnta=\count277
+\c@@memmarkcntra=\count278
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+\trimtop=\skip52
+\trimedge=\skip53
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count279
+\memPD=\dimen148
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count280
+\c@part=\count281
+\c@chapter=\count282
+\c@section=\count283
+\c@subsection=\count284
+\c@subsubsection=\count285
+\c@paragraph=\count286
+\c@subparagraph=\count287
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count288
+\c@@ppsaveapp=\count289
+\ragrparindent=\dimen149
+\everylistparindent=\dimen150
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks17
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen151
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count290
+\c@poemline=\count291
+\c@modulo@vs=\count292
+\c@memfvsline=\count293
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen152
+\c@verse=\count294
+\c@chrsinstr=\count295
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count296
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box53
+\extrarowheight=\dimen154
+\NC@list=\toks18
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box54
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+Package: dcolumn 2025/10/21 v1.06 decimal alignment package (DPC)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen155
+\TX@old@table=\dimen156
+\TX@old@col=\dimen157
+\TX@target=\dimen158
+\TX@delta=\dimen159
+\TX@cols=\count297
+\TX@ftn=\toks19
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen160
+\lightrulewidth=\dimen161
+\cmidrulewidth=\dimen162
+\belowrulesep=\dimen163
+\belowbottomsep=\dimen164
+\aboverulesep=\dimen165
+\abovetopsep=\dimen166
+\cmidrulesep=\dimen167
+\cmidrulekern=\dimen168
+\defaultaddspace=\dimen169
+\@cmidla=\count298
+\@cmidlb=\count299
+\@aboverulesep=\dimen170
+\@belowrulesep=\dimen171
+\@thisruleclass=\count300
+\@lastruleclass=\count301
+\@thisrulewidth=\dimen172
+)
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count302
+\@linestogo=\count303
+\@cellstogo=\count304
+\@cellsincolumn=\count305
+\crtok=\toks20
+\@mincolumnwidth=\dimen173
+\c@newflo@tctr=\count306
+\mem@margin@floatbox=\box55
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen174
+\c@@contsubnum=\count307
+\m@mscap@capbox=\box56
+\m@mscap@fbox=\box57
+\sidecapsep=\dimen175
+\sidecapwidth=\dimen176
+\m@m@tempdima=\dimen177
+\m@mscapraise=\dimen178
+\sidecapraise=\dimen179
+\m@mscapmainwidth=\dimen180
+\m@mscaplkern=\dimen181
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+\c@section@level=\count308
+)
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen182
+\cftbooknumwidth=\dimen183
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen184
+\c@maxsecnumdepth=\count309
+\bibindent=\dimen185
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks22
+\@indexbox=\insert252
+LaTeX Info: Redefining \raggedbottom on input line 8095.
+LaTeX Info: Redefining \flushbottom on input line 8099.
+\glossarycolsep=\dimen186
+\glossaryrule=\dimen187
+\sideparvshift=\skip162
+\sideins=\insert251
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count310
+\m@m@h=\dimen188
+\m@mipn@skip=\skip171
+\sidefootins=\insert248
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count311
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count312
+\c@pagenoteshadow=\count313
+\mem@pn@lastkern=\skip181
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
+\verbatim@in@stream=\read2
+)
+\verbatimindent=\skip182
+\verbatim@out=\write3
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.sty
+Package: shortvrb 2024/12/25 v3.0q Standard LaTeX documentation package V3 (FMi)
+)
+\bvboxsep=\skip183
+\c@memfbvline=\count314
+\c@bvlinectr=\count315
+\bvnumlength=\skip184
+\fb@frw=\dimen189
+\fb@frh=\dimen190
+\FrameRule=\dimen191
+\FrameSep=\dimen192
+\c@cp@cntr=\count316
+\c@ism@mctr=\count317
+\c@xsm@mctr=\count318
+\c@csm@mctr=\count319
+\c@ksm@mctr=\count320
+\c@xksm@mctr=\count321
+\c@cksm@mctr=\count322
+\c@msm@mctr=\count323
+\c@xmsm@mctr=\count324
+\c@cmsm@mctr=\count325
+\c@bsm@mctr=\count326
+\c@workm@mctr=\count327
+\c@sheetsequence=\count328
+\c@lastsheet=\count329
+\c@lastpage=\count330
+\c@figure=\count331
+\c@lofdepth=\count332
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count333
+\c@lotdepth=\count334
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen193
+\Hy@linkcounter=\count335
+\Hy@pagecounter=\count336
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count337
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count338
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen194
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count339
+\Field@Width=\dimen195
+\Fld@charsize=\dimen196
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count340
+\c@Item=\count341
+\c@Hfootnote=\count342
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count343
+\c@bookmark@seq@number=\count344
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+)
+\Hy@SectionHShift=\skip191
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
+Package: memhfixc 2025/09/16 v1.24 hyperref package fixes for memoir class
+\c@memhycontfloat=\count345
+\c@mem@Hpagenote=\count346
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+\BKM@id=\count347
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+\babel@savecnt=\count348
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2050.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2052.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2054.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2055.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2056.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2058.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2083.
+\U@D=\dimen197
+\l@unhyphenated=\language79
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count349
+
+
+Package babel Warning: Configuration files are deprecated, as
+(babel)                they can break document portability.
+(babel)                Reported on input line 4172.
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-brazil.tex
+
+Package babel Warning: Name 'brazil' is deprecated.
+(babel)                Use 'brazilian' instead.
+(babel)                Reported on input line 19.
+
+)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4295.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+Package babel Info: Importing font and identification data for brazil
+(babel)             from babel-pt-BR.ini. Reported on input line 4295.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip192
+\enit@outerparindent=\dimen198
+\enit@toks=\toks25
+\enit@inbox=\box58
+\enit@count@id=\count350
+\enitdp@description=\count351
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count352
+\calc@Bcount=\count353
+\calc@Adimen=\dimen199
+\calc@Bdimen=\dimen256
+\calc@Askip=\skip193
+\calc@Bskip=\skip194
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count354
+\calc@Cskip=\skip195
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+\c@abntex@bookmarkcounter=\count355
+\cftlastnumwidth=\skip196
+\chapternamenumlength=\skip197
+\ABNTEXcitacaorecuo=\skip198
+\c@alineasi=\count356
+\c@alineasii=\count357
+\enitdp@alineas=\count358
+\c@subalineasi=\count359
+\enitdp@subalineas=\count360
+\c@incisosi=\count361
+\enitdp@incisos=\count362
+\ABNTEXsignwidth=\skip199
+\ABNTEXsignthickness=\skip256
+\ABNTEXsignskip=\skip257
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip258
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks26
+\ex@=\dimen257
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen258
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count363
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count364
+\leftroot@=\count365
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count366
+\DOTSCASE@=\count367
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box59
+\strutbox@=\box60
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen259
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count368
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count369
+\dotsspace@=\muskip18
+\c@parentequation=\count370
+\dspbrk@lvl=\count371
+\tag@help=\toks27
+\row@=\count372
+\column@=\count373
+\maxfields@=\count374
+\andhelp@=\toks28
+\eqnshift@=\dimen260
+\alignsep@=\dimen261
+\tagshift@=\dimen262
+\tagwidth@=\dimen263
+\totwidth@=\dimen264
+\lineht@=\dimen265
+\@envbody=\toks29
+\multlinegap=\skip259
+\multlinetaggap=\skip260
+\mathdisplay@stack=\toks30
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+\g_MT_multlinerow_int=\count375
+\l_MT_multwidth_dim=\dimen266
+\origjot=\skip261
+\l_MT_shortvdotswithinadjustabove_dim=\dimen267
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen268
+\l_MT_above_intertext_sep=\dimen269
+\l_MT_below_intertext_sep=\dimen270
+\l_MT_above_shortintertext_sep=\dimen271
+\l_MT_below_shortintertext_sep=\dimen272
+\xmathstrut@box=\box61
+\xmathstrut@dim=\dimen273
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks31
+\thm@bodyfont=\toks32
+\thm@headfont=\toks33
+\thm@notefont=\toks34
+\thm@headpunct=\toks35
+\thm@preskip=\skip262
+\thm@postskip=\skip263
+\thm@headsep=\skip264
+\dth@everypar=\toks36
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\stickstootext.sty
+Package: stickstootext 2024/09/22 v1.036
+ `SticksTooText' v1.036, 2024/09/22 Text macros taking advantage of the STIXTwoText fonts (msharpe) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+\xs_counta=\count376
+\xs_countb=\count377
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+Package: fontaxes 2025-05-24 v2.0.1 Font selection axes (deprecated)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/figureversions\figureversions.sty
+Package: figureversions 2025-04-29 v1.0.1 Figure versions
+)) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks37
+\XKV@tempa@toks=\toks38
+)
+\XKV@depth=\count378
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\newtxmath.sty
+Package: newtxmath 2024/09/22 v1.754
+ `newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count379
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/binhex\binhex.tex)
+\tx@Isdigit=\count380
+\tx@IsAlNum=\count381
+\tx@tA=\toks39
+\tx@tB=\toks40
+\tx@su=\read4
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/SticksTooText-TLF/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/SticksTooText-TLF/m/n on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/SticksTooText-TLF/m/n --> OT1/SticksTooText-TLF/b/n on input line 403.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/qhv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/qhv/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/qhv/m/n --> OT1/qhv/b/n on input line 412.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/SticksTooText-TLF/m/it on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/SticksTooText-TLF/m/it on input line 419.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/ntxtt/m/n on input line 420.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/SticksTooText-TLF/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/SticksTooText-TLF/b/n on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/SticksTooText-TLF/m/it --> OT1/SticksTooText-TLF/b/it on input line 423.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/ntxtt/m/n --> T1/ntxtt/b/n on input line 426.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 492.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ntxstx2mi/m/it on input line 492.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ntxstx2mi/m/it on input line 492.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ntxstx2mi/m/it --> OML/ntxstx2mi/b/it on input line 493.
+\symlettersA=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 582.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 605.
+\symAMSm=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 630.
+\symsymbolsC=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 651.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
+\symlargesymbolsTXA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
+\tx@sbptoks=\toks41
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 905.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 910.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 911.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 913.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 915.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 919.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 920.
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 966.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 991.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 992.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
+LaTeX Info: Redefining \Bbbk on input line 2847.
+LaTeX Info: Redefining \not on input line 2995.
+LaTeX Info: Redefining \textsquare on input line 3025.
+LaTeX Info: Redefining \openbox on input line 3027.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/mathalpha\mathalfa.sty) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/mathalpha\mathalpha.sty
+Package: mathalpha 2025/01/17 - 1.145mathalpha (License LPPL) Michael Sharpe
+ `mathalpha' v1.145, 2025/01/17, a renaming of mathalfa (msharpe)
+LaTeX Font Info:    Overwriting math alphabet `\mathbb' in version `bold'
+(Font)                  U/stixonebb/m/n --> U/stixonebb/b/n on input line 389.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbi' in version `bold'
+(Font)                  U/stixonebb/m/it --> U/stixonebb/b/it on input line 391.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 679.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  U/stixplain/m/n --> U/stixplain/b/n on input line 681.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/stix2frak/m/n --> U/stix2frak/b/n on input line 818.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `bold'
+(Font)                  U/stixtwofancys/m/n --> U/stixtwofancys/b/n on input line 1096.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\tgheros.sty
+Package: tgheros 2009/09/27 v1.2 TeX Gyre Heros as default sans serif family
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+ `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+\zifour@ocount=\count382
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 695.78952pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 63.89906pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+
+Class memoir Warning: The subfig package hasn't been updated since 2005.
+(memoir)              Consider using the subcaption package instead.  on input line 165.
+
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen274
+\captionmargin=\dimen275
+\caption@leftmargin=\dimen276
+\caption@rightmargin=\dimen277
+\caption@width=\dimen278
+\caption@indent=\dimen279
+\caption@parindent=\dimen280
+\caption@hangindent=\dimen281
+Package caption Info: memoir document class detected.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-memoir.sto
+File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to the memoir document class (AR)
+))
+\c@caption@flags=\count383
+\c@continuedfloat=\count384
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen282
+\caption@adjustwidth@linewidth=\dimen283
+Package caption Info: hyperref package is loaded.
+)
+\c@KVtest=\count385
+\sf@farskip=\skip265
+\sf@captopadj=\dimen284
+\sf@capskip=\skip266
+\sf@nearskip=\skip267
+\c@subfigure=\count386
+\c@subfigure@save=\count387
+\c@subtable=\count388
+\c@subtable@save=\count389
+\sf@top=\skip268
+\sf@bottom=\skip269
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
+\LTleft=\skip270
+\LTright=\skip271
+\LTpre=\skip272
+\LTpost=\skip273
+\LTchunksize=\count390
+\LTcapwidth=\dimen285
+\LT@head=\box62
+\LT@firsthead=\box63
+\LT@foot=\box64
+\LT@lastfoot=\box65
+\LT@gbox=\box66
+\LT@cols=\count391
+\LT@rows=\count392
+\c@LT@tables=\count393
+\c@LT@chunks=\count394
+\LT@p@ftn=\toks42
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip274
+\multirow@cntb=\count395
+\multirow@dima=\skip275
+\bigstrutjot=\dimen286
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+\everycr=\toks43
+\minrowclearance=\skip276
+\rownum=\count396
+)
+\c@quadro=\count397
+\c@loqdepth=\count398
+\cftbeforequadroskip=\skip277
+\cftquadroindent=\skip278
+\cftquadronumwidth=\skip279
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count399
+\algocf@hangindent=\skip280
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count400
+LaTeX Info: Redefining \checkoddpage on input line 45.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip281
+\skiplinenumber=\skip282
+\skiprule=\skip283
+\skiphlne=\skip284
+\skiptext=\skip285
+\skiplength=\skip286
+\algomargin=\skip287
+\skipalgocfslide=\skip288
+\algowidth=\dimen287
+\inoutsize=\dimen288
+\inoutindent=\dimen289
+\interspacetitleruled=\dimen290
+\interspacealgoruled=\dimen291
+\interspacetitleboxruled=\dimen292
+\algocf@ruledwidth=\skip289
+\algocf@inoutbox=\box67
+\algocf@inputbox=\box68
+\AlCapSkip=\skip290
+\AlCapHSkip=\skip291
+\algoskipindent=\skip292
+\algocf@nlbox=\box69
+\algocf@hangingbox=\box70
+\algocf@untilbox=\box71
+\algocf@skipuntil=\skip293
+\algocf@capbox=\box72
+\algocf@lcaptionbox=\skip294
+\algoheightruledefault=\skip295
+\algoheightrule=\skip296
+\algotitleheightruledefault=\skip297
+\algotitleheightrule=\skip298
+\c@algocfline=\count401
+\c@algocfproc=\count402
+\c@algocf=\count403
+\algocf@algoframe=\box73
+\algocf@algobox=\box74
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty \lstset,
+\lst@mode=\count404
+ 
+new hook `InitVars',
+
+new hook `EndGroup',
+
+new hook `ExitVars',
+
+new hook `ModeTrue',
+
+new hook `EOL',
+\lst@gtempboxa=\box75
+\lst@token=\toks44
+\lst@length=\count405
+
+new hook `InitVarsBOL',
+\lst@currlwidth=\dimen293
+\lst@column=\count406
+\lst@pos=\count407
+\lst@lostspace=\dimen294
+\lst@width=\dimen295
+basewidth, 
+new hook `FontAdjust',
+fontadjust, 
+new hook `PostOutput',
+
+new hook `OutputBox',
+
+new hook `InitBOL',
+columns, flexiblecolumns,
+\lst@newlines=\count408
+ 
+new hook `OnNewLine',
+emptylines, 
+new hook `OnEmptyLine',
+identifierstyle, 
+new hook `EmptyStyle',
+
+new hook `OutputOther',
+
+new hook `Output',
+tabsize, showtabs, tab, showspaces, keepspaces, 
+new hook `Init',
+formfeed, upquote, SelectCharTable, MoreSelectCharTable, 
+new hook `SetLanguage',
+extendedchars, useoutput, rescanchars, alsoletter, alsodigit, alsoother, 
+new hook `SelectCharTable',
+excludedelims, delim, moredelim, deletedelim, literate, basicstyle, inputencoding, multicols, 
+new hook `EveryLine',
+\lst@lineno=\count409
+print, firstline, lastline, 
+new hook `PreSet',
+nolol, linerange, consecutivenumbers, rangeprefix, rangesuffix, rangebeginprefix, rangebeginsuffix, rangeendprefix, rangeendsuffix, includerangemarker, 
+new hook `DeInit',
+captionpos, abovecaptionskip, belowcaptionskip, label, title, caption, 
+new hook `TextStyle',
+\lstlistingname, \lstlistingnamestyle, numberbychapter, boxpos, float, floatplacement, aboveskip, belowskip, everydisplay, 
+new hook `DisplayStyle',
+
+new hook `PreInit',
+
+new hook `EveryPar',
+showlines,
+\lst@maxwidth=\dimen296
+ 
+new hook `InitVarsEOL',
+gobble, name, \lstlistlistingname, \lstlistoflistings, inputpath, \lstnewenvironment, fancyvrb, (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2025/10/06 1.11 (Carsten Heinz)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2025/10/06 1.11 (Carsten Heinz)
+ 
+Define lst-aspect `strings': string, morestring, deletestring, stringstyle, showstringspaces, 
+new hook `ExcludeDelims',
+
+Allocs: none
+
+Define lst-aspect `comments': comment, morecomment, deletecomment, commentstyle, 
+new hook `AfterBeginComment',
+
+Allocs: none
+
+Define lst-aspect `escape': texcl, escapebegin, escapeend, escapechar, escapeinside, mathescape, 
+Allocs: none
+
+Define lst-aspect `keywords': sensitive, 
+new hook `TrackKeywords',
+
+new hook `PostTrackKeywords',
+
+new hook `DetectKeywords',
+classoffset, keywords, morekeywords, deletekeywords, keywordstyle, keywordstyle, ndkeywords, morendkeywords, deletendkeywords, ndkeywordstyle, keywordsprefix, otherkeywords, 
+Allocs: none
+
+Define lst-aspect `emph': emph, moreemph, deleteemph, emphstyle, 
+Allocs: none
+
+Define lst-aspect `index': index, moreindex, deleteindex, indexstyle, \lstindexmacro, 
+Allocs: none
+
+Define lst-aspect `style': \lststylefiles, \lstdefinestyle, \lst@definestyle, style, 
+new hook `SetStyle',
+
+Allocs: none
+
+Define lst-aspect `language': \lstlanguagefiles, \lstdefinelanguage, \lst@definelanguage, language, alsolanguage, \lstalias, defaultdialect, 
+Allocs: none
+
+Define lst-aspect `labels': numbers, stepnumber, numberfirstline, numberstyle, numbersep, numberblanklines, firstnumber,
+\c@lstnumber=\count410
+\lst@skipnumbers=\count411
+ 
+Allocs: 2\count, 
+
+Define lst-aspect `lineshape': xleftmargin, xrightmargin, resetmargins, 
+new hook `BoxUnsafe',
+linewidth, lineskip, breaklines, breakindent, breakautoindent, breakatwhitespace, prebreak, postbreak, 
+Allocs: none
+
+Define lst-aspect `frames': framexleftmargin, framexrightmargin, framextopmargin, framexbottommargin, backgroundcolor, fillcolor, rulecolor, rulesepcolor, rulesep, framerule, framesep, frameshape, frameround, frame,
+\lst@framebox=\box76
+ 
+Allocs: 1\box, 
+) 
+Allocs: 8\count, 4\dimen, 2\box, 1\toks, 
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2025/10/06 1.11 listings configuration
+))
+Package: listings 2025/10/06 1.11 (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/10/06 1.11 (Carsten Heinz)
+    so I'm assuming it got fixed.
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
+\MT@toks=\toks45
+\MT@tempbox=\box77
+\MT@count=\count412
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
+LaTeX Info: Redefining \leftprotrusion on input line 1088.
+\MT@prot@toks=\toks46
+LaTeX Info: Redefining \rightprotrusion on input line 1107.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen297
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count413
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip299
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/was\icomma.sty
+Package: icomma 2002/03/10 v2.0 (WaS)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2025/05/29 v1.13.2 fvextra - extensions and patches for fancyvrb
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2025/07/28 4.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count414
+\FV@InFile=\read5
+\FV@TabBox=\box78
+\c@FancyVerbLine=\count415
+\FV@StepNumber=\count416
+\FV@OutFile=\write4
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2025/05/13 line numbers on paragraphs v5.5
+\linenopenalty=\count417
+\output=\toks47
+\linenoprevgraf=\count418
+\linenumbersep=\dimen298
+\linenumberwidth=\dimen299
+\c@linenumber=\count419
+\c@pagewiselinenumber=\count420
+\c@LN@truepage=\count421
+\c@internallinenumber=\count422
+\c@internallinenumbers=\count423
+\quotelinenumbersep=\dimen300
+\bframerule=\dimen301
+\bframesep=\dimen302
+\bframebox=\box79
+\@LN@amsmath@ams@eqpen=\count424
+)
+\c@FancyVerbWriteLine=\count425
+\c@FancyVerbBufferLine=\count426
+\c@FV@TrueTabGroupLevel=\count427
+\c@FV@TrueTabCounter=\count428
+\FV@TabBox@Group=\box80
+\FV@bgcolorstructbox=\box81
+\FV@TmpLength=\skip300
+\c@FV@HighlightLinesStart=\count429
+\c@FV@HighlightLinesStop=\count430
+\FV@LoopCount=\count431
+\FV@NCharsBox=\box82
+\FV@BreakIndent=\dimen303
+\FV@BreakIndentNChars=\count432
+\FV@BreakSymbolSepLeft=\dimen304
+\FV@BreakSymbolSepLeftNChars=\count433
+\FV@BreakSymbolSepRight=\dimen305
+\FV@BreakSymbolSepRightNChars=\count434
+\FV@BreakSymbolIndentLeft=\dimen306
+\FV@BreakSymbolIndentLeftNChars=\count435
+\FV@BreakSymbolIndentRight=\dimen307
+\FV@BreakSymbolIndentRightNChars=\count436
+\c@FancyVerbLineBreakLast=\count437
+\FV@LineBox=\box83
+\FV@LineIndentBox=\box84
+\c@FV@BreakBufferDepth=\count438
+\FV@LineWidth=\dimen308
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 467.
+Package hyperref Info: Option `colorlinks' set `true' on input line 467.
+Package hyperref Info: Option `linktocpage' set `true' on input line 467.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+Package cleveref Info: `listings' support loaded on input line 3131.
+Package cleveref Info: `algorithm2e' support loaded on input line 3147.
+Package cleveref Info: `subfig' support loaded on input line 3164.
+Package cleveref Info: include cross-reference names in hyperlinks on input line 7836.
+Package cleveref Info: include cross-reference names in hyperlinks on input line 7852.
+Package cleveref Info: no abbreviation of names on input line 7852.
+)
+==> First Aid for cleveref.sty applied!
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count439
+Package zref Info: New property: abspage on input line 67.
+)
+\mdf@templength=\skip301
+\c@mdf@globalstyle@cnt=\count440
+\mdf@skipabove@length=\skip302
+\mdf@skipbelow@length=\skip303
+\mdf@leftmargin@length=\skip304
+\mdf@rightmargin@length=\skip305
+\mdf@innerleftmargin@length=\skip306
+\mdf@innerrightmargin@length=\skip307
+\mdf@innertopmargin@length=\skip308
+\mdf@innerbottommargin@length=\skip309
+\mdf@splittopskip@length=\skip310
+\mdf@splitbottomskip@length=\skip311
+\mdf@outermargin@length=\skip312
+\mdf@innermargin@length=\skip313
+\mdf@linewidth@length=\skip314
+\mdf@innerlinewidth@length=\skip315
+\mdf@middlelinewidth@length=\skip316
+\mdf@outerlinewidth@length=\skip317
+\mdf@roundcorner@length=\skip318
+\mdf@footenotedistance@length=\skip319
+\mdf@userdefinedwidth@length=\skip320
+\mdf@needspace@length=\skip321
+\mdf@frametitleaboveskip@length=\skip322
+\mdf@frametitlebelowskip@length=\skip323
+\mdf@frametitlerulewidth@length=\skip324
+\mdf@frametitleleftmargin@length=\skip325
+\mdf@frametitlerightmargin@length=\skip326
+\mdf@shadowsize@length=\skip327
+\mdf@extratopheight@length=\skip328
+\mdf@subtitleabovelinewidth@length=\skip329
+\mdf@subtitlebelowlinewidth@length=\skip330
+\mdf@subtitleaboveskip@length=\skip331
+\mdf@subtitlebelowskip@length=\skip332
+\mdf@subtitleinneraboveskip@length=\skip333
+\mdf@subtitleinnerbelowskip@length=\skip334
+\mdf@subsubtitleabovelinewidth@length=\skip335
+\mdf@subsubtitlebelowlinewidth@length=\skip336
+\mdf@subsubtitleaboveskip@length=\skip337
+\mdf@subsubtitlebelowskip@length=\skip338
+\mdf@subsubtitleinneraboveskip@length=\skip339
+\mdf@subsubtitleinnerbelowskip@length=\skip340
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box85
+\mdf@footnotebox=\box86
+\mdf@splitbox@one=\box87
+\mdf@splitbox@two=\box88
+\mdf@splitbox@save=\box89
+\mdfsplitboxwidth=\skip341
+\mdfsplitboxtotalwidth=\skip342
+\mdfsplitboxheight=\skip343
+\mdfsplitboxdepth=\skip344
+\mdfsplitboxtotalheight=\skip345
+\mdfframetitleboxwidth=\skip346
+\mdfframetitleboxtotalwidth=\skip347
+\mdfframetitleboxheight=\skip348
+\mdfframetitleboxdepth=\skip349
+\mdfframetitleboxtotalheight=\skip350
+\mdffootnoteboxwidth=\skip351
+\mdffootnoteboxtotalwidth=\skip352
+\mdffootnoteboxheight=\skip353
+\mdffootnoteboxdepth=\skip354
+\mdffootnoteboxtotalheight=\skip355
+\mdftotallinewidth=\skip356
+\mdfboundingboxwidth=\skip357
+\mdfboundingboxtotalwidth=\skip358
+\mdfboundingboxheight=\skip359
+\mdfboundingboxdepth=\skip360
+\mdfboundingboxtotalheight=\skip361
+\mdf@freevspace@length=\skip362
+\mdf@horizontalwidthofbox@length=\skip363
+\mdf@verticalmarginwhole@length=\skip364
+\mdf@horizontalspaceofbox=\skip365
+\mdfsubtitleheight=\skip366
+\mdfsubsubtitleheight=\skip367
+\c@mdfcountframes=\count441
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count442
+\c@mdf@env@i=\count443
+\c@mdf@env@ii=\count444
+\c@mdf@zref@counter=\count445
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+\c@theorem=\count446
+\c@lemma=\count447
+\c@proposition=\count448
+\c@corollary=\count449
+\c@definition=\count450
+\c@assumption=\count451
+\c@axiom=\count452
+\c@conjecture=\count453
+\c@property=\count454
+\c@example=\count455
+\c@exercise=\count456
+\c@problem=\count457
+\c@remark=\count458
+\c@proof=\count459
+\c@solution=\count460
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+Package: backref 2025-06-21 v1.45 Bibliographical back referencing
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
+\minimumbiblabelwidth=\skip368
+\ABCIauxlen=\skip369
+\c@ABCIaux=\count461
+\c@ABCImax=\count462
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\biblabelsep=\skip370
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks48
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
+)
+\scr@dte@tocline@numberwidth=\skip371
+\scr@dte@tocline@numbox=\box90
+)
+Package tocbasic Info: setting babel extension for `nlo' on input line 187.
+Package tocbasic Info: setting babel extension for `nls' on input line 188.
+\nomlabelwidth=\dimen309
+\nom@tempdim=\dimen310
+\nomitemsep=\skip372
+)
+\scr@dte@figure@maxnumwidth=\skip373
+\scr@dte@table@maxnumwidth=\skip374
+\scr@dte@algocf@maxnumwidth=\skip375
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+\ESO@tempdima=\dimen311
+\ESO@tempdimb=\dimen312
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen313
+\Gin@req@width=\dimen314
+)
+\AM@pagewidth=\dimen315
+\AM@pageheight=\dimen316
+\AM@fboxrule=\dimen317
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count463
+\AM@pagebox=\box91
+\AM@global@opts=\toks49
+\AM@pagecnt=\count464
+\AM@toc@title=\toks50
+\AM@lof@heading=\toks51
+\c@AM@survey=\count465
+\AM@templatesizebox=\box92
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/scontents\scontents.sty
+Package: scontents 2025-11-01 v2.5 Stores LaTeX contents in memory or files
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/generic/scontents\scontents-code.tex
+\l__scontents_tab_width_int=\count466
+\l__scontents_nesting_env_int=\count467
+\l__scontents_nesting_aux_int=\count468
+\l__scontents_foreach_stop_int=\count469
+\l__scontents_save_sf_int=\count470
+\l__scontents_save_skip=\skip376
+\l__scontents_foreach_start_int=\count471
+\l__scontents_foreach_step_int=\count472
+))
+\testbox=\box93
+\testblskip=\dimen318
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
+\AP@output=\toks52
+\AP@partial=\box94
+\AP@footins=\box95
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count473
+\float@exts=\toks53
+\float@box=\box96
+\@float@everytoks=\toks54
+\@floatcapt=\box97
+)
+\@nomenclaturefile=\write5
+\openout5 = `unbtex-example.nlo'.
+
+Package nomencl Info: Writing nomenclature file unbtex-example.nlo on input line 50.
+> \l__scontents_processed_body_lines_tl=Este documento exemplifica a
+elaboração de trabalho acadêmico (trabalho de conclusão de curso,
+dissertação e tese) a partir da classe UnB\TeX, uma extensão da classe
+\abnTeX\ para a Universidade de Brasília (UnB). Além de apresentar comandos
+básico de \LaTeX\ para inclusão de equações, tabelas e figuras, o
+documento mostra como utilizar pacotes adotados pela classe UnB\TeX\ para
+gerar referências bibliográficas, listas símbolos, caixas para teoremas e
+algoritmos, dentre outros elementos úteis ou obrigatórios para trabalhos
+acadêmicos. Espera-se que este documento facilite o uso da classe UnB\TeX\ na
+elaboração de trabalhos de alta qualidade gráfica mesmo por usuários com
+pouca experiência em \LaTeX.%^^Ascheol%.
+> \l__scontents_processed_body_lines_tl=This document demonstrates the
+preparation of academic works (such as final papers, dissertations, and
+theses) using the UnB\TeX\ class, an extension of the \abnTeX\ class developed
+for the University of Brasília (UnB). In addition to introducing basic
+\LaTeX\ commands for the inclusion of equations, tables, and figures, the
+document shows how to utilize packages integrated with the UnB\TeX\ class to
+generate bibliographic references, lists of symbols, and formatted boxes for
+theorems and algorithms, among other essential or useful elements for academic
+writing. The goal is to simplify the use of the UnB\TeX\ class, enabling even
+users with minimal \LaTeX\ experience to produce visually high-quality
+academic documents.%^^Ascheol%.
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 192.
+> \l__scontents_processed_body_lines_tl=
+Agradeço primeiramente à minha família, pelo amor, apoio incondicional e
+por acreditarem em mim em cada etapa dessa jornada acadêmica. Vocês foram
+meu alicerce nos momentos difíceis e minha inspiração para seguir em
+frente.
+
+À minha companheira, por todo amor, paciência e compreensão nos dias em que
+precisei me ausentar para estudar. Sua presença e incentivo foram
+fundamentais para que eu pudesse chegar até aqui.
+
+Aos meus professores e orientadores, por toda dedicação, paciência e pelos
+ensinamentos compartilhados ao longo do curso e durante a construção deste
+trabalho. Cada orientação contribuiu diretamente para meu crescimento
+pessoal e profissional.
+
+Ao meu parceiro de TCC, pela parceria, comprometimento e companheirismo em
+todas as fases do projeto. Sua dedicação tornou esta caminhada mais leve,
+produtiva e motivadora.
+
+Por fim, Agradeco à Deus, que sem ele não seríamos nada.
+
+A todos que, direta ou indiretamente, contribuíram para a realização deste
+trabalho, meu muito obrigado.
+%^^Ascheol%.
+> \l__scontents_processed_body_lines_tl=
+Agradeço, em primeiro lugar, à minha família, pelo apoio incondicional,
+pelo incentivo constante aos meus estudos e por toda a assistência prestada
+ao longo desta caminhada. Sem o amor, o cuidado e os sacrifícios de vocês,
+não seria possível chegar tão longe. Foi graças à força e aos esforços
+de cada um que este trabalho se tornou realidade.
+
+Aos professores que contribuíram para a minha formação acadêmica na
+Universidade, deixo meus mais sinceros agradecimentos. Em especial, aos
+professores orientadores deste trabalho, pela dedicação, paciência e
+orientação valiosa em cada etapa deste percurso.
+
+Por fim, deixo um agradecimento especial ao meu amigo e parceiro de TCC, cuja
+colaboração foi essencial para a concretização deste trabalho. Sua
+amizade, companheirismo e apoio nos desafios da vida fizeram toda a diferença
+para que pudéssemos chegar até aqui.
+%^^Ascheol%.
+> \l__scontents_processed_body_lines_tl=Dedico este trabalho a todos que, de
+alguma forma, fizeram parte da minha trajetória.
+Aos meus familiares, pelo amor incondicional e apoio constante.
+Aos amigos, pela companhia nos momentos difíceis e pelas risadas nos dias
+leves.
+E a todos que acreditaram em mim mesmo quando eu duvidei.
+Este trabalho é resultado de muitos esforços compartilhados.%^^Ascheol%.
+> \l__scontents_processed_body_lines_tl=Dedico este trabalho à minha
+família, pelo amor incondicional, incentivo constante e por sempre
+acreditarem em meu potencial ao longo de toda a minha trajetória acadêmica.
+Agradeço, especialmente, a Deus, por ter me concedido força, sabedoria e
+perseverança para chegar até aqui.%^^Ascheol%.
+> \l__scontents_processed_body_lines_tl=\vspace*{\fill}
+\begin{flushright}
+    \textit{``Se você quer ser bem-sucedido,\\ precisa ter dedicação total,
+\\buscar seu último limite e dar o melhor de si.''\\
+    (Ayrton Senna)}
+\end{flushright}%^^Ascheol%.
+LaTeX Font Info:    Trying to load font information for T1+SticksTooText-TLF on input line 262.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\t1stickstootext-tlf.fd
+File: T1SticksTooText-TLF.fd 2018/04/26 (autoinst) Font definitions for T1/SticksTooText-TLF.
+)
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 262.
+
+No file unbtex-example.aux.
+\openout1 = `unbtex-example.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/ntxstx2mi/m/it on input line 262.
+LaTeX Font Info:    Trying to load font information for OML+ntxstx2mi on input line 262.
+(C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxstx2mi.fd
+File: omlntxstx2mi.fd 2018/04/26 Fontinst v1.933 font definitions for OML/ntxstx2mi.
+)
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for U/stixonebb/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 262.
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 262.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 262.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 262.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 262.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 262.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 262.
+Package hyperref Info: Link coloring ON on input line 262.
+\myptabbox=\box98
+\myptabboxwidth=\skip377
+LaTeX Info: Command `\dddot' is already robust on input line 262.
+LaTeX Info: Command `\ddddot' is already robust on input line 262.
+\c@mv@tabular=\count474
+\c@mv@boldtabular=\count475
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count476
+\scratchdimen=\dimen319
+\scratchbox=\box99
+\nofMPsegments=\count477
+\nofMParguments=\count478
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count479
+\MPscratchDim=\dimen320
+\MPnumerator=\count480
+\makeMPintoPDFobject=\count481
+\everyMPtoPDFconversion=\toks56
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count482
+Package tocbasic Info: setting babel extension for `lol' on input line 262.
+LaTeX Info: Redefining \microtypecontext on input line 262.
+Package microtype Info: Applying patch `item' on input line 262.
+Package microtype Info: Applying patch `toc' on input line 262.
+Package microtype Info: Applying patch `eqnum' on input line 262.
+Package microtype Info: Applying patch `footnote' on input line 262.
+Package microtype Info: Applying patch `verbatim' on input line 262.
+LaTeX Info: Redefining \microtypesetup on input line 262.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+) (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+Package hyperref Info: Option `pageanchor' set `false' on input line 271.
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 271.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 271.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
+File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
+)
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 18.66588pt on input line 271.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `qhv' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 18.66588pt on input line 271.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 10.79993pt on input line 271.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 271.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 271.
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 17.28pt on input line 271.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 271.
+<unbtexcover/capa.pdf, id=3, 597.23137pt x 844.15375pt>
+File: unbtexcover/capa.pdf Graphic file (type pdf)
+<use unbtexcover/capa.pdf>
+Package pdftex.def Info: unbtexcover/capa.pdf  used on input line 271.
+(pdftex.def)             Requested size: 597.87692pt x 845.04684pt.
+ [1
+
+{C:/Users/gabri/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stickstoo/stx2_slv267.enc} <./unbtexcover/capa.pdf>]
+Package hyperref Info: Option `pageanchor' set `true' on input line 271.
+LaTeX Font Info:    Trying to load font information for OT1+SticksTooText-TLF on input line 275.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\ot1stickstootext-tlf.fd
+File: OT1SticksTooText-TLF.fd 2018/04/21 (autoinst) Font definitions for OT1/SticksTooText-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 275.
+LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 8.8pt on input line 275.
+LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 275.
+LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
+(Font)              scaled to size 12.0pt on input line 275.
+Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/12'
+(microtype)             (new value: 12.0pt) on input line 275.
+LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
+(Font)              scaled to size 8.8pt on input line 275.
+Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/8.8'
+(microtype)             (new value: 8.8pt) on input line 275.
+LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 275.
+Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/6.6'
+(microtype)             (new value: 6.6pt) on input line 275.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 12.0pt on input line 275.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.8pt on input line 275.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 275.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 12.0pt on input line 275.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.8pt on input line 275.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 275.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 275.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 12.0pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.8pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 275.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 275.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 12.0pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.8pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 275.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 275.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 12.0pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.8pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 275.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 275.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 12.0pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.8pt on input line 275.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 275.
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 275.
+ [1
+
+
+
+
+]
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 277.
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 9.85492pt on input line 277.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 277.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 10.95pt on input line 277.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `zi4' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--277
+
+ []
+
+
+Underfull \hbox (badness 6094) in paragraph at lines 277--277
+| \T1/SticksTooText-TLF/m/n/10.95 (+20) 1. Trans-torno do Es-pec-tro Au-tista. 2. Se-le-ti-vi-dade Ali-men-tar. 3.
+ []
+
+[2{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
+LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
+(Font)              scaled to size 15.55188pt on input line 280.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 15.55188pt on input line 280.
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 280.
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 280.
+ [3
+
+]
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/it' will be
+(Font)              scaled to size 12.0pt on input line 283.
+ [4
+
+
+]
+LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 286.
+ [5
+
+
+
+] [6
+
+
+] [7
+
+
+] [8
+
+
+]
+No file unbtex-example.lof.
+[9
+
+
+]
+No file unbtex-example.lot.
+[10
+
+]
+No file unbtex-example.nls.
+No file unbtex-example.toc.
+[11
+
+
+]
+\openout2 = `unbtex-example/capitulo1.aux'.
+
+ (unbtex-example/capitulo1.tex
+Cap\'{\i }tulo 1.
+
+LaTeX Warning: Citation `taylor2017' on page 12 undefined on input line 12.
+
+
+LaTeX Warning: Citation `ulloa2020' on page 12 undefined on input line 12.
+
+
+LaTeX Warning: Citation `guller2024' on page 12 undefined on input line 14.
+
+
+LaTeX Warning: Citation `vazquez2019' on page 12 undefined on input line 20.
+
+
+LaTeX Warning: Citation `ulloa2020' on page 12 undefined on input line 20.
+
+
+LaTeX Warning: Citation `guller2024' on page 12 undefined on input line 22.
+
+LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 23.
+[12
+
+
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+SticksTooText-TLF on input line 35.
+ (C:\Users\gabri\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\ts1stickstootext-tlf.fd
+File: TS1SticksTooText-TLF.fd 2018/05/07 (autoinst) Font definitions for TS1/SticksTooText-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/SticksTooText-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 35.
+ [13{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stickstoo/stx2_w6fsfr.enc}]) [14]
+\openout2 = `unbtex-example/capitulo2.aux'.
+
+ (unbtex-example/capitulo2.tex
+Cap\'{\i }tulo 2.
+LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 23.
+
+Overfull \hbox (5.67972pt too wide) in paragraph at lines 23--24
+\T1/zi4/m/n/12 AND ("Food selectivity"OR "food refusal") AND ("autism spectrum disorder"OR
+ []
+
+[15
+
+
+
+
+] [16]
+
+LaTeX Warning: Citation `ulloa2022' on page 17 undefined on input line 52.
+
+
+LaTeX Warning: Citation `bicer2020' on page 17 undefined on input line 54.
+
+
+LaTeX Warning: Citation `americanpsychiatricassociation2013' on page 17 undefined on input line 59.
+
+[17] [18] [19]
+Overfull \hbox (5.23637pt too wide) in paragraph at lines 150--151
+\T1/SticksTooText-TLF/m/n/12 (-20) pro-gra-ma-��o e fer-ra-men-tas es-pe-c�-fi-cas de cada pla-ta-forma (por exem-plo, Swift/Objective-
+ []
+
+[20] [21] [22] [23] [24] [25]) [26]
+\openout2 = `unbtex-example/capitulo3.aux'.
+
+ (unbtex-example/capitulo3.tex
+Cap\'{\i }tulo 3.
+
+LaTeX Warning: File `metodologias_pesquisa.png' not found on input line 23.
+
+
+unbtex-example/capitulo3.tex:23: Package pdftex.def Error: File `metodologias_pesquisa.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...0.75\linewidth]{metodologias_pesquisa.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[27
+
+
+
+
+] [28]
+
+LaTeX Warning: File `ciclo-de-vida-scrum.png' not found on input line 47.
+
+
+unbtex-example/capitulo3.tex:47: Package pdftex.def Error: File `ciclo-de-vida-scrum.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 ...idth=1\linewidth]{ciclo-de-vida-scrum.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[29] [30] [31] [32]
+
+LaTeX Warning: Citation `sommerville1997' on page 33 undefined on input line 111.
+
+
+LaTeX Warning: Citation `pressman2021' on page 33 undefined on input line 129.
+
+[33]
+
+LaTeX Warning: Citation `pressman2021' on page 34 undefined on input line 137.
+
+[34]
+
+LaTeX Warning: File `arquitetura-componentizada.png' not found on input line 161.
+
+
+unbtex-example/capitulo3.tex:161: Package pdftex.def Error: File `arquitetura-componentizada.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 ...inewidth]{arquitetura-componentizada.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `sommerville2011' on page 35 undefined on input line 171.
+
+[35]
+
+LaTeX Warning: Citation `kuederle2018' on page 36 undefined on input line 179.
+
+
+LaTeX Warning: Citation `Geekhunter2024' on page 36 undefined on input line 181.
+
+
+LaTeX Warning: Citation `spinellis2021' on page 36 undefined on input line 185.
+
+[36]
+
+LaTeX Warning: Citation `sommerville2007' on page 37 undefined on input line 195.
+
+
+LaTeX Warning: Citation `driessen2010' on page 37 undefined on input line 203.
+
+[37] [38]
+
+LaTeX Warning: Citation `pressman2021' on page 39 undefined on input line 277.
+
+
+LaTeX Warning: Citation `basili1994' on page 39 undefined on input line 287.
+
+[39] [40] [41] [42]
+
+LaTeX Warning: Citation `domingues2020' on page 43 undefined on input line 398.
+
+[43]
+
+LaTeX Warning: File `organização-github.png' not found on input line 420.
+
+
+unbtex-example/capitulo3.tex:420: Package pdftex.def Error: File `organização-github.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.420 ...=0.5\linewidth]{organização-github.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[44]
+
+LaTeX Warning: Citation `silberschatz2011' on page 45 undefined on input line 438.
+
+
+LaTeX Warning: Citation `postgresql2024' on page 45 undefined on input line 446.
+
+[45]) [46]
+\openout2 = `unbtex-example/capitulo4.aux'.
+
+ (unbtex-example/capitulo4.tex
+Cap\'{\i }tulo 4.
+
+LaTeX Warning: Citation `ferreira2018' on page 47 undefined on input line 17.
+
+[47
+
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]|\T1/SticksTooText-TLF/b/n/12 (+20) Objetivos no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\T1/SticksTooText-TLF/b/n/12 (+20) Objetivos no
+ []
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\T1/SticksTooText-TLF/b/n/12 (+20) Objetivos no
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[]|\T1/SticksTooText-TLF/b/n/12 (+20) Motivo para
+ []
+
+
+Underfull \hbox (badness 3769) in paragraph at lines 101--101
+\T1/SticksTooText-TLF/b/n/12 (+20) n�o uti-li-zar o
+ []
+
+[49]
+LaTeX Font Info:    Font shape `T1/qhv/b/it' will be
+(Font)              scaled to size 15.55188pt on input line 109.
+ [50] [51]
+
+LaTeX Warning: Citation `heller2012' on page 52 undefined on input line 189.
+
+[52]
+
+LaTeX Warning: Citation `schwaber2020' on page 53 undefined on input line 191.
+
+
+LaTeX Warning: File `paleta.jpg' not found on input line 195.
+
+
+unbtex-example/capitulo4.tex:195: Package pdftex.def Error: File `paleta.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.195 ...raphics[width=0.75\linewidth]{paleta.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[53]
+
+LaTeX Warning: File `logo.png' not found on input line 213.
+
+
+unbtex-example/capitulo4.tex:213: Package pdftex.def Error: File `logo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ...degraphics[width=0.5\linewidth]{logo.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[54]
+LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
+(Font)              scaled to size 12.0pt on input line 237.
+ [55] [56]
+
+LaTeX Warning: File `modelorelacional.png' not found on input line 279.
+
+
+unbtex-example/capitulo4.tex:279: Package pdftex.def Error: File `modelorelacional.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 ...[width=1\linewidth]{modelorelacional.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `seiverling2011' on page 57 undefined on input line 289.
+
+
+LaTeX Warning: Citation `lukens2008' on page 57 undefined on input line 289.
+
+
+LaTeX Warning: Citation `seiverling2011' on page 57 undefined on input line 289.
+
+
+LaTeX Warning: Citation `lukens2008' on page 57 undefined on input line 289.
+
+[57]
+
+LaTeX Warning: Citation `vonhalle2001' on page 58 undefined on input line 300.
+
+
+LaTeX Warning: Citation `vonhalle2001' on page 58 undefined on input line 300.
+
+[58] [59] [60]
+
+LaTeX Warning: File `fluxograma-regra.png' not found on input line 343.
+
+
+unbtex-example/capitulo4.tex:343: Package pdftex.def Error: File `fluxograma-regra.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.343 ...idth=1.1\linewidth]{fluxograma-regra.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (45.50278pt too wide) in paragraph at lines 343--344
+ [][] 
+ []
+
+[61]) [62]
+\openout2 = `unbtex-example/capitulo5.aux'.
+
+ (unbtex-example/capitulo5.tex
+Cap\'{\i }tulo 5.
+[63
+
+
+
+
+] [64] [65]
+LaTeX Font Info:    Font shape `TS1/SticksTooText-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 128.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+unbtex-example/capitulo5.tex:128: Package xcolor Error: Undefined color `planned'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128 }
+       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[66]) [67]
+No file unbtex-example.bbl.
+[68
+
+
+
+
+]
+\openout2 = `unbtex-example/apendice-a.aux'.
+
+ (unbtex-example/apendice-a.tex
+
+LaTeX Warning: File `prototipo (1).jpg' not found on input line 3.
+
+
+unbtex-example/apendice-a.tex:3: Package pdftex.def Error: File `prototipo (1).jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 ...phics[width=1\linewidth]{prototipo (1).jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `prototipo (2).jpg' not found on input line 10.
+
+
+unbtex-example/apendice-a.tex:10: Package pdftex.def Error: File `prototipo (2).jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...hics[width=1\linewidth]{prototipo (2).jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `prototipo (3).jpg' not found on input line 17.
+
+
+unbtex-example/apendice-a.tex:17: Package pdftex.def Error: File `prototipo (3).jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...hics[width=1\linewidth]{prototipo (3).jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `prototipo (4).jpg' not found on input line 24.
+
+
+unbtex-example/apendice-a.tex:24: Package pdftex.def Error: File `prototipo (4).jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...hics[width=1\linewidth]{prototipo (4).jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `prototipo (5).jpg' not found on input line 31.
+
+
+unbtex-example/apendice-a.tex:31: Package pdftex.def Error: File `prototipo (5).jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...hics[width=1\linewidth]{prototipo (5).jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `prototipo (6).jpg' not found on input line 38.
+
+
+unbtex-example/apendice-a.tex:38: Package pdftex.def Error: File `prototipo (6).jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 ...hics[width=1\linewidth]{prototipo (6).jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) [69] [70] [71] [72] [73] [74]
+\openout2 = `unbtex-example/apendice-b.aux'.
+
+
+No file unbtex-example/apendice-b.tex.
+\openout2 = `unbtex-example/apendice-c.aux'.
+
+No file unbtex-example/apendice-c.tex.
+Package hyperref Info: Option `pageanchor' set `false' on input line 375.
+<unbtexcover/contracapa.pdf, id=462, 597.23137pt x 844.15375pt>
+File: unbtexcover/contracapa.pdf Graphic file (type pdf)
+<use unbtexcover/contracapa.pdf>
+Package pdftex.def Info: unbtexcover/contracapa.pdf  used on input line 375.
+(pdftex.def)             Requested size: 597.2299pt x 844.15169pt.
+<unbtexcover/contracapa.pdf, id=464, page=1, 597.23137pt x 844.15375pt>
+File: unbtexcover/contracapa.pdf Graphic file (type pdf)
+<use unbtexcover/contracapa.pdf, page 1>
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+(pdftex.def)             Requested size: 597.87692pt x 845.04684pt.
+File: unbtexcover/contracapa.pdf Graphic file (type pdf)
+<use unbtexcover/contracapa.pdf, page 1>
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+(pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
+File: unbtexcover/contracapa.pdf Graphic file (type pdf)
+<use unbtexcover/contracapa.pdf, page 1>
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+(pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
+File: unbtexcover/contracapa.pdf Graphic file (type pdf)
+<use unbtexcover/contracapa.pdf, page 1>
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+(pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
+File: unbtexcover/contracapa.pdf Graphic file (type pdf)
+<use unbtexcover/contracapa.pdf, page 1>
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 375.
+(pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
+[74
+
+
+
+
+
+
+
+
+
+
+
+
+ <./unbtexcover/contracapa.pdf>]
+Package hyperref Info: Option `pageanchor' set `true' on input line 375.
+\tf@lof=\write6
+\openout6 = `unbtex-example.lof'.
+
+\tf@lot=\write7
+\openout7 = `unbtex-example.lot'.
+
+\tf@toc=\write8
+\openout8 = `unbtex-example.toc'.
+
+ (unbtex-example.aux (unbtex-example/capitulo1.aux) (unbtex-example/capitulo2.aux) (unbtex-example/capitulo3.aux) (unbtex-example/capitulo4.aux) (unbtex-example/capitulo5.aux) (unbtex-example/apendice-a.aux) (unbtex-example/apendice-b.aux) (unbtex-example/apendice-c.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 35509 strings out of 467870
+ 629430 string characters out of 5418354
+ 1181812 words of memory out of 5000000
+ 63274 multiletter control sequences out of 15000+600000
+ 768632 words of font info for 331 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 125i,17n,147p,1519b,813s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Bold.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Italic.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Regular.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb>
+Output written on unbtex-example.pdf (76 pages, 575859 bytes).
+PDF statistics:
+ 824 PDF objects out of 1000 (max. 8388607)
+ 208 named destinations out of 1000 (max. 500000)
+ 71893 words of extra memory for PDF output out of 74296 (max. 10000000)
+

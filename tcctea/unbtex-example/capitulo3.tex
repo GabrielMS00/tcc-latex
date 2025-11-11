@@ -1,0 +1,457 @@
+% ----------------------------------------------------------
+\chapter{Metodologias}
+%
+
+%
+\section{Metodologia de pesquisa}
+%
+
+Para o desenvolvimento desta pesquisa, foram adotadas abordagens metodológicas que estruturam de forma sistemática os métodos de coleta, análise e interpretação dos dados, garantindo consistência e clareza em todas as etapas do estudo.
+
+Em relação à abordagem de pesquisa, adota-se o método \textbf{qualitativo}, uma vez que ele possibilita compreender em profundidade as percepções e necessidades dos usuários diretos, contribuindo para a construção de um backlog que reflita fielmente essas demandas.
+
+Quanto à natureza, caracteriza-se como uma \textbf{pesquisa aplicada}, pois visa não apenas gerar conhecimento teórico, mas também utilizá-lo para resolver um problema prático por meio do desenvolvimento de um software funcional, baseado em requisitos reais identificados durante o processo.
+
+No que se refere aos objetivos, trata-se de uma \textbf{pesquisa exploratória}, já que busca aprofundar a compreensão do fenômeno investigado — as necessidades específicas do público-alvo — de modo a embasar a proposição de uma solução tecnológica adequada.
+
+No que tange aos procedimentos técnicos, optou-se por uma combinação de \textbf{pesquisa bibliográfica}, \textbf{pesquisa de campo} e \textbf{estudo de caso}. A pesquisa bibliográfica fornecerá o embasamento teórico necessário para sustentar as decisões de desenvolvimento, enquanto a pesquisa de campo e o estudo de caso permitirão o contato direto com a realidade dos usuários, ampliando o entendimento de suas demandas específicas.
+
+Por fim, como procedimento de coleta de dados, será utilizada a \textbf{observação}, ferramenta essencial para registrar comportamentos, interações e contextos de uso do sistema, possibilitando um diagnóstico mais preciso das necessidades que o software deverá atender.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\linewidth]{metodologias_pesquisa.png}
+    \caption{Metodologia da Pesquisa}
+    \caption*{Fonte: Autor, 2025.}
+    \label{fig:enter-label}
+\end{figure}
+
+%
+\section{Metodologia de Desenvolvimento de Software}
+%
+
+\subsection{Ciclo de Vida}
+
+No desenvolvimento deste software, tornou-se essencial, antes de qualquer implementação, compreender profundamente o contexto do problema e, a partir disso, selecionar um ciclo de vida adequado, que orientasse as etapas e atividades necessárias para a construção do sistema. A abordagem escolhida foi fundamentada nos princípios das metodologias ágeis, com ênfase no Scrum, devido à sua capacidade de estruturar o trabalho de forma iterativa, incremental e centrada na entrega contínua de valor.
+
+Contudo, algumas adaptações foram realizadas para adequar o framework às características específicas do projeto. Uma dessas adaptações foi a não realização das daily meetings, reuniões diárias propostas pelo Scrum para promover alinhamento constante da equipe. Tal decisão ocorreu considerando a dinâmica enxuta do desenvolvimento, na qual a comunicação se deu predominantemente de forma assíncrona ou sob demanda, sempre que surgirem necessidades específicas.
+
+Já a estrutura tradicional de papéis definida pelo Scrum — como Scrum Master, Development Team e Product Owner — foi adaptada para a realidade deste projeto. Em função do tamanho reduzido da equipe de desenvolvimento, optou-se por não designar um Scrum Master. Por outro lado, o papel de Product Owner (PO) foi mantido, sendo desempenhado pela Professora Paula Uessugue, que assume a responsabilidade de representar as necessidades dos usuários e priorizar os requisitos do produto.
+
+Além das práticas do Scrum, este projeto incorporou também técnicas derivadas do Extreme Programming (XP), com o objetivo de aprimorar a qualidade do código e aumentar a produtividade. Dentre as práticas adotadas do XP, destacam-se a programação em pares (pair programming), que favorece a troca constante de conhecimento e a redução de erros; a refatoração contínua, voltada à melhoria incremental da estrutura do código; e a ênfase na simplicidade, buscando sempre soluções diretas e eficazes para os problemas encontrados. A adoção dessas práticas contribui para um desenvolvimento mais sustentável, com foco na manutenibilidade, qualidade e agilidade.
+
+Abaixo, na figura 3.2 é possível observar a representação de todo o ciclo de vida do projeto, estruturado com base nos artefatos e eventos definidos. A formação do backlog da sprint parte do backlog do produto e ocorre mediante uma priorização que considera o valor de negócio atribuído na etapa de levantamento e organização dos requisitos.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=1\linewidth]{ciclo-de-vida-scrum.png}
+    \caption{Ciclo de vida}
+    \caption*{Fonte: Autor, 2025.}
+    \label{fig:enter-label}
+\end{figure}
+
+\subsection{Artefatos}
+
+Ao longo do desenvolvimento do projeto, fez-se indispensável a utilização de determinados artefatos derivados tanto do framework Scrum quanto da metodologia visual Kanban, com o objetivo de organizar, acompanhar e gerir o progresso das atividades de maneira eficiente e estruturada.
+
+Entre os principais artefatos empregados, destaca-se o \textbf{Backlog do Produto}, que consiste em uma lista priorizada contendo todas as funcionalidades, melhorias e requisitos identificados para o sistema. Este backlog representa a visão global do produto, servindo como fonte principal para seleção das demandas que seriam trabalhadas em cada ciclo de desenvolvimento (Sprint).
+
+Outro artefato essencial foi o \textbf{Backlog da Sprint}, que corresponde a um subconjunto do backlog do produto, contendo exclusivamente as tarefas e funcionalidades selecionadas para serem desenvolvidas durante uma sprint específica. Este documento é atualizado de forma contínua, refletindo o avanço das tarefas, as mudanças nas prioridades e eventuais ajustes identificados durante a execução.
+
+O projeto também fará uso de um \textbf{Quadro Kanban}, uma ferramenta visual amplamente utilizada na gestão ágil de projetos, que permite monitorar claramente o fluxo de trabalho. O quadro foi organizado em colunas representando os estados das atividades, como “A Fazer” (To Do), “Em Andamento” (Doing) e “Concluído” (Done). Esse mecanismo proporcionou uma visão clara e objetiva do andamento de cada sprint, facilitando o controle das tarefas e a tomada de decisão.
+
+Por fim, ao término de cada sprint, será gerado um \textbf{Incremento}, que corresponde ao conjunto de funcionalidades implementadas, testadas e integradas ao código principal do projeto. Esse incremento representa uma versão funcional e potencialmente implantável do aplicativo, garantindo que, ao final de cada ciclo, haja um avanço concreto e validável na construção do sistema.
+
+\subsection{Fases de Desenvolvimento}
+
+\begin{itemize}
+
+    \item \textbf{Revisão e Planejamento da Sprint:} Ao final de cada ciclo semanal, serão discutidos os principais acontecimentos do ciclo, identificando os pontos positivos, os desafios enfrentados e as oportunidades de melhoria. Com base nessa análise, será possível aprimorar as estimativas de esforço e a organização das tarefas futuras. Simultaneamente, serão definidos os itens do Backlog do Produto que serão priorizados para compor o Backlog da Sprint subsequente, sempre considerando a ordem de prioridade estabelecida. Quando necessário, ajustes também serão feitos no próprio backlog do produto, refletindo aprendizados e necessidades observadas nos incrementos anteriores.
+
+    \item \textbf{Execução da Sprint:} Durante a sprint, o desenvolvimento será concentrado nas funcionalidades planejadas no backlog da sprint. A comunicação entre os integrantes será predominantemente assíncrona, permitindo que eventuais dúvidas ou problemas sejam resolvidos conforme surgirem. O acompanhamento do progresso será facilitado através do Quadro Kanban, que proporcionará uma visão clara do status de cada tarefa. Neste período que ocorrerá também os momentos de programação em pares e a realização dos testes necessários.
+
+    \item \textbf{Programação em Pares (Pair Programming):} Inspirada nas práticas do Extreme Programming (XP), a técnica de programação em pares será adotada sempre que se mostrar pertinente ao longo das semanas de desenvolvimento. Essa prática consiste em dois desenvolvedores trabalhando simultaneamente sobre o mesmo trecho de código, colaborando na resolução de problemas, no compartilhamento de conhecimentos e na melhoria da qualidade do software. Esse método se mostra especialmente útil na superação de dificuldades técnicas e na aceleração do desenvolvimento.
+
+    \item \textbf{Testes:} Paralelamente à implementação das funcionalidades, será conduzida a criação dos testes correspondentes, alinhados às boas práticas de desenvolvimento. Dependendo da natureza e da criticidade de cada funcionalidade, serão aplicados testes unitários, de integração ou de sistema. Essa estratégia visa assegurar que cada parte do software esteja funcionando corretamente, bem como garantir a robustez e a confiabilidade do aplicativo como um todo.
+
+\end{itemize}
+
+\vspace{1em}
+
+%
+\subsection{Requisitos}
+%
+
+Para que um projeto de software seja desenvolvido de forma eficiente e alinhada às expectativas dos usuários, torna-se fundamental, em um primeiro momento, realizar a identificação dos seus requisitos, ou seja, das especificações que definem as funcionalidades, comportamentos e restrições do sistema. Esses requisitos servem como base para orientar todo o processo de desenvolvimento, garantindo que o produto final atenda às necessidades para as quais foi concebido. Abaixo é detalhado como cada fase da engenharia de requisitos foi executada no contexto deste TCC.
+
+\vspace{1em}
+
+\textbf{Elicitação e análise}
+
+\vspace{1em}
+
+A etapa de elicitação dos requisitos foi conduzida por meio de uma entrevista estruturada com a professora Paula Uessugue, docente do curso de Nutrição da Universidade de Brasília (UnB), que também atua como Product Owner (PO) para o desenvolvimento do aplicativo. O principal objetivo dessa entrevista foi compreender, de maneira aprofundada, quais são as necessidades dos usuários no contexto de utilização do sistema, bem como identificar quais instrumentos e questionários seriam aplicados para o registro das informações dentro da aplicação.
+
+Além disso, buscou-se entender de forma clara quais seriam os resultados esperados a partir do preenchimento desses questionários, tanto no que se refere ao processamento dos dados quanto à geração das sugestões alimentares. Também foi discutida a maneira mais adequada de apresentar esses resultados aos usuários na interface do aplicativo, garantindo clareza, acessibilidade e alinhamento com as demandas práticas dos usuários.
+
+\vspace{1em}
+
+\textbf{Especificação}
+
+\vspace{1em}
+
+Após a realização das entrevistas, todas as informações coletadas foram organizadas e consolidadas na forma de requisitos, que foram devidamente documentados em um arquivo no formato Markdown, hospedado no repositório do projeto no GitHub. Esse documento serviu como base inicial para a formalização dos requisitos, sendo continuamente atualizado conforme surgiam novos entendimentos e validações ao longo do desenvolvimento. Assim sendo, este material foi estruturado como Backlog do Produto, que passou a desempenhar o papel central na gestão das funcionalidades, priorização de tarefas e acompanhamento do progresso do projeto.
+
+\vspace{1em}
+
+\textbf{Validação}
+
+\vspace{1em}
+
+Na fase de validação dos requisitos, foram aplicadas práticas recomendadas na engenharia de software, conforme proposto por \cite{sommerville1997}. Esse processo teve como objetivo assegurar que os requisitos definidos estivessem corretos, completos e alinhados com as necessidades do projeto. Dentre as atividades realizadas, destacam-se:
+
+\begin{itemize}
+
+    \item Análise de Consistência: Procedimento destinado a verificar se os requisitos estavam livres de conflitos, contradições, ambiguidades ou duplicidades que pudessem comprometer o desenvolvimento.
+
+    \item Análise de Completude: Avaliação cujo foco foi assegurar que todos os comportamentos esperados do sistema, bem como suas funcionalidades essenciais, estivessem devidamente representados nos requisitos especificados.
+    
+\end{itemize}
+
+\vspace{1em}
+
+Durante esse processo, eventuais inconsistências ou lacunas identificadas foram imediatamente corrigidas, evitando assim que erros se propagassem para as etapas posteriores de desenvolvimento. Essa abordagem preventiva foi fundamental para reduzir retrabalho e garantir maior eficiência no ciclo de desenvolvimento do aplicativo.
+
+%
+\subsection{Arquitetura}
+%
+
+A presente seção tem como objetivo descrever a arquitetura adotada na solução proposta para o desenvolvimento deste aplicativo. De acordo com \cite{pressman2021}, a escolha do padrão arquitetural exerce influência direta sobre todo o ciclo de vida do software, uma vez que define a organização dos artefatos, os fluxos de dados, a modularização e a estrutura geral do sistema. A arquitetura escolhida orienta não apenas como os componentes são desenvolvidos, mas também como eles interagem entre si e evoluem ao longo do tempo.
+
+Dentre os diversos estilos arquiteturais existentes, optou-se pela utilização do estilo Arquitetural Baseado em Componentes, devido às suas características que promovem uma alta coesão, baixo acoplamento, facilidade de manutenção, escalabilidade e forte aderência a projetos desenvolvidos com frameworks baseados em componentes, como é o caso do React Native. E para o modelo arquitetural, foi escolhida a arquitetura monolítica, por oferecer simplicidade na organização e no gerenciamento do projeto, além de facilitar o desenvolvimento e a implantação em uma única unidade.
+
+\subsection{Estilo Arquitetural Baseado em Componentes}
+
+A Arquitetura Componentizada consiste na divisão do sistema em unidades menores chamadas de componentes, que são independentes, reutilizáveis e responsáveis por funcionalidades bem definidas dentro da aplicação. Cada componente encapsula sua lógica, sua interface e seu estado, comunicando-se com os demais por meio de interfaces e propriedades bem definidas.
+
+De acordo com \cite{pressman2021}, esse modelo arquitetural favorece a construção de sistemas mais robustos, modulares e de fácil manutenção, uma vez que qualquer alteração realizada em um componente não impacta diretamente os demais, desde que a interface de comunicação seja preservada.
+
+No contexto do aplicativo proposto, os componentes serão organizados da seguinte maneira:
+
+\begin{itemize}
+
+    \item \textbf{Componentes de Interface (UI Components):} São responsáveis pela construção da interface gráfica do aplicativo, incluindo botões, formulários, listas, cards, menus e demais elementos visuais. Estes componentes são desenvolvidos utilizando React Native em conjunto com o framework Expo, além do auxílio do NativeWind para estilização baseada em Tailwind CSS.
+
+    \item \textbf{Componentes de Página (Screens):} Representam cada uma das telas do aplicativo, sendo compostos pela combinação de múltiplos componentes de interface e pela integração com os dados e funcionalidades necessárias. Por exemplo, a tela de cadastro de preferências alimentares ou a tela de exibição das sugestões geradas.
+
+    \item \textbf{Componentes Funcionais (Hooks e Serviços)::} Abrangem funções responsáveis por tratar regras específicas, manipulação de estado, requisições assínronas e conexão com serviços de dados. Incluem também hooks personalizados que encapsulam lógicas como validações de formulários, controle de estado e consumo de APIs.
+
+    \item \textbf{Componentes de Dados (Repositories):} Encapsulam as operações relacionadas à persistência de dados locais, armazenamento temporário e interações com bancos de dados ou serviços externos.
+    
+\end{itemize}
+
+\vspace{1em}
+
+Essa organização permite que cada parte do sistema seja desenvolvida, testada e evoluída de maneira independente, promovendo maior agilidade no desenvolvimento, facilidade de manutenção e possibilidade de reutilização de código em diferentes contextos do aplicativo. Além disso, a arquitetura componentizada é altamente compatível com metodologias ágeis, como Scrum e práticas do Extreme Programming (XP), pois favorece entregas incrementais e contínuas.
+
+Dessa forma, a arquitetura adotada neste projeto busca equilibrar simplicidade estrutural, desempenho e escalabilidade, além de proporcionar uma base sólida para a evolução contínua do sistema. Abaixo, na Figura 3.3 há uma representação esquemática da estrutura de diretórios adotada para o projeto, seguindo o modelo de arquitetura componentizada.
+
+\begin{figure} [H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{arquitetura-componentizada.png}
+    \caption{Estrutura da arquitetura baseada em componentes}
+    \caption*{Fonte: Autor, 2025.}
+    \label{fig:enter-label}
+\end{figure}
+
+Essa estrutura favorece o isolamento de responsabilidades, o reaproveitamento de componentes e a escalabilidade do projeto, alinhando-se às boas práticas de desenvolvimento de aplicações móveis com React Native e Expo. Além disso, facilita o trabalho colaborativo da equipe, uma vez que cada parte do sistema pode ser desenvolvida, testada e mantida de forma independente, sem comprometer a integridade do restante do código.
+
+\subsection{Arquitetura Monolítica}
+
+A Arquitetura Monolítica consiste na construção de toda a aplicação em um único projeto, centralizando todas as funcionalidades em um único processo de execução e implantação. Esse modelo facilita o gerenciamento do sistema, permitindo que todas as partes compartilhem o mesmo espaço de memória e simplificando a comunicação interna entre módulos. De acordo com \cite{sommerville2011}, a arquitetura monolítica é adequada para sistemas de médio porte, pois reduz a complexidade do ambiente de desenvolvimento e implantação, tornando o processo de atualização e manutenção mais ágil durante as fases iniciais do projeto.
+
+\subsection{Desenvolvimento de Software}
+
+O processo de desenvolvimento da aplicação foi sustentado por um conjunto de tecnologias modernas e amplamente utilizadas na indústria de software, escolhidas por sua eficiência, ampla documentação e alinhamento com os objetivos do projeto. A seguir, são descritas as principais ferramentas e ambientes adotados durante a construção do sistema.
+
+\begin{itemize}
+
+    \item \textbf{React Native:} O React Native é um framework criado pelo Facebook que permite o desenvolvimento de aplicativos móveis nativos utilizando a linguagem JavaScript e o paradigma de componentes do React. Sua principal vantagem está na possibilidade de desenvolver aplicações para Android e iOS a partir de uma única base de código, o que reduz custos e acelera o tempo de entrega. Segundo \cite{kuederle2018}, o React Native oferece uma arquitetura flexível, baseada em componentes reutilizáveis, o que promove maior manutenibilidade e escalabilidade dos projetos.
+
+    \item \textbf{Node.js:} O Node.js é um ambiente de execução para código JavaScript no lado do servidor, baseado no motor V8 do Google Chrome. Destaca-se por sua natureza event-driven e assíncrona, o que o torna altamente eficiente para aplicações que demandam escalabilidade e manipulação intensiva de I/O (entrada e saída). Além disso, trata-se de uma tecnologia de código aberto, amplamente suportada pela comunidade e adotada em larga escala por grandes empresas. Como destaca \cite{Geekhunter2024}, o Node.js é uma solução robusta para sistemas modernos baseados em web.
+
+    \item \textbf{NativeWind:} O NativeWind é uma biblioteca que permite a utilização do utilitário Tailwind CSS dentro de projetos desenvolvidos com React Native. Essa abordagem facilita a criação de interfaces coesas e responsivas por meio da aplicação de classes utilitárias diretamente nos componentes da interface. A principal vantagem do NativeWind é a redução da complexidade na estilização, além da maior legibilidade e reuso do código, o que contribui para a agilidade no desenvolvimento e a consistência visual da aplicação.
+
+    \item \textbf{Visual Studio Code:} O Visual Studio Code (VS Code) é um editor de código-fonte leve, gratuito e multiplataforma, com suporte nativo a diversas linguagens de programação. Sua extensibilidade por meio de plugins torna-o uma ferramenta versátil, adequada para o desenvolvimento com React Native, Node.js e outras tecnologias modernas. De acordo com \cite{spinellis2021}, o VS Code representa uma solução moderna e eficiente para ambientes de desenvolvimento integrados em equipes ágeis.
+      
+\end{itemize}
+
+\vspace{1em}
+
+\subsection{Gerência de configuração de software}
+
+A gerência de configuração de software (SCM) é uma disciplina fundamental dentro da engenharia de software, responsável por estabelecer processos, diretrizes e práticas voltadas ao controle sistemático das modificações realizadas no sistema ao longo do seu ciclo de desenvolvimento. Sua aplicação visa assegurar que todas as alterações sejam devidamente rastreadas, documentadas e integradas de forma controlada.
+
+Essa prática torna-se essencial para evitar problemas como a perda de informações sobre o histórico de mudanças, a ocorrência de retrabalho e a geração de inconsistências entre diferentes versões do sistema desenvolvidas simultaneamente pela equipe. Segundo \cite{sommerville2007}, a ausência de um controle eficiente sobre a configuração do software pode comprometer significativamente a integridade do projeto e dificultar sua manutenção e evolução.
+
+\subsection{Repositório}
+
+Para o armazenamento e controle do código-fonte do projeto, foi utilizado um repositório na plataforma GitHub, que centraliza todo o desenvolvimento da aplicação. O repositório foi configurado como privado, garantindo que apenas os membros da equipe de desenvolvimento e o orientador tivessem acesso aos artefatos do projeto. A escolha pelo GitHub se deu, principalmente, devido à familiaridade da equipe com a ferramenta, além de seus recursos robustos de controle de versão, colaboração e rastreamento de alterações, os quais são fundamentais para manter a integridade e a organização do desenvolvimento ao longo de todo o ciclo de vida do software.
+
+\subsection{Política de Branchs}
+
+A estratégia adotada para a organização das branches no repositório foi inspirada no modelo Git Flow, proposto por Vincent Driessen \cite{driessen2010}, amplamente utilizado por equipes de desenvolvimento devido à sua robustez na gestão de versões e controle de mudanças. Contudo, para atender às necessidades específicas deste projeto, foram realizadas algumas adaptações na estrutura tradicional do Git Flow, incluindo a adição das branches release e docs, as quais não fazem parte da proposta original, mas foram fundamentais para o fluxo de trabalho adotado.
+
+A definição e a função de cada branch ficaram estabelecidas da seguinte maneira:
+
+\begin{itemize}
+
+    \item \textbf{Main:} Contém a versão mais estável e consolidada do projeto, pronta para deploy ou entrega. Qualquer alteração nesta branch reflete uma versão oficialmente liberada do software.
+
+    \item \textbf{Develop:} Serve como branch de integração, onde são reunidas todas as novas funcionalidades e correções desenvolvidas antes de serem promovidas à versão estável. É, portanto, uma versão de desenvolvimento que reflete o estado atual da construção do sistema.
+
+    \item \textbf{Feature:} Branch criada a partir da develop, destinada ao desenvolvimento de uma nova funcionalidade, melhoria específica ou implementação de algum item do backlog. Após finalizada e testada, é integrada novamente à develop.
+
+    \item \textbf{Hotfix:} Utilizada exclusivamente para correções emergenciais em produção. Quando um problema crítico é identificado na branch main, essa branch é criada para resolver rapidamente o problema e, após a correção, é integrada tanto na main quanto na develop.
+
+    \item \textbf{Release:} Branch criada a partir da develop quando uma versão do sistema está próxima de ser finalizada. Nela são feitas correções menores, ajustes finais e preparação para o lançamento. Após a finalização, ela é mesclada tanto na main quanto na develop.
+
+    \item \textbf{Docs:} Branch dedicada exclusivamente à documentação do projeto. Permite que a documentação evolua de forma independente do desenvolvimento do código, facilitando atualizações, correções e melhorias contínuas nos materiais de apoio, como o README, Wiki ou documentos técnicos.
+
+\end{itemize}
+
+\vspace{1em}
+
+Essa abordagem híbrida proporciona uma organização eficiente do fluxo de trabalho, assegurando maior controle sobre os diferentes estágios de desenvolvimento, manutenção da qualidade do código e facilidade na gestão de entregas e documentação. A introdução das branches release e docs contribuirá significativamente para atender às demandas específicas deste projeto acadêmico, tornando o processo mais organizado, rastreável e alinhado às boas práticas de desenvolvimento de software.
+
+\subsection{Política de commits}
+
+Para garantir clareza, rastreabilidade e organização no histórico de desenvolvimento do projeto, foi adotada uma política de padronização nas mensagens de commit. Essa prática visa facilitar a compreensão das alterações realizadas, tanto para os desenvolvedores envolvidos quanto para eventuais colaboradores futuros, além de contribuir para a manutenção, revisão e evolução do código de forma eficiente.
+
+O formato utilizado segue o seguinte padrão: \textbf{<tipo> <descrição breve e objetiva>}
+
+Nessa estrutura, o tipo indica a natureza da alteração realizada no código, enquanto a descrição resume, de forma clara, o que foi modificado. A seguir, são descritos os tipos definidos e suas respectivas finalidades:
+
+\begin{itemize}
+
+    \item \textbf{feat:} Indica a implementação de uma nova funcionalidade no sistema.
+
+    \item \textbf{fix:} Refere-se à correção de bugs ou problemas identificados.
+
+    \item \textbf{docs:} Usado para alterações relacionadas à documentação, como atualizações no README ou em arquivos de suporte.
+
+    \item \textbf{style:} Alterações puramente estéticas ou de formatação, como ajustes de identação, remoção de espaços, alterações de estilo, que não afetam a lógica do código.
+
+    \item \textbf{refactor:} Aplicado em mudanças na estrutura do código que não alteram seu comportamento externo, como melhorias internas, reorganização de funções ou métodos.
+
+    \item \textbf{test:} Relacionado à criação, modificação ou melhoria de testes automatizados.
+
+    \item \textbf{chore:} Utilizado para tarefas de manutenção e configuração do projeto, que não estão diretamente ligadas ao desenvolvimento de funcionalidades ou correção de erros. Exemplos incluem atualizações de dependências, ajustes em scripts ou arquivos de configuração.
+    
+\end{itemize}
+
+\vspace{1em}
+
+Exemplos de commits seguindo essa convenção:
+
+\begin{itemize}
+
+    \item \textbf{feat:} adicionar tela de cadastro de usuários
+
+    \item \textbf{fix:} corrigir erro no comportamento do botão de login
+
+    \item \textbf{docs:} atualizar README com instruções de execução
+
+    \item \textbf{style:} ajustar espaçamentos e identação nos componentes de tela
+
+    \item \textbf{refactor:} reorganizar funções do serviço de autenticação
+
+    \item \textbf{test:} adicionar testes unitários para o componente de sugestões
+
+    \item \textbf{chore:} atualizar dependências do projeto no package.json
+    
+\end{itemize}
+
+\vspace{1em}
+
+A adoção desta política contribui significativamente para a manutenção de um histórico limpo, organizado e semântico, alinhando-se às boas práticas de desenvolvimento de software recomendadas por autores como \cite{pressman2021}. Além disso, essa abordagem favorece a utilização futura de ferramentas de integração contínua, geração de changelogs automáticos e auditoria de modificações no código-fonte.
+
+%
+\section{Métricas}
+%
+
+Esta seção tem como finalidade descrever o processo de coleta e análise de métricas, com ênfase em fornecer subsídios para o acompanhamento administrativo e o gerenciamento do cumprimento do cronograma de entregas planejadas para o projeto.
+
+\subsection{GQM}
+
+Para apoiar esse processo, adotou-se a estratégia GQM (Goal-Question-Metric), proposta por \cite{basili1994}, que estabelece um método sistemático para definir e organizar a medição em projetos de software. O GQM estrutura o monitoramento em três níveis: objetivos, questões e métricas.
+
+A aplicação do método ocorreu por meio das seguintes etapas:
+
+\begin{itemize}
+
+    \item Definição dos objetivos principais, que destacam os focos prioritários da medição dentro do contexto do projeto.
+
+    \item Formulação de perguntas, que detalham cada objetivo e norteiam a investigação sobre o progresso e o desempenho das atividades.
+
+    \item Determinação das métricas, especificando os dados a serem coletados para responder de forma clara às questões formuladas.
+
+    \item Coleta, verificação e análise dos dados, garantindo que os registros sejam válidos, confiáveis e úteis para apoiar a tomada de decisão.
+    
+\end{itemize}
+
+\vspace{1em}
+
+A utilização dessa abordagem possibilita uma avaliação estruturada do andamento do desenvolvimento, identificando pontos de conformidade com as metas traçadas, além de sinalizar oportunidades de ajustes e melhorias nos processos.
+
+No âmbito desta pesquisa, o GQM foi especialmente direcionado para o acompanhamento das atividades de desenvolvimento de software, uma etapa central e de alta criticidade no projeto. Assim, foi realizada uma declaração formal dos objetivos de medição, sintetizada na Tabela 3.1, que detalha cada meta definida e as métricas correspondentes, permitindo um monitoramento claro e objetivo de todos os aspectos relevantes para a gestão do progresso do trabalho.
+
+
+
+
+\begin{table}[H]
+\centering
+% Usamos 'tabularx' com a largura do texto (\textwidth) para garantir que a tabela não ultrapasse a página.
+% O tipo de coluna 'X' permite que o texto seja quebrado em múltiplas linhas de forma automática.
+% O comando `\raggedright` evita espaçamento excessivo entre palavras em colunas estreitas.
+\begin{tabularx}{\textwidth}{| >{\raggedright\arraybackslash}p{4cm} | >{\raggedright\arraybackslash}X | >{\raggedright\arraybackslash}X |}
+\hline
+\textbf{Objetivos de Medição} & \textbf{Descrição do Objetivo} & \textbf{Questões e Métricas} \\ \hline
+
+\textbf{Objetivo 1:} Gerenciar e acompanhar o progresso do cumprimento dos requisitos do sistema a partir do backlog
+&
+\textbf{Analisar} o cumprimento dos requisitos do sistema
+\textbf{com o propósito de} entender o progresso do desenvolvimento em relação ao que foi planejado.
+\textbf{Em relação ao} backlog do produto.
+\textbf{Do ponto de vista do} gerente de projeto e do cliente.
+\textbf{No contexto do} desenvolvimento do sistema.
+&
+\textbf{Questão 1.1:} O backlog atende às necessidades do usuário? \newline
+\textbf{Métrica 1.1.1:} Número de tarefas concluídas do backlog \vspace{0.3cm} \newline
+\textbf{Questão 1.2:} O backlog foi cumprido? \newline
+\textbf{Métrica 1.2.1:} Número de tarefas concluídas do backlog \\ \hline
+
+\textbf{Objetivo 2:} Gerenciar e acompanhar o cronograma do desenvolvimento do sistema
+&
+\textbf{Analisar} o andamento do cronograma
+\textbf{com o propósito de} verificar a aderência aos prazos estabelecidos.
+\textbf{Em relação ao} escopo do projeto.
+\textbf{Do ponto de vista do} gerente de projetos e dos stakeholders.
+\textbf{No contexto do} planejamento e execução do projeto.
+&
+\textbf{Questão 2.1:} O cronograma está realista para o escopo do projeto? \newline
+\textbf{Métrica 2.1.1:} Porcentagem de funcionalidades mínimas implementadas no MVP. \\ \hline
+
+\textbf{Objetivo 3:} Gerenciar e acompanhar o progresso do desenvolvimento do sistema
+&
+\textbf{Analisar} o processo de desenvolvimento
+\textbf{com o propósito de} avaliar a produtividade da equipe e a qualidade do produto.
+\textbf{Em relação à} entrega de valor e à saúde do código.
+\textbf{Do ponto de vista da} equipe de desenvolvimento e do líder técnico.
+\textbf{No contexto das} sprints e do ciclo de vida do software.
+&
+\textbf{Questão 3.1:} Qual a produtividade média da equipe? \newline
+\textbf{Métrica 3.1.1:} Taxa de bugs corrigidos (bugs corrigidos / total de bugs encontrados). \newline
+\textbf{Métrica 3.1.2:} Número de tarefas concluídas \vspace{0.3cm} \newline
+\textbf{Questão 3.2:} Quantas versões do produto foram desenvolvidas? \newline
+\textbf{Métrica 3.2.1:} Total de releases entregues \vspace{0.3cm} \newline
+\textbf{Questão 3.3:} Quantas tarefas estão relacionadas a débitos técnicos? \newline
+\textbf{Métrica 3.3.1:} Número de débitos técnicos registrados \\ \hline
+\end{tabularx}
+\caption{Objetivos, questões e métricas definidas pelo método GQM}
+\caption*{Fonte: Autor, 2025.}
+\label{tab:gqm_corrigido}
+\end{table}
+
+%
+\section{Testes}
+%
+
+A realização de testes durante o processo de desenvolvimento é um fator essencial para assegurar que o sistema esteja funcionando conforme os requisitos definidos, de maneira confiável, eficiente e com qualidade. Com base nisso, foram adotadas estratégias de verificação sistemática por meio da aplicação de três tipos principais de testes: testes unitários, testes de integração e testes de sistema.
+
+\subsection{Testes unitários}
+
+Os testes unitários serão amplamente utilizados devido à sua praticidade e agilidade na execução. Esse tipo de teste é focado na validação de unidades isoladas do sistema — como funções e componentes — permitindo detectar falhas de forma precoce e com baixo custo. Por suas particularidades, os testes unitários contribuem para garantir que pequenas porções da lógica de negócio estejam funcionando corretamente e que os requisitos estejam sendo devidamente atendidos.
+
+Para a implementação dos testes unitários, será utilizada a ferramenta Jest, um framework amplamente consolidado na comunidade JavaScript, conhecido por sua facilidade de configuração, performance otimizada e abrangente suporte à análise de cobertura de código.
+
+Segundo a documentação oficial, o Jest foi inicialmente desenvolvido pelo Facebook com foco em testes de aplicações React, mas atualmente é utilizado em projetos variados de front-end e back-end, tornando-se uma solução robusta e versátil. Além disso, o Jest se destaca por executar testes de forma paralela, o que proporciona ganhos significativos de desempenho em projetos com grande volume de código.
+
+A escolha pelo Jest se justifica, portanto, não apenas pela sua compatibilidade com o ecossistema do React Native, mas também por sua ampla adoção pela comunidade, extensa documentação e facilidade na identificação de problemas. Tais características o tornam uma ferramenta adequada para o contexto deste projeto, que exige confiabilidade, agilidade e suporte técnico durante as fases de desenvolvimento e validação.
+
+\subsection{Testes de integração}
+
+Os testes de integração desempenham um papel essencial na verificação da interação entre diferentes módulos do sistema, assegurando que as funcionalidades implementadas de forma isolada operem corretamente quando combinadas. Esse tipo de teste visa identificar falhas na comunicação entre componentes, como inconsistências de dados, falhas de autenticação ou problemas na persistência das informações.
+
+No contexto deste projeto, os testes de integração foram empregados principalmente para verificar operações críticas que envolvem múltiplos elementos do sistema, como, por exemplo, o fluxo de cadastro de um usuário, no qual a comunicação entre o front-end, o back-end e o banco de dados é fundamental para o correto funcionamento da funcionalidade.
+
+Para a realização dos testes, será utilizado o Insomnia, uma ferramenta open-source amplamente utilizada para a realização de requisições HTTP no padrão REST. O Insomnia permite a simulação de chamadas a endpoints da API da aplicação, oferecendo uma interface intuitiva para o envio de dados, análise das respostas e verificação dos comportamentos esperados.
+
+A escolha pelo Insomnia se deu por sua facilidade de uso, suporte a diferentes métodos HTTP e recursos como histórico de requisições, organização por coleções e visualização clara das respostas da API. Tais características o tornam especialmente útil durante a fase de testes de integração, permitindo identificar com precisão eventuais falhas de comunicação entre os componentes da aplicação.
+
+\subsection{Testes Funcionais e de Interface (UI)}
+
+Além dos testes unitários e de integração, serão aplicados testes funcionais e de interface com o objetivo de validar o comportamento do sistema do ponto de vista do usuário final. Esses testes asseguram que as funcionalidades descritas nos requisitos estejam sendo executadas corretamente quando acionadas por meio da interface gráfica, e que a interação com os componentes visuais esteja ocorrendo conforme o esperado.
+
+Os testes funcionais verificam se o sistema atende aos seus propósitos e realiza as tarefas previstas — como o envio de formulários, navegação entre telas, e a geração de sugestões alimentares com base nos dados inseridos. Já os testes de interface (também chamados de testes de UI) focam na resposta visual e comportamental dos elementos da aplicação, como botões, campos de entrada, mensagens de erro e feedbacks visuais, garantindo que estejam acessíveis, responsivos e alinhados com as diretrizes de usabilidade.
+
+Para essa finalidade, será empregada ferramentas como a React Native Testing Library, que é uma extensão da popular Testing Library adaptada para aplicações desenvolvidas em React Native. Essa biblioteca oferece um conjunto de utilitários para simular interações do usuário e verificar a presença, comportamento e acessibilidade dos componentes da interface. Segundo \cite{domingues2020}, a adoção de bibliotecas que promovem testes baseados na perspectiva do usuário contribui significativamente para o aumento da confiabilidade da aplicação e melhora da experiência de uso.
+
+A escolha por realizar testes funcionais e de interface também se justifica pela natureza do público-alvo da aplicação — cuidadores de pessoas com Transtorno do Espectro Autista (TEA) —, o que exige interfaces claras, acessíveis e com feedbacks visuais bem definidos. A validação contínua dessas interações é, portanto, indispensável para assegurar que o sistema seja compreensível e eficaz em sua proposta.
+
+%
+\section{Tecnologias}
+%
+
+\subsection{Gestão do projeto}
+
+\begin{itemize}
+
+    \item \textbf{GitHub:} O GitHub é uma plataforma baseada em computação em nuvem voltada ao desenvolvimento colaborativo de software. Ele oferece uma série de funcionalidades que auxiliam no gerenciamento de projetos, entre as quais se destacam: o controle de versão distribuído, por meio da integração com o sistema Git; a criação e organização de issues; a geração e distribuição de releases (versões estáveis do sistema); e o uso de quadros no estilo Kanban, que permitem o acompanhamento visual do progresso das atividades.
+    
+\end{itemize}
+
+\vspace{1em}
+
+Conforme apresentado na subseção 3.2.4.0.2 — Política de Branches — o repositório do projeto, hospedado no GitHub, foi estruturado com seis branches distintas. Cada uma delas foi definida para atender a demandas específicas ao longo do ciclo de desenvolvimento, garantindo organização, rastreabilidade e melhor gerenciamento das entregas, essa organização é mostrada na Figura 3.4.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{organização-github.png}
+    \caption{Organização das branches - GitHub}
+    \caption*{Fonte: Autor, 2025.}
+    \label{fig:enter-label}
+\end{figure}
+
+\subsection{Ferramentas de comunicação}
+
+\begin{itemize}
+
+    \item \textbf{Microsoft Teams:} O Microsoft Teams é uma plataforma de comunicação corporativa que integra funcionalidades de mensagens instantâneas, reuniões virtuais, armazenamento de arquivos e integração com ferramentas do pacote Microsoft 365, como Word, Excel e PowerPoint. No contexto deste projeto, o Microsoft Teams foi escolhido como principal ferramenta de comunicação entre os membros da equipe de desenvolvimento, o Product Owner (PO) e o orientador. Tal escolha se justifica pela disponibilidade gratuita da plataforma aos estudantes da Universidade de Brasília (UnB), além da centralização de mensagens, agendamento de reuniões, compartilhamento de documentos e histórico de interações, o que contribui significativamente para a organização e acompanhamento das etapas do projeto.
+    
+\end{itemize}
+
+\vspace{1em}
+
+\subsection{Persistência de dados}
+
+A definição prévia da estratégia de persistência de dados é uma etapa fundamental no processo de desenvolvimento de um sistema de software. Essa definição envolve a escolha das tecnologias a serem utilizadas, bem como a modelagem e estruturação dos dados, de forma a garantir consistência, integridade, escalabilidade e facilidade de manutenção ao longo do ciclo de vida do projeto \cite{silberschatz2011}.
+
+Neste trabalho, a persistência dos dados será planejada antecipadamente, considerando as necessidades específicas do sistema, como o registro de informações sensíveis relacionadas à alimentação de pessoas com Transtorno do Espectro Autista (TEA). A antecipação dessa etapa permite uma visão mais clara da arquitetura geral da aplicação, além de facilitar o desenvolvimento dos mecanismos de acesso e armazenamento das informações.
+
+A seguir, serão apresentadas as tecnologias e abordagens adotadas para o armazenamento, gerenciamento e recuperação dos dados ao longo do sistema.
+
+\subsection{PostgreSQL}
+
+Dentre as tecnologias disponíveis para armazenamento estruturado de dados, optou-se pela utilização do PostgreSQL, um sistema gerenciador de banco de dados relacional (RDBMS) de código aberto amplamente adotado tanto no meio acadêmico quanto no mercado. O PostgreSQL destaca-se por sua conformidade com o padrão SQL, suporte a transações ACID, alta confiabilidade, robustez na manipulação de dados complexos e extensibilidade, o que o torna especialmente indicado para aplicações que exigem integridade e consistência nos dados \cite{postgresql2024}.
+
+A escolha dessa tecnologia se justifica também pelo fato de que o sistema em desenvolvimento lida com informações estruturadas e sensíveis, relacionadas às preferências alimentares, perfis individuais e sugestões geradas pelo algoritmo. A utilização de um banco relacional permite modelar essas entidades com clareza, definir restrições de integridade e realizar consultas eficientes e seguras.
+
+A comunicação entre o aplicativo e o banco de dados será realizada por meio de uma API RESTful construída em Node.js, responsável por mediar as operações de leitura, escrita, atualização e remoção de dados.
+
+Com isso, a persistência de dados nesta aplicação buscará atender a critérios de segurança, consistência e desempenho, garantindo que o armazenamento e o acesso às informações do usuário ocorram de forma eficiente e confiável.
+
+% Nomenclaturas de Siglas e Abreviações para este capítulo (coloque as do Capítulo 1 + as novas deste capítulo aqui, de forma única)
+\nomenclature[A]{UNB}{Universidade de Brasília}
+\nomenclature[A]{REST}{Representational State Transfer}
+\nomenclature[A]{ACID}{Atomicity, Consistency, Isolation, Durability}

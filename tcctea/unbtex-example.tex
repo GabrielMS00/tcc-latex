@@ -1,0 +1,375 @@
+%%
+%% UnBTeX: A class for bachelor, master, and doctoral thesis at the
+%% University of Brasilia (UnB), Brazil
+%% Version 1.5.4 2025/01/10
+%% Copyright (C) 2021-2025 by Henrique C. Ferreira <hcferreira@unb.br>
+%%
+%% This class file may be distributed and/or modified under the conditions
+%% of the LaTeX Project Public License, either version 1.3 of this license
+%% or (at your option) any later version. The latest version of this
+%% license is in:
+%% 
+%%    https://www.latex-project.org/lppl.txt
+%% 
+%% and version 1.3 or later is part of all distributions of LaTeX version
+%% 2005/12/01 or later.
+%%
+%% This file is a template for use with the UnBTex class
+%% To compile the document you should call pdflatex, bibtex, pdflatex
+%% 
+
+\documentclass[
+    % -- Opção da classe memoir -- https://www.ctan.org/pkg/memoir
+    oneside, % Para imprimir somente na frente da folha
+    %twoside, % Para imprimir na frente e no verso da folha
+    % -- Opção da classe abntex2 -- https://www.ctan.org/pkg/abntex2
+    sumario=tradicional, % Remova esta opção para sumário padrão ABNT
+    % -- Selecione o idioma no qual o trabalho será escrito
+    idioma=brazil, % Para texto principal em português
+    %idioma=english, % Para texto principal em inglês  
+    % -- Opções para as referências bibliográficas
+    bib=alf, % Bibliografia nas normas da ABNT, estilo autor-data
+    %bib=num, % Bibliografia nas normas da ABNT, estilo numérico
+    refback, % Indica na bibliografia onde cada referência é citada
+    % -- Selecione o estilo de numeração de figuras, tabelas, etc.
+    numb=chap, % Numeração por capítulo
+    %numb=abnt, % Numeração para o documento inteiro
+    ]{unbtex}
+
+% ---
+% Pacotes básicos (Adicione outros pacotes necessários para o seu trabalho)
+% ---
+\usepackage{lscape} % Pacote para rotacionar tabelas (e outros objetos)
+%\usepackage{pdflscape} % Pacote para rotacionar objetos e também a página do arquivo pdf
+\usepackage{afterpage} % Evita quebra de página quando inserir uma tabela (ou outro objeto) rotacionada
+% ---
+\usepackage{float}
+% ---
+% Compila a nomenclatura
+% ---
+\makenomenclature
+% ---
+
+% ---
+% Diretório das figuras
+\graphicspath{{unbtex-example/figuras}}
+% --- 
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% Informações do trabalho
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+% ---
+% Título
+% ---
+\titulo{Seletividade alimentar em portadores de TEA: Apoio tecnológico por software} % No idioma principal do texto
+% Insira \\ caso queira forçar quebras de linha no título
+% Não utilize caixa alta para o título do trabalho e nem das seções (com exceção de siglas)
+% ---
+\tituloestrangeiro{} % Escreva aqui título em português se o trabalho for escrito em inglês (caso contrário, deixe vazio)
+% ---
+
+% ---
+% Autores
+% ---
+\autori[]{Caio Mesquita}{Vieira}% \autori[]{Nome}{Sobrenome}
+% No caso de nomes como Carlos de Souza, utilize \autori[]{Carlos de}{Souza} (e não \autori[]{Carlos}{de Souza})
+% ---
+\autorii[]{Gabriel Marques de}{Souza} % Deixe os argumentos vazios se não tiver segundo autor
+% ---
+
+% ---
+% Código Cutter para a ficha catalográfica
+% Gerado a partir da entrada <Sobrenome, Nome> (do primeiro autor) no site https://www.tabelacutter.com/
+% ---
+\numerocutter{} % Para não imprimir o código na ficha catalográfica, deixe o argumento vazio
+%\numerocutter{769} % Prencher o argumento do comando apenas com os números gerados
+% ---
+
+% ---
+% Orientadores
+% ---
+\orientador[Orientador]{Prof. MSc.}{Ricardo Ajax Dias }{Kosloski} % Para alterar o gênero, basta trocar Orientador por Orientadora
+% ---
+\coorientador[Coorientadora]{Prof. Dra.}{Marília Miranda Forte}{Gomes} % Deixe os argumentos para nome e sobrenome vazios se não tiver coorientador 
+% ---
+
+% ---
+% Informações do curso
+% ---
+\tipotrabalho{Trabalho de Conclusão de Curso} % Dissertação de Mestrado; Tese de Doutorado (em português, mesmo que o trabalho seja em inglês)
+%\tipotrabalho{Tese de Doutorado}
+% ---
+\tipocurso{Engenharia de Software} % Nome do curso de graduação ou do programa de pós-graduação, em português
+%\tipocurso{Programa de Pós-Graduação em Engenharia Elétrica}
+% ---
+% Texto que aparece na folha de rosto e na folha de aprovação
+\preambulo{Trabalho de Conclusão de Curso submetido como requisito parcial para obtenção do grau de Engenheiro de Software.} 
+%\preambulo{Tese de Doutorado submetida ao Programa de Pós-Graduação em Engenharia Elétrica da Universidade de Brasília como parte dos requisitos necessários para obtenção do grau de Doutor.}
+% Consulte a secretaria/coordenação do curso para saber o que deve ser escrito no preâmbulo. Use português mesmo que o trabalho seja em inglês.
+% ---
+% Informação adicional para ser impressa na folha de rosto
+\publicacao{} % Deixe o argumento vazio caso não haja
+%\publicacao{Publicação PPGEE 201/23} % Também imprime as informações do trabalho no topo da página da ficha catalográfica
+% ---
+
+% ---
+% Instituição
+% ---
+%\instituicao[Universidade de Brasília]{Faculdade de Tecnologia}{} % Use português mesmo que o trabalho seja em inglês
+\instituicao[Universidade de Brasília]{FCTE}{Engenharia de Software}
+% Caso queira incluir o departamento da unidade acadêmica
+% ---
+
+% ---
+% Local e data da defesa
+% ---
+\local{Brasília}
+\dia{18}
+\mes{julho}
+\ano{2025}
+% ---
+
+% ---
+% Membros da banca
+% ---
+\membrodabancai{Prof. MSc. Ricardo Ajax Dias Kosloski ,\\ UnB/FCTE} % Membro 1 - Geralmente é o orientador
+\membrodabancaifuncao{Orientador} % Em português, mesmo que o trabalho seja em inglês.
+\membrodabancaii{Prof. Dra. Marília Miranda Forte Gomes ,\\ UnB/FCTE} % Membro 2
+\membrodabancaiifuncao{Coorientadora}
+\membrodabancaiii{Prof. Dr. Sérgio Antônio Andrade de Freitas ,\\ UnB/FCTE} % Membro 3
+\membrodabancaiiifuncao{Examinador interno}
+\membrodabancaiv{Prof. MSc. Cristiane Soares Ramos,\\ UnB/FCTE} % Deixe vazio se não tiver o quarto membro
+\membrodabancaivfuncao{Examinador interno}
+\membrodabancav{} % Deixe vazio se não tiver o quinto membro
+\membrodabancavfuncao{Examinador externo}
+% Comprimento da linha da assinatura (ajuste conforme necessidade)
+\signlinewidth{9cm}
+% ---
+
+% ---
+% Resumo em português
+% ---
+\begin{Resumo}
+Este documento exemplifica a elaboração de trabalho acadêmico (trabalho de conclusão de curso, dissertação e tese) a partir da classe UnB\TeX, uma extensão da classe \abnTeX\ para a Universidade de Brasília (UnB). Além de apresentar comandos básico de \LaTeX\ para inclusão de equações, tabelas e figuras, o documento mostra como utilizar pacotes adotados pela classe UnB\TeX\ para gerar referências bibliográficas, listas símbolos, caixas para teoremas e algoritmos, dentre outros elementos úteis ou obrigatórios para trabalhos acadêmicos. Espera-se que este documento facilite o uso da classe UnB\TeX\ na elaboração de trabalhos de alta qualidade gráfica mesmo por usuários com pouca experiência em \LaTeX.
+\end{Resumo}
+% ---
+
+% ---
+% Resumo em inglês
+% ---
+\begin{Abstract}
+This document demonstrates the preparation of academic works (such as final papers, dissertations, and theses) using the UnB\TeX\ class, an extension of the \abnTeX\ class developed for the University of Brasília (UnB). In addition to introducing basic \LaTeX\ commands for the inclusion of equations, tables, and figures, the document shows how to utilize packages integrated with the UnB\TeX\ class to generate bibliographic references, lists of symbols, and formatted boxes for theorems and algorithms, among other essential or useful elements for academic writing. The goal is to simplify the use of the UnB\TeX\ class, enabling even users with minimal \LaTeX\ experience to produce visually high-quality academic documents.
+\end{Abstract}
+% ---
+
+% ---
+% Palavras-chave (defina no mínimo 3 e no máximo 5)
+% ---
+% Palavras-chave
+\pchavei{Transtorno do Espectro Autista}
+\kwordi{Autism Spectrum Disorder} % Assumindo que kwordi é para a versão em inglês (keyword)
+\pchaveii{Seletividade Alimentar}
+\kwordii{Food Selectivity} % Assumindo que kwordii é para a versão em inglês (keyword)
+\pchaveiii{Aplicativo Mobile}
+\kwordiii{Mobile Application} % Assumindo que kwordiii é para a versão em inglês (keyword)
+% ---
+\pchaveiv{palavra-chave 4} % Deixe vazio se não tiver
+\kwordiv{keyword 4} % Deixe vazio se não tiver
+\pchavev{} % Deixe vazio se não tiver
+\kwordv{} % Deixe vazio se não tiver
+% ---
+
+% ---
+% Agradecimentos
+% ---
+% Idioma usado nos agradecimentos (pode ser em português, mesmo que o trabalho seja em inglês)
+\idiomaagradecimentos{brazil}
+%\idiomaagradecimentos{english}
+
+\begin{otherlanguage*}{\acklang}
+
+% Primeiro autor
+\begin{AgradecimentosAutorI}
+
+Agradeço primeiramente à minha família, pelo amor, apoio incondicional e por acreditarem em mim em cada etapa dessa jornada acadêmica. Vocês foram meu alicerce nos momentos difíceis e minha inspiração para seguir em frente.
+
+À minha companheira, por todo amor, paciência e compreensão nos dias em que precisei me ausentar para estudar. Sua presença e incentivo foram fundamentais para que eu pudesse chegar até aqui.
+
+Aos meus professores e orientadores, por toda dedicação, paciência e pelos ensinamentos compartilhados ao longo do curso e durante a construção deste trabalho. Cada orientação contribuiu diretamente para meu crescimento pessoal e profissional.
+
+Ao meu parceiro de TCC, pela parceria, comprometimento e companheirismo em todas as fases do projeto. Sua dedicação tornou esta caminhada mais leve, produtiva e motivadora.
+
+Por fim, Agradeco à Deus, que sem ele não seríamos nada.
+
+A todos que, direta ou indiretamente, contribuíram para a realização deste trabalho, meu muito obrigado.
+
+\end{AgradecimentosAutorI}
+
+% Segundo autor
+\begin{AgradecimentosAutorII}
+
+Agradeço, em primeiro lugar, à minha família, pelo apoio incondicional, pelo incentivo constante aos meus estudos e por toda a assistência prestada ao longo desta caminhada. Sem o amor, o cuidado e os sacrifícios de vocês, não seria possível chegar tão longe. Foi graças à força e aos esforços de cada um que este trabalho se tornou realidade.
+
+Aos professores que contribuíram para a minha formação acadêmica na Universidade, deixo meus mais sinceros agradecimentos. Em especial, aos professores orientadores deste trabalho, pela dedicação, paciência e orientação valiosa em cada etapa deste percurso.
+
+Por fim, deixo um agradecimento especial ao meu amigo e parceiro de TCC, cuja colaboração foi essencial para a concretização deste trabalho. Sua amizade, companheirismo e apoio nos desafios da vida fizeram toda a diferença para que pudéssemos chegar até aqui.
+
+\end{AgradecimentosAutorII}
+
+\end{otherlanguage*}
+% ---
+
+% ---
+% Dedicatória
+% ---
+
+% Primeiro autor
+\begin{DedicatoriaAutorI}
+Dedico este trabalho a todos que, de alguma forma, fizeram parte da minha trajetória.
+Aos meus familiares, pelo amor incondicional e apoio constante.
+Aos amigos, pela companhia nos momentos difíceis e pelas risadas nos dias leves.
+E a todos que acreditaram em mim mesmo quando eu duvidei.
+Este trabalho é resultado de muitos esforços compartilhados. 
+\end{DedicatoriaAutorI}
+
+
+% Segundo autor
+\begin{DedicatoriaAutorII}
+Dedico este trabalho à minha família, pelo amor incondicional, incentivo constante e por sempre acreditarem em meu potencial ao longo de toda a minha trajetória acadêmica. Agradeço, especialmente, a Deus, por ter me concedido força, sabedoria e perseverança para chegar até aqui. 
+\end{DedicatoriaAutorII}
+% ---
+
+% ---
+% Epígrafe
+% ---
+\begin{Epigrafe}
+\vspace*{\fill}
+\begin{flushright}
+    \textit{``Se você quer ser bem-sucedido,\\ precisa ter dedicação total, \\buscar seu último limite e dar o melhor de si.''\\
+    (Ayrton Senna)}
+\end{flushright}
+\end{Epigrafe}
+% ---
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% Início do documento
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+\begin{document}
+
+% ------------------------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ------------------------------------------------------------------------
+\pretextual
+% ------------------------------------------------------------------------
+
+% Insere capa e contracapa
+\imprimircapa
+
+% Insere folha de rosto
+\imprimirfolhaderosto*
+
+% Insere ficha bibliográfica
+\fichacatalografica
+
+% Insere folha de aprovação
+\imprimirfolhadeaprovacao
+
+% Insere dedicatória (elemento opcional)
+\imprimirdedicatoria
+
+% Insere agradecimentos (elemento opcional)
+\imprimiragradecimentos
+
+% Insere epígrafe (elemento opcional)
+\imprimirepigrafe
+
+% Insere resumos
+\imprimirresumos
+
+% Insere lista de figuras
+\imprimirlistadefiguras
+
+% Insere lista de quadros
+%\imprimirlistadequadros
+
+% Insere lista de tabelas
+\imprimirlistadetabelas
+
+% Insere lista de algoritmos
+%\imprimirlistadealgoritmos
+
+% Insere lista de códigos
+%\imprimirlistadecodigos
+
+% Insere a lista de abreviaturas e siglas e a lista de símbolos
+\imprimirlistadesiglasesimbolos
+
+% Insere o sumário
+\imprimirsumario
+
+% ------------------------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ------------------------------------------------------------------------
+\textualsimples % Cabeçalho com número da página e linha horizontal
+%\textual % Cabeçalho com número da página, título do capítulo/seção e linha horizontal
+% ------------------------------------------------------------------------
+
+% Imprime uma página para agrupar um conjunto de capítulos (parte)
+%\part{Nome da parte}
+
+% Capítulo de introdução
+\include{unbtex-example/capitulo1}
+
+% Capítulo de fundamentos teóricos ou técnicos
+\include{unbtex-example/capitulo2}
+
+% Capítulo com a proposta desenvolvida
+\include{unbtex-example/capitulo3}
+
+% Capítulo de resultados
+\include{unbtex-example/capitulo4}
+
+% Capítulo de conclusões
+\include{unbtex-example/capitulo5}
+
+% ------------------------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ------------------------------------------------------------------------
+\postextual
+% ------------------------------------------------------------------------
+
+% ---
+% Referências bibliográficas
+% ---
+% Arquivo com as referências bibliográficas
+\bibhang{2.2em} % Recuo da margem esquerda da lista de referências
+\bibliography{tcctea/unbtex-example/referencias} % O estilo de citação é selecionado automaticamente
+% ---
+
+
+
+% ---
+% Apêndices
+% ---
+\begin{apendicesenv}
+
+% Imprime uma página indicando o início dos apêndices
+\partapendices
+
+\include{unbtex-example/apendice-a}
+
+\include{unbtex-example/apendice-b}
+
+\include{unbtex-example/apendice-c}
+
+\end{apendicesenv}
+% ---
+
+
+
+\end{document}
