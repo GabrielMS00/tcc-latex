@@ -582,9 +582,6 @@ OUTPUT unbtex-example\capitulo5.aux
 INPUT .\unbtex-example\capitulo5.tex
 INPUT .\unbtex-example\capitulo5.tex
 INPUT unbtex-example\capitulo5.tex
-INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Bold-tlf-ts1.tfm
-INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\vf\public\stickstoo\SticksTooText-Bold-tlf-ts1.vf
-INPUT C:\Users\gabri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Bold-tlf-ts1--base.tfm
 INPUT .\unbtex-example.bbl
 INPUT .\unbtex-example.bbl
 INPUT unbtex-example.bbl
