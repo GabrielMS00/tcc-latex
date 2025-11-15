@@ -55,28 +55,26 @@
 \contentsline {subsection}{\numberline {3.5.2}Ferramentas de comunicação}{46}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Persistência de dados}{46}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}PostgreSQL}{47}{subsection.3.5.4}%
-\contentsline {chapter}{\chapternumberline {4}Proposta de Solução}{48}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {4}Solução Implementada}{48}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Sobre o Aplicativo}{48}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}O Público Alvo}{48}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}\textit {Backlog} do produto}{51}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Identidade Visual}{53}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Logotipo}{54}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Protótipo de Alta Fidelidade}{55}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Organização dos Dados}{56}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Estrutura de Usuários, Pacientes e Acompanhamento Profissional}{56}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Armazenamento de Dados de Avaliação (Questionários)}{56}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Base de Conhecimento Alimentar e Perfil Sensorial}{57}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Modelo de Sugestão, Opções e Feedback}{57}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Questionários e Métricas}{58}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Regra de negócio}{59}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Fundamentos e Modelo de Dados de Suporte}{60}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}O Fluxo Operacional do Algoritmo de Sugestão}{60}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Dinamismo e Adaptação: O Ciclo de Feedback}{61}{subsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.6.4}Agência do Usuário e o Papel do Profissional}{61}{subsection.4.6.4}%
-\contentsline {chapter}{\chapternumberline {5}Conclusões}{63}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introdução}{63}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{63}{section.5.2}%
+\contentsline {section}{\numberline {4.2}Identidade Visual}{48}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Logotipo}{48}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Interface do Aplicativo}{49}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Organização dos Dados}{50}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Estrutura de Usuários e Pacientes}{50}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Armazenamento de Dados de Avaliação (Questionários)}{50}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Base de Conhecimento Alimentar e Perfil Sensorial}{51}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4.3.4}Modelo de Sugestão, Opções e Feedback}{51}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4.4}Regra de negócio}{52}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Fundamentos e Modelo de Dados de Suporte}{52}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}O Fluxo Operacional do Algoritmo de Sugestão}{53}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Dinamismo e Adaptação: O Ciclo de Feedback}{53}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Agência do Usuário}{53}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Resultados das Métricas (GQM)}{54}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Conclusões}{55}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introdução}{55}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{55}{section.5.2}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{64}{chapter*.31}%
+\contentsline {chapter}{Refer\^encias}{56}{chapter*.25}%
 \renewcommand *{\cftappendixname }{Apêndice \space }
-\contentsline {part}{Ap\^endices}{67}{section*.32}%
+\contentsline {part}{Ap\^endices}{58}{section*.26}%

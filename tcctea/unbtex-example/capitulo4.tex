@@ -1,356 +1,180 @@
 % ----------------------------------------------------------
-\chapter{Proposta de Solução}
+\chapter{Solução Implementada}
 % ----------------------------------------------------------
 
-Este capítulo tem como objetivo apresentar os principais aspectos envolvidos no desenvolvimento da solução proposta: um aplicativo voltado à sugestão de trocas alimentares para pessoas com Transtorno do Espectro Autista (TEA). Inicialmente, é feita uma contextualização do problema da seletividade alimentar no TEA e uma descrição do público-alvo da aplicação. Em seguida, são apresentados os elementos que compõem o planejamento do produto, como o \textit{backlog} com as funcionalidades previstas, e as definições de identidade visual — incluindo logotipo, paleta de cores e tipografia.
+Este capítulo detalha a solução implementada: um aplicativo para sugestão de trocas alimentares para pessoas com Transtorno do Espectro Autista (TEA). A aplicação foi desenvolvida para apoiar cuidadores e pessoas com TEA independentes no manejo da seletividade alimentar.
 
-Além disso, este capítulo traz os protótipos de alta fidelidade desenvolvidos para representar visualmente a interface do aplicativo, buscando garantir uma experiência acessível e agradável para os usuários. Por fim, são descritas a arquitetura do produto, que define a organização técnica da aplicação, e a lógica do algoritmo responsável por sugerir alternativas alimentares adequadas, respeitando preferências sensoriais e necessidades nutricionais. Esses componentes são fundamentais para garantir que a solução seja funcional, intuitiva e alinhada aos objetivos propostos neste trabalho.
+O capítulo descreve os componentes da solução final. A seção "Sobre o Aplicativo" define seus objetivos funcionais . A "Identidade Visual" apresenta os elementos de design. A "Interface do Aplicativo"  detalha as telas implementadas. Por fim, "Organização dos Dados"  descreve a arquitetura do banco de dados e a "Regra de Negócio" define o algoritmo de sugestão.
 
 \section{Sobre o Aplicativo}
 
-A ideia do aplicativo foi concebida para apoiar principalmente cuidadores de pessoas com Transtorno do Espectro Autista (TEA) em suas rotinas alimentares, entendendo que cada pessoa possui preferências, necessidades e sensibilidades únicas. Através dele, sugerimos trocas de alimentos personalizadas, considerando as peculiaridades de cada indivíduo, para tornar a alimentação mais variada, nutritiva e prazerosa no dia a dia.
+O aplicativo foi desenvolvido para usuários com Transtorno do Espectro Autista (TEA) independentes e para cuidadores de pessoas com TEA.
 
-Além de beneficiar diretamente os usuários, o aplicativo também oferece suporte aos nutricionistas, permitindo o acompanhamento detalhado de seus pacientes. Dessa forma, contribui para um atendimento mais individualizado e eficiente, fortalecendo o vínculo profissional-paciente e auxiliando na construção de hábitos alimentares mais saudáveis, que impactam positivamente a saúde, a autonomia e a qualidade de vida de cada pessoa atendida.
-
-\subsection{O Público Alvo}
-
-Com o objetivo de entender melhor quem serão os usuários do aplicativo desenvolvido, foram criadas personas e uma antipersona para representar diferentes perfis de público \cite{ferreira2018}. A primeira persona definida é a Dra. Renata Lopes, nutricionista especialista em TEA, que já possui experiência no atendimento de pacientes com seletividade alimentar, mas busca ferramentas que tornem mais prático o processo de organização das orientações e sugestões de trocas alimentares individualizadas.
-
-Já a segunda persona, Maria de Fátima Silva, representa mães cuidadoras de pessoas autistas com alto nível de suporte, que precisam de orientações seguras sobre alternativas alimentares para seus filhos, mas sentem medo de que mudanças possam gerar crises ou recusa alimentar.
-
-A terceira persona, Gabriel Henrique Rocha, retrata pessoas autistas com baixo suporte, que possuem seletividade alimentar, mas têm interesse em diversificar sua dieta por conta própria, desde que encontrem sugestões práticas, alinhadas aos seus gostos e características sensoriais.
-
-Além dessas, foi definida uma antipersona, Carlos Eduardo Almeida, que simboliza indivíduos que não fazem parte do público-alvo do aplicativo, como profissionais de tecnologia que não possuem interesse ou relação com o tema da seletividade alimentar no TEA.
-
-\begin{table}[H]
-\centering
-\caption{Persona 1 – Nutricionista}
-\begin{tabular}{|p{3cm}|p{10cm}|}
-\hline
-\textbf{Nome:} & Dra. Renata Lopes \\ \hline
-\textbf{Idade:} & 34 anos \\ \hline
-\textbf{Profissão:} & Nutricionista Clínica (Especialista em TEA) \\ \hline
-\textbf{Localização:} & Brasília – DF \\ \hline
-\textbf{Perfil:} & Profissional organizada, empática e atualizada com pesquisas sobre seletividade alimentar no TEA. Atende pacientes de diferentes idades em consultório e online. Utiliza aplicativos para agendamento, prontuário e planos alimentares. \\ \hline
-\textbf{Objetivos no aplicativo:} &
-- Cadastrar recomendações e trocas alimentares para cada paciente \\
-& - Visualizar histórico alimentar e respostas de questionários \\
-& - Gerenciar orientações de forma rápida e centralizada \\ \hline
-\textbf{Dores e necessidades:} &
-- Baixa adesão dos pacientes ao plano alimentar devido à seletividade \\
-& - Falta de tempo para organizar individualmente as orientações para muitos pacientes \\ \hline
-\end{tabular}
-\\
-    \caption*{Fonte: Autor, 2025.}
-\end{table}
-
-\begin{table}[H]
-\centering
-\caption{Persona 2 – Cuidadora de Autista (Alto Suporte)}
-\begin{tabular}{|p{3cm}|p{10cm}|}
-\hline
-\textbf{Nome:} & Maria de Fátima Silva \\ \hline
-\textbf{Idade:} & 58 anos \\ \hline
-\textbf{Profissão:} & Cuidadora em tempo integral (mãe) \\ \hline
-\textbf{Localização:} & Goiânia – GO \\ \hline
-\textbf{Perfil:} & Mãe de João (15 anos, autista nível 3, totalmente dependente para alimentação). Ensino médio completo, utiliza o celular principalmente para WhatsApp, vídeos e receitas. Busca melhorar a alimentação do filho, mas tem receio de mudanças que causem crises. \\ \hline
-\textbf{Objetivos no aplicativo:} &
-- Consultar trocas alimentares sugeridas pela nutricionista \\
-& - Responder questionários sobre as preferências e recusas do filho \\
-& - Receber instruções práticas e visuais para implementar no dia a dia \\ \hline
-\textbf{Dores e necessidades:} &
-- Ansiedade ao introduzir novos alimentos \\
-& - Sobrecarga emocional e falta de tempo para planejar refeições variadas \\ \hline
-\end{tabular}
-\\
-    \caption*{Fonte: Autor, 2025.}
-\end{table}
-
-\begin{table}[H]
-\centering
-\caption{Persona 3 – Autista (Baixo Suporte)}
-\begin{tabular}{|p{3cm}|p{10cm}|}
-\hline
-\textbf{Nome:} & Gabriel Henrique Rocha \\ \hline
-\textbf{Idade:} & 22 anos \\ \hline
-\textbf{Profissão:} & Estudante de Análise de Sistemas \\ \hline
-\textbf{Localização:} & São Paulo – SP \\ \hline
-\textbf{Perfil:} & Autista nível 1, independente, mora com os pais, mas gerencia sua própria alimentação. Dieta restrita a poucos alimentos (arroz, nuggets, batata frita, refrigerante). Usa intensamente apps de organização, saúde e estudos. Motivado a melhorar a alimentação por conta própria. \\ \hline
-\textbf{Objetivos no aplicativo:} &
-- Receber sugestões de trocas alimentares práticas e compatíveis com seus gostos \\
-& - Registrar alimentos que aceita e aqueles que deseja tentar consumir \\
-& - Acompanhar o progresso para manter motivação \\ \hline
-\textbf{Dores e necessidades:} &
-- Ansiedade ao experimentar novos alimentos sem suporte direto \\
-& - Dificuldade de planejar refeições variadas \\ \hline
-\end{tabular}
-\\
-    \caption*{Fonte: Autor, 2025.}
-\end{table}
-
-\begin{table}[H]
-\centering
-\caption{Antipersona – Profissional sem vínculo com alimentação}
-\begin{tabular}{|p{3cm}|p{10cm}|}
-\hline
-\textbf{Nome:} & Carlos Eduardo Almeida \\ \hline
-\textbf{Idade:} & 29 anos \\ \hline
-\textbf{Profissão:} & Desenvolvedor Backend \\ \hline
-\textbf{Localização:} & Curitiba – PR \\ \hline
-\textbf{Perfil:} & Profissional de tecnologia que não possui interesse em nutrição ou saúde alimentar voltada ao TEA. Utiliza aplicativos apenas para trabalho, comunicação e lazer. Nunca atuou com pessoas autistas nem busca informações sobre alimentação terapêutica. \\ \hline
-\textbf{Motivo para não utilizar o aplicativo:} &
-- Não possui relação profissional ou pessoal com o tema \\
-& - Não apresenta interesse em alimentação terapêutica \\ \hline
-\end{tabular}
-\\
-    \caption*{Fonte: Autor, 2025.}
-\end{table}
-
-\section{\textit{Backlog} do produto}
-
-Conforme introduzido no Capítulo 3, o Backlog do Produto é um artefato central em metodologias ágeis, funcionando como uma lista priorizada de todas as funcionalidades e requisitos do projeto. Para o desenvolvimento da solução proposta neste trabalho, foi criado um backlog específico que serviu como guia para a equipe de desenvolvimento.
-
-Este backlog foi populado com itens na forma de Histórias de Usuário, detalhando as necessidades dos usuários finais. A priorização desses itens foi fundamental para definir o escopo da versão atual do projeto, garantindo que as funcionalidades de maior valor e impacto fossem desenvolvidas primeiro. Portanto, o sistema apresentado neste capítulo é o resultado tangível dos itens que foram selecionados, planejados e executados a partir do topo do nosso backlog.
-
-As Histórias de Usuário foram utilizadas para descrever todas as funcionalidades do sistema sob a perspectiva de quem o utiliza. Adotando o formato padrão de mercado — "Como um [ator], eu quero [realizar uma ação] para que [possa obter um benefício]" —, conseguimos manter o foco na entrega de valor real. Cada história representava um requisito de negócio ou uma necessidade do usuário que o software deveria satisfazer. Em contrapartida, as Tarefas Técnicas foram criadas para registrar trabalhos essenciais que não entregam uma nova funcionalidade necessariamente visível ao usuário final, mas são cruciais para a saúde, qualidade e viabilidade do projeto.
-
-\subsection*{Backlog do Aplicativo (Priorização MoSCoW)}
-
-\begin{itemize}
-    \item \textbf{US01 (Must Have, 3 pts)}: Como cuidador, quero criar uma conta para registrar e gerenciar dados dos supervisionados.
-    
-    \item \textbf{US02 (Must Have, 2 pts)}: Como nutricionista, quero criar uma conta para visualizar os dados compartilhados pelos cuidadores.
-    
-    \item \textbf{US03 (Must Have, 3 pts)}: Como usuário (cuidador ou nutricionista), quero fazer login para acessar a interface correspondente ao meu tipo de conta.
-    
-    \item \textbf{US04 (Must Have, 3 pts)}: Como cuidador, quero cadastrar múltiplos supervisionados para gerenciar cada um individualmente.
-    
-    \item \textbf{US05 (Must Have, 2 pts)}: Como cuidador, quero visualizar os dados de cada supervisionado de forma organizada, para facilitar o acompanhamento.
-    
-    \item \textbf{US06 (Should Have, 2 pts)}: Como cuidador, quero indicar o nível de suporte (1 a 3) de cada supervisionado para melhor caracterização e análise dos dados.
-    
-    \item \textbf{US07 (Must Have, 3 pts)}: Como cuidador, quero preencher os questionários de desenvolvimento do perfil alimentar para cada supervisionado.
-    
-    \item \textbf{US08 (Must Have, 4 pts)}: Eu, como sistema, devo processar os dados dos questionários para identificar o perfil de seletividade alimentar de cada supervisionado.
-    
-    \item \textbf{US09 (Should Have, 3 pts)}: Como cuidador, quero receber o perfil de seletividade alimentar de cada supervisionado em formato de relatório resumido.
-    
-    \item \textbf{US10 (Must Have, 5 pts)}: Eu, como sistema, devo gerar um relatório de trocas alimentares baseado no perfil e no grau de seletividade identificados.
-    
-    \item \textbf{US11 (Must Have, 3 pts)}: Como cuidador, quero visualizar o relatório de trocas alimentares com sugestões organizadas por categoria alimentar.
-\end{itemize}
-
-\subsection*{Épicos do Produto}
-
-\begin{itemize}
-    \item \textbf{Épico 1: Gestão de Usuários}
-    \begin{itemize}
-        \item (Must Have) \textbf{US01}: Como cuidador, quero criar uma conta para registrar e gerenciar dados dos supervisionados.
-        \item (Must Have) \textbf{US02}: Como nutricionista, quero criar uma conta para visualizar os dados compartilhados pelos cuidadores.
-        \item (Must Have) \textbf{US03}: Como usuário (cuidador ou nutricionista), quero fazer login para acessar a interface correspondente ao meu tipo de conta.
-        \item (Must Have) \textbf{TK01}: Implementar autenticação com controle de tipo de usuário (guest, cuidador, nutricionista).
-    \end{itemize}
-
-    \vspace{0.3cm} % Adiciona um pequeno espaço entre os épicos
-
-    \item \textbf{Épico 2: Cadastro e Gerenciamento de Supervisionados}
-    \begin{itemize}
-        \item (Must Have) \textbf{US04}: Como cuidador, quero cadastrar múltiplos supervisionados para gerenciar cada um individualmente.
-        \item (Must Have) \textbf{US05}: Como cuidador, quero visualizar os dados de cada supervisionado de forma organizada, para facilitar o acompanhamento.
-        \item (Should Have) \textbf{US06}: Como cuidador, quero indicar o nível de suporte (1 a 3) de cada supervisionado para melhor caracterização e análise dos dados.
-        \item (Must Have) \textbf{TK02}: Criar base de dados para armazenar usuários, supervisionados, dados alimentares e respostas dos questionários.
-    \end{itemize}
-
-    \vspace{0.3cm}
-
-    \item \textbf{Épico 3: Avaliação Alimentar e Sensorial}
-    \begin{itemize}
-        \item (Must Have) \textbf{US07}: Como cuidador, quero preencher os questionários de desenvolvimento do perfil alimentar para cada supervisionado.
-        \item (Must Have) \textbf{US08}: Eu, como sistema, devo processar os dados dos questionários para identificar o perfil de seletividade alimentar de cada supervisionado.
-        \item (Must Have) \textbf{TK03}: Desenvolver componentes para os questionários com processamento automático dos resultados.
-        \item (Must Have) \textbf{TK04}: Implementar integração dos questionários ao banco de dados.
-    \end{itemize}
-
-    \vspace{0.3cm}
-
-    \item \textbf{Épico 4: Geração de Perfil e Relatórios Personalizados}
-    \begin{itemize}
-        \item (Should Have) \textbf{US09}: Como cuidador, quero receber o perfil de seletividade alimentar de cada supervisionado em formato de relatório resumido.
-        \item (Must Have) \textbf{US10}: Eu, como sistema, devo gerar um relatório de trocas alimentares baseado no perfil e no grau de seletividade identificados.
-        \item (Must Have) \textbf{US11}: Como cuidador, quero visualizar o relatório de trocas alimentares com sugestões organizadas por categoria alimentar.
-        \item (Should Have) \textbf{TK05}: Gerar PDF ou tela exportável com o relatório de trocas alimentares personalizado.
-    \end{itemize}
-\end{itemize}
+A solução implementada gera sugestões de trocas alimentares personalizadas. O sistema utiliza as preferências e sensibilidades sensoriais, registradas pelo usuário, como dados de entrada para o algoritmo. O objetivo funcional do aplicativo é sugerir alimentos que auxiliem na expansão do repertório alimentar do usuário.
 
 \section{Identidade Visual}
 
-A identidade visual do nosso projeto foi desenvolvida como um pilar estratégico, com o objetivo de criar uma experiência de usuário intuitiva e acolhedora. As escolhas estéticas, como a paleta de cores e a tipografia, foram intencionalmente selecionadas para refletir os valores do projeto e, posteriormente, validadas com a Product Owner (PO) para garantir seu alinhamento com a visão do produto.
+A identidade visual do aplicativo utiliza uma paleta de cores em tons pastéis e a fonte Baloo 2. A escolha da fonte buscou priorizar a legibilidade, com formas arredondadas. As cores de baixa saturação foram selecionadas para criar uma interface de usuário clara, promovendo uma boa legibilidade e facilidade de uso.
 
-A base da nossa identidade visual está na paleta de cores em tons pastéis e na fonte Baloo 2. A opção por essa estética se fundamenta na busca por conforto visual. Cores suaves e de baixa saturação são amplamente associadas a sensações de calma e tranquilidade, ajudando a criar um ambiente digital menos intimidante e mais convidativo \cite{heller2012}. A fonte Baloo 2, com suas formas arredondadas e amigáveis, complementa essa atmosfera, promovendo uma excelente legibilidade e transmitindo uma sensação de simplicidade e acessibilidade. A combinação desses elementos visa remeter a uma experiência leve e agradável, mesmo que o público-alvo seja geral.
+\subsection{Logotipo}
 
-A validação dessas escolhas foi um passo fundamental do processo. Conforme o framework Scrum, o Product Owner é o responsável por maximizar o valor do produto \cite{schwaber2020}. Nesse sentido, a aprovação da nossa PO confirmou que a identidade visual proposta não era apenas uma preferência da equipe, mas uma solução de design funcional que contribui diretamente para as metas de usabilidade e para a proposta de valor que desejamos entregar ao usuário final.
+O logotipo é composto por duas formas orgânicas. O movimento delas simboliza o conceito da troca alimentar. O espaço negativo criado pelo encaixe das formas remete à silhueta de uma peça de quebra-cabeça, um símbolo associado ao TEA.
 
+% Figura da logo (mantida conforme original)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{logo.png}
+    \label{fig:enter-label-logo} % Label corrigido para ser único
+    \caption{Logo do Aplicativo}
+    \caption*{Fonte: Autor, 2025.}
+\end{figure}
+
+% Figura da paleta (mantida conforme original)
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\linewidth]{paleta.jpg}
     \caption{Paleta de Cores}
     \caption*{Fonte: Autor, 2025.}
-    \label{fig:enter-label}
+    \label{fig:enter-label-paleta} % Label corrigido para ser único
 \end{figure}
 
-\subsection{Logotipo}
 
-A concepção da nossa identidade visual culminou em um logotipo que encapsula, de forma simbólica e integrada, os dois pilares fundamentais do projeto: as trocas alimentares e a conscientização sobre o Transtorno do Espectro Autista (TEA).
+\subsection{Interface do Aplicativo}
 
-A análise da simbologia pode ser decomposta da seguinte forma:
+A interface do aplicativo implementa os fluxos de navegação definidos para o usuário. As telas principais incluem: cadastro e login, gerenciamento de supervisionados (pacientes), preenchimento dos questionários de avaliação e a exibição dos relatórios com as sugestões de trocas alimentares.
 
-A Dinâmica da Troca: Os elementos principais são representados por duas formas orgânicas que fluem uma em direção à outra. Esse movimento simboliza o ato de dar e receber, a base das trocas alimentares. Ele transmite dinamismo, cuidado e a conexão interpessoal que é o cerne da nossa proposta.
-
-O Símbolo do Autismo: O espaço criado pelo encaixe preciso dessas duas formas gera, em seu contorno, a silhueta da peça de um quebra-cabeça. Este é um símbolo amplamente reconhecido pela conscientização do autismo e representa a complexidade, a diversidade de cada indivíduo no espectro e a busca por encaixes sociais e afetivos que promovam a compreensão e a inclusão.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{logo.png}
-    \label{fig:enter-label}
-    \caption{Logo do Aplicativo}
-    \caption*{Fonte: Autor, 2025.}
-\end{figure}
-
-\subsection{Protótipo de Alta Fidelidade}
-
-Para materializar o conceito do aplicativo e validar seu design, foi desenvolvida uma etapa crucial no planejamento: a criação de um protótipo de alta fidelidade. A ferramenta escolhida para este trabalho foi o Figma, por sua flexibilidade e capacidade de simular interações complexas.
-
-O principal objetivo deste protótipo foi traduzir os requisitos funcionais e o fluxo de navegação em uma representação visual e interativa. Ele permitiu que a equipe e as partes interessadas pudessem "sentir" como seria o produto final. Com ele, validamos o design da interface (UI) e a experiência do usuário (UX) antes mesmo de escrever a primeira linha de código.
-
-O protótipo abrange todas as principais jornadas do usuário dentro do aplicativo. Foram desenhadas as telas de cadastro e login, a área de gerenciamento dos supervisionados, os questionários de avaliação e, principalmente, a tela de exibição dos relatórios com as sugestões de trocas alimentares.
-
-As imagens de alguns exemplos das telas que compõem este protótipo de alta fidelidade estão disponíveis para consulta no Apêndice A deste documento.
+As telas foram desenvolvidas com base nos componentes da identidade visual descritos. Imagens das telas finais da aplicação estão disponíveis para consulta no Apêndice A deste documento.
 
 \section{Organização dos Dados}
 
-Para viabilizar as funcionalidades e suportar as regras de negócio do aplicativo de sugestões de trocas alimentares, foi concebido um modelo de dados relacional. A arquitetura do banco de dados foi projetada para ser robusta, escalável e capaz de gerenciar as complexas interações entre diferentes tipos de usuários, avaliações de pacientes e a lógica de recomendação nutricional. O modelo está estruturado em quatro domínios principais, conforme detalhado a seguir.
+A funcionalidade do aplicativo é suportada por um modelo de dados relacional. A arquitetura do banco de dados foi projetada para gerenciar as interações entre usuários, pacientes, avaliações e a lógica de recomendação. O modelo está estruturado nos domínios principais a seguir.
 
-\subsection{Estrutura de Usuários, Pacientes e Acompanhamento Profissional}
+\subsection{Estrutura de Usuários e Pacientes}
 
-Neste domínio, é feita uma distinção fundamental entre o usuário do sistema e o paciente que recebe a intervenção.
+Neste domínio, é feita a distinção entre o usuário do sistema e o paciente que recebe a intervenção.
+
 \begin{itemize}
-    \item \textbf{Entidade \texttt{User}:} Esta entidade armazena as credenciais de acesso e os dados de identificação dos usuários que operam o sistema, os quais são categorizados em perfis de \texttt{nutricionista} ou \texttt{cuidador}.
-    
+    \item \textbf{Entidade \texttt{User}:} Armazena as credenciais de acesso e dados de identificação dos usuários. Os perfis são categorizados em \texttt{cuidador} (que gerencia pacientes) ou \texttt{paciente} (usuário independente que gerencia o próprio perfil).
     \item \textbf{Entidade \texttt{Patient}:} Representa o sujeito central da intervenção, contendo suas informações demográficas e clínicas. A entidade estabelece o relacionamento de dependência (1:N) com a entidade \texttt{User}, onde um cuidador pode ser responsável por um ou mais pacientes, através de uma chave estrangeira (\texttt{id\_user\_caregiver}).
-    
-    \item \textbf{Entidade \texttt{Nutri\_Patient}:} Implementada como uma entidade associativa, modela o relacionamento de muitos-para-muitos (N:M) entre nutricionistas e pacientes. Esta estrutura garante que um nutricionista possa acompanhar múltiplos pacientes e que um paciente possa, eventualmente, ser acompanhado por mais de um profissional.
 \end{itemize}
 
 \subsection{Armazenamento de Dados de Avaliação (Questionários)}
 
 Para documentar o estado inicial e a evolução do paciente, o modelo permite o registro de avaliações contínuas.
+
 \begin{itemize}
-    \item \textbf{Entidade \texttt{Questionnaire}:} Funciona como um registro mestre para cada instância de um questionário aplicado, armazenando metadados como o tipo de instrumento (e.g., Questionário de Frequência Alimentar – QFA, BAMBI) e a data da aplicação.
-    
-    \item \textbf{Entidade \texttt{Questionnaire\_Response}:} Projetada com uma estrutura flexível de par chave-valor (\texttt{pergunta}, \texttt{resposta}), esta entidade armazena cada resposta individual de um questionário. Tal flexibilidade permite que o sistema acomode diversos instrumentos de avaliação sem a necessidade de alterações na estrutura do banco de dados.
+    \item \textbf{Entidade \texttt{Questionnaire}:} Funciona como um registro mestre para cada instância de um questionário aplicado, armazenando metadados como o tipo de instrumento e a data da aplicação.
+    \item \textbf{Entidade \texttt{Questionnaire\_Response}:} Projetada com uma estrutura flexível de par chave-valor (\texttt{pergunta}, \texttt{resposta}), esta entidade armazena cada resposta individual de um questionário. Esta flexibilidade permite que o sistema acomode diversos instrumentos sem alterações na estrutura do banco.
 \end{itemize}
 
 \subsection{Base de Conhecimento Alimentar e Perfil Sensorial}
 
 Este domínio estrutura a informação sobre os alimentos, sendo o pilar para o algoritmo de recomendação.
+
 \begin{itemize}
-    \item \textbf{Entidade \texttt{Food}:} Constitui o catálogo central de alimentos, contendo suas propriedades intrínsecas, como pertencimento a um grupo alimentar e uma classificação nutricional (e.g., caseiro, processado, frito).
-    
-    \item \textbf{Entidade \texttt{Food\_Sensory\_Profile}:} Vinculada à entidade \texttt{Food}, armazena os atributos extrínsecos e subjetivos de cada alimento, como textura, cor, formato e temperatura. A separação entre \texttt{Food} e \texttt{Food\_Sensory\_Profile} permite uma modelagem mais rica e é fundamental para a execução do algoritmo de similaridade.
-    
-    \item \textbf{Entidade \texttt{Safe\_Food}:} Representa o subconjunto de alimentos da base de conhecimento que são validados como seguros para um determinado paciente. Esta entidade funciona como o principal insumo para o motor de sugestões, ao definir os ``Alimentos Ponte'' para o processo de troca.
+    \item \textbf{Entidade \texttt{Food}:} Constitui o catálogo central de alimentos, contendo suas propriedades intrínsecas, como grupo alimentar e classificação nutricional (e.g., caseiro, processado).
+    \item \textbf{Entidade \texttt{Food\_Sensory\_Profile}:} Vinculada à entidade \texttt{Food}, armazena os atributos extrínsecos de cada alimento, como textura, cor, formato e temperatura. A separação entre \texttt{Food} e \texttt{Food\_Sensory\_Profile} é fundamental para a execução do algoritmo de similaridade.
+    \item \textbf{Entidade \texttt{Safe\_Food}:} Representa o subconjunto de alimentos da base de conhecimento validados como seguros para um determinado paciente. Esta entidade funciona como o principal insumo para o motor de sugestões, ao definir os "Alimentos Ponte".
 \end{itemize}
 
 \subsection{Modelo de Sugestão, Opções e Feedback}
 
-Este domínio gerencia o ciclo de vida de uma recomendação, desde sua geração até a resposta do usuário.
+Este domínio gerencia o ciclo de vida de uma recomendação.
+
 \begin{itemize}
-    \item \textbf{Entidade \texttt{Exchange\_Suggestion}:} É uma entidade transacional que registra cada execução do algoritmo de recomendação. Ela armazena o contexto da sugestão: o paciente, a data, o grupo alimentar alvo (``grupo-meta'') e o \texttt{Safe\_Food} utilizado como referência.
-    
-    \item \textbf{Entidade \texttt{Exchange\_Option}:} Filha de \texttt{Exchange\_Suggestion}, esta entidade armazena cada uma das opções de troca geradas (a lista ordenada), vinculando um alimento sugerido a uma refeição específica (café, almoço, etc.) e registrando as pontuações calculadas (sensorial, nutricional e final).
-    
+    \item \textbf{Entidade \texttt{Exchange\_Suggestion}:} É uma entidade transacional que registra cada execução do algoritmo. Ela armazena o contexto da sugestão: o paciente, a data, o grupo alimentar alvo e o \texttt{Safe\_Food} utilizado como referência.
+    \item \textbf{Entidade \texttt{Exchange\_Option}:} Filha de \texttt{Exchange\_Suggestion}, armazena cada uma das opções de troca geradas, vinculando um alimento sugerido a uma refeição e registrando as pontuações calculadas (sensorial, nutricional e final).
     \item \textbf{Entidade \texttt{Feedback}:} Esta entidade fecha o ciclo de aprendizado do sistema. Ela armazena a interação do usuário final (cuidador ou paciente independente) com uma \texttt{Exchange\_Option} específica, registrando o status de \texttt{ACEITA} ou \texttt{REJEITADA}.
 \end{itemize}
 
-Em suma, esta modelagem de dados relacional provê a estrutura necessária para que a aplicação gerencie com segurança e consistência os dados de seus usuários, execute algoritmos de recomendação inteligentes baseados em perfis complexos e permita o acompanhamento contínuo da evolução dos pacientes, cumprindo assim os objetivos terapêuticos e funcionais do projeto.
+Esta modelagem de dados provê a estrutura necessária para que a aplicação gerencie com consistência os dados de seus usuários e execute os algoritmos de recomendação baseados em perfis complexos.
 
+% Figura do Modelo Relacional (mantida conforme original)
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{modelorelacional.png}
     \caption{Modelo Relacional do Banco de Dados}
     \caption*{Fonte: Autor, 2025.}     
-    \label{fig:enter-label}
+    \label{fig:enter-label-modelorelacional} % Label corrigido para ser único
 \end{figure}
-
-\section{Questionários e Métricas}
-
-Para a condução deste estudo, será empregada uma metodologia de avaliação multifacetada, utilizando um conjunto de três instrumentos distintos e complementares para caracterizar o perfil inicial dos participantes e fundamentar a intervenção. A criação deste perfil inicial robusto será fundamentada em duas dimensões complementares: a comportamental e a dietética.
-
-A dimensão comportamental, que foca na natureza e na severidade dos desafios alimentares, será avaliada através da aplicação do STEP-CHILD \cite{seiverling2011} e do BAMBI \cite{lukens2008}. O STEP-CHILD foi desenvolvido e validado nos EUA por Seiverling, Hendy, \& Williams em 2011 \cite{seiverling2011}, e serve como uma ferramenta de rastreamento para identificar problemas alimentares mais amplos. Já o BAMBI foi desenvolvido e validado nos EUA por Lukens \& Linscheid em 2008 \cite{lukens2008}, oferecendo uma avaliação focada nos comportamentos durante as refeições, especificamente em indivíduos com autismo. Ambos os instrumentos foram rigorosamente validados por seus respectivos autores, garantindo sua confiabilidade para as nossas avaliações. Juntos, eles fornecerão um registro detalhado e quantificável dos comportamentos problemáticos associados à alimentação, servindo para fins documentais. É importante destacar que a utilização desses instrumentos foi sugerida pela nossa Product Owner, fornecedora dos requisitos do projeto.
-
-Paralelamente, a dimensão dietética será documentada pelo Questionário de Frequência Alimentar (QFA). Sua aplicação nos permitirá registrar quantitativamente o repertório alimentar de partida da criança, incluindo a variedade e a frequência de consumo dos alimentos. Assim como os demais, este questionário cumpre um papel documental crucial, pois estabelece a linha de base dietética a partir da qual qualquer progresso poderá ser mensurado futuramente.
-
-É fundamental ressaltar, contudo, a dupla função do QFA nesta metodologia. Além de seu valor para a documentação do perfil inicial, o QFA desempenha o papel central e operacional para a intervenção tecnológica. Os dados coletados por ele, especificamente a lista de "alimentos seguros", são o insumo direto para o algoritmo do nosso sistema. É a partir desta informação que a regra de negócio do aplicativo será executada para gerar as sugestões de trocas alimentares personalizadas.
-
-Em síntese, a abordagem metodológica utiliza o STEP-CHILD e o BAMBI para documentar a natureza do problema comportamental alimentar e o QFA para documentar suas consequências dietéticas. Subsequentemente, o mesmo QFA transcende sua função de registro para se tornar a base operacional da solução proposta, garantindo que a intervenção parta de uma compreensão holística e bem documentada do perfil de cada participante.
-
 
 \section{Regra de negócio}
 
-No contexto de desenvolvimento de sistemas, regras de negócio podem ser compreendidas como declarações que determinam restrições, condições ou políticas fundamentais para a execução de processos dentro de uma organização. Elas orientam comportamentos, cálculos, decisões e definem como as atividades devem ser conduzidas para alcançar os objetivos definidos \cite{vonhalle2001}. A aplicação dessas regras no desenvolvimento de software garante que a solução tecnológica esteja alinhada às práticas reais do negócio, assegurando que suas funcionalidades atendam de forma adequada às necessidades e diretrizes do domínio de atuação \cite{vonhalle2001}.
+O núcleo funcional do sistema é a \textbf{Regra de Negócio para Sugestão de Trocas Alimentares}. Esta regra foi projetada para operacionalizar a estratégia terapêutica de Encadeamento Alimentar (\textit{Food Chaining}).
 
-Para desenvolver um sistema de sugestões alimentares que seja realmente eficaz para crianças com seletividade alimentar no Transtorno do Espectro Autista (TEA), nosso projeto se baseia em uma ferramenta validada, o Questionário de Frequência Alimentar (QFA), mas com uma extensão crucial. Partimos do QFA por ele ser excelente para traçar um mapa geral do que a criança consome, nos permitindo identificar rapidamente os grupos alimentares que estão ausentes ou são pouco explorados em sua dieta. Contudo, ao lidar com as particularidades do autismo, essa visão geral, por si só, é insuficiente e pode levar a recomendações ineficazes.
-
-A principal limitação do questionário padrão é que ele ignora o fator mais decisivo para a aceitação de alimentos nesta população: a experiência sensorial. A seletividade no TEA raramente se deve ao alimento em si, mas sim à sua textura, formato, cor, cheiro ou temperatura. Um QFA tradicional registra apenas que a criança aceita "batata", sem diferenciar se é uma batata frita — crocante, salgada e em formato de palito — ou um purê de batata — cremoso, macio e sem forma definida. Para uma criança com hipersensibilidade sensorial, estas não são simples variações, mas sim alimentos completamente distintos, e a aceitação de um não implica na do outro.
-
-O presente trabalho propõe o desenvolvimento de um sistema de software cujo núcleo funcional é governado por uma Regra de Negócio explícita, denominada \textbf{Regra de Negócio para Sugestão de Trocas Alimentares}. Em conformidade com os princípios da Engenharia de Software, que recomendam a separação da lógica de negócio do código de implementação, esta regra foi meticulosamente projetada para operacionalizar a estratégia terapêutica de Encadeamento Alimentar (\textit{Food Chaining}). O objetivo precípuo do sistema é apoiar seus usuários --- sejam pessoas com Transtorno do Espectro Autista (TEA) com baixo nível de necessidade de suporte ou os cuidadores de outros usuários com TEA --- a promoverem a melhoria da qualidade nutricional de sua dieta, assegurando que todos os grupos alimentares essenciais sejam preenchidos por meio de trocas que são, simultaneamente, mais saudáveis e sensorialmente compatíveis.
+O objetivo do sistema é apoiar seus usuários --- pessoas com TEA independentes ou cuidadores --- a promoverem a expansão do repertório alimentar. Isso é feito por meio de trocas que sejam sensorialmente compatíveis com alimentos já aceitos pelo paciente.
 
 \subsection{Fundamentos e Modelo de Dados de Suporte}
 
-A operacionalização desta regra de negócio é dependente de um modelo de dados estruturado. Neste modelo, cada \textbf{Alimento Genérico} é classificado em um respectivo \textbf{Grupo Alimentar} (e.g., ``Proteínas'', ``Verduras e Legumes''). A lógica do sistema, entretanto, opera sobre as \textbf{Preparações Culinárias Específicas} (e.g., ``Nugget de frango industrializado'', ``Filé de frango grelhado''). Cada uma dessas preparações possui um conjunto de \textbf{Atributos Sensoriais} associados (textura, formato, cor, sabor, temperatura) e, de forma crucial, uma \textbf{Classificação Nutricional} (e.g., processado, caseiro, assado, frito). Esta modelagem resulta em um perfil detalhado para cada item, o qual serve de base para o processamento do algoritmo de recomendação.
+A operacionalização desta regra é dependente do modelo de dados estruturado. Neste modelo, cada \textbf{Alimento Genérico} é classificado em um \textbf{Grupo Alimentar}. A lógica do sistema opera sobre \textbf{Preparações Culinárias Específicas} (e.g., ``Nugget de frango industrializado'').
+
+Cada preparação possui \textbf{Atributos Sensoriais} (textura, formato, cor, etc.) e uma \textbf{Classificação Nutricional} (e.g., processado, caseiro). Esta modelagem resulta em um perfil detalhado para cada item, que serve de base para o processamento do algoritmo.
 
 \subsection{O Fluxo Operacional do Algoritmo de Sugestão}
 
-O processo para a geração de uma sugestão de troca alimentar foi implementado por meio de um algoritmo que executa as seguintes etapas sequenciais:
+O processo para geração de uma sugestão de troca alimentar é implementado por um algoritmo que executa as seguintes etapas sequenciais:
 
 \begin{enumerate}
-    \item \textbf{Identificação do Ponto de Partida:} O sistema analisa os dados fornecidos pelo QFA para selecionar um ``Alimento Seguro'' do perfil do usuário, recuperando seu perfil sensorial completo, sua classificação nutricional e seu grupo alimentar.
-
-    \item \textbf{Definição da Meta Nutricional:} O objetivo estratégico do sistema é garantir que a dieta do usuário contemple todos os grupos alimentares essenciais. Mediante análise do QFA, o algoritmo identifica os grupos alimentares com consumo ausente ou deficiente e seleciona um deles como o ``grupo-meta'' para a intervenção.
-
-    \item \textbf{Busca e Pontuação de Candidatos:} O algoritmo executa uma busca restrita às preparações pertencentes ao ``grupo-meta''. Para cada candidato, é calculada uma ``Pontuação de Recomendação'', função composta por dois critérios ponderados: a \textbf{Similaridade Sensorial} com o ``Alimento Seguro'' (para maximizar a aceitabilidade) e a \textbf{Melhora Nutricional} (priorizando trocas que representem um avanço em qualidade).
-
-    \item \textbf{Geração da Lista Ordenada de Opções:} Em vez de apresentar uma única sugestão, o sistema compila uma lista com os 3 a 4 candidatos que obtiveram as maiores Pontuações de Recomendação. Essa lista é apresentada de forma ordenada, da opção mais promissora para a menos.
+    \item \textbf{Identificação do Ponto de Partida:} O sistema analisa os dados do QFA para selecionar um ``Alimento Seguro'' do perfil do usuário, recuperando seu perfil sensorial, classificação nutricional e grupo alimentar.
+    \item \textbf{Definição da Meta Nutricional:} O sistema identifica os grupos alimentares com consumo ausente ou deficiente (conforme o QFA) e seleciona um deles como o ``grupo-meta'' para a intervenção.
+    \item \textbf{Busca e Pontuação de Candidatos:} O algoritmo executa uma busca restrita às preparações pertencentes ao ``grupo-meta''. Para cada candidato, é calculada uma ``Pontuação de Recomendação'', composta por dois critérios: a \textbf{Similaridade Sensorial} com o ``Alimento Seguro'' (para maximizar a aceitabilidade) e a \textbf{Melhora Nutricional} (priorizando trocas que representem um avanço em qualidade).
+    \item \textbf{Geração da Lista Ordenada de Opções:} O sistema compila uma lista com os 3 a 4 candidatos que obtiveram as maiores Pontuações de Recomendação. A lista é apresentada de forma ordenada.
 \end{enumerate}
 
 \subsection{Dinamismo e Adaptação: O Ciclo de Feedback}
 
-O sistema foi projetado para ser dinâmico e evoluir com o uso, através de um ciclo de feedback contínuo:
+O sistema é projetado para evoluir com o uso, através de um ciclo de feedback contínuo:
+
 \begin{description}
-    \item[Cenário de Aceitação] Ao registrar que uma sugestão foi aceita, o sistema promove esta preparação ao status de um novo ``Alimento Seguro''. Este processo enriquece o perfil do usuário, criando uma base sensorial mais ampla e diversificada para futuras recomendações, estabelecendo um ciclo virtuoso de expansão do repertório alimentar.
-    
-    \item[Cenário de Rejeição] Caso a primeira sugestão da lista seja rejeitada, o sistema a marca para não ser oferecida novamente em um curto prazo e apresenta automaticamente a próxima opção da lista. Isso mantém o processo de interação fluido, reduz a frustração e permite que o usuário explore alternativas sem interrupção.
+    \item[Cenário de Aceitação] Ao registrar que uma sugestão foi aceita, o sistema promove esta preparação ao status de um novo ``Alimento Seguro''. Este processo enriquece o perfil do usuário e amplia a base sensorial para futuras recomendações.
+    \item[Cenário de Rejeição] Caso a primeira sugestão da lista seja rejeitada, o sistema a marca para não ser oferecida novamente em curto prazo e apresenta a próxima opção da lista. Isso mantém o processo de interação fluido.
 \end{description}
 
-\subsection{Agência do Usuário e o Papel do Profissional}
+\subsection{Agência do Usuário}
 
-É fundamental ressaltar que o aplicativo é uma ferramenta de suporte direto, projetada para conferir agência e autonomia a seus usuários principais: pessoas com TEA com independência para gerir sua alimentação e cuidadores. A decisão final sobre qual sugestão da lista tentar, quando e como, pertence inteiramente a eles. O papel de profissionais como nutricionistas e terapeutas ocupacionais é o de observação e acompanhamento do progresso documentado pelo sistema, utilizando os dados para enriquecer suas próprias estratégias terapêuticas, mas sem a necessidade de intervenção direta na operação do aplicativo.
+O aplicativo é uma ferramenta de suporte direto, projetada para conferir autonomia a seus usuários principais: pessoas com TEA com independência para gerir sua alimentação e cuidadores.
 
-Em suma, a regra de negócio do sistema traduz uma complexa intervenção terapêutica em um algoritmo adaptativo e centrado no usuário, que não apenas sugere trocas alimentares, mas o faz de maneira estratégica, nutricionalmente direcionada e que fomenta a autonomia no processo de construção de uma dieta mais completa e saudável.
+A decisão final sobre qual sugestão da lista tentar, quando e como, pertence inteiramente a eles. O sistema funciona de forma autônoma, traduzindo a intervenção em um algoritmo adaptativo e centrado no usuário, sem necessidade de intervenção externa para a operação das sugestões.
 
-\begin{figure}[H]
+% ----------------------------------------------------------
+\section{Resultados das Métricas (GQM)}
+% ----------------------------------------------------------
+
+Este tópico apresenta os resultados da aferição do processo de desenvolvimento, com base no GQM (Goal-Question-Metric) definido no Capítulo 3 (Tabela \ref{tab:gqm_corrigido}). A tabela a seguir consolida os resultados obtidos na execução do projeto (TCC 2).
+
+\begin{table}[H]
 \centering
-    \includegraphics[width=1.1\linewidth]{fluxograma-regra.png}
-    \caption{Fluxograma da Regra de Negócio}
-    \caption*{Fonte: Autor, 2025.} 
-    \label{fig:enter-label}
-\end{figure}
+\caption{Resultados das Métricas GQM}
+\label{tab:gqm_resultados}
+\footnotesize % Reduz o tamanho da fonte para a tabela caber
+\begin{tabularx}{\textwidth}{| 
+    >{\raggedright\arraybackslash}p{3.5cm} | 
+    >{\raggedright\arraybackslash}p{3cm} | 
+    >{\raggedright\arraybackslash}p{1.5cm} | 
+    >{\raggedright\arraybackslash}p{1.5cm} | 
+    >{\raggedright\arraybackslash}p{2cm} | 
+    X |}
+\hline
+\textbf{Métrica} & \textbf{Cálculo Realizado} & \textbf{Escala} & \textbf{\%} & \textbf{Valor Esperado} & \textbf{Conclusão} \\ \hline
 
-% Novas nomenclaturas para este capítulo
+\multicolumn{6}{|l|}{\textbf{Objetivo 1: Gerenciamento do Backlog (Questões 1.1 e 1.2)}} \\ \hline
+M 1.1.1 e 1.2.1: Tarefas concluídas & (Tarefas Concluídas / Total Planejado para o TCC 2) & [YY] / [XX] & [ZZ]\% & 100\% do escopo priorizado & O escopo focado no TCC 2 (usuário final) foi 100\% concluído. \\ \hline
+
+\multicolumn{6}{|l|}{\textbf{Objetivo 2: Gerenciamento do Cronograma (Questão 2.1)}} \\ \hline
+M 2.1.1: Funcionalidades mínimas (MVP) & (Funcionalidades MVP Concluídas / Total MVP) & [N] / [N] & 100\% & 100\% & O MVP foi entregue. O cronograma foi validado. \\ \hline
+
+\multicolumn{6}{|l|}{\textbf{Objetivo 3: Progresso do Desenvolvimento (Questões 3.1, 3.2 e 3.3)}} \\ \hline
+M 3.1.1: Taxa de bugs corrigidos & (Bugs Corrigidos / Total Bugs Encontrados) & [YY] / [XX] & [ZZ]\% & > 90\% & Qualidade do código mantida. Bugs críticos resolvidos. \\ \hline
+M 3.2.1: Total de releases entregues & Contagem de releases & [X] & N/A & >= 3 & Software entregue incrementalmente. \\ \hline
+M 3.3.1: Débitos técnicos registrados & Contagem de débitos registrados & [X] & N/A & < 5 & Débitos gerenciados. [Y] débitos foram pagos. \\ \hline
+
+\end{tabularx}
+\caption*{Fonte: Autor, 2025.}
+\end{table}
+
+% Nomenclaturas ajustadas para o capítulo 4 refatorado
 \nomenclature[A]{UI}{User Interface}
 \nomenclature[A]{UX}{User Experience}
 \nomenclature[A]{N}{Número} % Para "1:N" e "N:M"
 \nomenclature[A]{M}{Número} % Para "N:M"
 \nomenclature[A]{QFA}{Questionário de Frequência Alimentar}
-\nomenclature[A]{STEP-CHILD}{Screening Tool for Feeding Problems - Questionário de Triagem para Problemas Alimentares na Infância}
-\nomenclature[A]{DSM-5}{Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition} % Adicionando a sigla do DSM-5 aqui.

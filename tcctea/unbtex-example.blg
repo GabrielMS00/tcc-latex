@@ -34,7 +34,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: abntex2-options.bib
 Database file #2: unbtex-example/referencias.bib
 Warning--entry type for "Geekhunter2024" isn't style-file defined
---line 198 of file unbtex-example/referencias.bib
+--line 395 of file unbtex-example/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -44,45 +44,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | https://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 32 entries,
+You've used 26 entries,
             6770 wiz_defined-function locations,
-            1358 strings with 14585 characters,
-and the built_in function-call counts, 24401 in all, are:
-= -- 1933
-> -- 868
-< -- 123
-+ -- 467
-- -- 261
-* -- 1691
-:= -- 3181
-add.period$ -- 102
-call.type$ -- 33
-change.case$ -- 262
-chr.to.int$ -- 91
-cite$ -- 27
-duplicate$ -- 1370
-empty$ -- 1810
-format.name$ -- 1234
-if$ -- 5702
+            1328 strings with 13544 characters,
+and the built_in function-call counts, 19767 in all, are:
+= -- 1611
+> -- 670
+< -- 119
++ -- 392
+- -- 201
+* -- 1353
+:= -- 2568
+add.period$ -- 80
+call.type$ -- 27
+change.case$ -- 208
+chr.to.int$ -- 79
+cite$ -- 21
+duplicate$ -- 1132
+empty$ -- 1451
+format.name$ -- 954
+if$ -- 4605
 int.to.chr$ -- 4
 int.to.str$ -- 3
-missing$ -- 581
-newline$ -- 136
-num.names$ -- 131
-pop$ -- 789
+missing$ -- 464
+newline$ -- 109
+num.names$ -- 101
+pop$ -- 620
 preamble$ -- 1
-purify$ -- 121
+purify$ -- 97
 quote$ -- 0
-skip$ -- 1617
+skip$ -- 1370
 stack$ -- 1
-substring$ -- 701
-swap$ -- 555
-text.length$ -- 19
+substring$ -- 588
+swap$ -- 460
+text.length$ -- 17
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 1
 warning$ -- 0
-while$ -- 164
+while$ -- 128
 width$ -- 0
-write$ -- 421
+write$ -- 332
 (There was 1 warning)
