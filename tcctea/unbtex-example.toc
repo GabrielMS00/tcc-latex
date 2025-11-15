@@ -65,16 +65,17 @@
 \contentsline {subsection}{\numberline {4.3.2}Armazenamento de Dados de Avaliação (Questionários)}{50}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4.3.3}Base de Conhecimento Alimentar e Perfil Sensorial}{51}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4.3.4}Modelo de Sugestão, Opções e Feedback}{51}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4.4}Regra de negócio}{52}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Fundamentos e Modelo de Dados de Suporte}{52}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}O Fluxo Operacional do Algoritmo de Sugestão}{53}{subsection.4.4.2}%
-\contentsline {subsection}{\numberline {4.4.3}Dinamismo e Adaptação: O Ciclo de Feedback}{53}{subsection.4.4.3}%
-\contentsline {subsection}{\numberline {4.4.4}Agência do Usuário}{53}{subsection.4.4.4}%
-\contentsline {section}{\numberline {4.5}Resultados das Métricas (GQM)}{54}{section.4.5}%
-\contentsline {chapter}{\chapternumberline {5}Conclusões}{55}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introdução}{55}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{55}{section.5.2}%
+\contentsline {subsection}{\numberline {4.3.5}Modelo Relacional e DER}{51}{subsection.4.3.5}%
+\contentsline {section}{\numberline {4.4}Regra de negócio}{54}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Fundamentos e Modelo de Dados de Suporte}{54}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}O Fluxo Operacional do Algoritmo de Sugestão}{55}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Dinamismo e Adaptação: O Ciclo de Feedback}{55}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Agência do Usuário}{55}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Resultados das Métricas (GQM)}{56}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {5}Conclusões}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introdução}{57}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{57}{section.5.2}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{56}{chapter*.25}%
+\contentsline {chapter}{Refer\^encias}{58}{chapter*.25}%
 \renewcommand *{\cftappendixname }{Apêndice \space }
-\contentsline {part}{Ap\^endices}{58}{section*.26}%
+\contentsline {part}{Ap\^endices}{60}{section*.26}%

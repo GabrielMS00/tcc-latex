@@ -563,12 +563,15 @@ INPUT .\unbtex-example\figuras\paleta.jpg
 INPUT .\unbtex-example\figuras\paleta.jpg
 INPUT .\unbtex-example\figuras\paleta.jpg
 INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\inconsolata\t1-zi4b-0.tfm
-INPUT .\unbtex-example\figuras\modelorelacional.png
-INPUT .\unbtex-example\figuras\modelorelacional.png
-INPUT .\unbtex-example\figuras\modelorelacional.png
-INPUT .\unbtex-example\figuras\modelorelacional.png
-INPUT .\unbtex-example\figuras\modelorelacional.png
-INPUT .\unbtex-example\figuras\modelorelacional.png
+INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\vf\public\newtx\ntxsy.vf
+INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txsys.tfm
+INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\newtx\txex-bar.tfm
+INPUT .\unbtex-example\figuras\DER_TCC_2.png
+INPUT .\unbtex-example\figuras\DER_TCC_2.png
+INPUT .\unbtex-example\figuras\DER_TCC_2.png
+INPUT .\unbtex-example\figuras\DER_TCC_2.png
+INPUT .\unbtex-example\figuras\DER_TCC_2.png
+INPUT .\unbtex-example\figuras\DER_TCC_2.png
 INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Regular-tlf-ot1G.tfm
 INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Regular-tlf-ot1G.tfm
 INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stickstoo\SticksTooText-Regular-tlf-ot1G.tfm
@@ -713,3 +716,5 @@ INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\q
 INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvb.pfb
 INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvr.pfb
 INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\type1\public\tex-gyre\qhvr.pfb
+INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb
+INPUT C:\Users\caiol\AppData\Local\Programs\MiKTeX\fonts\type1\public\newtx\txsys.pfb

@@ -87,15 +87,139 @@ Este domínio gerencia o ciclo de vida de uma recomendação.
     \item \textbf{Entidade \texttt{Feedback}:} Esta entidade fecha o ciclo de aprendizado do sistema. Ela armazena a interação do usuário final (cuidador ou paciente independente) com uma \texttt{Exchange\_Option} específica, registrando o status de \texttt{ACEITA} ou \texttt{REJEITADA}.
 \end{itemize}
 
+\subsection{Modelo Relacional e DER}
+
 Esta modelagem de dados provê a estrutura necessária para que a aplicação gerencie com consistência os dados de seus usuários e execute os algoritmos de recomendação baseados em perfis complexos.
+
+\begin{itemize}
+    \item \textbf{\texttt{cuidadores}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{tipo\_usuario}
+        \item \texttt{nome}
+        \item \texttt{email} (U)
+        \item \texttt{senha\_hash}
+        \item \texttt{cpf} (U)
+        \item \texttt{data\_nascimento}
+        \item \texttt{data\_cadastro}
+    \end{itemize}
+
+    \item \textbf{\texttt{assistidos}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{nome}
+        \item \texttt{data\_nascimento}
+        \item \texttt{nivel\_suporte}
+        \item \texttt{grau\_seletividade}
+        \item \texttt{cuidador\_id} (FK $\rightarrow$ cuidadores.id)
+    \end{itemize}
+
+    \item \textbf{\texttt{alimentos}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{nome} (U)
+        \item \texttt{grupo\_alimentar}
+    \end{itemize}
+
+    \item \textbf{\texttt{perfis\_sensoriais}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{forma\_de\_preparo}
+        \item \texttt{textura}
+        \item \texttt{sabor}
+        \item \texttt{cor\_predominante}
+        \item \texttt{temperatura\_servico}
+        \item \texttt{alimento\_id} (FK $\rightarrow$ alimentos.id)
+        \item (Unique: \texttt{alimento\_id}, \texttt{forma\_de\_preparo})
+    \end{itemize}
+
+    \item \textbf{\texttt{refeicoes}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{nome} (U)
+    \end{itemize}
+
+    \item \textbf{\texttt{perfil\_refeicao (N:M)}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{perfil\_sensorial\_id} (FK $\rightarrow$ perfis\_sensoriais.id)
+        \item \texttt{refeicao\_id} (FK $\rightarrow$ refeicoes.id)
+        \item (Unique: \texttt{perfil\_sensorial\_id}, \texttt{refeicao\_id})
+    \end{itemize}
+
+    \item \textbf{\texttt{alimentos\_seguros (N:M)}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{data\_adicao}
+        \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
+        \item \texttt{alimento\_id} (FK $\rightarrow$ alimentos.id)
+        \item (Unique: \texttt{assistido\_id}, \texttt{alimento\_id})
+    \end{itemize}
+
+    \item \textbf{\texttt{trocas\_alimentares}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{refeicao}
+        \item \texttt{data\_sugestao}
+        \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
+    \end{itemize}
+
+    \item \textbf{\texttt{detalhes\_troca}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{troca\_alimentar\_id} (FK $\rightarrow$ trocas\_alimentares.id)
+        \item \texttt{alimento\_novo\_id} (FK $\rightarrow$ alimentos.id)
+        \item \texttt{status}
+        \item \texttt{perfil\_sensorial\_id} (FK $\rightarrow$ perfis\_sensoriais.id)
+        \item \texttt{motivo\_sugestao}
+    \end{itemize}
+
+    \item \textbf{\texttt{modelos\_questionarios}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{nome} (U)
+    \end{itemize}
+
+    \item \textbf{\texttt{modelos\_perguntas}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{texto\_pergunta} (U)
+        \item \texttt{modelo\_questionario\_id} (FK $\rightarrow$ modelos\_questionarios.id)
+    \end{itemize}
+
+    \item \textbf{\texttt{modelos\_opcoes\_respostas}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{texto\_opcao}
+        \item \texttt{modelo\_pergunta\_id} (FK $\rightarrow$ modelos\_perguntas.id)
+    \end{itemize}
+
+    \item \textbf{\texttt{questionarios\_respondidos}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{data\_resposta}
+        \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
+        \item \texttt{cuidador\_id} (FK $\rightarrow$ cuidadores.id)
+        \item \texttt{modelo\_questionario\_id} (FK $\rightarrow$ modelos\_questionarios.id)
+    \end{itemize}
+
+    \item \textbf{\texttt{respostas}}
+    \begin{itemize}
+        \item \texttt{id} (PK)
+        \item \texttt{questionario\_respondido\_id} (FK $\rightarrow$ questionarios\_respondidos.id)
+        \item \texttt{modelo\_pergunta\_id} (FK $\rightarrow$ modelos\_perguntas.id)
+        \item \texttt{modelo\_opcao\_resposta\_id} (FK $\rightarrow$ modelos\_opcoes\_respostas.id)
+    \end{itemize}
+
+\end{itemize}
 
 % Figura do Modelo Relacional (mantida conforme original)
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{modelorelacional.png}
+    \includegraphics[width=1\linewidth]{DER_TCC_2.png}
     \caption{Modelo Relacional do Banco de Dados}
     \caption*{Fonte: Autor, 2025.}     
-    \label{fig:enter-label-modelorelacional} % Label corrigido para ser único
+    \label{fig:enter-label-modelorelacional} 
 \end{figure}
 
 \section{Regra de negócio}
