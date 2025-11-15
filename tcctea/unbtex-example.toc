@@ -74,8 +74,13 @@
 \contentsline {section}{\numberline {4.5}Resultados das Métricas (GQM)}{56}{section.4.5}%
 \contentsline {chapter}{\chapternumberline {5}Conclusões}{57}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Introdução}{57}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{57}{section.5.2}%
+\contentsline {subsection}{\numberline {5.1.1}Objetivos Específicos}{57}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Processo de desenvolvimento}{57}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{58}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Fragilidas Internas}{58}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Fragilidas Externas}{58}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Proposta de Evolução}{59}{subsection.5.2.3}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{58}{chapter*.25}%
+\contentsline {chapter}{Refer\^encias}{60}{chapter*.25}%
 \renewcommand *{\cftappendixname }{Apêndice \space }
-\contentsline {part}{Ap\^endices}{60}{section*.26}%
+\contentsline {part}{Ap\^endices}{62}{section*.26}%

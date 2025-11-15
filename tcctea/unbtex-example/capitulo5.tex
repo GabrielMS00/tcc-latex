@@ -4,17 +4,67 @@
 
 \section{Introdução}
 
-Fazer GQM baseado no TCC da Luiza e Arthur
+Após o desenvolvimento, o aplicativo apresentou uma solução para o problema da limitação da diversidade alimentar em indivíduos com Transtorno do Espectro Autista e seletividade. O trabalho foi executado conforme o escopo definido no planejamento do TCC1.
+
+Neste capítulo, serão abordados o cumprimento dos objetivos específicos, as fragilidades mapeadas no projeto e as propostas sugeridas para a evolução do software.
+
+\subsection{Objetivos Específicos}
+
+Os objetivos específicos, que foram definidos antes do processo de desenvolvimento ter começado, também foram cumpridos ao longo do processo de planejamento e de construção do software proposto. 
+
+Identificamos os conceitos necessários ao desenvolviemnto do aplicativo de software através de reuniões com a PO, que nos explicou os conecitos e os aspectos nessesários para que pudéssemos implementar a lógica das rocas alimentares dentro do contexto estabelecido. 
+
+Estabelecemos uma ferramenta de software para apoiar os cuidadores e os próprios indivíduos que possuem TEA e seletividade alimentar, através da criação de um aplicativo que atendesse aos aos requisitos que foram elicitados mediante entrevistas com a PO.
+
+Por fim, o software será disponibilizado para que a nossa PO possa estabelecer um estudo de caso para avaliar adequação do produto de software aos fins no qual ele se dedica.
+
+\subsection{Processo de desenvolvimento}
+
+O processo definido no TCC1 foi, em geral, cumprido, ainda que com ajustes pontuais que se mostraram necessários durante o desenvolvimento. Um exemplo foi a adequação das branches de gestão de configuração, visto que esta primeira versão foi restrita a dois desenvolvedores e não houve implantação (deploy) dos lançamentos.
+
+O método GQM possibilitou uma avaliação objetiva do andamento do projeto. As métricas utilizadas foram efetivas para validar as decisões adotadas e assegurar o cumprimento dos objetivos. Os dados coletados no processo formaram uma base concreta para o aprimoramento contínuo e a otimização da ferramenta.
+
+Os testes unitários do backend indicaram um nível satisfatório de cobertura e confiabilidade do código. Sua execução foi fundamental para atestar o funcionamento esperado das funcionalidades críticas e para identificar falhas antecipadamente, contribuindo para a robustez do sistema. Desta forma, o desenvolvimento manteve um padrão de qualidade consistente e alinhado às práticas de engenharia de software.
+
+Por fim, a aplicação dos testes de usabilidade com a PO confirmou que as necessidades dos usuários finais, levantadas no início do processo, foram atendidas. Além disso, os testes forneceram percepções valiosas sobre usabilidade e navegação, que indicam caminhos para futuras melhorias no projeto.
 
 \section{Fragilidades e Propostas de Evolução}
 
-Fragilidades internas:
+Apesar do resultado satisfatório obtido após a entrega da última release do projeto, ainda assim foram mapeados aspectos que se enquadram como fragilidades. Estes devem ser explorados com o propósito de reconhecer as limitações da proposta implementada e mapear futuras soluções para tornar o sistema mais robusto.
 
-- Porcentagem da cobertura de testes / Estrutura do banco de dados / Hospedagem do software (o software roda apenas localmente / não temos instalador) / 
-
-Fragilidades externas: 
-
-- Limitação da lista de alimentos cadastrados no software / Registro do software / 
+As fragilidades identificadas foram classificadas em duas categorias. As internas dizem respeito a potenciais vulnerabilidades do código, tais como uma API não otimizada, limitações do banco de dados ou falhas de segurança. As externas abordam limitações fora do escopo do código, que, no caso deste TCC, estão associadas à pesquisa e à utilização do software.
 
 
-Proposta de evolução: Adicionar conta de usuário da área da saúde / Adicionar IA para otimizar a lógica das trocas alimentares / 
+\subsection{Fragilidas Internas}
+
+\begin{enumerate}
+    \item \textbf{Porcentagem da cobertura de testes:} Apesar de uma boa cobertura de testes, o sistema não possui 100\% de cobertura, o que significa que algum erro ainda pode surgir durante o uso do app.
+
+    \item \textbf{Estrutura do banco de dados:} ESCREVER!
+
+    \item \textbf{Hospedagem do software:} Não há nenhum serviço de hospedagem sendo utilzado para o software, além disso, não há um instalador do aplicativo. Isso limita o uso do software pois ele só pode ser utilizado localmente.
+\end{enumerate}
+
+
+\subsection{Fragilidas Externas}
+
+\begin{enumerate}
+    \item \textbf{Limitação da lista de alimentos:} O software opera com uma lista pré-definida de alimentos e seus respectivos aspectos sensoriais. No entanto, essa lista é finita. Tal característica representa uma limitação, pois um usuário que recuse exaustivamente as sugestões eventualmente esgotará as opções disponíveis. Nesse cenário, o aplicativo não será mais capaz de gerar novas propostas.
+
+    \item \textbf{Registro do software:} ESCREVER!
+\end{enumerate}
+
+
+\subsection{Proposta de Evolução}
+
+Após a entrega da última release do software, uma série de sugestões foi mapeada com o propósito de documentação para um futuro trabalho de evolução do aplicativo. A lista com as propostas para futuras implementações é apresentada a seguir.
+
+\begin{enumerate}
+    \item \textbf{Criação de um novo tipo de conta:} Atualmente, o software possui dois tipos de conta: a do cuidador e a do indivíduo com TEA e seletividade alimentar. No entanto, identificou-se a oportunidade para a criação de um terceiro tipo, destinado ao profissional da área da saúde. Este perfil teria acesso aos dados dos indivíduos com TEA, permitindo a realização de acompanhamentos recorrentes.
+
+    \item \textbf{Utilização de IA:} O uso de Inteligência Artificial pode aprimorar as sugestões de troca alimentar. A tecnologia permitiria uma análise mais refinada dos padrões sensoriais dos alimentos já consumidos por indivíduos com TEA, com o objetivo de gerar propostas mais assertivas.
+
+    \item \textbf{Módulo de Relatórios de Progresso:} Para materializar os avanços e facilitar a comunicação com profissionais, sugere-se a implementação de um módulo de relatórios. O sistema poderia gerar gráficos simples sobre a evolução da aceitação alimentar do indivíduo, como o número de novos alimentos aceitos por período ou a frequência de consumo.
+
+    \item \textbf{Orientações de Preparo e Receitas:} A aceitação de um novo alimento muitas vezes depende da forma como ele é preparado. O aplicativo poderia ser expandido para incluir um módulo de receitas e orientações de preparo focadas em aspectos sensoriais.
+\end{enumerate}
