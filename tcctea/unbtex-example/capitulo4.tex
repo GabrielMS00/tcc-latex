@@ -2,9 +2,9 @@
 \chapter{Solução Implementada}
 % ----------------------------------------------------------
 
-Este capítulo detalha a solução implementada: um aplicativo para sugestão de trocas alimentares para pessoas com Transtorno do Espectro Autista (TEA). A aplicação foi desenvolvida para apoiar cuidadores e pessoas com TEA independentes no manejo da seletividade alimentar.
+Este capítulo detalha a solução implementada: um aplicativo para sugestão de trocas alimentares para pessoas com Transtorno do Espectro Autista (TEA). A aplicação foi desenvolvida para apoiar cuidadores e também pessoas com TEA independentes no manejo da seletividade alimentar.
 
-O capítulo descreve os componentes da solução final. A seção "Sobre o Aplicativo" define seus objetivos funcionais . A "Identidade Visual" apresenta os elementos de design. A "Interface do Aplicativo"  detalha as telas implementadas. Por fim, "Organização dos Dados"  descreve a arquitetura do banco de dados e a "Regra de Negócio" define o algoritmo de sugestão.
+O capítulo descreve os resultados da solução final. A seção "Sobre o Aplicativo" define seus objetivos funcionais . A "Identidade Visual" apresenta os elementos de design. A "Interface do Aplicativo"  detalha as telas implementadas. Por fim, "Organização dos Dados"  descreve a arquitetura do banco de dados e a "Regra de Negócio" define o algoritmo de sugestão.
 
 \section{Sobre o Aplicativo}
 
@@ -217,7 +217,7 @@ Esta modelagem de dados provê a estrutura necessária para que a aplicação ge
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{DER_TCC_2.png}
-    \caption{Modelo Relacional do Banco de Dados}
+    \caption{Diagrama Entidade-Relacionamento Banco de Dados}
     \caption*{Fonte: Autor, 2025.}     
     \label{fig:enter-label-modelorelacional} 
 \end{figure}
@@ -254,11 +254,7 @@ O sistema é projetado para evoluir com o uso, através de um ciclo de feedback 
     \item[Cenário de Rejeição] Caso a primeira sugestão da lista seja rejeitada, o sistema a marca para não ser oferecida novamente em curto prazo e apresenta a próxima opção da lista. Isso mantém o processo de interação fluido.
 \end{description}
 
-\subsection{Agência do Usuário}
 
-O aplicativo é uma ferramenta de suporte direto, projetada para conferir autonomia a seus usuários principais: pessoas com TEA com independência para gerir sua alimentação e cuidadores.
-
-A decisão final sobre qual sugestão da lista tentar, quando e como, pertence inteiramente a eles. O sistema funciona de forma autônoma, traduzindo a intervenção em um algoritmo adaptativo e centrado no usuário, sem necessidade de intervenção externa para a operação das sugestões.
 
 % ----------------------------------------------------------
 \section{Resultados das Métricas (GQM)}
@@ -295,6 +291,8 @@ M 3.3.1: Débitos técnicos registrados & Contagem de débitos registrados & [X]
 \end{tabularx}
 \caption*{Fonte: Autor, 2025.}
 \end{table}
+
+\section{Estrutura do Código do Projeto}
 
 % Nomenclaturas ajustadas para o capítulo 4 refatorado
 \nomenclature[A]{UI}{User Interface}
