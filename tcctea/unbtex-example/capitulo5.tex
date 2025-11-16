@@ -40,7 +40,7 @@ As fragilidades identificadas foram classificadas em duas categorias. As interna
 \begin{enumerate}
     \item \textbf{Porcentagem da cobertura de testes:} Apesar de uma boa cobertura de testes, o sistema não possui 100\% de cobertura, o que significa que algum erro ainda pode surgir durante o uso do app.
 
-    \item \textbf{Estrutura do banco de dados:} ESCREVER!
+   \item \textbf{Recuperação de Credenciais Simplificada:} O fluxo de recuperação de conta (para "esqueci minha senha") foi implementado de forma simplificada. Em vez de um sistema de redefinição baseado em token enviado por e-mail, o projeto utilizará um mecanismo de "palavra de segurança" definida pelo usuário no cadastro. Esta implementação é temporária. A abordagem foi adotada por não haver, no momento, um serviço de envio de e-mails configurado e uma infraestrutura de hospedagem definitiva. Embora funcional, este método é considerado menos robusto que os padrões de mercado e representa uma fragilidade na segurança da autenticação.
 
     \item \textbf{Hospedagem do software:} Não há nenhum serviço de hospedagem sendo utilzado para o software, além disso, não há um instalador do aplicativo. Isso limita o uso do software pois ele só pode ser utilizado localmente.
 
@@ -52,8 +52,6 @@ As fragilidades identificadas foram classificadas em duas categorias. As interna
 
 \begin{enumerate}
     \item \textbf{Limitação da lista de alimentos:} O software opera com uma lista pré-definida de alimentos e seus respectivos aspectos sensoriais. No entanto, essa lista é finita. Tal característica representa uma limitação, pois um usuário que recuse exaustivamente as sugestões eventualmente esgotará as opções disponíveis. Nesse cenário, o aplicativo não será mais capaz de gerar novas propostas.
-
-    \item \textbf{Registro do software:} ESCREVER!
     
     \item \textbf{Viés de Registro do Usuário:} A eficácia do sistema depende inteiramente da precisão e da consistência com que o usuário insere os dados de aceitação alimentar. A subjetividade na avaliação do usuário, como a interpretação do que seria aceitar bem um alimento, ou o esquecimento de registrar refeições podem gerar um perfil sensorial impreciso para o indivíduo, levando a sugestões de troca inadequadas.
     
@@ -74,3 +72,8 @@ Após a entrega da última release do software, uma série de sugestões foi map
 
     \item \textbf{Orientações de Preparo e Receitas:} A aceitação de um novo alimento muitas vezes depende da forma como ele é preparado. O aplicativo poderia ser expandido para incluir um módulo de receitas e orientações de preparo focadas em aspectos sensoriais.
 \end{enumerate}
+
+
+\subsection{Cronogramas}
+
+ADICIONAR CRONOGRAMAS
