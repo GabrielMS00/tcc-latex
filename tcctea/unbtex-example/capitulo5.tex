@@ -43,6 +43,8 @@ As fragilidades identificadas foram classificadas em duas categorias. As interna
     \item \textbf{Estrutura do banco de dados:} ESCREVER!
 
     \item \textbf{Hospedagem do software:} Não há nenhum serviço de hospedagem sendo utilzado para o software, além disso, não há um instalador do aplicativo. Isso limita o uso do software pois ele só pode ser utilizado localmente.
+
+    \item \textbf{Gerenciamento de Estado no Aplicativo - Fontend:} O aplicativo pode apresentar fragilidades na gestão de estado, especialmente em cenários de uso offline. Se o usuário registrar uma refeição ou aceitação sem conexão, o sistema pode não ter mecanismos robustos para sincronizar esses dados de forma segura quando a conexão for reestabelecida, gerando potencial perda de dados ou inconsistências.
 \end{enumerate}
 
 
@@ -52,6 +54,10 @@ As fragilidades identificadas foram classificadas em duas categorias. As interna
     \item \textbf{Limitação da lista de alimentos:} O software opera com uma lista pré-definida de alimentos e seus respectivos aspectos sensoriais. No entanto, essa lista é finita. Tal característica representa uma limitação, pois um usuário que recuse exaustivamente as sugestões eventualmente esgotará as opções disponíveis. Nesse cenário, o aplicativo não será mais capaz de gerar novas propostas.
 
     \item \textbf{Registro do software:} ESCREVER!
+    
+    \item \textbf{Viés de Registro do Usuário:} A eficácia do sistema depende inteiramente da precisão e da consistência com que o usuário insere os dados de aceitação alimentar. A subjetividade na avaliação do usuário, como a interpretação do que seria aceitar bem um alimento, ou o esquecimento de registrar refeições podem gerar um perfil sensorial impreciso para o indivíduo, levando a sugestões de troca inadequadas.
+    
+    \item \textbf{Fatores Comportamentais Não Mapeados:} O software foca primariamente nos aspectos sensoriais dos alimentos. Contudo, a recusa alimentar no TEA é multifatorial e pode envolver o contexto da refeição, fatores emocionais, ou a forma de apresentação do prato. O aplicativo, em sua versão atual, não captura essas variáveis, o que limita a eficácia de suas sugestões.
 \end{enumerate}
 
 
