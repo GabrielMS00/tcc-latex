@@ -2,60 +2,102 @@
 \chapter{Solução Implementada}
 % ----------------------------------------------------------
 
-Este capítulo detalha a solução implementada: um aplicativo para sugestão de trocas alimentares para pessoas com Transtorno do Espectro Autista (TEA). A aplicação foi desenvolvida para apoiar cuidadores e também pessoas com TEA independentes no manejo da seletividade alimentar.
+Este capítulo detalha a solução implementada: um aplicativo para sugestão de trocas alimentares para pessoas com Transtorno do Espectro Autista (TEA), desenvolvido para apoiar cuidadores e pessoas com TEA independentes no manejo da seletividade alimentar.
 
-O capítulo descreve os resultados da solução final. A seção "Sobre o Aplicativo" define seus objetivos funcionais . A "Identidade Visual" apresenta os elementos de design. A "Interface do Aplicativo"  detalha as telas implementadas. Por fim, "Organização dos Dados"  descreve a arquitetura do banco de dados e a "Regra de Negócio" define o algoritmo de sugestão.
+O texto descreve os resultados da solução final, iniciando pela seção "Sobre o Aplicativo", que define seus objetivos funcionais. Em seguida, as seções "Identidade Visual" e "Interface do Aplicativo" detalham os elementos de design e as telas implementadas. Por fim, "Organização dos Dados" descreve a arquitetura do banco de dados e a "Regra de Negócio" define o algoritmo de sugestão.
 
 \section{Sobre o Aplicativo}
 
 O aplicativo foi desenvolvido para usuários com Transtorno do Espectro Autista (TEA) independentes e para cuidadores de pessoas com TEA.
 
-A solução implementada gera sugestões de trocas alimentares personalizadas. O sistema utiliza as preferências e sensibilidades sensoriais, registradas pelo usuário, como dados de entrada para o algoritmo. O objetivo funcional do aplicativo é sugerir alimentos que auxiliem na expansão do repertório alimentar do usuário.
+A solução implementada gera sugestões de trocas alimentares personalizadas, utilizando as preferências e sensibilidades sensoriais registradas pelo usuário como dados de entrada para o algoritmo. O objetivo funcional do aplicativo é sugerir alimentos que auxiliem na expansão do repertório alimentar do usuário.
 
 \section{Identidade Visual}
 
-A identidade visual do aplicativo utiliza uma paleta de cores em tons pastéis e a fonte Baloo 2. A escolha da fonte buscou priorizar a legibilidade, com formas arredondadas. As cores de baixa saturação foram selecionadas para criar uma interface de usuário clara, promovendo uma boa legibilidade e facilidade de uso.
+A identidade visual do aplicativo utiliza uma paleta de cores em tons pastéis e a fonte Baloo 2. A escolha da fonte buscou priorizar a legibilidade por meio de formas arredondadas, enquanto as cores de baixa saturação foram selecionadas para criar uma interface de usuário clara, promovendo assim a facilidade de uso.
 
 \subsection{Logotipo}
 
-O logotipo é composto por duas formas orgânicas. O movimento delas simboliza o conceito da troca alimentar. O espaço negativo criado pelo encaixe das formas remete à silhueta de uma peça de quebra-cabeça, um símbolo associado ao TEA.
+O logotipo é composto por duas formas orgânicas, cujo movimento simboliza o conceito da troca alimentar. O espaço negativo criado pelo encaixe das formas remete à silhueta de uma peça de quebra-cabeça, um símbolo associado ao TEA.
 
 % Figura da logo (mantida conforme original)
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{logo.png}
-    \label{fig:enter-label-logo} % Label corrigido para ser único
-    \caption{Logo do Aplicativo}
-    \caption*{Fonte: Autor, 2025.}
+   \centering
+   \includegraphics[width=0.5\linewidth]{logo.png}
+   \label{fig:enter-label-logo} % Label corrigido para ser único
+   \caption{Logo do Aplicativo}
+   \caption*{Fonte: Autor, 2025.}
 \end{figure}
 
 % Figura da paleta (mantida conforme original)
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=0.75\linewidth]{paleta.jpg}
-    \caption{Paleta de Cores}
-    \caption*{Fonte: Autor, 2025.}
-    \label{fig:enter-label-paleta} % Label corrigido para ser único
+   \centering
+   \includegraphics[width=0.75\linewidth]{paleta.jpg}
+   \caption{Paleta de Cores}
+   \caption*{Fonte: Autor, 2025.}
+   \label{fig:enter-label-paleta} % Label corrigido para ser único
 \end{figure}
 
 
 \subsection{Interface do Aplicativo}
 
-A interface do aplicativo implementa os fluxos de navegação definidos para o usuário. As telas principais incluem: cadastro e login, gerenciamento de supervisionados (pacientes), preenchimento dos questionários de avaliação e a exibição dos relatórios com as sugestões de trocas alimentares.
+A interface do aplicativo implementa os fluxos de navegação definidos para o usuário, incluindo as telas principais de cadastro, login, gerenciamento de supervisionados, preenchimento dos questionários e exibição dos relatórios de trocas. As telas foram desenvolvidas com base nos componentes da identidade visual descritos, e imagens da aplicação final estão disponíveis no Apêndice A deste documento.
 
-As telas foram desenvolvidas com base nos componentes da identidade visual descritos. Imagens das telas finais da aplicação estão disponíveis para consulta no Apêndice A deste documento.
+
+\section{Estrutura do Código da Aplicação}
+
+A estrutura do código-fonte da aplicação reflete a arquitetura em 3 camadas (3-Tier). Este padrão de \textit{design} divide a aplicação em três unidades lógicas separadas para garantir a separação de responsabilidades: a Camada de Apresentação (a interface do usuário), a Camada de Negócio (o servidor com a lógica) e a Camada de Dados (o banco de dados).
+
+O projeto foi organizado em um formato \textit{monorepo}, onde o código-fonte do cliente (front-end) e do servidor (back-end) coexistem no mesmo repositório, mas estão desacoplados em diretórios distintos (\texttt{/app-tea} e \texttt{/backend}) para implementar fisicamente essa separação.
+
+O código-fonte completo da solução implementada está disponível no repositório do projeto e está hospedado na plataforma GitHub, no seguinte endereço: \url{https://github.com/GabrielMS00/Aplicativo_TCC_TEA}. 
+
+\subsection{Camada de Apresentação (Front-end)}
+
+O front-end está contido no diretório \texttt{/app-tea} e consiste em um aplicativo móvel desenvolvido em React Native com o framework Expo. Esta camada é a interface com a qual o usuário interage. Sua estrutura interna é organizada da seguinte forma:
+
+\begin{itemize}
+    \item \textbf{Roteamento (app/):} O sistema de navegação utiliza o \texttt{expo-router}, que adota uma abordagem de roteamento baseada em arquivos. Os diretórios dentro de \texttt{app/} definem as rotas da aplicação, como as rotas de autenticação \texttt{(auth)} e as rotas principais pós-login \texttt{(tabs)}.
+    
+    \item \textbf{Componentes (components/):} Contém os componentes de UI reutilizáveis, como botões, inputs e cards. A estilização desses componentes é feita com a biblioteca NativeWind.
+    
+    \item \textbf{Serviços de API (api/):} Abstrai a comunicação com o back-end. Um cliente \texttt{apiClient.ts} (baseado em Axios) é configurado, e serviços específicos (ex: \texttt{auth.ts}, \texttt{assistidos.ts}) exportam funções para consumir os \textit{endpoints}.
+    
+    \item \textbf{Gerenciamento de Estado (context/):} Utiliza a Context API do React para gerenciamento de estado global, como o contexto de autenticação (\texttt{AuthContext.tsx}), que provê os dados do usuário para a aplicação.
+\end{itemize}
+
+\subsection{Camada de Negócio e Dados (Back-end)}
+
+O back-end está contido no diretório \texttt{/backend} e consiste na API RESTful desenvolvida em Node.js com o framework Express.js. Esta implementação agrupa tanto a Camada de Negócio quanto a Camada de Dados:
+
+\begin{itemize}
+    \item \textbf{Rotas (src/api/routes/):} Define os \textit{endpoints} da API. O arquivo \texttt{index.js} centraliza os diferentes arquivos de rota (ex: \texttt{sugestaoRoutes.js}, \texttt{authRoutes.js}), que mapeiam os verbos HTTP (GET, POST, etc.) para os \textit{controllers} correspondentes.
+    
+    \item \textbf{Controladores (src/api/controllers/):} Responsáveis por receber as requisições (Request) e formular as respostas (Response). Eles validam os dados de entrada e orquestram a execução da lógica de negócio, acionando os \textit{services}.
+    
+    \item \textbf{Serviços (src/services/) - Camada de Negócio:} Contêm a lógica de negócio principal do sistema. Por exemplo, \texttt{sugestaoService.js} implementa o algoritmo da Regra de Negócio (comparação sensorial, pontuação), enquanto \texttt{processamentoQuestionarioService.js} lida com o processamento das respostas dos questionários.
+    
+    \item \textbf{Acesso a Dados (src/api/models/ e config/db.js) - Camada de Dados:} A camada de dados é implementada por \textit{models} que executam consultas SQL diretas no banco de dados PostgreSQL, cuja conexão é gerenciada pelo arquivo \texttt{db.js}.
+    
+    \item \textbf{Schema do Banco (migrations/):} A estrutura (schema) do banco de dados é gerenciada de forma versionada através de arquivos de migração (ex: \texttt{...create-table-cuidadores.js}), utilizando a ferramenta \texttt{node-pg-migrate}.
+\end{itemize}
+
+\subsection{Ambiente e Orquestração}
+
+Finalmente, a plataforma Docker é utilizada para padronizar e gerenciar o ambiente de execução. O \texttt{Dockerfile} define a imagem de contêiner para o back-end Node.js. O arquivo \texttt{docker-compose.yml}, na raiz do projeto, orquestra a inicialização conjunta da Camada de Negócio (serviço \texttt{api}) e da Camada de Dados (serviço \texttt{postgres}), garantindo um ambiente de desenvolvimento reprodutível e isolado.
+
 
 \section{Organização dos Dados}
 
-A funcionalidade do aplicativo é suportada por um modelo de dados relacional. A arquitetura do banco de dados foi projetada para gerenciar as interações entre usuários, pacientes, avaliações e a lógica de recomendação. O modelo está estruturado nos domínios principais a seguir.
+A funcionalidade do aplicativo é suportada por um modelo de dados relacional. Para isso, a arquitetura do banco de dados foi projetada para gerenciar as interações entre usuários, pacientes, avaliações e a lógica de recomendação. O modelo está estruturado nos domínios principais a seguir.
 
 \subsection{Estrutura de Usuários e Pacientes}
 
 Neste domínio, é feita a distinção entre o usuário do sistema e o paciente que recebe a intervenção.
 
 \begin{itemize}
-    \item \textbf{Entidade \texttt{User}:} Armazena as credenciais de acesso e dados de identificação dos usuários. Os perfis são categorizados em \texttt{cuidador} (que gerencia pacientes) ou \texttt{paciente} (usuário independente que gerencia o próprio perfil).
-    \item \textbf{Entidade \texttt{Patient}:} Representa o sujeito central da intervenção, contendo suas informações demográficas e clínicas. A entidade estabelece o relacionamento de dependência (1:N) com a entidade \texttt{User}, onde um cuidador pode ser responsável por um ou mais pacientes, através de uma chave estrangeira (\texttt{id\_user\_caregiver}).
+   \item \textbf{Entidade \texttt{User}:} Armazena as credenciais de acesso e dados de identificação dos usuários. Os perfis são categorizados em \texttt{cuidador} (que gerencia pacientes) ou \texttt{paciente} (usuário independente que gerencia o próprio perfil).
+   \item \textbf{Entidade \texttt{Patient}:} Representa o sujeito central da intervenção, contendo suas informações demográficas e clínicas. A entidade estabelece o relacionamento de dependência (1:N) com a entidade \texttt{User}, onde um cuidador pode ser responsável por um ou mais pacientes, através de uma chave estrangeira (\texttt{id\_user\_caregiver}).
 \end{itemize}
 
 \subsection{Armazenamento de Dados de Avaliação (Questionários)}
@@ -63,8 +105,8 @@ Neste domínio, é feita a distinção entre o usuário do sistema e o paciente 
 Para documentar o estado inicial e a evolução do paciente, o modelo permite o registro de avaliações contínuas.
 
 \begin{itemize}
-    \item \textbf{Entidade \texttt{Questionnaire}:} Funciona como um registro mestre para cada instância de um questionário aplicado, armazenando metadados como o tipo de instrumento e a data da aplicação.
-    \item \textbf{Entidade \texttt{Questionnaire\_Response}:} Projetada com uma estrutura flexível de par chave-valor (\texttt{pergunta}, \texttt{resposta}), esta entidade armazena cada resposta individual de um questionário. Esta flexibilidade permite que o sistema acomode diversos instrumentos sem alterações na estrutura do banco.
+   \item \textbf{Entidade \texttt{Questionnaire}:} Funciona como um registro mestre para cada instância de um questionário aplicado, armazenando metadados como o tipo de instrumento e a data da aplicação.
+   \item \textbf{Entidade \texttt{Questionnaire\_Response}:} Projetada com uma estrutura flexível de par chave-valor (\texttt{pergunta}, \texttt{resposta}), esta entidade armazena cada resposta individual, permitindo que o sistema acomode diversos instrumentos sem alterações na estrutura do banco.
 \end{itemize}
 
 \subsection{Base de Conhecimento Alimentar e Perfil Sensorial}
@@ -72,177 +114,177 @@ Para documentar o estado inicial e a evolução do paciente, o modelo permite o 
 Este domínio estrutura a informação sobre os alimentos, sendo o pilar para o algoritmo de recomendação.
 
 \begin{itemize}
-    \item \textbf{Entidade \texttt{Food}:} Constitui o catálogo central de alimentos, contendo suas propriedades intrínsecas, como grupo alimentar e classificação nutricional (e.g., caseiro, processado).
-    \item \textbf{Entidade \texttt{Food\_Sensory\_Profile}:} Vinculada à entidade \texttt{Food}, armazena os atributos extrínsecos de cada alimento, como textura, cor, formato e temperatura. A separação entre \texttt{Food} e \texttt{Food\_Sensory\_Profile} é fundamental para a execução do algoritmo de similaridade.
-    \item \textbf{Entidade \texttt{Safe\_Food}:} Representa o subconjunto de alimentos da base de conhecimento validados como seguros para um determinado paciente. Esta entidade funciona como o principal insumo para o motor de sugestões, ao definir os "Alimentos Ponte".
+   \item \textbf{Entidade \texttt{Food}:} Constitui o catálogo central de alimentos, contendo suas propriedades intrínsecas, como grupo alimentar e classificação nutricional (e.g., caseiro, processado).
+   \item \textbf{Entidade \texttt{Food\_Sensory\_Profile}:} Vinculada à entidade \texttt{Food}, armazena os atributos extrínsecos de cada alimento (textura, cor, etc.). A separação entre \texttt{Food} e \texttt{Food\_Sensory\_Profile} é fundamental para a execução do algoritmo de similaridade.
+   \item \textbf{Entidade \texttt{Safe\_Food}:} Representa o subconjunto de alimentos validados como seguros para um paciente. Esta entidade funciona como o principal insumo para o motor de sugestões, ao definir os "Alimentos Ponte".
 \end{itemize}
 
 \subsection{Modelo de Sugestão, Opções e Feedback}
 
-Este domínio gerencia o ciclo de vida de uma recomendação.
+Este domínio gerencia o ciclo de vida de uma recomendação, desde sua geração até a resposta do usuário.
 
 \begin{itemize}
-    \item \textbf{Entidade \texttt{Exchange\_Suggestion}:} É uma entidade transacional que registra cada execução do algoritmo. Ela armazena o contexto da sugestão: o paciente, a data, o grupo alimentar alvo e o \texttt{Safe\_Food} utilizado como referência.
-    \item \textbf{Entidade \texttt{Exchange\_Option}:} Filha de \texttt{Exchange\_Suggestion}, armazena cada uma das opções de troca geradas, vinculando um alimento sugerido a uma refeição e registrando as pontuações calculadas (sensorial, nutricional e final).
-    \item \textbf{Entidade \texttt{Feedback}:} Esta entidade fecha o ciclo de aprendizado do sistema. Ela armazena a interação do usuário final (cuidador ou paciente independente) com uma \texttt{Exchange\_Option} específica, registrando o status de \texttt{ACEITA} ou \texttt{REJEITADA}.
+   \item \textbf{Entidade \texttt{Exchange\_Suggestion}:} É uma entidade transacional que registra cada execução do algoritmo, armazenando o contexto da sugestão (paciente, data, grupo-meta e o \texttt{Safe\_Food} de referência).
+   \item \textbf{Entidade \texttt{Exchange\_Option}:} Filha de \texttt{Exchange\_Suggestion}, armazena cada uma das opções de troca geradas, vinculando um alimento sugerido a uma refeição e registrando as pontuações calculadas.
+   \item \textbf{Entidade \texttt{Feedback}:} Esta entidade fecha o ciclo de aprendizado do sistema, pois armazena a interação do usuário final (cuidador ou paciente) com uma \texttt{Exchange\_Option}, registrando o status de \texttt{ACEITA} ou \texttt{REJEITADA}.
 \end{itemize}
 
 \subsection{Modelo Relacional e DER}
 
-Esta modelagem de dados provê a estrutura necessária para que a aplicação gerencie com consistência os dados de seus usuários e execute os algoritmos de recomendação baseados em perfis complexos.
+Abaixo segue o modelo relacional implementado, que descreve textualmente a estrutura do banco de dados.
 
 \begin{itemize}
-    \item \textbf{\texttt{cuidadores}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{tipo\_usuario}
-        \item \texttt{nome}
-        \item \texttt{email} (U)
-        \item \texttt{senha\_hash}
-        \item \texttt{cpf} (U)
-        \item \texttt{data\_nascimento}
-        \item \texttt{data\_cadastro}
-    \end{itemize}
+   \item \textbf{\texttt{cuidadores}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{tipo\_usuario}
+      \item \texttt{nome}
+      \item \texttt{email} (Unique)
+      \item \texttt{senha\_hash}
+      \item \texttt{cpf} (Unique)
+      \item \texttt{data\_nascimento}
+      \item \texttt{data\_cadastro}
+   \end{itemize}
 
-    \item \textbf{\texttt{assistidos}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{nome}
-        \item \texttt{data\_nascimento}
-        \item \texttt{nivel\_suporte}
-        \item \texttt{grau\_seletividade}
-        \item \texttt{cuidador\_id} (FK $\rightarrow$ cuidadores.id)
-    \end{itemize}
+   \item \textbf{\texttt{assistidos}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{nome}
+      \item \texttt{data\_nascimento}
+      \item \texttt{nivel\_suporte}
+      \item \texttt{grau\_seletividade}
+      \item \texttt{cuidador\_id} (FK $\rightarrow$ cuidadores.id)
+   \end{itemize}
 
-    \item \textbf{\texttt{alimentos}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{nome} (U)
-        \item \texttt{grupo\_alimentar}
-    \end{itemize}
+   \item \textbf{\texttt{alimentos}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{nome} (Unique)
+      \item \texttt{grupo\_alimentar}
+   \end{itemize}
 
-    \item \textbf{\texttt{perfis\_sensoriais}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{forma\_de\_preparo}
-        \item \texttt{textura}
-        \item \texttt{sabor}
-        \item \texttt{cor\_predominante}
-        \item \texttt{temperatura\_servico}
-        \item \texttt{alimento\_id} (FK $\rightarrow$ alimentos.id)
-        \item (Unique: \texttt{alimento\_id}, \texttt{forma\_de\_preparo})
-    \end{itemize}
+   \item \textbf{\texttt{perfis\_sensoriais}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{forma\_de\_preparo}
+      \item \texttt{textura}
+      \item \texttt{sabor}
+      \item \texttt{cor\_predominante}
+      \item \texttt{temperatura\_servico}
+      \item \texttt{alimento\_id} (FK $\rightarrow$ alimentos.id)
+      \item (Unique: \texttt{alimento\_id}, \texttt{forma\_de\_preparo})
+   \end{itemize}
 
-    \item \textbf{\texttt{refeicoes}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{nome} (U)
-    \end{itemize}
+   \item \textbf{\texttt{refeicoes}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{nome} (Unique)
+   \end{itemize}
 
-    \item \textbf{\texttt{perfil\_refeicao (N:M)}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{perfil\_sensorial\_id} (FK $\rightarrow$ perfis\_sensoriais.id)
-        \item \texttt{refeicao\_id} (FK $\rightarrow$ refeicoes.id)
-        \item (Unique: \texttt{perfil\_sensorial\_id}, \texttt{refeicao\_id})
-    \end{itemize}
+   \item \textbf{\texttt{perfil\_refeicao (N:M)}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{perfil\_sensorial\_id} (FK $\rightarrow$ perfis\_sensoriais.id)
+      \item \texttt{refeicao\_id} (FK $\rightarrow$ refeicoes.id)
+      \item (Unique: \texttt{perfil\_sensorial\_id}, \texttt{refeicao\_id})
+   \end{itemize}
 
-    \item \textbf{\texttt{alimentos\_seguros (N:M)}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{data\_adicao}
-        \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
-        \item \texttt{alimento\_id} (FK $\rightarrow$ alimentos.id)
-        \item (Unique: \texttt{assistido\_id}, \texttt{alimento\_id})
-    \end{itemize}
+   \item \textbf{\texttt{alimentos\_seguros (N:M)}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{data\_adicao}
+      \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
+      \item \texttt{alimento\_id} (FK $\rightarrow$ alimentos.id)
+      \item (Unique: \texttt{assistido\_id}, \texttt{alimento\_id})
+   \end{itemize}
 
-    \item \textbf{\texttt{trocas\_alimentares}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{refeicao}
-        \item \texttt{data\_sugestao}
-        \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
-    \end{itemize}
+   \item \textbf{\texttt{trocas\_alimentares}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{refeicao}
+      \item \texttt{data\_sugestao}
+      \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
+   \end{itemize}
 
-    \item \textbf{\texttt{detalhes\_troca}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{troca\_alimentar\_id} (FK $\rightarrow$ trocas\_alimentares.id)
-        \item \texttt{alimento\_novo\_id} (FK $\rightarrow$ alimentos.id)
-        \item \texttt{status}
-        \item \texttt{perfil\_sensorial\_id} (FK $\rightarrow$ perfis\_sensoriais.id)
-        \item \texttt{motivo\_sugestao}
-    \end{itemize}
+   \item \textbf{\texttt{detalhes\_troca}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{troca\_alimentar\_id} (FK $\rightarrow$ trocas\_alimentares.id)
+      \item \texttt{alimento\_novo\_id} (FK $\rightarrow$ alimentos.id)
+      \item \texttt{status}
+      \item \texttt{perfil\_sensorial\_id} (FK $\rightarrow$ perfis\_sensoriais.id)
+      \item \texttt{motivo\_sugestao}
+   \end{itemize}
 
-    \item \textbf{\texttt{modelos\_questionarios}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{nome} (U)
-    \end{itemize}
+   \item \textbf{\texttt{modelos\_questionarios}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{nome} (Unique)
+   \end{itemize}
 
-    \item \textbf{\texttt{modelos\_perguntas}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{texto\_pergunta} (U)
-        \item \texttt{modelo\_questionario\_id} (FK $\rightarrow$ modelos\_questionarios.id)
-    \end{itemize}
+   \item \textbf{\texttt{modelos\_perguntas}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{texto\_pergunta} (Unique)
+      \item \texttt{modelo\_questionario\_id} (FK $\rightarrow$ modelos\_questionarios.id)
+   \end{itemize}
 
-    \item \textbf{\texttt{modelos\_opcoes\_respostas}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{texto\_opcao}
-        \item \texttt{modelo\_pergunta\_id} (FK $\rightarrow$ modelos\_perguntas.id)
-    \end{itemize}
+   \item \textbf{\texttt{modelos\_opcoes\_respostas}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{texto\_opcao}
+      \item \texttt{modelo\_pergunta\_id} (FK $\rightarrow$ modelos\_perguntas.id)
+   \end{itemize}
 
-    \item \textbf{\texttt{questionarios\_respondidos}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{data\_resposta}
-        \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
-        \item \texttt{cuidador\_id} (FK $\rightarrow$ cuidadores.id)
-        \item \texttt{modelo\_questionario\_id} (FK $\rightarrow$ modelos\_questionarios.id)
-    \end{itemize}
+   \item \textbf{\texttt{questionarios\_respondidos}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{data\_resposta}
+      \item \texttt{assistido\_id} (FK $\rightarrow$ assistidos.id)
+      \item \texttt{cuidador\_id} (FK $\rightarrow$ cuidadores.id)
+      \item \texttt{modelo\_questionario\_id} (FK $\rightarrow$ modelos\_questionarios.id)
+   \end{itemize}
 
-    \item \textbf{\texttt{respostas}}
-    \begin{itemize}
-        \item \texttt{id} (PK)
-        \item \texttt{questionario\_respondido\_id} (FK $\rightarrow$ questionarios\_respondidos.id)
-        \item \texttt{modelo\_pergunta\_id} (FK $\rightarrow$ modelos\_perguntas.id)
-        \item \texttt{modelo\_opcao\_resposta\_id} (FK $\rightarrow$ modelos\_opcoes\_respostas.id)
-    \end{itemize}
+   \item \textbf{\texttt{respostas}}
+   \begin{itemize}
+      \item \texttt{id} (PK)
+      \item \texttt{questionario\_respondido\_id} (FK $\rightarrow$ questionarios\_respondidos.id)
+      \item \texttt{modelo\_pergunta\_id} (FK $\rightarrow$ modelos\_perguntas.id)
+      \item \texttt{modelo\_opcao\_resposta\_id} (FK $\rightarrow$ modelos\_opcoes\_respostas.id)
+   \end{itemize}
 
 \end{itemize}
 
 % Figura do Modelo Relacional (mantida conforme original)
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=1\linewidth]{DER_TCC_2.png}
-    \caption{Diagrama Entidade-Relacionamento Banco de Dados}
-    \caption*{Fonte: Autor, 2025.}     
-    \label{fig:enter-label-modelorelacional} 
+   \centering
+   \includegraphics[width=1\linewidth]{DER_TCC_2.png}
+   \caption{Diagrama Entidade-Relacionamento Banco de Dados}
+   \caption*{Fonte: Autor, 2025.}    
+   \label{fig:enter-label-modelorelacional} 
 \end{figure}
+
+Esta modelagem de dados, representada textualmente pelo Modelo Relacional e visualmente pelo Diagrama Entidade-Relacionamento (Figura \ref{fig:enter-label-modelorelacional}), provê a estrutura necessária para que a aplicação gerencie com consistência os dados de seus usuários e execute os algoritmos de recomendação.
 
 \section{Regra de negócio}
 
-O núcleo funcional do sistema é a \textbf{Regra de Negócio para Sugestão de Trocas Alimentares}. Esta regra foi projetada para operacionalizar a estratégia terapêutica de Encadeamento Alimentar (\textit{Food Chaining}).
-
-O objetivo do sistema é apoiar seus usuários --- pessoas com TEA independentes ou cuidadores --- a promoverem a expansão do repertório alimentar. Isso é feito por meio de trocas que sejam sensorialmente compatíveis com alimentos já aceitos pelo paciente.
+O núcleo funcional do sistema é a \textbf{Regra de Negócio para Sugestão de Trocas Alimentares}, projetada para operacionalizar a estratégia terapêutica de Encadeamento Alimentar (\textit{Food Chaining}). O objetivo do sistema é apoiar seus usuários — pessoas com TEA independentes ou cuidadores — a promoverem a expansão do repertório alimentar, o que é feito por meio de trocas que sejam sensorialmente compatíveis com alimentos já aceitos.
 
 \subsection{Fundamentos e Modelo de Dados de Suporte}
 
-A operacionalização desta regra é dependente do modelo de dados estruturado. Neste modelo, cada \textbf{Alimento Genérico} é classificado em um \textbf{Grupo Alimentar}. A lógica do sistema opera sobre \textbf{Preparações Culinárias Específicas} (e.g., ``Nugget de frango industrializado'').
+A operacionalização desta regra é dependente do modelo de dados estruturado. Neste modelo, cada \textbf{Alimento Genérico} é classificado em um \textbf{Grupo Alimentar}, mas a lógica do sistema opera sobre \textbf{Preparações Culinárias Específicas} (e.g., ``Nugget de frango industrializado'').
 
-Cada preparação possui \textbf{Atributos Sensoriais} (textura, formato, cor, etc.) e uma \textbf{Classificação Nutricional} (e.g., processado, caseiro). Esta modelagem resulta em um perfil detalhado para cada item, que serve de base para o processamento do algoritmo.
+Cada preparação possui \textbf{Atributos Sensoriais} (textura, formato, etc.) e uma \textbf{Classificação Nutricional} (e.g., processado, caseiro). Esta modelagem resulta em um perfil detalhado para cada item, que serve de base para o processamento do algoritmo.
 
 \subsection{O Fluxo Operacional do Algoritmo de Sugestão}
 
 O processo para geração de uma sugestão de troca alimentar é implementado por um algoritmo que executa as seguintes etapas sequenciais:
 
 \begin{enumerate}
-    \item \textbf{Identificação do Ponto de Partida:} O sistema analisa os dados do QFA para selecionar um ``Alimento Seguro'' do perfil do usuário, recuperando seu perfil sensorial, classificação nutricional e grupo alimentar.
-    \item \textbf{Definição da Meta Nutricional:} O sistema identifica os grupos alimentares com consumo ausente ou deficiente (conforme o QFA) e seleciona um deles como o ``grupo-meta'' para a intervenção.
-    \item \textbf{Busca e Pontuação de Candidatos:} O algoritmo executa uma busca restrita às preparações pertencentes ao ``grupo-meta''. Para cada candidato, é calculada uma ``Pontuação de Recomendação'', composta por dois critérios: a \textbf{Similaridade Sensorial} com o ``Alimento Seguro'' (para maximizar a aceitabilidade) e a \textbf{Melhora Nutricional} (priorizando trocas que representem um avanço em qualidade).
-    \item \textbf{Geração da Lista Ordenada de Opções:} O sistema compila uma lista com os 3 a 4 candidatos que obtiveram as maiores Pontuações de Recomendação. A lista é apresentada de forma ordenada.
+   \item \textbf{Identificação do Ponto de Partida:} O sistema analisa os dados do QFA para selecionar um ``Alimento Seguro'' do perfil do usuário, recuperando seu perfil sensorial e nutricional.
+   \item \textbf{Definição da Meta Nutricional:} O algoritmo identifica os grupos alimentares com consumo ausente ou deficiente (conforme o QFA) e seleciona um deles como o ``grupo-meta'' para a intervenção.
+   \item \textbf{Busca e Pontuação de Candidatos:} O algoritmo executa uma busca restrita às preparações pertencentes ao ``grupo-meta''. Para cada candidato, é calculada uma ``Pontuação de Recomendação'', composta por dois critérios: a \textbf{Similaridade Sensorial} com o ``Alimento Seguro'' e a \textbf{Melhora Nutricional}.
+   \item \textbf{Geração da Lista Ordenada de Opções:} O sistema compila uma lista com os 3 a 4 candidatos que obtiveram as maiores Pontuações de Recomendação e a apresenta de forma ordenada.
 \end{enumerate}
 
 \subsection{Dinamismo e Adaptação: O Ciclo de Feedback}
@@ -250,11 +292,9 @@ O processo para geração de uma sugestão de troca alimentar é implementado po
 O sistema é projetado para evoluir com o uso, através de um ciclo de feedback contínuo:
 
 \begin{description}
-    \item[Cenário de Aceitação] Ao registrar que uma sugestão foi aceita, o sistema promove esta preparação ao status de um novo ``Alimento Seguro''. Este processo enriquece o perfil do usuário e amplia a base sensorial para futuras recomendações.
-    \item[Cenário de Rejeição] Caso a primeira sugestão da lista seja rejeitada, o sistema a marca para não ser oferecida novamente em curto prazo e apresenta a próxima opção da lista. Isso mantém o processo de interação fluido.
+   \item[Cenário de Aceitação] Ao registrar que uma sugestão foi aceita, o sistema promove esta preparação ao status de um novo ``Alimento Seguro''. Este processo enriquece o perfil do usuário e amplia a base sensorial para futuras recomendações.
+   \item[Cenário de Rejeição] Caso a primeira sugestão da lista seja rejeitada, o sistema a marca para não ser oferecida novamente em curto prazo e apresenta a próxima opção da lista, mantendo o processo de interação fluido.
 \end{description}
-
-
 
 % ----------------------------------------------------------
 \section{Resultados das Métricas (GQM)}
@@ -268,12 +308,12 @@ Este tópico apresenta os resultados da aferição do processo de desenvolviment
 \label{tab:gqm_resultados}
 \footnotesize % Reduz o tamanho da fonte para a tabela caber
 \begin{tabularx}{\textwidth}{| 
-    >{\raggedright\arraybackslash}p{3.5cm} | 
-    >{\raggedright\arraybackslash}p{3cm} | 
-    >{\raggedright\arraybackslash}p{1.5cm} | 
-    >{\raggedright\arraybackslash}p{1.5cm} | 
-    >{\raggedright\arraybackslash}p{2cm} | 
-    X |}
+   >{\raggedright\arraybackslash}p{3.5cm} | 
+   >{\raggedright\arraybackslash}p{3cm} | 
+   >{\raggedright\arraybackslash}p{1.5cm} | 
+   >{\raggedright\arraybackslash}p{1.5cm} | 
+   >{\raggedright\arraybackslash}p{2cm} | 
+   X |}
 \hline
 \textbf{Métrica} & \textbf{Cálculo Realizado} & \textbf{Escala} & \textbf{\%} & \textbf{Valor Esperado} & \textbf{Conclusão} \\ \hline
 
@@ -292,7 +332,6 @@ M 3.3.1: Débitos técnicos registrados & Contagem de débitos registrados & [X]
 \caption*{Fonte: Autor, 2025.}
 \end{table}
 
-\section{Estrutura do Código do Projeto}
 
 % Nomenclaturas ajustadas para o capítulo 4 refatorado
 \nomenclature[A]{UI}{User Interface}
