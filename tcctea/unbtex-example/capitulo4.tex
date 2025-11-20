@@ -10,7 +10,89 @@ O texto descreve os resultados da solução final, iniciando pela seção "Sobre
 
 O aplicativo foi desenvolvido para usuários com Transtorno do Espectro Autista (TEA) independentes e para cuidadores de pessoas com TEA.
 
-A solução implementada gera sugestões de trocas alimentares personalizadas, utilizando as preferências e sensibilidades sensoriais registradas pelo usuário como dados de entrada para o algoritmo. O objetivo funcional do aplicativo é sugerir alimentos que auxiliem na expansão do repertório alimentar do usuário.
+A solução implementada gera sugestões de trocas alimentares personalizadas, utilizando as preferências e sensibilidades sensoriais registradas pelo usuário como dados de entrada para o algoritmo. O objetivo funcional do aplicativo é sugerir alime
+
+\section{\textit{Backlog} do produto}
+
+Conforme introduzido no Capítulo 3, o Backlog do Produto é um artefato central em metodologias ágeis, funcionando como uma lista priorizada de todas as funcionalidades e requisitos do projeto. Para o desenvolvimento da solução proposta neste trabalho, foi criado um backlog específico que serviu como guia para a equipe de desenvolvimento.
+
+Este backlog foi populado com itens na forma de Histórias de Usuário, detalhando as necessidades dos usuários finais. A priorização desses itens foi fundamental para definir o escopo da versão atual do projeto, garantindo que as funcionalidades de maior valor e impacto fossem desenvolvidas primeiro. Portanto, o sistema apresentado neste capítulo é o resultado tangível dos itens que foram selecionados, planejados e executados a partir do topo do nosso backlog.
+
+As Histórias de Usuário foram utilizadas para descrever todas as funcionalidades do sistema sob a perspectiva de quem o utiliza. Adotando o formato padrão de mercado — "Como um [ator], eu quero [realizar uma ação] para que [possa obter um benefício]" —, conseguimos manter o foco na entrega de valor real. Cada história representava um requisito de negócio ou uma necessidade do usuário que o software deveria satisfazer. Em contrapartida, as Tarefas Técnicas foram criadas para registrar trabalhos essenciais que não entregam uma nova funcionalidade necessariamente visível ao usuário final, mas são cruciais para a saúde, qualidade e viabilidade do projeto.
+
+
+
+\subsection*{Backlog do Aplicativo (Priorização MoSCoW)}
+
+O backlog foi estruturado para atender aos dois perfis de usuário finais: o Cuidador (que gerencia assistidos) e o Usuário Independente (pessoa com TEA que gerencia a própria alimentação).
+
+\begin{itemize}
+    \item \textbf{US01 (Must Have, 3 pts)}: Como usuário (cuidador ou independente), quero criar uma conta para acessar as funcionalidades do aplicativo.
+    
+    \item \textbf{US02 (Must Have, 2 pts)}: Como usuário, quero realizar login para acessar meus dados de forma segura.
+
+    \item \textbf{US03 (Must Have, 3 pts)}: Como cuidador, quero cadastrar múltiplos assistidos para gerenciar as preferências alimentares de cada um individualmente.
+
+    \item \textbf{US04 (Must Have, 3 pts)}: Como usuário independente, quero configurar meu próprio perfil com dados pessoais e nível de suporte.
+
+    \item \textbf{US05 (Must Have, 3 pts)}: Como usuário, quero registrar os "Alimentos Seguros" (preferências e aceitação atual) para alimentar a base de dados do algoritmo.
+
+    \item \textbf{US06 (Must Have, 5 pts)}: Eu, como sistema, devo processar os "Alimentos Seguros" e identificar um grupo alimentar alvo para sugerir trocas.
+
+    \item \textbf{US07 (Must Have, 5 pts)}: Eu, como sistema, devo gerar uma lista de sugestões de trocas alimentares baseada na similaridade sensorial com os alimentos já aceitos.
+
+    \item \textbf{US08 (Must Have, 3 pts)}: Como usuário, quero visualizar a lista de sugestões de troca ordenadas pela compatibilidade sensorial.
+
+    \item \textbf{US09 (Should Have, 2 pts)}: Como usuário, quero registrar o feedback (aceitou/recusou) sobre uma sugestão para que o sistema aprenda e melhore as próximas recomendações.
+
+    \item \textbf{US10 (Must Have, 3 pts)}: Como usuário, quero visualizar um relatório com o histórico das trocas alimentares realizadas (aceitas e rejeitadas) para acompanhar a evolução da dieta.
+
+    \item \textbf{US11 (Should Have, 2 pts)}: Como usuário, quero alterar minha senha de acesso para garantir a segurança da conta.
+\end{itemize}
+
+\subsection*{Épicos do Produto}
+
+Os requisitos foram agrupados em épicos que representam os grandes módulos funcionais da solução implementada.
+
+\begin{itemize}
+    \item \textbf{Épico 1: Gestão de Identidade e Acesso}
+    \begin{itemize}
+        \item (Must Have) \textbf{US01}: Criação de conta (Cuidador e Independente).
+        \item (Must Have) \textbf{US02}: Autenticação (Login).
+        \item (Should Have) \textbf{US11}: Alteração de senha.
+        \item (Must Have) \textbf{TK01}: Implementar autenticação JWT e controle de sessão.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item \textbf{Épico 2: Gerenciamento de Perfis e Assistidos}
+    \begin{itemize}
+        \item (Must Have) \textbf{US03}: Cadastro de múltiplos assistidos (perfil Cuidador).
+        \item (Must Have) \textbf{US04}: Configuração de auto-perfil (perfil Independente).
+        \item (Must Have) \textbf{TK02}: Modelagem do banco de dados para suportar relacionamento 1:N (Cuidador-Assistidos).
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item \textbf{Épico 3: Mapeamento do Repertório Alimentar e Sensorial}
+    \begin{itemize}
+        \item (Must Have) \textbf{US05}: Registro de Alimentos Seguros e preferências sensoriais.
+        \item (Must Have) \textbf{TK03}: Popular banco de dados com a base de alimentos e seus atributos sensoriais detalhados (textura, sabor, cor) para viabilizar o algoritmo.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item \textbf{Épico 4: Sistema de Recomendação e Análise de Evolução}
+    \begin{itemize}
+        \item (Must Have) \textbf{US06}: Identificação automática do grupo-meta para intervenção.
+        \item (Must Have) \textbf{US07}: Algoritmo de recomendação por similaridade sensorial.
+        \item (Must Have) \textbf{US08}: Visualização das sugestões de troca.
+        \item (Must Have) \textbf{US09}: Registro de feedback (Aceitação/Recusa) e atualização automática dos Alimentos Seguros.
+        \item (Should Have) \textbf{US10}: Relatório de histórico das trocas realizadas.
+        \item (Must Have) \textbf{TK04}: Implementação da lógica de pontuação ponderada (Similaridade Sensorial vs. Melhora Nutricional) no serviço de sugestões.
+    \end{itemize}
+\end{itemize}
+
 
 \section{Identidade Visual}
 
@@ -41,7 +123,17 @@ O logotipo é composto por duas formas orgânicas, cujo movimento simboliza o co
 
 \subsection{Interface do Aplicativo}
 
-A interface do aplicativo implementa os fluxos de navegação definidos para o usuário, incluindo as telas principais de cadastro, login, gerenciamento de supervisionados, preenchimento dos questionários e exibição dos relatórios de trocas. As telas foram desenvolvidas com base nos componentes da identidade visual descritos, e imagens da aplicação final estão disponíveis no Apêndice A deste documento.
+A interface do aplicativo foi projetada para guiar o usuário de forma intuitiva através dos principais fluxos de uso: autenticação, gestão de assistidos e o processo de troca alimentar.
+
+O primeiro ponto de contato é o fluxo de acesso. Caso o usuário ainda não possua conta, ele utiliza a tela de \textbf{Cadastro} (Figura \ref{fig:tela_cadastro}), onde fornece seus dados básicos. Para usuários recorrentes, o acesso é feito via tela de \textbf{Login} (Figura \ref{fig:tela_login}), garantindo a segurança das informações pessoais.
+
+Após a autenticação, o usuário é direcionado para a \textbf{Home do Cuidador} (Figura \ref{fig:tela_home}), que atua como o painel central de navegação. Nesta área, é possível acessar as configurações de conta através da tela de \textbf{Perfil} (Figura \ref{fig:tela_perfil}) e, principalmente, gerenciar os indivíduos sob seus cuidados na tela de \textbf{Cadastro de Assistido} (Figura \ref{fig:tela_cadastro_assistido}). É nesta etapa que se definem os dados críticos como nível de suporte e grau de seletividade.
+
+O núcleo funcional do sistema — a sugestão de trocas — inicia-se com a coleta de dados. O cuidador preenche o \textbf{Questionário Alimentar} (Figura \ref{fig:tela_questionario}), registrando o repertório atual do assistido. Com base nesses dados, o sistema processa as informações e apresenta as opções na tela de \textbf{Sugestão de Troca} (Figura \ref{fig:tela_sugestao}), exibindo alternativas sensorialmente compatíveis.
+
+Para fechar o ciclo de aprendizado do algoritmo, o aplicativo solicita o retorno do usuário na tela de \textbf{Feedback} (Figura \ref{fig:tela_feedback}), onde é registrado se a sugestão foi aceita ou recusada, refinando as futuras recomendações apresentadas na listagem de \textbf{Refeições Disponíveis} (Figura \ref{fig:tela_refeicoes}).
+
+As imagens detalhadas de todas as telas mencionadas encontram-se disponíveis para consulta no Apêndice A.
 
 
 \section{Estrutura do Código da Aplicação}
@@ -257,13 +349,19 @@ Abaixo segue o modelo relacional implementado, que descreve textualmente a estru
 \end{itemize}
 
 % Figura do Modelo Relacional (mantida conforme original)
-\begin{figure}[H]
-   \centering
-   \includegraphics[width=1\linewidth]{DER_TCC_2.png}
-   \caption{Diagrama Entidade-Relacionamento Banco de Dados}
-   \caption*{Fonte: Autor, 2025.}    
-   \label{fig:enter-label-modelorelacional} 
-\end{figure}
+% Figura em página paisagem (rotacionada 90 graus)
+% Página em modo paisagem (Landscape)
+% Página em modo paisagem
+\begin{landscape}
+    \centering % Centraliza verticalmente e horizontalmente na página
+    \begin{figure} % Sem [H], deixe flutuar para ajustar na página
+        \centering
+        \includegraphics[width=0.9\linewidth]{DER_TCC_2_.png} 
+        \caption{Diagrama Entidade-Relacionamento Banco de Dados}
+        \caption*{Fonte: Autor, 2025.}
+        \label{fig:enter-label-modelorelacional}
+    \end{figure}
+\end{landscape}
 
 Esta modelagem de dados, representada textualmente pelo Modelo Relacional e visualmente pelo Diagrama Entidade-Relacionamento (Figura \ref{fig:enter-label-modelorelacional}), provê a estrutura necessária para que a aplicação gerencie com consistência os dados de seus usuários e execute os algoritmos de recomendação.
 
@@ -333,6 +431,43 @@ M 3.3.1: Débitos técnicos registrados & Contagem de débitos registrados & [X]
 \caption*{Fonte: Autor, 2025.}
 \end{table}
 
+
+\section{Cronograma de Desenvolvimento}
+O desenvolvimento da solução seguiu um cronograma estruturado em entregas incrementais, organizado para priorizar as funcionalidades essenciais do sistema. As atividades foram distribuídas ao longo do segundo semestre de 2025, conforme detalhado a seguir.
+
+A fase inicial, na primeira quinzena de setembro, concentrou-se na implementação dos **Épicos 1 e 2**, estabelecendo as bases de gestão de identidade e o cadastro de perfis e assistidos. Em sequência, a segunda quinzena de setembro e a primeira de outubro foram dedicadas ao **Épico 3**, focado no mapeamento do repertório alimentar e sensorial, etapa fundamental para a entrada de dados no sistema.
+
+Durante todo o mês de outubro, o desenvolvimento voltou-se para o **Épico 4**, o núcleo da solução, onde foram implementados o algoritmo de recomendação e os relatórios de evolução. O mês de novembro foi reservado para a garantia da qualidade: a primeira quinzena focou na validação da solução com os requisitos propostos, enquanto o restante do mês foi dedicado à execução de testes, refatoração de código e correções de erros. Por fim, a primeira quinzena de dezembro destinou-se à finalização da monografia e à preparação para a defesa.
+
+\begin{table}[H]
+\centering
+\caption{Cronograma Executado de Desenvolvimento e Entregas (TCC 2).}
+\label{tab:cronograma_tcc2_executado}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|c|}
+\hline
+\textbf{} & \multicolumn{2}{c|}{\textbf{Setembro}} & \multicolumn{2}{c|}{\textbf{Outubro}} & \multicolumn{2}{c|}{\textbf{Novembro}} & \textbf{Dez} \\
+\cline{2-8}
+\textbf{Épico / Fase} & \textbf{1ª Q} & \textbf{2ª Q} & \textbf{1ª Q} & \textbf{2ª Q} & \textbf{1ª Q} & \textbf{2ª Q} & \textbf{1ª Q} \\
+\hline
+\textbf{1. Gestão de Identidade e Acesso} & \cellcolor{gray!30} & & & & & & \\
+\hline
+\textbf{2. Gerenciamento de Perfis e Assistidos} & & \cellcolor{gray!30} & & & & & \\
+\hline
+\textbf{3. Mapeamento do Repertório Alimentar} & & \cellcolor{gray!30} & \cellcolor{gray!30} & & & & \\
+\hline
+\textbf{4. Sistema de Recomendação e Análise} & & & \cellcolor{gray!30} & \cellcolor{gray!30} & & & \\
+\hline
+\textbf{5. Validação da Solução} & & & & & \cellcolor{gray!30} & & \\
+\hline
+\textbf{6. Testes e Refatoração} & & & & & \cellcolor{gray!30} & \cellcolor{gray!30} & \\
+\hline
+\textbf{7. Finalização TCC 2 e Apresentação} & & & & & & & \cellcolor{gray!30} \\
+\hline
+\end{tabular}%
+}
+\caption*{Fonte: Autor, 2025.}
+\end{table}
 
 % Nomenclaturas ajustadas para o capítulo 4 refatorado
 \nomenclature[A]{UI}{User Interface}

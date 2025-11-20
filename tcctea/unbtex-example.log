@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  20 NOV 2025 17:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.12)  20 NOV 2025 18:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1430,25 +1430,38 @@ Package: scontents 2025-11-01 v2.5 Stores LaTeX contents in memory or files
 ))
 \testbox=\box93
 \testblskip=\dimen318
-) (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+) (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
+\c@r@tfl@t=\count473
+\rotFPtop=\skip377
+\rotFPbot=\skip378
+\rot@float@box=\box94
+\rot@mess@toks=\toks52
 ) (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
 Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
-\AP@output=\toks52
-\AP@partial=\box94
-\AP@footins=\box95
+\AP@output=\toks53
+\AP@partial=\box95
+\AP@footins=\box96
 ) (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count473
-\float@exts=\toks53
-\float@box=\box96
-\@float@everytoks=\toks54
-\@floatcapt=\box97
+\c@float@type=\count474
+\float@exts=\toks54
+\float@box=\box97
+\@float@everytoks=\toks55
+\@floatcapt=\box98
 )
 \@nomenclaturefile=\write5
 \openout5 = `unbtex-example.nlo'.
 
-Package nomencl Info: Writing nomenclature file unbtex-example.nlo on input line 51.
+Package nomencl Info: Writing nomenclature file unbtex-example.nlo on input line 53.
 > \l__scontents_processed_body_lines_tl=Este documento exemplifica a
 elaboraÃ§Ã£o de trabalho acadÃªmico (trabalho de conclusÃ£o de curso,
 dissertaÃ§Ã£o e tese) a partir da classe UnB\TeX, uma extensÃ£o da classe
@@ -1472,7 +1485,7 @@ writing. The goal is to simplify the use of the UnB\TeX\ class, enabling even
 users with minimal \LaTeX\ experience to produce visually high-quality
 academic documents.%^^Ascheol%.
 Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 193.
+(babel)             Reported on input line 195.
 > \l__scontents_processed_body_lines_tl=
 AgradeÃ§o primeiramente Ã  minha famÃ­lia, pelo amor, apoio incondicional e
 por acreditarem em mim em cada etapa dessa jornada acadÃªmica. VocÃªs foram
@@ -1532,12 +1545,12 @@ perseveranÃ§a para chegar atÃ© aqui.%^^Ascheol%.
 \\buscar seu Ãºltimo limite e dar o melhor de si.''\\
     (Ayrton Senna)}
 \end{flushright}%^^Ascheol%.
-LaTeX Font Info:    Trying to load font information for T1+SticksTooText-TLF on input line 263.
+LaTeX Font Info:    Trying to load font information for T1+SticksTooText-TLF on input line 265.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\t1stickstootext-tlf.fd
 File: T1SticksTooText-TLF.fd 2018/04/26 (autoinst) Font definitions for T1/SticksTooText-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 263.
+(Font)              scaled to size 12.0pt on input line 265.
  (unbtex-example.aux (unbtex-example/capitulo1.aux) (unbtex-example/capitulo2.aux) (unbtex-example/capitulo3.aux
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
@@ -1557,118 +1570,63 @@ LaTeX Warning: Label `fig:enter-label' multiply defined.
 
 LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
 
-) (unbtex-example/capitulo4.aux) (unbtex-example/capitulo5.aux) (unbtex-example/apendice-a.aux
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label' multiply defined.
-
-
-LaTeX Warning: Label `fig:enter-label@cref' multiply defined.
-
-) (unbtex-example/apendice-b.aux) (unbtex-example/apendice-c.aux))
+) (unbtex-example/capitulo4.aux) (unbtex-example/capitulo5.aux) (unbtex-example/apendice-a.aux) (unbtex-example/apendice-b.aux) (unbtex-example/apendice-c.aux))
 \openout1 = `unbtex-example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/ntxstx2mi/m/it on input line 263.
-LaTeX Font Info:    Trying to load font information for OML+ntxstx2mi on input line 263.
+LaTeX Font Info:    Checking defaults for OML/ntxstx2mi/m/it on input line 265.
+LaTeX Font Info:    Trying to load font information for OML+ntxstx2mi on input line 265.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlntxstx2mi.fd
 File: omlntxstx2mi.fd 2018/04/26 Fontinst v1.933 font definitions for OML/ntxstx2mi.
 )
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for U/stixonebb/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 263.
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 263.
-LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 263.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for U/stixonebb/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 265.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 265.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line 265.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 263.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 263.
-LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 263.
+LaTeX Font Info:    ... okay on input line 265.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 265.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input line 265.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 263.
-Package hyperref Info: Link coloring ON on input line 263.
-\myptabbox=\box98
-\myptabboxwidth=\skip377
-LaTeX Info: Command `\dddot' is already robust on input line 263.
-LaTeX Info: Command `\ddddot' is already robust on input line 263.
-\c@mv@tabular=\count474
-\c@mv@boldtabular=\count475
+LaTeX Font Info:    ... okay on input line 265.
+Package hyperref Info: Link coloring ON on input line 265.
+\myptabbox=\box99
+\myptabboxwidth=\skip379
+LaTeX Info: Command `\dddot' is already robust on input line 265.
+LaTeX Info: Command `\ddddot' is already robust on input line 265.
+\c@mv@tabular=\count475
+\c@mv@boldtabular=\count476
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count476
+\scratchcounter=\count477
 \scratchdimen=\dimen319
-\scratchbox=\box99
-\nofMPsegments=\count477
-\nofMParguments=\count478
-\everyMPshowfont=\toks55
-\MPscratchCnt=\count479
+\scratchbox=\box100
+\nofMPsegments=\count478
+\nofMParguments=\count479
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count480
 \MPscratchDim=\dimen320
-\MPnumerator=\count480
-\makeMPintoPDFobject=\count481
-\everyMPtoPDFconversion=\toks56
+\MPnumerator=\count481
+\makeMPintoPDFobject=\count482
+\everyMPtoPDFconversion=\toks57
 ) (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -1683,16 +1641,17 @@ Package caption Info: longtable package is loaded.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count482
-Package tocbasic Info: setting babel extension for `lol' on input line 263.
-LaTeX Info: Redefining \microtypecontext on input line 263.
-Package microtype Info: Applying patch `item' on input line 263.
-Package microtype Info: Applying patch `toc' on input line 263.
-Package microtype Info: Applying patch `eqnum' on input line 263.
-Package microtype Info: Applying patch `footnote' on input line 263.
-Package microtype Info: Applying patch `verbatim' on input line 263.
-LaTeX Info: Redefining \microtypesetup on input line 263.
+\c@lstlisting=\count483
+Package tocbasic Info: setting babel extension for `lol' on input line 265.
+LaTeX Info: Redefining \microtypecontext on input line 265.
+Package microtype Info: Applying patch `item' on input line 265.
+Package microtype Info: Applying patch `toc' on input line 265.
+Package microtype Info: Applying patch `eqnum' on input line 265.
+Package microtype Info: Applying patch `footnote' on input line 265.
+Package microtype Info: Applying patch `verbatim' on input line 265.
+LaTeX Info: Redefining \microtypesetup on input line 265.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1705,122 +1664,117 @@ Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
-) (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
-Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-))
-Package hyperref Info: Option `pageanchor' set `false' on input line 272.
+)
+Package hyperref Info: Option `pageanchor' set `false' on input line 274.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 272.
-LaTeX Font Info:    Trying to load font information for T1+qhv on input line 272.
+(Font)              scaled to size 20.74pt on input line 274.
+LaTeX Font Info:    Trying to load font information for T1+qhv on input line 274.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 272.
+(Font)              scaled to size 18.66588pt on input line 274.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `qhv' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 272.
+(Font)              scaled to size 18.66588pt on input line 274.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 272.
+(Font)              scaled to size 10.79993pt on input line 274.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 272.
+(Font)              scaled to size 22.39185pt on input line 274.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 272.
+(Font)              scaled to size 22.39185pt on input line 274.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 272.
+(Font)              scaled to size 17.28pt on input line 274.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 272.
+(Font)              scaled to size 12.9599pt on input line 274.
 <unbtexcover/capa.pdf, id=3, 597.23137pt x 844.15375pt>
 File: unbtexcover/capa.pdf Graphic file (type pdf)
 <use unbtexcover/capa.pdf>
-Package pdftex.def Info: unbtexcover/capa.pdf  used on input line 272.
+Package pdftex.def Info: unbtexcover/capa.pdf  used on input line 274.
 (pdftex.def)             Requested size: 597.87692pt x 845.04684pt.
  [1
 
 {C:/Users/caiol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stickstoo/stx2_slv267.enc} <./unbtexcover/capa.pdf>]
-Package hyperref Info: Option `pageanchor' set `true' on input line 272.
-LaTeX Font Info:    Trying to load font information for OT1+SticksTooText-TLF on input line 276.
+Package hyperref Info: Option `pageanchor' set `true' on input line 274.
+LaTeX Font Info:    Trying to load font information for OT1+SticksTooText-TLF on input line 278.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/stickstoo\ot1stickstootext-tlf.fd
 File: OT1SticksTooText-TLF.fd 2018/04/21 (autoinst) Font definitions for OT1/SticksTooText-TLF.
 )
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/12'
-(microtype)             (new value: 12.0pt) on input line 276.
+(microtype)             (new value: 12.0pt) on input line 278.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/8.8'
-(microtype)             (new value: 8.8pt) on input line 276.
+(microtype)             (new value: 8.8pt) on input line 278.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/6.6'
-(microtype)             (new value: 6.6pt) on input line 276.
+(microtype)             (new value: 6.6pt) on input line 278.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 276.
-LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 278.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 276.
-LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 278.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 276.
-LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 278.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 276.
-LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 278.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 276.
+(Font)              scaled to size 12.0pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 276.
+(Font)              scaled to size 8.8pt on input line 278.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 276.
+(Font)              scaled to size 6.6pt on input line 278.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 276.
+(Font)              scaled to size 14.4pt on input line 278.
  [1
 
 
@@ -1828,54 +1782,54 @@ LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
 
 ]
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 278.
+(Font)              scaled to size 10.95pt on input line 280.
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 278.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 278.
+(Font)              scaled to size 9.85492pt on input line 280.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 280.
  (C:\Users\caiol\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 278.
+(Font)              scaled to size 10.95pt on input line 280.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--278
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 
  []
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 278--278
+Underfull \hbox (badness 6094) in paragraph at lines 280--280
 | \T1/SticksTooText-TLF/m/n/10.95 (+20) 1. Trans-torno do Es-pec-tro Au-tista. 2. Se-le-ti-vi-dade Ali-men-tar. 3.
  []
 
 [2{C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-t1-0.enc}]
 LaTeX Font Info:    Font shape `T1/qhv/m/n' will be
-(Font)              scaled to size 15.55188pt on input line 281.
+(Font)              scaled to size 15.55188pt on input line 283.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 281.
+(Font)              scaled to size 15.55188pt on input line 283.
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 281.
+(Font)              scaled to size 12.9599pt on input line 283.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 281.
+(Font)              scaled to size 12.0pt on input line 283.
  [3
 
 ]
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 284.
+(Font)              scaled to size 12.0pt on input line 286.
  [4
 
 
 ]
 LaTeX Font Info:    Font shape `T1/qhv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 287.
+(Font)              scaled to size 10.79993pt on input line 289.
  [5
 
 
@@ -1912,6 +1866,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 18.
 ] (unbtex-example.lot
 Package tocbasic Info: Using my definition of `\numberline' on input line 3.
 Package tocbasic Info: Using my definition of `\numberline' on input line 4.
+Package tocbasic Info: Using my definition of `\numberline' on input line 5.
 ) [10
 
 ]
@@ -1921,61 +1876,61 @@ No file unbtex-example.nls.
 
 ] [12]
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/SticksTooText-TLF/m/n' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/14.4'
-(microtype)             (new value: 14.4pt) on input line 91.
+(microtype)             (new value: 14.4pt) on input line 93.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/10.5'
-(microtype)             (new value: 10.5pt) on input line 91.
+(microtype)             (new value: 10.5pt) on input line 93.
 LaTeX Font Info:    Font shape `OML/ntxstx2mi/m/it' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 Package microtype Info: Fixing zero \fontdimen 6 for font `OML/ntxstx2mi/m/it/7.9'
-(microtype)             (new value: 7.9pt) on input line 91.
+(microtype)             (new value: 7.9pt) on input line 93.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 14.4pt on input line 91.
+(Font)              scaled to size 14.4pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 10.5pt on input line 91.
+(Font)              scaled to size 10.5pt on input line 93.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 7.9pt on input line 91.
+(Font)              scaled to size 7.9pt on input line 93.
 ) [13]
 \openout2 = `unbtex-example/capitulo1.aux'.
 
@@ -2021,7 +1976,7 @@ Overfull \hbox (0.15318pt too wide) in paragraph at lines 58--59
 
  (unbtex-example/capitulo3.tex
 Cap\'{\i }tulo 3.
-<unbtex-example/figuras/metodologias_pesquisa.png, id=394, 482.80376pt x 208.78pt>
+<unbtex-example/figuras/metodologias_pesquisa.png, id=402, 482.80376pt x 208.78pt>
 File: unbtex-example/figuras/metodologias_pesquisa.png Graphic file (type png)
 <use unbtex-example/figuras/metodologias_pesquisa.png>
 Package pdftex.def Info: unbtex-example/figuras/metodologias_pesquisa.png  used on input line 23.
@@ -2032,19 +1987,19 @@ Package pdftex.def Info: unbtex-example/figuras/metodologias_pesquisa.png  used 
 
 
  <./unbtex-example/figuras/metodologias_pesquisa.png>]
-<unbtex-example/figuras/ciclo-de-vida-scrum.png, id=401, 523.9575pt x 277.035pt>
+<unbtex-example/figuras/ciclo-de-vida-scrum.png, id=409, 523.9575pt x 277.035pt>
 File: unbtex-example/figuras/ciclo-de-vida-scrum.png Graphic file (type png)
 <use unbtex-example/figuras/ciclo-de-vida-scrum.png>
 Package pdftex.def Info: unbtex-example/figuras/ciclo-de-vida-scrum.png  used on input line 47.
 (pdftex.def)             Requested size: 455.0pt x 240.5831pt.
  [28] [29 <./unbtex-example/figuras/ciclo-de-vida-scrum.png>] [30] [31] [32]
-<unbtex-example/figuras/arquitetura-componentizada.png, id=432, 1027.84pt x 1541.76pt>
+<unbtex-example/figuras/arquitetura-componentizada.png, id=440, 1027.84pt x 1541.76pt>
 File: unbtex-example/figuras/arquitetura-componentizada.png Graphic file (type png)
 <use unbtex-example/figuras/arquitetura-componentizada.png>
 Package pdftex.def Info: unbtex-example/figuras/arquitetura-componentizada.png  used on input line 161.
 (pdftex.def)             Requested size: 227.5pt x 341.23495pt.
  [33] [34 <./unbtex-example/figuras/arquitetura-componentizada.png (PNG copy)>] [35] [36] [37] [38] [39] [40] [41] [42]
-<unbtex-example/figuras/organizaÃ§Ã£o-github.png, id=501, 543.53062pt x 680.5425pt>
+<unbtex-example/figuras/organizaÃ§Ã£o-github.png, id=509, 543.53062pt x 680.5425pt>
 File: unbtex-example/figuras/organizaÃ§Ã£o-github.png Graphic file (type png)
 <use unbtex-example/figuras/organizaÃ§Ã£o-github.png>
 Package pdftex.def Info: unbtex-example/figuras/organizaÃ§Ã£o-github.png  used on input line 420.
@@ -2054,152 +2009,171 @@ Package pdftex.def Info: unbtex-example/figuras/organizaÃ§Ã£o-github.png  used o
 
  (unbtex-example/capitulo4.tex
 Cap\'{\i }tulo 4.
-<unbtex-example/figuras/logo.png, id=521, 715.67375pt x 823.075pt>
-File: unbtex-example/figuras/logo.png Graphic file (type png)
-<use unbtex-example/figuras/logo.png>
-Package pdftex.def Info: unbtex-example/figuras/logo.png  used on input line 26.
-(pdftex.def)             Requested size: 227.5pt x 261.6311pt.
+LaTeX Font Info:    Font shape `T1/qhv/b/it' will be
+(Font)              scaled to size 15.55188pt on input line 15.
 [46
 
 
 
 
 ]
-<unbtex-example/figuras/paleta.jpg, id=526, 1158.3275pt x 752.8125pt>
+Overfull \hbox (28.0635pt too wide) in paragraph at lines 38--39
+[]\T1/SticksTooText-TLF/b/n/12 (-20) US05 (Must Have, 3 pts)\T1/SticksTooText-TLF/m/n/12 (-20) : Como usu-á-rio, quero re-gis-trar os "Ali-men-tos Se-gu-ros"(preferências
+ []
+
+
+Overfull \hbox (2.1025pt too wide) in paragraph at lines 46--47
+[]\T1/SticksTooText-TLF/b/n/12 (-20) US09 (Should Have, 2 pts)\T1/SticksTooText-TLF/m/n/12 (-20) : Como usu-á-rio, quero re-gis-trar o fe-ed-back (acei-tou/recusou)
+ []
+
+[47]
+<unbtex-example/figuras/logo.png, id=540, 715.67375pt x 823.075pt>
+File: unbtex-example/figuras/logo.png Graphic file (type png)
+<use unbtex-example/figuras/logo.png>
+Package pdftex.def Info: unbtex-example/figuras/logo.png  used on input line 108.
+(pdftex.def)             Requested size: 227.5pt x 261.6311pt.
+ [48]
+<unbtex-example/figuras/paleta.jpg, id=546, 1158.3275pt x 752.8125pt>
 File: unbtex-example/figuras/paleta.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/paleta.jpg>
-Package pdftex.def Info: unbtex-example/figuras/paleta.jpg  used on input line 35.
+Package pdftex.def Info: unbtex-example/figuras/paleta.jpg  used on input line 117.
 (pdftex.def)             Requested size: 341.25pt x 221.7791pt.
- [47 <./unbtex-example/figuras/logo.png> <./unbtex-example/figuras/paleta.jpg>]
-Overfull \hbox (15.92311pt too wide) in paragraph at lines 64--65
+ [49 <./unbtex-example/figuras/logo.png> <./unbtex-example/figuras/paleta.jpg>] [50]
+Overfull \hbox (15.92311pt too wide) in paragraph at lines 156--157
 []\T1/SticksTooText-TLF/b/n/12 (-20) Serviços de API (api/): \T1/SticksTooText-TLF/m/n/12 (-20) Abs-trai a co-mu-ni-ca-ção com o back-end. Um cli-ente \T1/zi4/m/n/12 apiClient.ts
  []
 
-[48]
-Overfull \hbox (35.61475pt too wide) in paragraph at lines 78--79
+
+Overfull \hbox (35.61475pt too wide) in paragraph at lines 170--171
 \T1/SticksTooText-TLF/m/n/12 (-20) gó-cio (com-pa-ra-ção sen-so-rial, pon-tu-a-ção), en-quanto \T1/zi4/m/n/12 processamentoQuestionarioService.js
  []
 
 
-Overfull \hbox (48.22435pt too wide) in paragraph at lines 82--83
+Overfull \hbox (48.22435pt too wide) in paragraph at lines 174--175
 \T1/SticksTooText-TLF/m/n/12 (-20) ada de forma ver-si-o-nada atra-vés de ar-qui-vos de mi-gra-ção (ex: \T1/zi4/m/n/12 ...create-table-cuidadores.js\T1/SticksTooText-TLF/m/n/12 (-20) ),
  []
 
-[49]
+[51]
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 12.0pt on input line 99.
-
-Overfull \hbox (45.4328pt too wide) in paragraph at lines 118--119
+(Font)              scaled to size 12.0pt on input line 191.
+ [52]
+Overfull \hbox (45.4328pt too wide) in paragraph at lines 210--211
 \T1/SticksTooText-TLF/m/n/12 (-20) ex-trín-se-cos de cada ali-mento (tex-tura, cor, etc.). A se-pa-ra-ção en-tre \T1/zi4/m/n/12 Food \T1/SticksTooText-TLF/m/n/12 (-20) e \T1/zi4/m/n/12 Food_Sensory_Profile
  []
 
-[50] [51] [52]
-<unbtex-example/figuras/DER_TCC_2.png, id=557, 5362.0325pt x 3113.6325pt>
-File: unbtex-example/figuras/DER_TCC_2.png Graphic file (type png)
-<use unbtex-example/figuras/DER_TCC_2.png>
-Package pdftex.def Info: unbtex-example/figuras/DER_TCC_2.png  used on input line 262.
-(pdftex.def)             Requested size: 455.0pt x 264.20392pt.
- [53] [54 <./unbtex-example/figuras/DER_TCC_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+[53] [54] [55]
+<unbtex-example/figuras/DER_TCC_2_.png, id=590, 4960.5325pt x 3193.9325pt>
+File: unbtex-example/figuras/DER_TCC_2_.png Graphic file (type png)
+<use unbtex-example/figuras/DER_TCC_2_.png>
+Package pdftex.def Info: unbtex-example/figuras/DER_TCC_2_.png  used on input line 359.
+(pdftex.def)             Requested size: 626.20631pt x 403.18816pt.
+ [56 <./unbtex-example/figuras/DER_TCC_2_.png>] [57
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []|\T1/SticksTooText-TLF/m/n/10 (+20) O es-copo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) fo-cado no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) á-rio fi-nal)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) foi 100%
  []
 
 
-Underfull \hbox (badness 1859) in paragraph at lines 332--332
+Underfull \hbox (badness 1859) in paragraph at lines 430--430
 []|\T1/SticksTooText-TLF/m/n/10 (+20) O MVP foi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+15) cro-no-grama
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []|\T1/SticksTooText-TLF/m/n/10 (+20) Qualidade
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) do có-digo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) man-tida.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) Bugs crí-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) cos re-sol-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []|\T1/SticksTooText-TLF/m/n/10 (+20) Software
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) en-tre-gue
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) in-cre-men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 []|\T1/SticksTooText-TLF/m/n/10 (+20) Débitos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+12) ge-ren-ci-a-dos.
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 332--332
+Underfull \hbox (badness 6284) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) [Y] dé-bi-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 430--430
 \T1/SticksTooText-TLF/m/n/10 (+20) fo-ram pa-
  []
 
-[55]) [56]
+[58] [59]
+LaTeX Font Info:    Font shape `TS1/SticksTooText-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 468.
+) [60]
 \openout2 = `unbtex-example/capitulo5.aux'.
 
  (unbtex-example/capitulo5.tex
 Cap\'{\i }tulo 5.
-[57
+[61
 
 
 
 
-] [58] [59]) [60] (unbtex-example.bbl (unbtex-example.brf)
+] [62] [63] [64]) [65] (unbtex-example.bbl (unbtex-example.brf)
 \tf@brf=\write6
 \openout6 = `unbtex-example.brf'.
 
@@ -2215,63 +2189,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--50
  \T1/SticksTooText-TLF/b/n/12 (+20) passo a passo\T1/SticksTooText-TLF/m/n/12 (+20) . 2024. Dis-po-ní-vel em: [][]$https : / / blog . geekhunter . com . br /
  []
 
-[61
+[66
 
 
 
-]) [62] [63
+]) [67] [68
 
 
 ]
 \openout2 = `unbtex-example/apendice-a.aux'.
 
  (unbtex-example/apendice-a.tex
-<unbtex-example/figuras/telas/tela_cadastro_assistido.jpg, id=655, 740.7675pt x 1606.0pt>
-File: unbtex-example/figuras/telas/tela_cadastro_assistido.jpg Graphic file (type jpg)
-<use unbtex-example/figuras/telas/tela_cadastro_assistido.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_cadastro_assistido.jpg  used on input line 3.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-<unbtex-example/figuras/telas/tela_cadastro.jpg, id=656, 740.7675pt x 1606.0pt>
-File: unbtex-example/figuras/telas/tela_cadastro.jpg Graphic file (type jpg)
-<use unbtex-example/figuras/telas/tela_cadastro.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_cadastro.jpg  used on input line 10.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-<unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg, id=657, 740.7675pt x 1606.0pt>
-File: unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg Graphic file (type jpg)
-<use unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg  used on input line 17.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-<unbtex-example/figuras/telas/tela_feedback_sugestao.jpg, id=658, 740.7675pt x 1606.0pt>
-File: unbtex-example/figuras/telas/tela_feedback_sugestao.jpg Graphic file (type jpg)
-<use unbtex-example/figuras/telas/tela_feedback_sugestao.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_feedback_sugestao.jpg  used on input line 24.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-<unbtex-example/figuras/telas/tela_home_cuidador.jpg, id=659, 740.7675pt x 1606.0pt>
-File: unbtex-example/figuras/telas/tela_home_cuidador.jpg Graphic file (type jpg)
-<use unbtex-example/figuras/telas/tela_home_cuidador.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_home_cuidador.jpg  used on input line 31.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-<unbtex-example/figuras/telas/tela_login.jpg, id=660, 740.7675pt x 1606.0pt>
+ApÃªndice A.
+<unbtex-example/figuras/telas/tela_login.jpg, id=699, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_login.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_login.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_login.jpg  used on input line 39.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-<unbtex-example/figuras/telas/tela_perfil_cuidador.jpg, id=661, 512.91624pt x 1284.8pt>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_login.jpg  used on input line 6.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+<unbtex-example/figuras/telas/tela_cadastro.jpg, id=700, 740.7675pt x 1606.0pt>
+File: unbtex-example/figuras/telas/tela_cadastro.jpg Graphic file (type jpg)
+<use unbtex-example/figuras/telas/tela_cadastro.jpg>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_cadastro.jpg  used on input line 13.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+[69
+
+
+ <./unbtex-example/figuras/telas/tela_login.jpg>]
+<unbtex-example/figuras/telas/tela_home_cuidador.jpg, id=705, 740.7675pt x 1606.0pt>
+File: unbtex-example/figuras/telas/tela_home_cuidador.jpg Graphic file (type jpg)
+<use unbtex-example/figuras/telas/tela_home_cuidador.jpg>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_home_cuidador.jpg  used on input line 20.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+ [70 <./unbtex-example/figuras/telas/tela_cadastro.jpg>]
+<unbtex-example/figuras/telas/tela_perfil_cuidador.jpg, id=710, 512.91624pt x 1284.8pt>
 File: unbtex-example/figuras/telas/tela_perfil_cuidador.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_perfil_cuidador.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_perfil_cuidador.jpg  used on input line 46.
-(pdftex.def)             Requested size: 90.99861pt x 227.94087pt.
-<unbtex-example/figuras/telas/tela_refeicoes.jpg, id=662, 740.7675pt x 1606.0pt>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_perfil_cuidador.jpg  used on input line 27.
+(pdftex.def)             Requested size: 273.00278pt x 683.84222pt.
+ [71 <./unbtex-example/figuras/telas/tela_home_cuidador.jpg>]
+Overfull \vbox (10.9027pt too high) has occurred while \output is active []
+
+ [72 <./unbtex-example/figuras/telas/tela_perfil_cuidador.jpg>]
+<unbtex-example/figuras/telas/tela_cadastro_assistido.jpg, id=720, 740.7675pt x 1606.0pt>
+File: unbtex-example/figuras/telas/tela_cadastro_assistido.jpg Graphic file (type jpg)
+<use unbtex-example/figuras/telas/tela_cadastro_assistido.jpg>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_cadastro_assistido.jpg  used on input line 34.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+<unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg, id=721, 740.7675pt x 1606.0pt>
+File: unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg Graphic file (type jpg)
+<use unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg  used on input line 41.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+ [73 <./unbtex-example/figuras/telas/tela_cadastro_assistido.jpg>]
+<unbtex-example/figuras/telas/tela_refeicoes.jpg, id=726, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_refeicoes.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_refeicoes.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_refeicoes.jpg  used on input line 53.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-<unbtex-example/figuras/telas/tela_sugestao.jpg, id=663, 740.7675pt x 1606.0pt>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_refeicoes.jpg  used on input line 48.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+ [74 <./unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg>]
+<unbtex-example/figuras/telas/tela_sugestao.jpg, id=731, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_sugestao.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_sugestao.jpg>
-Package pdftex.def Info: unbtex-example/figuras/telas/tela_sugestao.jpg  used on input line 61.
-(pdftex.def)             Requested size: 90.99861pt x 197.26971pt.
-) [64 <./unbtex-example/figuras/telas/tela_cadastro_assistido.jpg> <./unbtex-example/figuras/telas/tela_cadastro.jpg> <./unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg>] [65 <./unbtex-example/figuras/telas/tela_feedback_sugestao.jpg> <./unbtex-example/figuras/telas/tela_home_cuidador.jpg> <./unbtex-example/figuras/telas/tela_login.jpg>] [66 <./unbtex-example/figuras/telas/tela_perfil_cuidador.jpg> <./unbtex-example/figuras/telas/tela_refeicoes.jpg>] [67 <./unbtex-example/figuras/telas/tela_sugestao.jpg>]
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_sugestao.jpg  used on input line 55.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+ [75 <./unbtex-example/figuras/telas/tela_refeicoes.jpg>]
+<unbtex-example/figuras/telas/tela_feedback_sugestao.jpg, id=736, 740.7675pt x 1606.0pt>
+File: unbtex-example/figuras/telas/tela_feedback_sugestao.jpg Graphic file (type jpg)
+<use unbtex-example/figuras/telas/tela_feedback_sugestao.jpg>
+Package pdftex.def Info: unbtex-example/figuras/telas/tela_feedback_sugestao.jpg  used on input line 62.
+(pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
+) [76 <./unbtex-example/figuras/telas/tela_sugestao.jpg>] [77 <./unbtex-example/figuras/telas/tela_feedback_sugestao.jpg>]
 \openout2 = `unbtex-example/apendice-b.aux'.
 
 
@@ -2279,35 +2266,34 @@ No file unbtex-example/apendice-b.tex.
 \openout2 = `unbtex-example/apendice-c.aux'.
 
 No file unbtex-example/apendice-c.tex.
-Package hyperref Info: Option `pageanchor' set `false' on input line 376.
-<unbtexcover/contracapa.pdf, id=681, 597.23137pt x 844.15375pt>
+Package hyperref Info: Option `pageanchor' set `false' on input line 378.
+<unbtexcover/contracapa.pdf, id=745, 597.23137pt x 844.15375pt>
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf>
-Package pdftex.def Info: unbtexcover/contracapa.pdf  used on input line 376.
+Package pdftex.def Info: unbtexcover/contracapa.pdf  used on input line 378.
 (pdftex.def)             Requested size: 597.2299pt x 844.15169pt.
-<unbtexcover/contracapa.pdf, id=683, page=1, 597.23137pt x 844.15375pt>
+<unbtexcover/contracapa.pdf, id=747, page=1, 597.23137pt x 844.15375pt>
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 378.
 (pdftex.def)             Requested size: 597.87692pt x 845.04684pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 378.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 378.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 378.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
-Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 376.
+Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 378.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
-[67
-
+[77
 
 
 
@@ -2320,7 +2306,7 @@ Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 3
 
 
  <./unbtexcover/contracapa.pdf>]
-Package hyperref Info: Option `pageanchor' set `true' on input line 376.
+Package hyperref Info: Option `pageanchor' set `true' on input line 378.
 \tf@lof=\write7
 \openout7 = `unbtex-example.lof'.
 
@@ -2343,17 +2329,17 @@ Package rerunfilecheck Info: File `unbtex-example.brf' has not changed.
 (rerunfilecheck)             Checksum: A737E34D42D737F543CED1254F1873C1;1473.
  ) 
 Here is how much of TeX's memory you used:
- 35599 strings out of 467871
- 633323 string characters out of 5418375
- 1179890 words of memory out of 5000000
- 63257 multiletter control sequences out of 15000+600000
- 805332 words of font info for 409 fonts, out of 8000000 for 9000
+ 35749 strings out of 467871
+ 636061 string characters out of 5418375
+ 1181968 words of memory out of 5000000
+ 63368 multiletter control sequences out of 15000+600000
+ 809891 words of font info for 420 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,17n,147p,1537b,818s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Bold.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Italic.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Regular.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on unbtex-example.pdf (69 pages, 3814791 bytes).
+ 125i,17n,147p,1537b,820s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Bold.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Italic.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Regular.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/caiol/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
+Output written on unbtex-example.pdf (79 pages, 3851680 bytes).
 PDF statistics:
- 1072 PDF objects out of 1200 (max. 8388607)
- 237 named destinations out of 1000 (max. 500000)
- 84325 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 1157 PDF objects out of 1200 (max. 8388607)
+ 255 named destinations out of 1000 (max. 500000)
+ 90493 words of extra memory for PDF output out of 106986 (max. 10000000)
 
