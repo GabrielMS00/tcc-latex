@@ -62,33 +62,35 @@
 \contentsline {section}{\numberline {4.3}Identidade Visual}{48}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Logotipo}{48}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Interface do Aplicativo}{49}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Interface do Aplicativo}{50}{subsection.4.3.3}%
 \contentsline {section}{\numberline {4.4}Estrutura do Código da Aplicação}{50}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Camada de Apresentação (Front-end)}{50}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.1}Camada de Apresentação (Front-end)}{51}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Camada de Negócio e Dados (Back-end)}{51}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Ambiente e Orquestração}{52}{subsection.4.4.3}%
 \contentsline {section}{\numberline {4.5}Organização dos Dados}{52}{section.4.5}%
 \contentsline {subsection}{\numberline {4.5.1}Estrutura de Usuários e Pacientes}{52}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Armazenamento de Dados de Avaliação (Questionários)}{52}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.2}Armazenamento de Dados de Avaliação (Questionários)}{53}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Base de Conhecimento Alimentar e Perfil Sensorial}{53}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}Modelo de Sugestão, Opções e Feedback}{53}{subsection.4.5.4}%
-\contentsline {subsection}{\numberline {4.5.5}Modelo Relacional e DER}{53}{subsection.4.5.5}%
-\contentsline {section}{\numberline {4.6}Regra de negócio}{57}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Fundamentos e Modelo de Dados de Suporte}{57}{subsection.4.6.1}%
-\contentsline {subsection}{\numberline {4.6.2}O Fluxo Operacional do Algoritmo de Sugestão}{57}{subsection.4.6.2}%
-\contentsline {subsection}{\numberline {4.6.3}Dinamismo e Adaptação: O Ciclo de Feedback}{58}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Resultados das Métricas (GQM)}{58}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Cronograma de Desenvolvimento}{59}{section.4.8}%
-\contentsline {chapter}{\chapternumberline {5}Conclusões}{61}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introdução}{61}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Objetivos Específicos}{61}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Processo de desenvolvimento}{61}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{62}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Fragilidas Internas}{62}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Fragilidas Externas}{63}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Proposta de Evolução}{63}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Conclusões final}{64}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {4.5.5}Modelo Relacional e DER}{54}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}Regra de negócio}{58}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Fundamentos e Modelo de Dados de Suporte}{58}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}O Fluxo Operacional do Algoritmo de Sugestão}{58}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Dinamismo e Adaptação: O Ciclo de Feedback}{59}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Resultados das Métricas (GQM)}{59}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Cronograma de Desenvolvimento}{60}{section.4.8}%
+\contentsline {chapter}{\chapternumberline {5}Conclusões}{62}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introdução}{62}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Objetivos Específicos}{62}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Processo de desenvolvimento}{62}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{63}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Fragilidas Internas}{63}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Fragilidas Externas}{64}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Proposta de Evolução}{64}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Conclusões final}{65}{subsection.5.2.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{66}{chapter*.28}%
+\contentsline {chapter}{Refer\^encias}{67}{chapter*.28}%
 \renewcommand *{\cftappendixname }{Apêndice \space }
-\contentsline {part}{Ap\^endices}{68}{section*.29}%
-\contentsline {appendix}{\chapternumberline {A}Telas do Aplicativo}{69}{appendix.A}%
+\contentsline {part}{Ap\^endices}{69}{section*.29}%
+\contentsline {appendix}{\chapternumberline {A}Telas do Aplicativo}{70}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Protótipo de Média Fidelidade}{79}{appendix.B}%
