@@ -33,8 +33,6 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: abntex2-options.bib
 Database file #2: unbtex-example/referencias.bib
-Warning--entry type for "Geekhunter2024" isn't style-file defined
---line 411 of file unbtex-example/referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -44,45 +42,44 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | https://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 27 entries,
+You've used 37 entries,
             6770 wiz_defined-function locations,
-            1335 strings with 13898 characters,
-and the built_in function-call counts, 20677 in all, are:
-= -- 1659
-> -- 723
-< -- 119
-+ -- 414
-- -- 216
-* -- 1430
-:= -- 2693
-add.period$ -- 84
-call.type$ -- 28
-change.case$ -- 223
-chr.to.int$ -- 80
-cite$ -- 22
-duplicate$ -- 1174
-empty$ -- 1503
-format.name$ -- 1036
-if$ -- 4809
-int.to.chr$ -- 4
+            1376 strings with 15044 characters,
+and the built_in function-call counts, 32636 in all, are:
+= -- 2963
+> -- 993
+< -- 372
++ -- 774
+- -- 298
+* -- 2195
+:= -- 4234
+add.period$ -- 135
+call.type$ -- 38
+change.case$ -- 311
+chr.to.int$ -- 89
+cite$ -- 32
+duplicate$ -- 2268
+empty$ -- 2042
+format.name$ -- 1457
+if$ -- 7255
+int.to.chr$ -- 5
 int.to.str$ -- 3
-missing$ -- 485
-newline$ -- 115
-num.names$ -- 106
-pop$ -- 648
+missing$ -- 664
+newline$ -- 176
+num.names$ -- 156
+pop$ -- 836
 preamble$ -- 1
-purify$ -- 102
+purify$ -- 136
 quote$ -- 0
-skip$ -- 1416
+skip$ -- 2521
 stack$ -- 1
-substring$ -- 605
-swap$ -- 479
-text.length$ -- 17
+substring$ -- 1062
+swap$ -- 881
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 0
-while$ -- 134
+while$ -- 203
 width$ -- 0
-write$ -- 347
-(There was 1 warning)
+write$ -- 508

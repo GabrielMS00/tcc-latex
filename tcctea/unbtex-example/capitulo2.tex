@@ -1,6 +1,6 @@
 \chapter{Referencial Teórico}
 %
-Este capítulo apresenta o referencial teórico dividido em dois grupos principais. O primeiro aborda os conceitos de TEA, seletividade alimentar, tratamentos e o uso de tecnologias de software neste contexto, enquanto o segundo grupo foca nos conceitos de engenharia de software que nortearam o desenvolvimento da aplicação. Para a definição do primeiro grupo, foram utilizados mapeamentos sistemáticos da literatura, detalhados nas seções seguintes.
+Este capítulo apresenta o referencial teórico dividido em dois grupos principais. O primeiro aborda os conceitos de TEA, seletividade alimentar, tratamentos e o uso de tecnologias de \textit{software} neste contexto, enquanto o segundo grupo foca nos conceitos de engenharia de \textit{software} que nortearam o desenvolvimento da aplicação. Para a definição do primeiro grupo, foram utilizados mapeamentos sistemáticos da literatura, detalhados nas seções seguintes.
 
 Este trabalho foi realizado com o apoio de uma profissional da área de nutrição com experiência no manejo de pacientes deste contexto. Paula Uessugue é nutricionista referência em nutrição materno-infantil no DF, com 20 anos de atuação acadêmica e clínica e mais de mil crianças atendidas. Possui reconhecimento público por sua contribuição em introdução alimentar, TEA e educação nutricional, além de ser professora e mentora de projetos acadêmicos.
 
@@ -36,17 +36,17 @@ A expressão de busca identificou 44 artigos, dos quais foram extraídas contrib
 
 \vspace{1em}
 
-A busca por ferramentas tecnológicas retornou poucas publicações, indicando uma lacuna na literatura sobre o uso de software para seletividade alimentar no TEA. Os resultados são apresentados nas seções seguintes e fundamentam o desenvolvimento da aplicação.
+A busca por ferramentas tecnológicas retornou poucas publicações, indicando uma lacuna na literatura sobre o uso de \textit{software} para seletividade alimentar no TEA. Os resultados são apresentados nas seções seguintes e fundamentam o desenvolvimento da aplicação.
 
 \subsection{Seletividade Alimentar no Contexto do TEA}
 A seletividade alimentar é uma característica comum em pessoas com Transtorno do Espectro Autista (TEA) e representa um desafio para familiares, cuidadores e profissionais. Indivíduos no espectro tendem a apresentar padrões alimentares restritivos, marcados pela recusa de alimentos, preferência por marcas ou preparos específicos e escolhas limitadas por cor, textura ou temperatura.
 
-Essa condição está relacionada a alterações no processamento sensorial (hipersensibilidade ou hipossensibilidade gustativa, olfativa e tátil), fatores que podem gerar desconforto ou aversão a alimentos. Além disso, aspectos comportamentais, como rigidez em rotinas e dificuldade com mudanças, contribuem para tornar a alimentação uma fonte de estresse.
+Essa condição está relacionada a alterações no processamento sensorial (hipersensibilidade ou hipossensibilidade gustativa, olfativa e tátil), fatores que podem gerar desconforto ou aversão a alimentos. Além disso, aspectos comportamentais, como rigidez em rotinas e dificuldade com mudanças, contribuem para tornar a alimentação uma fonte de \textit{stress}.
 
 A consequência da seletividade alimentar é o risco de uma dieta desequilibrada, podendo resultar em deficiências de nutrientes. A limitação alimentar persistente também impacta o convívio social, pois interfere em refeições familiares ou atividades externas.
 
 \subsection{Transtorno do Espectro Autista}
-O Transtorno do Espectro Autista (TEA) é uma condição do neurodesenvolvimento caracterizada por déficits na comunicação social, padrões repetitivos de comportamento e particularidades sensoriais. Tais características se manifestam em graus variados, o que justifica o termo “espectro”. Indivíduos com TEA frequentemente demonstram hipersensibilidade ou hipossensibilidade a estímulos (sons, luzes, texturas, cheiros, sabores), impactando diretamente a vida cotidiana, incluindo a alimentação.
+O Transtorno do Espectro Autista (TEA) é uma condição do neurodesenvolvimento caracterizada por déficits na comunicação social, padrões repetitivos de comportamento e particularidades sensoriais. Tais características se manifestam em graus variados, o que justifica o termo “espectro” \cite{americanpsychiatricassociation2013}. Indivíduos com TEA frequentemente demonstram hipersensibilidade ou hipossensibilidade a estímulos (sons, luzes, texturas, cheiros, sabores), impactando diretamente a vida cotidiana, incluindo a alimentação.
 
 Diversos estudos destacam a relação entre essas sensibilidades e a seletividade alimentar, indicando que estímulos sensoriais específicos, como texturas, podem provocar reações de rejeição alimentar em crianças com TEA \cite{ulloa2022}. Essa aversão não é uma preferência comum, mas sim uma resposta sensorial intensa que pode desencadear comportamentos como choro, gritos ou evasão. Esses padrões tornam o processo de alimentação um desafio para familiares e profissionais.
 
@@ -55,87 +55,86 @@ Além disso, as dificuldades alimentares associadas ao TEA não estão relaciona
 \subsection{Tratamentos e Intervenções Comportamentais para Seletividade Alimentar no TEA}
 O manejo da seletividade alimentar em indivíduos com TEA exige uma abordagem estruturada, que considere os níveis de suporte, o grau de seletividade e o uso de instrumentos de avaliação para guiar o processo terapêutico.
 
-Segundo o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5)\cite{americanpsychiatricassociation2013}, o TEA pode ser classificado em três níveis de suporte — variando de apoio mínimo até apoio muito substancial — de acordo com a intensidade dos déficits de comunicação social e a presença de comportamentos restritivos.
+Segundo o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM-5) \cite{americanpsychiatricassociation2013}, o TEA pode ser classificado em três níveis de suporte — variando de apoio mínimo até apoio muito substancial — de acordo com a intensidade dos déficits de comunicação social e a presença de comportamentos restritivos.
 
 Essa classificação impacta o planejamento das intervenções. Crianças que demandam maior suporte tendem a apresentar maior rigidez comportamental e menor tolerância a novos alimentos. Assim, quanto mais elevado o nível de suporte, mais complexas devem ser as estratégias de introdução de alimentos e reeducação nutricional, envolvendo acompanhamento contínuo de equipes multidisciplinares.
 
 O grau de seletividade também varia amplamente. Há casos em que a restrição é moderada, limitando-se a alguns grupos de alimentos, enquanto em quadros mais severos é comum a recusa de categorias alimentares, com aceitação restrita a pouquíssimos itens. Tal comportamento compromete a variedade nutricional, podendo gerar carências de nutrientes ou obesidade associada à desnutrição, devido ao consumo de alimentos ultraprocessados.
 
-Para avaliar essas condições, são utilizadas escalas e instrumentos, como checklists, entrevistas com cuidadores e ferramentas padronizadas, a exemplo da Brief Autism Mealtime Behavior Inventory (BAMBI). O BAMBI ajuda a identificar padrões de recusa, preferências e intensidade de comportamentos durante as refeições. O uso dessas ferramentas possibilita monitorar a evolução da intervenção e planejar ajustes.
+Para avaliar essas condições, são utilizadas escalas e instrumentos, como \textit{checklists}, entrevistas com cuidadores e ferramentas padronizadas, a exemplo da \textit{Brief Autism Mealtime Behavior Inventory} (BAMBI). O BAMBI ajuda a identificar padrões de recusa, preferências e intensidade de comportamentos durante as refeições. O uso dessas ferramentas possibilita monitorar a evolução da intervenção e planejar ajustes.
 
 No que se refere às estratégias, as abordagens baseadas na Análise do Comportamento Aplicada (ABA) têm mostrado resultados na ampliação do repertório alimentar. Técnicas como reforço positivo, modelagem, dessensibilização sistemática, extinção de fuga e exposição gradual são aplicadas de forma individualizada. O reforço positivo, por exemplo, utiliza estímulos para encorajar comportamentos (como aceitar um novo alimento), enquanto a exposição repetida e gradual contribui para reduzir a rejeição inicial.
 
-O envolvimento da família é outro fator nas intervenções. O trabalho conjunto entre profissionais e cuidadores possibilita criar um ambiente alimentar de reforço, dá continuidade às práticas fora do ambiente clínico e reduz o estresse cotidiano. Assim, a cooperação entre todos os envolvidos garante uma intervenção adaptada e sustentável.
+O envolvimento da família é outro fator nas intervenções. O trabalho conjunto entre profissionais e cuidadores possibilita criar um ambiente alimentar de reforço, dá continuidade às práticas fora do ambiente clínico e reduz o \textit{stress} cotidiano. Assim, a cooperação entre todos os envolvidos garante uma intervenção adaptada e sustentável.
 
 \subsection{Uso de Tecnologia no Contexto}
 
 Durante a pesquisa por tecnologias existentes, a solução que mais se aproximou da proposta foi o aplicativo "Garfinho". Ele se posiciona como uma ferramenta de apoio à alimentação infantil, oferecendo planejamento de cardápios e receitas. Contudo, uma análise revela que seu propósito e público são distintos. O "Garfinho" atende a um público geral, sem especialização nas complexidades do Transtorno do Espectro Autista (TEA), e sua abordagem não considera as questões sensoriais centrais na seletividade alimentar. Adicionalmente, seu modelo de negócio é baseado em assinatura paga, o que pode limitar o acesso.
 
-Deste modo, para preencher essa lacuna que este aplicativo foi concebido. Diferente de uma solução genérica, a proposta é focada nas necessidades de pessoas com TEA e seus cuidadores.  Contrapondo-se à imposição de dietas, o sistema opera com base em trocas alimentares personalizadas, partindo dos alimentos já aceitos pelo indivíduo para sugerir substituições graduais. Este método respeita o perfil de cada usuário, tornando o processo mais adaptado. O objetivo é entregar uma ferramenta especializada e direcionada para este contexto.
+Deste modo, para preencher essa lacuna que este aplicativo foi concebido. Diferente de uma solução genérica, a proposta é focada nas necessidades de pessoas com TEA e seus cuidadores. Contrapondo-se à imposição de dietas, o sistema opera com base em trocas alimentares personalizadas, partindo dos alimentos já aceitos pelo indivíduo para sugerir substituições graduais. Este método respeita o perfil de cada usuário, tornando o processo mais adaptado. O objetivo é entregar uma ferramenta especializada e direcionada para este contexto.
 
-Como parte da fundamentação deste trabalho, foi conduzida uma revisão da literatura focada nos avanços científicos e tecnológicos para o manejo da seletividade alimentar no Transtorno do Espectro Autista (TEA). 
-Este estudo, submetido à Revista Políticas Públicas \& Cidades \cite{Uessugue2025avancos}, analisou a literatura recente para identificar lacunas e tendências de pesquisa, destacando a necessidade de desenvolver novas ferramentas tecnológicas que auxiliem cuidadores e pacientes, uma vez que a literatura ainda é incipiente na aplicação de software para este problema.
+Como parte da fundamentação deste trabalho, foi conduzida uma revisão da literatura focada nos avanços científicos e tecnológicos para o manejo da seletividade alimentar no Transtorno do Espectro Autista (TEA). Este estudo, desenvolvido em coautoria pelos autores desta monografia e submetido à Revista Políticas Públicas \& Cidades \cite{Uessugue2025avancos}, analisou a literatura recente para identificar lacunas e tendências de pesquisa, destacando a necessidade de desenvolver novas ferramentas tecnológicas que auxiliem cuidadores e pacientes, uma vez que a literatura ainda é incipiente na aplicação de \textit{software} para este problema.
 
-\section{Engenharia de Software}
+\section{Engenharia de \textit{Software}}
 %
 
-A Engenharia de Software aplica uma abordagem sistemática, disciplinada e quantificável ao desenvolvimento, operação e manutenção de software. Ela abrange um conjunto de métodos, ferramentas e procedimentos que visam produzir software que atenda aos requisitos, dentro do prazo e orçamento.
+A Engenharia de \textit{Software} aplica uma abordagem sistemática, disciplinada e quantificável ao desenvolvimento, operação e manutenção de \textit{software}. Ela abrange um conjunto de métodos, ferramentas e procedimentos que visam produzir \textit{software} que atenda aos requisitos, dentro do prazo e orçamento.
 
-Segundo Pressman e Maxim (2021), a Engenharia de Software é um campo em evolução que busca soluções para a construção de sistemas complexos. Suas principais áreas de atuação incluem:
+Segundo Pressman e Maxim \cite{pressman2021}, a Engenharia de \textit{Software} é um campo em evolução que busca soluções para a construção de sistemas complexos. Suas principais áreas de atuação incluem:
 
 \begin{itemize}
-    \item \textbf{Processo de Software:} Define as atividades, tarefas e produtos de trabalho necessários. Modelos de processo (cascata, ágeis) orientam o desenvolvimento.
+    \item \textbf{Processo de \textit{Software}:} Define as atividades, tarefas e produtos de trabalho necessários. Modelos de processo (cascata, ágeis) orientam o desenvolvimento.
     \item \textbf{Engenharia de Requisitos:} Foca na elicitação, análise, especificação e validação das necessidades dos usuários e das restrições do sistema.
-    \item \textbf{Projeto de Software:} Envolve a criação da arquitetura, estrutura de dados e interfaces para os componentes do sistema.
-    \item \textbf{Construção de Software:} Refere-se à codificação, testes unitários e depuração.
-    \item \textbf{Teste de Software:} Garante que o software funcione e atenda aos requisitos, identificando defeitos.
-    \item \textbf{Manutenção de Software:} Lida com as modificações necessárias após a entrega, incluindo correção de erros, melhorias e adaptações.
-    \item \textbf{Gerência de Configuração de Software (GCS):} Controla as mudanças nos artefatos do projeto ao longo do tempo.
-    \item \textbf{Gerência de Projetos de Software:} Planeja, organiza e controla os recursos para garantir que o projeto seja concluído.
+    \item \textbf{Projeto de \textit{Software}:} Envolve a criação da arquitetura, estrutura de dados e interfaces para os componentes do sistema.
+    \item \textbf{Construção de \textit{Software}:} Refere-se à codificação, testes unitários e depuração.
+    \item \textbf{Teste de \textit{Software}:} Garante que o \textit{software} funcione e atenda aos requisitos, identificando defeitos.
+    \item \textbf{Manutenção de \textit{Software}:} Lida com as modificações necessárias após a entrega, incluindo correção de erros, melhorias e adaptações.
+    \item \textbf{Gerência de Configuração de \textit{Software} (GCS):} Controla as mudanças nos artefatos do projeto ao longo do tempo.
+    \item \textbf{Gerência de Projetos de \textit{Software}:} Planeja, organiza e controla os recursos para garantir que o projeto seja concluído.
 \end{itemize}
 
-A aplicação dos princípios da Engenharia de Software permite gerenciar a complexidade, garantir a qualidade, otimizar recursos e entregar valor aos usuários.
+A aplicação dos princípios da Engenharia de \textit{Software} permite gerenciar a complexidade, garantir a qualidade, otimizar recursos e entregar valor aos usuários.
 
 %
 \section{Metodologias Ágeis}
 %
 
-As metodologias ágeis representam uma abordagem para o desenvolvimento de software que prioriza a flexibilidade, a colaboração, a entrega de valor e a resposta rápida a mudanças. Elas surgiram como uma alternativa aos métodos tradicionais, que se mostravam rígidos e pouco adaptáveis a projetos com requisitos em evolução.
+As metodologias ágeis representam uma abordagem para o desenvolvimento de \textit{software} que prioriza a flexibilidade, a colaboração, a entrega de valor e a resposta rápida a mudanças. Elas surgiram como uma alternativa aos métodos tradicionais, que se mostravam rígidos e pouco adaptáveis a projetos com requisitos em evolução.
 
-O Manifesto Ágil, publicado em 2001, estabeleceu os quatro valores que norteiam essas metodologias:
+O Manifesto Ágil, publicado em 2001 \cite{beck2001manifesto}, estabeleceu os quatro valores que norteiam essas metodologias:
 
 \begin{itemize}
     \item Indivíduos e interações mais que processos e ferramentas.
-    \item Software em funcionamento mais que documentação abrangente.
+    \item \textit{Software} em funcionamento mais que documentação abrangente.
     \item Colaboração com o cliente mais que negociação de contratos.
     \item Responder a mudanças mais que seguir um plano.
 \end{itemize}
 
-Esses valores são complementados por doze princípios que detalham a forma de trabalho ágil, como a entrega frequente de software funcional, a colaboração diária, a simplicidade e a auto-organização das equipes.
+Esses valores são complementados por doze princípios que detalham a forma de trabalho ágil, como a entrega frequente de \textit{software} funcional, a colaboração diária, a simplicidade e a auto-organização das equipes.
 
 Dentre as diversas metodologias ágeis, algumas das mais conhecidas incluem:
 
 \begin{itemize}
-    \item \textbf{Scrum:} Um \textit{frameowork} iterativo e incremental que organiza o desenvolvimento em ciclos curtos (sprints), com papéis e eventos bem definidos.
-    \item \textbf{Kanban:} Um método visual para gerenciar o fluxo de trabalho, utilizando quadros com colunas que representam os estágios das tarefas, com foco na limitação do trabalho em progresso.
-    \item \textbf{Extreme Programming (XP):} Uma metodologia que enfatiza a entrega contínua, testes frequentes, programação em pares, refatoração e feedback constante.
-    \item \textbf{Lean Software Development:} Baseado nos princípios do Lean Manufacturing, foca na eliminação de desperdícios, na construção de qualidade e na entrega rápida.
+    \item \textbf{\textit{Scrum}:} Um \textit{framework} iterativo e incremental que organiza o desenvolvimento em ciclos curtos (\textit{sprints}), com papéis e eventos bem definidos \cite{schwaber2020scrum}.
+    \item \textbf{\textit{Kanban}:} Um método visual para gerenciar o fluxo de trabalho, utilizando quadros com colunas que representam os estágios das tarefas, com foco na limitação do trabalho em progresso.
+    \item \textbf{\textit{Extreme Programming} (XP):} Uma metodologia que enfatiza a entrega contínua, testes frequentes, programação em pares, refatoração e \textit{feedback} constante.
+    \item \textbf{\textit{Lean Software Development}:} Baseado nos princípios do \textit{Lean Manufacturing}, foca na eliminação de desperdícios, na construção de qualidade e na entrega rápida.
 \end{itemize}
 
 As metodologias ágeis são amplamente adotadas na indústria devido à sua capacidade de promover maior adaptabilidade, reduzir riscos e melhorar a qualidade do produto final.
 
 %
-\section{Desenvolvimento Mobile}
+\section{Desenvolvimento \textit{Mobile}}
 %
 
-O desenvolvimento mobile refere-se ao processo de criação de aplicativos para dispositivos móveis, como smartphones e tablets. Com a crescente ubiquidade desses aparelhos, a demanda por aplicações tem impulsionado a evolução de tecnologias e abordagens para esse segmento.
+O desenvolvimento \textit{mobile} refere-se ao processo de criação de aplicativos para dispositivos móveis, como \textit{smartphones} e \textit{tablets}. Com a crescente ubiquidade desses aparelhos, a demanda por aplicações tem impulsionado a evolução de tecnologias e abordagens para esse segmento.
 
-Existem três principais abordagens para o desenvolvimento mobile:
+Existem três principais abordagens para o desenvolvimento \textit{mobile}:
 
 \begin{itemize}
     \item \textbf{Desenvolvimento Nativo:} Envolve a criação de aplicativos usando as linguagens e ferramentas específicas de cada plataforma (por exemplo, Swift para iOS; Java/Kotlin para Android). Aplicativos nativos oferecem o melhor desempenho e acesso total aos recursos do dispositivo, mas exigem o desenvolvimento de bases de código separadas, o que pode aumentar o tempo e o custo.
-    \item \textbf{Desenvolvimento Híbrido:} Permite a criação de aplicativos que funcionam em múltiplas plataformas usando uma única base de código (geralmente tecnologias web como HTML, CSS, JavaScript) encapsuladas em um contêiner nativo. \textit{frameowork}s como Cordova ou Ionic são exemplos. Embora ofereçam agilidade, podem ter limitações de desempenho e acesso a recursos nativos.
-    \item \textbf{Desenvolvimento Multiplataforma (Cross-Platform):} Aborda o desenvolvimento com uma única base de código que compila para código nativo ou se comunica com componentes nativos. \textit{frameowork}s como React Native e Flutter se enquadram nesta categoria. Eles buscam combinar a eficiência de uma única base de código com o desempenho nativo.
+    \item \textbf{Desenvolvimento Híbrido:} Permite a criação de aplicativos que funcionam em múltiplas plataformas usando uma única base de código (geralmente tecnologias \textit{web} como HTML, CSS, JavaScript) encapsuladas em um \textit{container} nativo. \textit{Frameworks} como Cordova ou Ionic são exemplos. Embora ofereçam agilidade, podem ter limitações de desempenho e acesso a recursos nativos.
+    \item \textbf{Desenvolvimento Multiplataforma (\textit{Cross-Platform}):} Aborda o desenvolvimento com uma única base de código que compila para código nativo ou se comunica com componentes nativos. \textit{Frameworks} como React Native e Flutter se enquadram nesta categoria. Eles buscam combinar a eficiência de uma única base de código com o desempenho nativo.
 \end{itemize}
 
 A escolha da abordagem depende de fatores como o orçamento, o prazo, a complexidade do aplicativo e a necessidade de acesso a recursos nativos.
@@ -146,79 +145,79 @@ A escolha da abordagem depende de fatores como o orçamento, o prazo, a complexi
 
 \subsection{React Native}
 
-React Native é um \textit{frameowork} de código aberto criado pelo Facebook para o desenvolvimento de aplicativos móveis nativos utilizando JavaScript e React. Ele permite que desenvolvedores construam interfaces para iOS e Android a partir de uma única base de código.
+React Native é um \textit{framework} de código aberto criado pelo Facebook para o desenvolvimento de aplicativos móveis nativos utilizando JavaScript e React \cite{reactnative}. Ele permite que desenvolvedores construam interfaces para iOS e Android a partir de uma única base de código.
 
-A principal característica do React Native é a capacidade de renderizar componentes da interface do usuário que são, de fato, componentes nativos da plataforma, e não webviews. Isso resulta em aplicativos com desempenho e aparência nativos.
+A principal característica do React Native é a capacidade de renderizar componentes da interface do usuário que são, de fato, componentes nativos da plataforma, e não \textit{webviews}. Isso resulta em aplicativos com desempenho e aparência nativos.
 
 Benefícios do React Native incluem:
 \begin{itemize}
     \item \textbf{Reuso de Código:} Grande parte do código JavaScript pode ser compartilhada entre as plataformas iOS e Android.
-    \item \textbf{Hot Reloading e Fast Refresh:} Ferramentas que permitem visualizar as mudanças no código quase instantaneamente.
+    \item \textbf{\textit{Hot Reloading} e \textit{Fast Refresh}:} Ferramentas que permitem visualizar as mudanças no código quase instantaneamente.
     \item \textbf{Comunidade Ativa:} Vasta comunidade de desenvolvedores que contribui com bibliotecas e suporte.
     \item \textbf{Acesso a Recursos Nativos:} Possibilita acessar APIs nativas do dispositivo quando necessário.
 \end{itemize}
 
 \subsection{Node.js}
 
-Node.js é um ambiente de execução JavaScript de código aberto e multiplataforma, construído sobre o motor V8 do Google Chrome. Ele permite que desenvolvedores usem JavaScript para criar aplicações do lado do servidor (back-end).
+Node.js é um ambiente de execução JavaScript de código aberto e multiplataforma, construído sobre o motor V8 do Google Chrome \cite{nodejs}. Ele permite que desenvolvedores usem JavaScript para criar aplicações do lado do servidor (\textit{back-end}).
 
-A característica do Node.js é seu modelo de I/O não bloqueante e orientado a eventos, o que o torna eficiente para aplicações que lidam com muitas requisições simultâneas, como APIs RESTful e microsserviços.
+A característica do Node.js é seu modelo de I/O não bloqueante e orientado a eventos, o que o torna eficiente para aplicações que lidam com muitas requisições simultâneas, como APIs \textit{RESTful} e microsserviços.
 
 Vantagens do Node.js:
 \begin{itemize}
-    \item \textbf{Performance:} Graças ao motor V8 e ao modelo assíncrono, o Node.js é rápido na execução de código JavaScript.
+    \item \textbf{\textit{Performance}:} Graças ao motor V8 e ao modelo assíncrono, o Node.js é rápido na execução de código JavaScript.
     \item \textbf{Ecossistema NPM:} Possui o maior ecossistema de bibliotecas de código aberto (npm), facilitando o desenvolvimento.
-    \item \textbf{JavaScript Full-Stack:} Permite que desenvolvedores utilizem a mesma linguagem (JavaScript) tanto no front-end quanto no back-end.
+    \item \textbf{JavaScript \textit{Full-Stack}:} Permite que desenvolvedores utilizem a mesma linguagem (JavaScript) tanto no \textit{front-end} quanto no \textit{back-end}.
     \item \textbf{Escalabilidade:} Ideal para construir aplicações escaláveis e de alta concorrência.
 \end{itemize}
 
 \subsection{Expo}
 
-Expo é um \textit{frameowork} e plataforma de código aberto que simplifica o desenvolvimento de aplicativos React Native. Ele fornece um conjunto de ferramentas e serviços que abstraem complexidades do desenvolvimento nativo, permitindo que os desenvolvedores se concentrem na lógica de negócios usando apenas JavaScript.
+Expo é um \textit{framework} e plataforma de código aberto que simplifica o desenvolvimento de aplicativos React Native \cite{expo}. Ele fornece um conjunto de ferramentas e serviços que abstraem complexidades do desenvolvimento nativo, permitindo que os desenvolvedores se concentrem na lógica de negócios usando apenas JavaScript.
 
 Com o Expo, é possível:
 \begin{itemize}
     \item \textbf{Desenvolvimento Rápido:} Iniciar um projeto React Native sem a necessidade de configurar ambientes nativos (Xcode, Android Studio).
     \item \textbf{Testes Simplificados:} Testar aplicativos diretamente no dispositivo móvel escaneando um QR code.
     \item \textbf{Acesso a APIs Nativas:} Oferece uma vasta coleção de APIs nativas (câmera, localização, etc.) prontas para uso via JavaScript.
-    \item \textbf{Over-the-Air (OTA) Updates:} Possibilita o envio de atualizações para o aplicativo sem a necessidade de submeter novas versões para as lojas.
+    \item \textbf{\textit{Over-the-Air} (OTA) \textit{Updates}:} Possibilita o envio de atualizações para o aplicativo sem a necessidade de submeter novas versões para as lojas.
 \end{itemize}
-O Expo é indicado para projetos que precisam de um desenvolvimento ágil e que não exigem acesso a módulos nativos muito específicos que não são suportados pelo \textit{frameowork}.
+O Expo é indicado para projetos que precisam de um desenvolvimento ágil e que não exigem acesso a módulos nativos muito específicos que não são suportados pelo \textit{framework}.
 
 \subsection{NativeWind}
 
-NativeWind é uma biblioteca que traz a sintaxe do Tailwind CSS para o desenvolvimento React Native. O Tailwind CSS é um \textit{frameowork} "utility-first" que oferece classes utilitárias para construir interfaces diretamente no JSX, sem a necessidade de escrever CSS personalizado.
+NativeWind é uma biblioteca que traz a sintaxe do Tailwind CSS para o desenvolvimento React Native \cite{nativewind}. O Tailwind CSS é um \textit{framework} "\textit{utility-first}" que oferece classes utilitárias para construir interfaces diretamente no JSX, sem a necessidade de escrever CSS personalizado.
 
 Com o NativeWind, os desenvolvedores podem aplicar estilos usando classes utilitárias do Tailwind (como `flex`, `pt-4`, `text-lg`). Isso resulta em:
 
 \begin{itemize}
     \item \textbf{Estilização Rápida:} Agiliza o processo de estilização, eliminando a necessidade de alternar entre arquivos JSX e folhas de estilo.
-    \item \textbf{Consistência Visual:} Promove a consistência no design, utilizando um sistema baseado em tokens.
+    \item \textbf{Consistência Visual:} Promove a consistência no \textit{design}, utilizando um sistema baseado em \textit{tokens}.
     \item \textbf{Manutenibilidade:} Facilita a manutenção, pois os estilos são aplicados diretamente onde são usados.
     \item \textbf{Otimização de Tamanho:} O NativeWind pode ser configurado para "purificar" o CSS, removendo classes não utilizadas.
 \end{itemize}
 
 \subsection{PostgreSQL}
 
-PostgreSQL é um sistema gerenciador de banco de dados relacional (SGBDR) de código aberto, conhecido por sua confiabilidade, integridade de dados e conformidade com o padrão SQL.
+PostgreSQL é um sistema gerenciador de banco de dados relacional (SGBDR) de código aberto, conhecido por sua confiabilidade, integridade de dados e conformidade com o padrão SQL \cite{postgresql}.
 
 Características e vantagens do PostgreSQL:
 \begin{itemize}
     \item \textbf{Confiabilidade e Integridade:} Suporta transações ACID (Atomicidade, Consistência, Isolamento, Durabilidade).
     \item \textbf{Extensibilidade:} Permite aos usuários definir seus próprios tipos de dados, operadores e funções.
-    \item \textbf{Suporte a Dados Complexos:} Lida eficientemente com dados estruturados e não estruturados, incluindo JSON, XML e arrays.
+    \item \textbf{Suporte a Dados Complexos:} Lida eficientemente com dados estruturados e não estruturados, incluindo JSON, XML e \textit{arrays}.
     \item \textbf{Comunidade Ativa:} Possui uma grande comunidade que contribui para seu desenvolvimento.
     \item \textbf{Licença Permissiva:} Sua licença permite o uso e modificação sem restrições significativas.
 \end{itemize}
 
 \subsection{Visual Studio Code}
 
-Visual Studio Code (VS Code) é um editor de código-fonte leve, gratuito e multiplataforma desenvolvido pela Microsoft. Tornou-se um dos editores mais populares entre desenvolvedores de diversas linguagens.
+Visual Studio Code (VS Code) é um editor de código-fonte leve, gratuito e multiplataforma desenvolvido pela Microsoft \cite{vscode}. Tornou-se um dos editores mais populares entre desenvolvedores de diversas linguagens.
 
 Principais características do VS Code:
 \begin{itemize}
-    \item \textbf{Extensibilidade:} Possui um vasto marketplace de extensões que adicionam funcionalidades, suporte a linguagens e ferramentas.
-    \item \textbf{IntelliSense:} Oferece autocompletar inteligente baseado em tipos de variáveis e definições de funções.
+    \item \textbf{Extensibilidade:} Possui um vasto \textit{marketplace} de extensões que adicionam funcionalidades, suporte a linguagens e ferramentas.
+    \item \textbf{\textit{IntelliSense}:} Oferece autocompletar inteligente baseado em tipos de variáveis e definições de funções.
     \item \textbf{Depuração Integrada:} Permite depurar o código diretamente no editor.
     \item \textbf{Controle de Versão Integrado:} Suporte nativo para Git.
     \item \textbf{Terminal Integrado:} Um terminal de linha de comando embutido no editor.
@@ -227,27 +226,27 @@ Principais características do VS Code:
 
 \subsection{GitHub}
 
-GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando Git. É a maior plataforma para desenvolvimento colaborativo de software.
+GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando Git \cite{github}. É a maior plataforma para desenvolvimento colaborativo de \textit{software}.
 
 Funcionalidades chave do GitHub:
 \begin{itemize}
     \item \textbf{Controle de Versão (Git):} Permite rastrear e gerenciar todas as alterações no código.
     \item \textbf{Repositórios:} Cada projeto é um repositório, que pode ser público ou privado.
-    \item \textbf{Pull Requests:} Mecanismo para propor e revisar alterações no código.
-    \item \textbf{Issues:} Ferramenta para rastrear bugs, funcionalidades e tarefas.
-    \item \textbf{Projetos (Kanban Boards):} Quadros estilo Kanban para gerenciamento visual de tarefas.
-    \item \textbf{Actions (CI/CD):} Ferramenta para automação de fluxos de trabalho, como integração e entrega contínua.
-    \item \textbf{Wiki e Páginas:} Para documentação do projeto.
+    \item \textbf{\textit{Pull Requests}:} Mecanismo para propor e revisar alterações no código.
+    \item \textbf{\textit{Issues}:} Ferramenta para rastrear \textit{bugs}, funcionalidades e tarefas.
+    \item \textbf{Projetos (\textit{Kanban Boards}):} Quadros estilo \textit{Kanban} para gerenciamento visual de tarefas.
+    \item \textbf{\textit{Actions} (CI/CD):} Ferramenta para automação de fluxos de trabalho, como integração e entrega contínua.
+    \item \textbf{\textit{Wiki} e Páginas:} Para documentação do projeto.
 \end{itemize}
 
 \subsection{Microsoft Teams}
 
-Microsoft Teams é uma plataforma unificada de comunicação e colaboração desenvolvida pela Microsoft. Ela integra chat, reuniões de vídeo, armazenamento de arquivos e integração de aplicativos.
+Microsoft Teams é uma plataforma unificada de comunicação e colaboração desenvolvida pela Microsoft \cite{msteams}. Ela integra \textit{chat}, reuniões de vídeo, armazenamento de arquivos e integração de aplicativos.
 
 Recursos do Microsoft Teams:
 \begin{itemize}
-    \item \textbf{Chat e Canais:} Permite comunicação em tempo real em conversas individuais ou em canais de equipe.
-    \item \textbf{Reuniões Online:} Funcionalidades completas para reuniões de vídeo e áudio, com compartilhamento de tela e gravação.
+    \item \textbf{\textit{Chat} e Canais:} Permite comunicação em tempo real em conversas individuais ou em canais de equipe.
+    \item \textbf{Reuniões \textit{Online}:} Funcionalidades completas para reuniões de vídeo e áudio, com compartilhamento de tela e gravação.
     \item \textbf{Compartilhamento de Arquivos:} Facilita o compartilhamento e a coautoria de documentos.
     \item \textbf{Integrações:} Compatível com uma vasta gama de aplicativos, além de toda a suíte Microsoft 365.
     \item \textbf{Segurança e Conformidade:} Oferece recursos avançados de segurança e privacidade para dados corporativos.
@@ -255,16 +254,16 @@ Recursos do Microsoft Teams:
 
 \subsection{Docker}
 
-Docker é uma plataforma de código aberto que automatiza a implantação, o dimensionamento e o gerenciamento de aplicações dentro de contêineres. A tecnologia permite empacotar uma aplicação com todas as suas dependências — como bibliotecas, código e ambiente de execução — em uma unidade padronizada.
+Docker é uma plataforma de código aberto que automatiza a implantação, o dimensionamento e o gerenciamento de aplicações dentro de \textit{containers} \cite{docker}. A tecnologia permite empacotar uma aplicação com todas as suas dependências — como bibliotecas, código e ambiente de execução — em uma unidade padronizada.
 
-O objetivo principal do Docker é garantir a consistência entre múltiplos ambientes. Ele resolve o problema de "funciona na minha máquina" ao assegurar que o software se comporte da mesma maneira em desenvolvimento, testes e produção.
+O objetivo principal do Docker é garantir a consistência entre múltiplos ambientes. Ele resolve o problema de "funciona na minha máquina" ao assegurar que o \textit{software} se comporte da mesma maneira em desenvolvimento, testes e produção.
 
 Os principais benefícios do Docker são:
 \begin{itemize}
-    \item \textbf{Portabilidade:} Um contêiner pode ser executado em qualquer máquina que tenha o Docker instalado, independentemente do sistema operacional subjacente.
-    \item \textbf{Isolamento:} Aplicações em contêineres rodam de forma isolada, impedindo que uma aplicação interfira em outra.
-    \item \textbf{Eficiência:} São mais leves que máquinas virtuais tradicionais, pois compartilham o kernel do sistema operacional host, resultando em inicialização rápida e menor consumo de recursos.
-    \item \textbf{Reprodutibilidade:} O uso de um `Dockerfile` permite definir a construção do ambiente de forma programática e versionável.
+    \item \textbf{Portabilidade:} Um \textit{container} pode ser executado em qualquer máquina que tenha o Docker instalado, independentemente do sistema operacional subjacente.
+    \item \textbf{Isolamento:} Aplicações em \textit{containers} rodam de forma isolada, impedindo que uma aplicação interfira em outra.
+    \item \textbf{Eficiência:} São mais leves que máquinas virtuais tradicionais, pois compartilham o \textit{kernel} do sistema operacional \textit{host}, resultando em inicialização rápida e menor consumo de recursos.
+    \item \textbf{Reprodutibilidade:} O uso de um \textit{Dockerfile} permite definir a construção do ambiente de forma programática e versionável.
 \end{itemize}
 
 % Nomenclaturas de Siglas e Abreviações (todas reunidas aqui)

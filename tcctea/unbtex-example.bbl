@@ -7,6 +7,12 @@
 \setlength{\baselineskip}{1.25\baselineskip}
 \setlength{\itemsep}{0pt}
 
+\bibitem[{650 Industries, Inc.} 2024]{expo}
+\abntrefinfo{{650 Industries, Inc.}}{{650 Industries, Inc.}}{2024}
+{{650 Industries, Inc.} \emph{Expo Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: $<$https://docs.expo.dev/$>$.}
+
 \bibitem[{American Psychiatric Association}
   2013]{americanpsychiatricassociation2013}
 \abntrefinfo{{American Psychiatric Association}}{{American Psychiatric
@@ -21,11 +27,26 @@
   \emph{In}: MARCINIAK, J.~J. (Ed.). \textbf{Encyclopedia of Software
   Engineering}. [\emph{S.l.}]: John Wiley \& Sons, 1994. v.~1, p. 528--532.}
 
+\bibitem[Beck \emph{et al.} 2001]{beck2001manifesto}
+\abntrefinfo{Beck \emph{et al.}}{Beck \emph{et al.}}{2001}
+{BECK, K.; BEEDLE, M.; BENNEKUM, A. van; COCKBURN, A.; CUNNINGHAM, W.; FOWLER,
+  M.; GRENNING, J.; HIGHSMITH, J.; HUNT, A.; JEFFRIES, R.; KERN, J.; MARICK,
+  B.; MARTIN, R.~C.; MELLOR, S.; SCHWABER, K.; SUTHERLAND, J.; THOMAS, D.
+  \textbf{Manifesto for Agile Software Development}. 2001.
+Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://agilemanifesto.org/}.}
+
 \bibitem[Bicer e Alsaffar 2020]{bicer2020}
 \abntrefinfo{Bicer e Alsaffar}{Bicer; Alsaffar}{2020}
 {BICER, A.; ALSAFFAR, A.~A. The prevalence of feeding problems and food
   selectivity in children with autism spectrum disorder in kuwait.
 \textbf{Kuwait Medical Journal}, v.~52, n.~3, 2020.}
+
+\bibitem[{Docker Inc.} 2024]{docker}
+\abntrefinfo{{Docker Inc.}}{{Docker Inc.}}{2024}
+{{Docker Inc.} \textbf{Docker Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://docs.docker.com/}.}
 
 \bibitem[Domingues Daniel e~Moreira 2020]{domingues2020}
 \abntrefinfo{Domingues Daniel e~Moreira}{Domingues Daniel e~Moreira}{2020}
@@ -41,12 +62,11 @@ Entrada representativa baseada na cita{\c c}{\~a}o. Detalhes espec{\'i}ficos da
   em: \url{https://nvie.com/posts/a-successful-git-branching-model/}.
 Acessado em 08 de Julho de 2025.}
 
-\bibitem[{Geekhunter} 2024]{Geekhunter2024}
-\abntrefinfo{{Geekhunter}}{{Geekhunter}}{2024}
-{{Geekhunter}. \textbf{Por que diabos usar o Node.js? Uma justificativa passo a
-  passo}. 2024.
-Dispon{\'\i}vel em:
-  \url{https://blog.geekhunter.com.br/por-que-usar-node-js-uma-justificativa-passo-a-passo/}.}
+\bibitem[{GitHub Inc.} 2024]{github}
+\abntrefinfo{{GitHub Inc.}}{{GitHub Inc.}}{2024}
+{{GitHub Inc.} \textbf{GitHub Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://docs.github.com/}.}
 
 \bibitem[Guller e Yaylaci 2024]{guller2024}
 \abntrefinfo{Guller e Yaylaci}{Guller; Yaylaci}{2024}
@@ -60,6 +80,12 @@ Dispon{\'\i}vel em:
   2018. Medium.
 Acessado em 08 de Julho de 2025.}
 
+\bibitem[Lawlor 2024]{nativewind}
+\abntrefinfo{Lawlor}{Lawlor}{2024}
+{LAWLOR, M. \textbf{NativeWind: Tailwind CSS for React Native}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://www.nativewind.dev/}.}
+
 \bibitem[Leader \emph{et al.} 2020]{leader2020}
 \abntrefinfo{Leader \emph{et al.}}{Leader \emph{et al.}}{2020}
 {LEADER, G.; TUOHY, E.; CHEN, J.~L.; MANNION, A.; GILROY, S.~P.
@@ -69,10 +95,46 @@ Acessado em 08 de Julho de 2025.}
 O documento cita 2020, embora algumas vers{\~o}es da publica{\c c}{\~a}o sejam
   de 2021.}
 
+\bibitem[{Meta Platforms Inc.} 2024]{reactnative}
+\abntrefinfo{{Meta Platforms Inc.}}{{Meta Platforms Inc.}}{2024}
+{{Meta Platforms Inc.} \textbf{React Native Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://reactnative.dev/docs/getting-started}.}
+
+\bibitem[{Microsoft Corporation} 2024]{msteams}
+\abntrefinfo{{Microsoft Corporation}}{{Microsoft Corporation}}{2024a}
+{{Microsoft Corporation}. \textbf{Microsoft Teams Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://learn.microsoft.com/en-us/microsoftteams/}.}
+
+\bibitem[{Microsoft Corporation} 2024]{vscode}
+\abntrefinfo{{Microsoft Corporation}}{{Microsoft Corporation}}{2024b}
+{{Microsoft Corporation}. \textbf{Visual Studio Code Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://code.visualstudio.com/docs}.}
+
+\bibitem[{OpenJS Foundation} 2024]{nodejs}
+\abntrefinfo{{OpenJS Foundation}}{{OpenJS Foundation}}{2024}
+{{OpenJS Foundation}. \textbf{Node.js Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://nodejs.org/en/docs/}.}
+
+\bibitem[Pressman e Maxim 2016]{pressman2016}
+\abntrefinfo{Pressman e Maxim}{Pressman; Maxim}{2016}
+{PRESSMAN, R.~S.; MAXIM, B.~R. \textbf{Engenharia de Software: Uma Abordagem
+  Profissional}. 8. ed. Porto Alegre: McGraw-Hill, 2016.}
+
 \bibitem[Pressman e Maxim 2021]{pressman2021}
 \abntrefinfo{Pressman e Maxim}{Pressman; Maxim}{2021}
 {PRESSMAN, R.~S.; MAXIM, B.~R. \textbf{Engenharia de Software: Uma Abordagem
   Profissional}. 9. ed. [\emph{S.l.}]: McGraw-Hill, 2021.}
+
+\bibitem[Schwaber e Sutherland 2020]{schwaber2020scrum}
+\abntrefinfo{Schwaber e Sutherland}{Schwaber; Sutherland}{2020}
+{SCHWABER, K.; SUTHERLAND, J. \textbf{The Scrum Guide: The Definitive Guide to
+  Scrum: The Rules of the Game}.
+[\emph{S.l.}], 2020. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://scrumguides.org/scrum-guide.html}.}
 
 \bibitem[Sharp \emph{et al.} 2018]{sharp2018}
 \abntrefinfo{Sharp \emph{et al.}}{Sharp \emph{et al.}}{2018}
@@ -92,11 +154,6 @@ O documento cita 2020, embora algumas vers{\~o}es da publica{\c c}{\~a}o sejam
 {SOMMERVILLE, I. \textbf{Engenharia de Software}. 8. ed. S{\~a}o Paulo: Pearson
   Addison-Wesley, 2007.}
 
-\bibitem[Sommerville 2011]{sommerville2011}
-\abntrefinfo{Sommerville}{Sommerville}{2011}
-{SOMMERVILLE, I. \textbf{Engenharia de Software}. 9. ed. S{\~a}o Paulo:
-  Pearson, 2011.}
-
 \bibitem[Sommerville e Sawyer 1997]{sommerville1997}
 \abntrefinfo{Sommerville e Sawyer}{Sommerville; Sawyer}{1997}
 {SOMMERVILLE, I.; SAWYER, P. \textbf{Requirements Engineering: A Good Practice
@@ -112,6 +169,14 @@ O documento cita 2020, embora algumas vers{\~o}es da publica{\c c}{\~a}o sejam
 {TAYLOR, B.~A.; DEQUINZIO, J.~A.; HAO, Y. A review of behavioral interventions
   for food selectivity in children with autism spectrum disorder.
 \textbf{Journal of Applied Behavior Analysis}, v.~50, n.~3, 2017.}
+
+\bibitem[{The PostgreSQL Global Development Group} 2024]{postgresql}
+\abntrefinfo{{The PostgreSQL Global Development Group}}{{The PostgreSQL Global
+  Development Group}}{2024}
+{{The PostgreSQL Global Development Group}. \textbf{PostgreSQL 16.2
+  Documentation}.
+[\emph{S.l.}], 2024. Acesso em: 22 nov. 2025.
+Dispon{\'\i}vel em: \url{https://www.postgresql.org/docs/}.}
 
 \bibitem[The PostgreSQL Global Development Group 2024]{postgresql2024}
 \abntrefinfo{The PostgreSQL Global Development Group}{The PostgreSQL Global
