@@ -429,21 +429,13 @@ Conforme apresentado na subseção 3.2.4.0.2 — Política de Branches — o rep
 
 \subsection{Persistência de dados}
 
-A definição prévia da estratégia de persistência de dados é uma etapa fundamental no processo de desenvolvimento de um sistema de software. Essa definição envolve a escolha das tecnologias a serem utilizadas, bem como a modelagem e estruturação dos dados, de forma a garantir consistência, integridade, escalabilidade e facilidade de manutenção ao longo do ciclo de vida do projeto \cite{silberschatz2011}.
-
-Neste trabalho, a persistência dos dados será planejada antecipadamente, considerando as necessidades específicas do sistema, como o registro de informações sensíveis relacionadas à alimentação de pessoas com Transtorno do Espectro Autista (TEA). A antecipação dessa etapa permite uma visão mais clara da arquitetura geral da aplicação, além de facilitar o desenvolvimento dos mecanismos de acesso e armazenamento das informações.
-
-A seguir, serão apresentadas as tecnologias e abordagens adotadas para o armazenamento, gerenciamento e recuperação dos dados ao longo do sistema.
+A estratégia de persistência de dados foi definida para assegurar a consistência, integridade e escalabilidade do sistema. A modelagem considerou a sensibilidade das informações registradas, como os dados alimentares de pessoas com Transtorno do Espectro Autista (TEA). Essa estruturação prévia permitiu uma implementação coerente dos mecanismos de armazenamento e acesso, fundamentada nas melhores práticas de engenharia de dados \cite{silberschatz2011}.
 
 \subsection{PostgreSQL}
 
-Dentre as tecnologias disponíveis para armazenamento estruturado de dados, optou-se pela utilização do PostgreSQL, um sistema gerenciador de banco de dados relacional (RDBMS) de código aberto amplamente adotado tanto no meio acadêmico quanto no mercado. O PostgreSQL destaca-se por sua conformidade com o padrão SQL, suporte a transações ACID, alta confiabilidade, robustez na manipulação de dados complexos e extensibilidade, o que o torna especialmente indicado para aplicações que exigem integridade e consistência nos dados \cite{postgresql2024}.
+O armazenamento dos dados foi implementado utilizando o PostgreSQL. Este sistema gerenciador de banco de dados relacional (SGBD) foi escolhido por sua robustez, conformidade com o padrão SQL e suporte a transações ACID, características essenciais para garantir a confiabilidade das informações \cite{postgresql2024}.
 
-A escolha dessa tecnologia se justifica também pelo fato de que o sistema em desenvolvimento lida com informações estruturadas e sensíveis, relacionadas às preferências alimentares, perfis individuais e sugestões geradas pelo algoritmo. A utilização de um banco relacional permiteu modelar essas entidades com clareza, definir restrições de integridade e realizar consultas eficientes e seguras.
-
-A comunicação entre o aplicativo e o banco de dados foi realizada por meio de uma API RESTful construída em Node.js, responsável por mediar as operações de leitura, escrita, atualização e remoção de dados.
-
-Com isso, a persistência de dados nesta aplicação buscou atender a critérios de segurança, consistência e desempenho, garantindo que o armazenamento e o acesso às informações do usuário ocorram de forma eficiente e confiável.
+A escolha de um banco relacional se mostrou adequada para a natureza estruturada dos dados do projeto, como os perfis sensoriais e as sugestões geradas pelo algoritmo. Isso permitiu a definição de restrições de integridade rigorosas e a execução de consultas eficientes. A comunicação com o banco é mediada pela API RESTful em Node.js, que centraliza e valida todas as operações de leitura e escrita, garantindo que o acesso às informações do usuário ocorra de forma segura.
 
 % Nomenclaturas de Siglas e Abreviações para este capítulo (coloque as do Capítulo 1 + as novas deste capítulo aqui, de forma única)
 \nomenclature[A]{UNB}{Universidade de Brasília}
