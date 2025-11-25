@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.10)  23 NOV 2025 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.10)  25 NOV 2025 01:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2016,12 +2016,12 @@ Cap\'{\i }tulo 4.
 
 
 ]
-Overfull \hbox (28.0635pt too wide) in paragraph at lines 38--39
+Overfull \hbox (28.0635pt too wide) in paragraph at lines 36--37
 []\T1/SticksTooText-TLF/b/n/12 (-20) US05 (Must Have, 3 pts)\T1/SticksTooText-TLF/m/n/12 (-20) : Como usu-á-rio, quero re-gis-trar os "Ali-men-tos Se-gu-ros"(preferências
  []
 
 
-Overfull \hbox (2.1025pt too wide) in paragraph at lines 46--47
+Overfull \hbox (2.1025pt too wide) in paragraph at lines 44--45
 []\T1/SticksTooText-TLF/b/n/12 (-20) US09 (Should Have, 2 pts)\T1/SticksTooText-TLF/m/n/12 (-20) : Como usu-á-rio, quero re-gis-trar o fe-ed-back (acei-tou/recusou)
  []
 
@@ -2029,33 +2029,33 @@ Overfull \hbox (2.1025pt too wide) in paragraph at lines 46--47
 <unbtex-example/figuras/logo.png, id=585, 715.67375pt x 823.075pt>
 File: unbtex-example/figuras/logo.png Graphic file (type png)
 <use unbtex-example/figuras/logo.png>
-Package pdftex.def Info: unbtex-example/figuras/logo.png  used on input line 108.
+Package pdftex.def Info: unbtex-example/figuras/logo.png  used on input line 106.
 (pdftex.def)             Requested size: 227.5pt x 261.6311pt.
  [48]
 <unbtex-example/figuras/paleta.jpg, id=591, 1158.3275pt x 752.8125pt>
 File: unbtex-example/figuras/paleta.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/paleta.jpg>
-Package pdftex.def Info: unbtex-example/figuras/paleta.jpg  used on input line 117.
+Package pdftex.def Info: unbtex-example/figuras/paleta.jpg  used on input line 115.
 (pdftex.def)             Requested size: 341.25pt x 221.7791pt.
  [49 <./unbtex-example/figuras/logo.png> <./unbtex-example/figuras/paleta.jpg>] [50]
-Overfull \hbox (15.92311pt too wide) in paragraph at lines 161--162
+Overfull \hbox (15.92311pt too wide) in paragraph at lines 159--160
 []\T1/SticksTooText-TLF/b/n/12 (-20) Serviços de API (api/): \T1/SticksTooText-TLF/m/n/12 (-20) Abs-trai a co-mu-ni-ca-ção com o back-end. Um cli-ente \T1/zi4/m/n/12 apiClient.ts
  []
 
 
-Overfull \hbox (35.61475pt too wide) in paragraph at lines 175--176
+Overfull \hbox (35.61475pt too wide) in paragraph at lines 173--174
 \T1/SticksTooText-TLF/m/n/12 (-20) gó-cio (com-pa-ra-ção sen-so-rial, pon-tu-a-ção), en-quanto \T1/zi4/m/n/12 processamentoQuestionarioService.js
  []
 
 [51]
-Overfull \hbox (48.22435pt too wide) in paragraph at lines 179--180
+Overfull \hbox (48.22435pt too wide) in paragraph at lines 177--178
 \T1/SticksTooText-TLF/m/n/12 (-20) ada de forma ver-si-o-nada atra-vés de ar-qui-vos de mi-gra-ção (ex: \T1/zi4/m/n/12 ...create-table-cuidadores.js\T1/SticksTooText-TLF/m/n/12 (-20) ),
  []
 
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
+(Font)              scaled to size 12.0pt on input line 194.
 [52]
-Overfull \hbox (45.4328pt too wide) in paragraph at lines 215--216
+Overfull \hbox (45.4328pt too wide) in paragraph at lines 213--214
 \T1/SticksTooText-TLF/m/n/12 (-20) ex-trín-se-cos de cada ali-mento (tex-tura, cor, etc.). A se-pa-ra-ção en-tre \T1/zi4/m/n/12 Food \T1/SticksTooText-TLF/m/n/12 (-20) e \T1/zi4/m/n/12 Food_Sensory_Profile
  []
 
@@ -2063,114 +2063,114 @@ Overfull \hbox (45.4328pt too wide) in paragraph at lines 215--216
 <unbtex-example/figuras/DER_TCC_2_.png, id=643, 4960.5325pt x 3193.9325pt>
 File: unbtex-example/figuras/DER_TCC_2_.png Graphic file (type png)
 <use unbtex-example/figuras/DER_TCC_2_.png>
-Package pdftex.def Info: unbtex-example/figuras/DER_TCC_2_.png  used on input line 364.
+Package pdftex.def Info: unbtex-example/figuras/DER_TCC_2_.png  used on input line 362.
 (pdftex.def)             Requested size: 626.20631pt x 403.18816pt.
  [57 <./unbtex-example/figuras/DER_TCC_2_.png>] [58
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []|\T1/SticksTooText-TLF/m/n/10 (+20) O bac-klog
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) pla-ne-jado
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) foi in-te-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) gral-mente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) cum-prido,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) ne-ces-si-da-des
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []|\T1/SticksTooText-TLF/m/n/10 (+20) O MVP foi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) en-tre-gue
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) den-tro do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) cro-no-grama
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []|\T1/SticksTooText-TLF/m/n/10 (+20) A qua-li-dade
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) foi man-tida
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 435--435
+Underfull \hbox (badness 1102) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) com a cor-re-
  []
 
 
-Underfull \hbox (badness 3713) in paragraph at lines 435--435
+Underfull \hbox (badness 3713) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) ção ágil das
  []
 
 
-Underfull \hbox (badness 6332) in paragraph at lines 435--435
+Underfull \hbox (badness 6332) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) tais e con-tí-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 []|\T1/SticksTooText-TLF/m/n/10 (+20) O en-di-vi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) da-mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) téc-nico foi
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 435--435
+Underfull \hbox (badness 3323) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) con-tro-lado e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) man-tido em
  []
 
 [59] [60]
 LaTeX Font Info:    Font shape `TS1/SticksTooText-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 473.
+(Font)              scaled to size 12.0pt on input line 471.
 ) [61]
 \openout2 = `unbtex-example/capitulo5.aux'.
 
@@ -2336,18 +2336,18 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `unbtex-example.brf' has not changed.
-(rerunfilecheck)             Checksum: A7913FD554F682B630C663010152937E;2159.
+(rerunfilecheck)             Checksum: 31FC409B73FC5BE7250CCB1FFD874B9F;2159.
  ) 
 Here is how much of TeX's memory you used:
- 35969 strings out of 467870
- 640581 string characters out of 5418354
+ 35965 strings out of 467870
+ 640517 string characters out of 5418354
  1182469 words of memory out of 5000000
- 63477 multiletter control sequences out of 15000+600000
+ 63473 multiletter control sequences out of 15000+600000
  829814 words of font info for 483 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,17n,147p,1269b,822s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Bold.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-BoldItalic.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Italic.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Regular.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on unbtex-example.pdf (83 pages, 4016594 bytes).
+Output written on unbtex-example.pdf (83 pages, 4015722 bytes).
 PDF statistics:
  1264 PDF objects out of 1440 (max. 8388607)
  272 named destinations out of 1000 (max. 500000)

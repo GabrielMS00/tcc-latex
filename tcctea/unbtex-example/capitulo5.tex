@@ -4,23 +4,23 @@
 
 \section{Introdução}
 
-Após o desenvolvimento, o aplicativo se propõe a ser uma solução para a limitação da diversidade alimentar em indivíduos com Transtorno do Espectro Autista e seletividade. O trabalho foi executado conforme o escopo definido no planejamento do TCC1.
+Após o desenvolvimento, o aplicativo se propõe a ser uma solução para a limitação da diversidade alimentar em indivíduos com Transtorno do Espectro Autista e seletividade.
 
 Neste capítulo, serão abordados o cumprimento dos objetivos específicos, as fragilidades mapeadas no projeto e as propostas sugeridas para a evolução do software.
 
 \subsection{Objetivos Específicos}
 
-Os objetivos específicos, que foram definidos antes do processo de desenvolvimento ter começado, também foram cumpridos ao longo do processo de planejamento e de construção do software proposto. 
+Os objetivos específicos, que foram definidos previamente ao processo de desenvolvimento, foram cumpridos ao longo do processo de planejamento e de construção do software proposto. 
 
-Identificamos os conceitos necessários ao desenvolviemnto do aplicativo de software através de reuniões com a PO, que nos explicou os conecitos e os aspectos nessesários para que pudéssemos implementar a lógica das rocas alimentares dentro do contexto estabelecido. 
+Identificamos os conceitos necessários ao desenvolviemnto do aplicativo de software através de reuniões com a PO, que nos explicou os aspectos nessesários para que pudéssemos implementar a lógica das rocas alimentares dentro do contexto estabelecido. 
 
 Estabelecemos uma ferramenta de software para apoiar os cuidadores e os próprios indivíduos que possuem TEA e seletividade alimentar, através da criação de um aplicativo que atendesse aos aos requisitos que foram elicitados mediante entrevistas com a PO.
 
-Por fim, o software será disponibilizado para que a nossa PO possa estabelecer um estudo de caso para avaliar adequação do produto de software aos fins no qual ele se dedica.
+Por fim, o software será disponibilizado para que a PO possa estabelecer um estudo de caso para avaliar adequação do produto de software aos fins no qual ele se dedica.
 
 \subsection{Processo de desenvolvimento}
 
-O processo definido no TCC1 foi, em geral, cumprido, ainda que com ajustes pontuais que se mostraram necessários durante o desenvolvimento. Um exemplo foi a adequação das branches de gestão de configuração, visto que esta primeira versão foi restrita a dois desenvolvedores e não houve implantação (deploy) dos lançamentos.
+O processo definido foi, em geral, cumprido, ainda que com ajustes pontuais que se mostraram necessários durante o desenvolvimento. Um exemplo foi a adequação das branches de gestão de configuração, visto que esta primeira versão foi restrita a dois desenvolvedores e não houve implantação (deploy) dos lançamentos.
 
 O método GQM possibilitou uma avaliação objetiva do andamento do projeto. As métricas utilizadas foram efetivas para validar as decisões adotadas e assegurar o cumprimento dos objetivos. Os dados coletados no processo formaram uma base concreta para o aprimoramento contínuo e a otimização da ferramenta.
 
@@ -30,9 +30,9 @@ Por fim, a aplicação dos testes de usabilidade com a PO confirmou que as neces
 
 \section{Fragilidades e Propostas de Evolução}
 
-Apesar do resultado satisfatório obtido após a entrega da última release do projeto, ainda assim foram mapeados aspectos que se enquadram como fragilidades. Estes devem ser explorados com o propósito de reconhecer as limitações da proposta implementada e mapear futuras soluções para tornar o sistema mais robusto.
+Apesar do resultado satisfatório, foram mapeados aspectos que se enquadram como fragilidades. Estes devem ser explorados com o propósito de reconhecer as limitações da proposta implementada e mapear futuras soluções para tornar o sistema mais robusto.
 
-As fragilidades identificadas foram classificadas em duas categorias. As internas dizem respeito a potenciais vulnerabilidades do código, tais como uma API não otimizada, limitações do banco de dados ou falhas de segurança. As externas abordam limitações fora do escopo do código, que, no caso deste TCC, estão associadas à pesquisa e à utilização do software.
+As fragilidades identificadas foram classificadas em duas categorias, as internas e as externas. As internas dizem respeito a potenciais vulnerabilidades do código, tais como uma API não otimizada, limitações do banco de dados ou falhas de segurança. As externas abordam limitações fora do escopo do código, que, no caso deste TCC, estão associadas à pesquisa e à utilização do software.
 
 
 \subsection{Fragilidas Internas}
@@ -40,9 +40,9 @@ As fragilidades identificadas foram classificadas em duas categorias. As interna
 \begin{enumerate}
     \item \textbf{Porcentagem da cobertura de testes:} Apesar de uma boa cobertura de testes, o sistema não possui 100\% de cobertura, o que significa que algum erro ainda pode surgir durante o uso do app.
 
-   \item \textbf{Recuperação de Credenciais Simplificada:} O fluxo de recuperação de conta (para "esqueci minha senha") foi implementado de forma simplificada. Em vez de um sistema de redefinição baseado em token enviado por e-mail, o projeto utilizará um mecanismo de "palavra de segurança" definida pelo usuário no cadastro. Esta implementação é temporária. A abordagem foi adotada por não haver, no momento, um serviço de envio de e-mails configurado e uma infraestrutura de hospedagem definitiva. Embora funcional, este método é considerado menos robusto que os padrões de mercado e representa uma fragilidade na segurança da autenticação.
+   \item \textbf{Recuperação de Credenciais Simplificada:} O fluxo de recuperação de conta (para "esqueci minha senha") foi implementado de forma simplificada. Ao invés de um sistema de redefinição baseado em token enviado por e-mail, o projeto utilizará um mecanismo de "palavra de segurança" definida pelo usuário no cadastro. Esta implementação é temporária. A abordagem foi adotada por não haver, no momento, um serviço de envio de e-mails configurado e uma infraestrutura de hospedagem definitiva. Embora funcional, este método é considerado menos robusto que os padrões de mercado e representa uma fragilidade na segurança da autenticação.
 
-    \item \textbf{Hospedagem do software:} Não há nenhum serviço de hospedagem sendo utilzado para o software, além disso, não há um instalador do aplicativo. Isso limita o uso do software pois ele só pode ser utilizado localmente.
+    \item \textbf{Hospedagem do software:} Não há nenhum serviço de hospedagem sendo utilzado para o software. Além disso, não há um instalador do aplicativo e isso limita o uso do software pois ele só pode ser utilizado localmente.
 
     \item \textbf{Gerenciamento de Estado no Aplicativo - Fontend:} O aplicativo pode apresentar fragilidades na gestão de estado, especialmente em cenários de uso offline. Se o usuário registrar uma refeição ou aceitação sem conexão, o sistema pode não ter mecanismos robustos para sincronizar esses dados de forma segura quando a conexão for reestabelecida, gerando potencial perda de dados ou inconsistências.
 \end{enumerate}
@@ -53,7 +53,7 @@ As fragilidades identificadas foram classificadas em duas categorias. As interna
 \begin{enumerate}
     \item \textbf{Limitação da lista de alimentos:} O software opera com uma lista pré-definida de alimentos e seus respectivos aspectos sensoriais. No entanto, essa lista é finita. Tal característica representa uma limitação, pois um usuário que recuse exaustivamente as sugestões eventualmente esgotará as opções disponíveis. Nesse cenário, o aplicativo não será mais capaz de gerar novas propostas.
     
-    \item \textbf{Viés de Registro do Usuário:} A eficácia do sistema depende inteiramente da precisão e da consistência com que o usuário insere os dados de aceitação alimentar. A subjetividade na avaliação do usuário, como a interpretação do que seria aceitar bem um alimento, ou o esquecimento de registrar refeições podem gerar um perfil sensorial impreciso para o indivíduo, levando a sugestões de troca inadequadas.
+    \item \textbf{Viés de Registro do Usuário:} A eficácia do sistema depende inteiramente da precisão e da consistência com que o usuário insere os dados de aceitação alimentar. A subjetividade na avaliação do usuário, como a interpretação do que seria aceitar bem um alimento, ou o esquecimento de registrar refeições podem gerar um perfil sensorial impreciso para o indivíduo, ocasionando sugestões de troca inadequadas.
     
     \item \textbf{Fatores Comportamentais Não Mapeados:} O software foca primariamente nos aspectos sensoriais dos alimentos. Contudo, a recusa alimentar no TEA é multifatorial e pode envolver o contexto da refeição, fatores emocionais, ou a forma de apresentação do prato. O aplicativo, em sua versão atual, não captura essas variáveis, o que limita a eficácia de suas sugestões.
 \end{enumerate}
@@ -61,7 +61,7 @@ As fragilidades identificadas foram classificadas em duas categorias. As interna
 
 \subsection{Proposta de Evolução}
 
-Após a entrega da última release do software, uma série de sugestões foi mapeada com o propósito de documentação para um futuro trabalho de evolução do aplicativo. A lista com as propostas para futuras implementações é apresentada a seguir.
+Uma série de sugestões foi mapeada com o propósito de documentação para um futuro trabalho de evolução do aplicativo. A lista com as propostas para futuras implementações é apresentada a seguir.
 
 \begin{enumerate}
     \item \textbf{Criação de um novo tipo de conta:} Atualmente, o software possui dois tipos de conta: a do cuidador e a do indivíduo com TEA e seletividade alimentar. No entanto, identificou-se a oportunidade para a criação de um terceiro tipo, destinado ao profissional da área da saúde. Este perfil teria acesso aos dados dos indivíduos com TEA, permitindo a realização de acompanhamentos recorrentes.
@@ -77,9 +77,9 @@ Após a entrega da última release do software, uma série de sugestões foi map
     \item \textbf{Registro do Software:} Visando a segurança jurídica e a proteção da propriedade intelectual do trabalho desenvolvido, propõe-se a realização do registro do programa de computador junto ao Instituto Nacional da Propriedade Industrial (INPI). Essa etapa é essencial para assegurar os direitos autorais sobre o código-fonte e oficializar a autoria da solução tecnológica antes de sua ampla distribuição.
 \end{enumerate}
 
-\subsection{Conclusões final}
+\subsection{Conclusões finais}
 
-O presente trabalho alcançou seu objetivo principal ao desenvolver e validar uma ferramenta digital voltada para o auxílio de cuidadores e pessoas com TEA no manejo da seletividade alimentar no contexto do Transtorno do Espectro Autista. A solução proposta alcançou nossos objetivos ao oferecer um meio gratuito e sistematizado para o registro e a sugestão de alimentos com base em perfis sensoriais. Os testes e validações realizados demonstraram que a aplicação atende aos requisitos funcionais estabelecidos, oferecendo uma interface coerente com as necessidades do público-alvo e facilitando a tomada de decisão no ambiente domiciliar.
+O presente trabalho alcançou seu objetivo principal ao desenvolver e validar uma ferramenta digital voltada para o auxílio de cuidadores e pessoas com TEA no manejo da seletividade alimentar no contexto do Transtorno do Espectro Autista. A solução proposta alcançou os objetivos ao oferecer um meio gratuito e sistematizado para o registro e a sugestão de alimentos com base em perfis sensoriais. Os testes e validações realizados demonstraram que a aplicação atende aos requisitos funcionais estabelecidos, oferecendo uma interface coerente com as necessidades do público-alvo e facilitando a tomada de decisão no ambiente domiciliar.
 
 Além da implementação técnica, este estudo permitiu a identificação de desafios e oportunidades no uso de tecnologia assistiva para o contexto alimentar. As limitações mapeadas durante o processo, como a necessidade de expansão da base de dados e a dependência de registros manuais, servem agora como um roteiro claro para a continuidade da pesquisa. A arquitetura desenvolvida fornece a fundação necessária para as futuras evoluções sugeridas, como a integração com profissionais de saúde e o uso de inteligência artificial, consolidando o potencial do software como um recurso de apoio efetivo na rotina das famílias.
 
