@@ -966,8 +966,8 @@
     \end{flushright}
 }%
 \vspace{24pt}
-\raggedright{Trabalho aprovado. \imprimirlocal, \imprimirdia\ de \imprimirmes\ de \imprimirano:}
-7{%
+\raggedright{Trabalho apresentado. \imprimirlocal, \imprimirdia\ de \imprimirmes\ de \imprimirano}
+{%
     \assinatura{\textbf{\membrodabancainome} \\ \membrodabancaifuncaonome} 
     \assinatura{\textbf{\membrodabancaiinome} \\ \membrodabancaiifuncaonome} 
     \assinatura{\textbf{\membrodabancaiiinome} \\ \membrodabancaiiifuncaonome} 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.10)  25 NOV 2025 01:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.10)  25 NOV 2025 22:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1950,7 +1950,7 @@ File: TS1SticksTooText-TLF.fd 2018/05/07 (autoinst) Font definitions for TS1/Sti
 )
 LaTeX Font Info:    Font shape `TS1/SticksTooText-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 35.
- [15{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stickstoo/stx2_w6fsfr.enc}]) [16]
+ [15{C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/stickstoo/stx2_w6fsfr.enc}] [16]) [17]
 \openout2 = `unbtex-example/capitulo2.aux'.
 
  (unbtex-example/capitulo2.tex
@@ -1962,55 +1962,55 @@ Overfull \hbox (5.67972pt too wide) in paragraph at lines 22--23
 \T1/zi4/m/n/12 AND ("Food selectivity"OR "food refusal") AND ("autism spectrum disorder"OR
  []
 
-[17
+[18
 
 
 
 
-] [18] [19]
+] [19] [20]
 LaTeX Font Info:    Font shape `T1/qhv/b/it' will be
 (Font)              scaled to size 15.55188pt on input line 78.
 LaTeX Font Info:    Font shape `T1/SticksTooText-TLF/b/it' will be
 (Font)              scaled to size 12.0pt on input line 86.
- [20] [21] [22] [23] [24] [25]) [26]
+ [21] [22] [23] [24] [25] [26]) [27]
 \openout2 = `unbtex-example/capitulo3.aux'.
 
  (unbtex-example/capitulo3.tex
 Cap\'{\i }tulo 3.
-<unbtex-example/figuras/metodologias_pesquisa.png, id=448, 482.80376pt x 208.78pt>
+<unbtex-example/figuras/metodologias_pesquisa.png, id=452, 482.80376pt x 208.78pt>
 File: unbtex-example/figuras/metodologias_pesquisa.png Graphic file (type png)
 <use unbtex-example/figuras/metodologias_pesquisa.png>
 Package pdftex.def Info: unbtex-example/figuras/metodologias_pesquisa.png  used on input line 23.
 (pdftex.def)             Requested size: 341.25pt x 147.57219pt.
-[27
+[28
 
 
 
 
  <./unbtex-example/figuras/metodologias_pesquisa.png>]
-<unbtex-example/figuras/ciclo-de-vida-scrum.png, id=455, 523.9575pt x 277.035pt>
+<unbtex-example/figuras/ciclo-de-vida-scrum.png, id=459, 523.9575pt x 277.035pt>
 File: unbtex-example/figuras/ciclo-de-vida-scrum.png Graphic file (type png)
 <use unbtex-example/figuras/ciclo-de-vida-scrum.png>
 Package pdftex.def Info: unbtex-example/figuras/ciclo-de-vida-scrum.png  used on input line 47.
 (pdftex.def)             Requested size: 455.0pt x 240.5831pt.
- [28] [29 <./unbtex-example/figuras/ciclo-de-vida-scrum.png>] [30] [31] [32]
-<unbtex-example/figuras/arquitetura-componentizada.png, id=485, 1027.84pt x 1541.76pt>
+ [29] [30 <./unbtex-example/figuras/ciclo-de-vida-scrum.png>] [31] [32] [33]
+<unbtex-example/figuras/arquitetura-componentizada.png, id=489, 1027.84pt x 1541.76pt>
 File: unbtex-example/figuras/arquitetura-componentizada.png Graphic file (type png)
 <use unbtex-example/figuras/arquitetura-componentizada.png>
 Package pdftex.def Info: unbtex-example/figuras/arquitetura-componentizada.png  used on input line 154.
 (pdftex.def)             Requested size: 227.5pt x 341.23495pt.
- [33 <./unbtex-example/figuras/arquitetura-componentizada.png (PNG copy)>] [34] [35] [36] [37] [38] [39] [40] [41] [42]
-<unbtex-example/figuras/organizaÃ§Ã£o-github.png, id=555, 543.53062pt x 680.5425pt>
+ [34 <./unbtex-example/figuras/arquitetura-componentizada.png (PNG copy)>] [35] [36] [37] [38] [39] [40] [41] [42] [43]
+<unbtex-example/figuras/organizaÃ§Ã£o-github.png, id=559, 543.53062pt x 680.5425pt>
 File: unbtex-example/figuras/organizaÃ§Ã£o-github.png Graphic file (type png)
 <use unbtex-example/figuras/organizaÃ§Ã£o-github.png>
 Package pdftex.def Info: unbtex-example/figuras/organizaÃ§Ã£o-github.png  used on input line 414.
 (pdftex.def)             Requested size: 227.5pt x 284.84978pt.
- [43] [44 <./unbtex-example/figuras/organizaÃ§Ã£o-github.png>]) [45]
+ [44] [45 <./unbtex-example/figuras/organizaÃ§Ã£o-github.png>]) [46]
 \openout2 = `unbtex-example/capitulo4.aux'.
 
  (unbtex-example/capitulo4.tex
 Cap\'{\i }tulo 4.
-[46
+[47
 
 
 
@@ -2025,19 +2025,19 @@ Overfull \hbox (2.1025pt too wide) in paragraph at lines 44--45
 []\T1/SticksTooText-TLF/b/n/12 (-20) US09 (Should Have, 2 pts)\T1/SticksTooText-TLF/m/n/12 (-20) : Como usu-á-rio, quero re-gis-trar o fe-ed-back (acei-tou/recusou)
  []
 
-[47]
-<unbtex-example/figuras/logo.png, id=585, 715.67375pt x 823.075pt>
+[48]
+<unbtex-example/figuras/logo.png, id=590, 715.67375pt x 823.075pt>
 File: unbtex-example/figuras/logo.png Graphic file (type png)
 <use unbtex-example/figuras/logo.png>
 Package pdftex.def Info: unbtex-example/figuras/logo.png  used on input line 106.
 (pdftex.def)             Requested size: 227.5pt x 261.6311pt.
- [48]
-<unbtex-example/figuras/paleta.jpg, id=591, 1158.3275pt x 752.8125pt>
+ [49]
+<unbtex-example/figuras/paleta.jpg, id=595, 1158.3275pt x 752.8125pt>
 File: unbtex-example/figuras/paleta.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/paleta.jpg>
 Package pdftex.def Info: unbtex-example/figuras/paleta.jpg  used on input line 115.
 (pdftex.def)             Requested size: 341.25pt x 221.7791pt.
- [49 <./unbtex-example/figuras/logo.png> <./unbtex-example/figuras/paleta.jpg>] [50]
+ [50 <./unbtex-example/figuras/logo.png> <./unbtex-example/figuras/paleta.jpg>] [51]
 Overfull \hbox (15.92311pt too wide) in paragraph at lines 159--160
 []\T1/SticksTooText-TLF/b/n/12 (-20) Serviços de API (api/): \T1/SticksTooText-TLF/m/n/12 (-20) Abs-trai a co-mu-ni-ca-ção com o back-end. Um cli-ente \T1/zi4/m/n/12 apiClient.ts
  []
@@ -2047,25 +2047,25 @@ Overfull \hbox (35.61475pt too wide) in paragraph at lines 173--174
 \T1/SticksTooText-TLF/m/n/12 (-20) gó-cio (com-pa-ra-ção sen-so-rial, pon-tu-a-ção), en-quanto \T1/zi4/m/n/12 processamentoQuestionarioService.js
  []
 
-[51]
+[52]
 Overfull \hbox (48.22435pt too wide) in paragraph at lines 177--178
 \T1/SticksTooText-TLF/m/n/12 (-20) ada de forma ver-si-o-nada atra-vés de ar-qui-vos de mi-gra-ção (ex: \T1/zi4/m/n/12 ...create-table-cuidadores.js\T1/SticksTooText-TLF/m/n/12 (-20) ),
  []
 
 LaTeX Font Info:    Font shape `T1/zi4/b/n' will be
 (Font)              scaled to size 12.0pt on input line 194.
-[52]
+[53]
 Overfull \hbox (45.4328pt too wide) in paragraph at lines 213--214
 \T1/SticksTooText-TLF/m/n/12 (-20) ex-trín-se-cos de cada ali-mento (tex-tura, cor, etc.). A se-pa-ra-ção en-tre \T1/zi4/m/n/12 Food \T1/SticksTooText-TLF/m/n/12 (-20) e \T1/zi4/m/n/12 Food_Sensory_Profile
  []
 
-[53] [54] [55] [56]
-<unbtex-example/figuras/DER_TCC_2_.png, id=643, 4960.5325pt x 3193.9325pt>
+[54] [55] [56] [57]
+<unbtex-example/figuras/DER_TCC_2_.png, id=647, 4960.5325pt x 3193.9325pt>
 File: unbtex-example/figuras/DER_TCC_2_.png Graphic file (type png)
 <use unbtex-example/figuras/DER_TCC_2_.png>
 Package pdftex.def Info: unbtex-example/figuras/DER_TCC_2_.png  used on input line 362.
 (pdftex.def)             Requested size: 626.20631pt x 403.18816pt.
- [57 <./unbtex-example/figuras/DER_TCC_2_.png>] [58
+ [58 <./unbtex-example/figuras/DER_TCC_2_.png>] [59
 
 
 ]
@@ -2168,30 +2168,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 433--433
 \T1/SticksTooText-TLF/m/n/10 (+20) man-tido em
  []
 
-[59] [60]
+[60] [61]
 LaTeX Font Info:    Font shape `TS1/SticksTooText-TLF/b/n' will be
 (Font)              scaled to size 12.0pt on input line 471.
-) [61]
+) [62]
 \openout2 = `unbtex-example/capitulo5.aux'.
 
  (unbtex-example/capitulo5.tex
 Cap\'{\i }tulo 5.
-[62
+[63
 
 
 
 
-] [63] [64] [65]) [66] (unbtex-example.bbl (unbtex-example.brf)
+] [64] [65] [66]) [67] (unbtex-example.bbl (unbtex-example.brf)
 \tf@brf=\write6
 \openout6 = `unbtex-example.brf'.
 
 
 bibitemlist
-[67
+[68
 
 
 
-] [68]) [69] [70
+] [69]) [70] [71
 
 
 ]
@@ -2199,91 +2199,91 @@ bibitemlist
 
  (unbtex-example/apendice-a.tex
 ApÃªndice A.
-<unbtex-example/figuras/telas/tela_login.jpg, id=779, 740.7675pt x 1606.0pt>
+<unbtex-example/figuras/telas/tela_login.jpg, id=783, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_login.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_login.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_login.jpg  used on input line 6.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
-<unbtex-example/figuras/telas/tela_cadastro.jpg, id=780, 740.7675pt x 1606.0pt>
+<unbtex-example/figuras/telas/tela_cadastro.jpg, id=784, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_cadastro.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_cadastro.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_cadastro.jpg  used on input line 13.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
-[71
+[72
 
 
  <./unbtex-example/figuras/telas/tela_login.jpg>]
-<unbtex-example/figuras/telas/tela_home_cuidador.jpg, id=785, 740.7675pt x 1606.0pt>
+<unbtex-example/figuras/telas/tela_home_cuidador.jpg, id=790, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_home_cuidador.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_home_cuidador.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_home_cuidador.jpg  used on input line 20.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
- [72 <./unbtex-example/figuras/telas/tela_cadastro.jpg>]
-<unbtex-example/figuras/telas/tela_perfil_cuidador.jpg, id=791, 512.91624pt x 1284.8pt>
+ [73 <./unbtex-example/figuras/telas/tela_cadastro.jpg>]
+<unbtex-example/figuras/telas/tela_perfil_cuidador.jpg, id=795, 512.91624pt x 1284.8pt>
 File: unbtex-example/figuras/telas/tela_perfil_cuidador.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_perfil_cuidador.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_perfil_cuidador.jpg  used on input line 27.
 (pdftex.def)             Requested size: 273.00278pt x 683.84222pt.
- [73 <./unbtex-example/figuras/telas/tela_home_cuidador.jpg>]
+ [74 <./unbtex-example/figuras/telas/tela_home_cuidador.jpg>]
 Overfull \vbox (10.9027pt too high) has occurred while \output is active []
 
- [74 <./unbtex-example/figuras/telas/tela_perfil_cuidador.jpg>]
-<unbtex-example/figuras/telas/tela_cadastro_assistido.jpg, id=800, 740.7675pt x 1606.0pt>
+ [75 <./unbtex-example/figuras/telas/tela_perfil_cuidador.jpg>]
+<unbtex-example/figuras/telas/tela_cadastro_assistido.jpg, id=804, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_cadastro_assistido.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_cadastro_assistido.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_cadastro_assistido.jpg  used on input line 34.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
-<unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg, id=801, 740.7675pt x 1606.0pt>
+<unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg, id=805, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg  used on input line 41.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
- [75 <./unbtex-example/figuras/telas/tela_cadastro_assistido.jpg>]
-<unbtex-example/figuras/telas/tela_refeicoes.jpg, id=806, 740.7675pt x 1606.0pt>
+ [76 <./unbtex-example/figuras/telas/tela_cadastro_assistido.jpg>]
+<unbtex-example/figuras/telas/tela_refeicoes.jpg, id=810, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_refeicoes.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_refeicoes.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_refeicoes.jpg  used on input line 48.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
- [76 <./unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg>]
-<unbtex-example/figuras/telas/tela_sugestao.jpg, id=811, 740.7675pt x 1606.0pt>
+ [77 <./unbtex-example/figuras/telas/tela_exemplo_questionÃ¡rio.jpg>]
+<unbtex-example/figuras/telas/tela_sugestao.jpg, id=815, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_sugestao.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_sugestao.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_sugestao.jpg  used on input line 55.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
- [77 <./unbtex-example/figuras/telas/tela_refeicoes.jpg>]
-<unbtex-example/figuras/telas/tela_feedback_sugestao.jpg, id=816, 740.7675pt x 1606.0pt>
+ [78 <./unbtex-example/figuras/telas/tela_refeicoes.jpg>]
+<unbtex-example/figuras/telas/tela_feedback_sugestao.jpg, id=821, 740.7675pt x 1606.0pt>
 File: unbtex-example/figuras/telas/tela_feedback_sugestao.jpg Graphic file (type jpg)
 <use unbtex-example/figuras/telas/tela_feedback_sugestao.jpg>
 Package pdftex.def Info: unbtex-example/figuras/telas/tela_feedback_sugestao.jpg  used on input line 62.
 (pdftex.def)             Requested size: 273.00278pt x 591.88269pt.
-) [78 <./unbtex-example/figuras/telas/tela_sugestao.jpg>] [79 <./unbtex-example/figuras/telas/tela_feedback_sugestao.jpg>]
+) [79 <./unbtex-example/figuras/telas/tela_sugestao.jpg>] [80 <./unbtex-example/figuras/telas/tela_feedback_sugestao.jpg>]
 \openout2 = `unbtex-example/apendice-b.aux'.
 
  (unbtex-example/apendice-b.tex
 ApÃªndice B.
-[80
+[81
 
 
 
 
 ]
-<unbtex-example/figuras/prototipo.png, id=830, 979.40906pt x 615.80063pt>
+<unbtex-example/figuras/prototipo.png, id=834, 979.40906pt x 615.80063pt>
 File: unbtex-example/figuras/prototipo.png Graphic file (type png)
 <use unbtex-example/figuras/prototipo.png>
 Package pdftex.def Info: unbtex-example/figuras/prototipo.png  used on input line 12.
 (pdftex.def)             Requested size: 626.20631pt x 393.7352pt.
- [81 <./unbtex-example/figuras/prototipo.png>])
+ [82 <./unbtex-example/figuras/prototipo.png>])
 \openout2 = `unbtex-example/apendice-c.aux'.
 
 
 No file unbtex-example/apendice-c.tex.
 Package hyperref Info: Option `pageanchor' set `false' on input line 378.
-<unbtexcover/contracapa.pdf, id=836, 597.23137pt x 844.15375pt>
+<unbtexcover/contracapa.pdf, id=840, 597.23137pt x 844.15375pt>
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf>
 Package pdftex.def Info: unbtexcover/contracapa.pdf  used on input line 378.
 (pdftex.def)             Requested size: 597.2299pt x 844.15169pt.
-<unbtexcover/contracapa.pdf, id=838, page=1, 597.23137pt x 844.15375pt>
+<unbtexcover/contracapa.pdf, id=842, page=1, 597.23137pt x 844.15375pt>
 File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
 Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 378.
@@ -2304,7 +2304,7 @@ File: unbtexcover/contracapa.pdf Graphic file (type pdf)
 <use unbtexcover/contracapa.pdf, page 1>
 Package pdftex.def Info: unbtexcover/contracapa.pdf , page1 used on input line 378.
 (pdftex.def)             Requested size: 597.25723pt x 844.19032pt.
-[81
+[82
 
 
 
@@ -2336,20 +2336,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `unbtex-example.brf' has not changed.
-(rerunfilecheck)             Checksum: 31FC409B73FC5BE7250CCB1FFD874B9F;2159.
+(rerunfilecheck)             Checksum: EE7ABA666E28F919EC5C61CCCFE3C13A;2159.
  ) 
 Here is how much of TeX's memory you used:
- 35965 strings out of 467870
- 640517 string characters out of 5418354
- 1182469 words of memory out of 5000000
+ 35966 strings out of 467870
+ 640524 string characters out of 5418354
+ 1182470 words of memory out of 5000000
  63473 multiletter control sequences out of 15000+600000
  829814 words of font info for 483 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  125i,17n,147p,1269b,822s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4b.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/NewTXMI.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Bold.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-BoldItalic.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Italic.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/stickstoo/SticksTooText-Regular.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvb.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvbi.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qhvr.pfb><C:/Users/gabri/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/txsys.pfb>
-Output written on unbtex-example.pdf (83 pages, 4015722 bytes).
+Output written on unbtex-example.pdf (84 pages, 4016502 bytes).
 PDF statistics:
- 1264 PDF objects out of 1440 (max. 8388607)
- 272 named destinations out of 1000 (max. 500000)
+ 1268 PDF objects out of 1440 (max. 8388607)
+ 273 named destinations out of 1000 (max. 500000)
  94610 words of extra memory for PDF output out of 106986 (max. 10000000)
 
