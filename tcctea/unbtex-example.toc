@@ -77,20 +77,22 @@
 \contentsline {subsection}{\numberline {4.6.1}Fundamentos e Modelo de Dados de Suporte}{59}{subsection.4.6.1}%
 \contentsline {subsection}{\numberline {4.6.2}O Fluxo Operacional do Algoritmo de Sugestão}{59}{subsection.4.6.2}%
 \contentsline {subsection}{\numberline {4.6.3}Dinamismo e Adaptação: O Ciclo de Feedback}{60}{subsection.4.6.3}%
-\contentsline {section}{\numberline {4.7}Resultados das Métricas (GQM)}{60}{section.4.7}%
-\contentsline {section}{\numberline {4.8}Cronograma de Desenvolvimento}{61}{section.4.8}%
-\contentsline {chapter}{\chapternumberline {5}Conclusões}{63}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introdução}{63}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Objetivos Específicos}{63}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Processo de desenvolvimento}{63}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{64}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Fragilidas Internas}{64}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Fragilidas Externas}{65}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Proposta de Evolução}{65}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Conclusões finais}{66}{subsection.5.2.4}%
+\contentsline {section}{\numberline {4.7}Testes}{60}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Testes Unitários}{60}{subsection.4.7.1}%
+\contentsline {section}{\numberline {4.8}Resultados das Métricas (GQM)}{62}{section.4.8}%
+\contentsline {section}{\numberline {4.9}Cronograma de Desenvolvimento}{62}{section.4.9}%
+\contentsline {chapter}{\chapternumberline {5}Conclusões}{64}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introdução}{64}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Objetivos Específicos}{64}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Processo de desenvolvimento}{64}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{65}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Fragilidas Internas}{65}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Fragilidas Externas}{66}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Proposta de Evolução}{66}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Conclusões finais}{67}{subsection.5.2.4}%
 \vspace {\cftbeforepartskip }
-\contentsline {chapter}{Refer\^encias}{68}{chapter*.28}%
+\contentsline {chapter}{Refer\^encias}{69}{chapter*.30}%
 \renewcommand *{\cftappendixname }{Apêndice \space }
-\contentsline {part}{Ap\^endices}{71}{section*.29}%
-\contentsline {appendix}{\chapternumberline {A}Telas do Aplicativo}{72}{appendix.A}%
-\contentsline {appendix}{\chapternumberline {B}Protótipo de Média Fidelidade}{81}{appendix.B}%
+\contentsline {part}{Ap\^endices}{72}{section*.31}%
+\contentsline {appendix}{\chapternumberline {A}Telas do Aplicativo}{73}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {B}Protótipo de Média Fidelidade}{82}{appendix.B}%
