@@ -66,7 +66,7 @@ Outro artefato essencial foi o \textbf{Backlog da Sprint}, que corresponde a um 
 
     \item \textbf{Execução da Sprint:} Durante a sprint, o desenvolvimento foi concentrado nas funcionalidades planejadas no backlog da sprint. A comunicação entre os integrantes foi realizada predominantemente de maneira assíncrona, permitindo que eventuais dúvidas ou problemas fossem resolvidos conforme foram surgindo. 
 
-    \item \textbf{Programação em Pares (Pair Programming):} Inspirada nas práticas do Extreme Programming (XP), a técnica de programação em pares foi adotada sempre que se mostrou pertinente ao longo das semanas de desenvolvimento. Essa prática consiste em dois desenvolvedores trabalhando simultaneamente sobre o mesmo trecho de código, colaborando na resolução de problemas, no compartilhamento de conhecimentos e na melhoria da qualidade do software. Esse método se mostrou especialmente útil na superação de dificuldades técnicas e na aceleração do desenvolvimento.
+    \item \textbf{Programação em Pares (Pair Programming):} Inspirada nas práticas do Extreme Programming (XP), a técnica de programação em pares foi adotada sempre que se mostrou pertinente ao longo das semanas de desenvolvimento. Essa prática consiste em dois desenvolvedores trabalhando simultaneamente sobre o mesmo trecho de código, colaborando na resolução de problemas, no compartilhamento de conhecimentos e na melhoria da qualidade do software. Esse método demonstrou-se especialmente útil na superação de dificuldades técnicas e na aceleração do desenvolvimento.
 
     \item \textbf{Testes:} Paralelamente à implementação das funcionalidades, foi conduzida a criação dos testes correspondentes, alinhados às boas práticas de desenvolvimento. Dependendo da natureza e da criticidade de cada funcionalidade, foram aplicados testes unitários, de integração ou de sistema. Essa estratégia visou assegurar que cada parte do software esteja funcionando corretamente, bem como garantir a robustez e a confiabilidade do aplicativo como um todo.
 
@@ -161,7 +161,7 @@ Essa estrutura favoreceu o isolamento de responsabilidades, o reaproveitamento d
 
 \subsection{Arquitetura Em 3 Camadas}
 
-A Arquitetura em 3 Camadas fundamenta-se na segmentação da aplicação em três níveis lógicos e independentes: a camada de apresentação, a camada de lógica de negócio e a camada de dados. Essa estrutura promove o desacoplamento das responsabilidades, permitindo que cada componente seja desenvolvido, mantido e escalado de forma autônoma, sem criar dependências rígidas entre a interface e o armazenamento. De acordo com \cite{pressman2016}, esse modelo favorece a manutenibilidade e a flexibilidade do software, pois possibilita que alterações em uma camada específica, como a atualização da interface do usuário, ocorram sem impactar necessariamente as regras de negócio ou a estrutura do banco de dados.
+A Arquitetura em 3 Camadas fundamenta-se na segmentação da aplicação em três níveis lógicos e independentes: a camada de apresentação, a camada de lógica de negócio e a camada de dados. Essa estrutura promove o desacoplamento das responsabilidades, permitindo que cada componente seja desenvolvido, mantido e escalado de forma autônoma, sem criar dependências rígidas entre a interface e o armazenamento. De acordo com \cite{pressman2016}, esse modelo favorece a manutenibilidade e a flexibilidade do software, pois possibilita que alterações em uma camada específica, como a atualização da interface do usuário, ocorram sem impactar necessariamente às regras de negócio ou a estrutura do banco de dados.
 
 \subsection{Desenvolvimento de Software}
 
@@ -224,9 +224,7 @@ Essa abordagem híbrida proporcionou uma organização eficiente do fluxo de tra
 
 Para garantir clareza, rastreabilidade e organização no histórico de desenvolvimento do projeto, foi adotada uma política de padronização nas mensagens de commit. Essa prática visa facilitar a compreensão das alterações realizadas, tanto para os desenvolvedores envolvidos quanto para eventuais colaboradores futuros, além de contribuir para a manutenção, revisão e evolução do código de forma eficiente.
 
-O formato utilizado segue o seguinte padrão: \textbf{<tipo> <descrição breve e objetiva>}
-
-Nessa estrutura, o tipo indica a natureza da alteração realizada no código, enquanto a descrição resume, de forma clara, o que foi modificado. A seguir, são descritos os tipos definidos e suas respectivas finalidades:
+O formato utilizado segue o seguinte padrão: \textbf{<tipo> <descrição breve e objetiva>}. Nessa estrutura, o tipo indica a natureza da alteração realizada no código, enquanto a descrição resume, de forma clara, o que foi modificado. A seguir, são descritos os tipos definidos e suas respectivas finalidades:
 
 \begin{itemize}
 
@@ -436,6 +434,11 @@ A estratégia de persistência de dados foi definida para assegurar a consistên
 O armazenamento dos dados foi implementado utilizando o PostgreSQL. Este sistema gerenciador de banco de dados relacional (SGBD) foi escolhido por sua robustez, conformidade com o padrão SQL e suporte a transações ACID, características essenciais para garantir a confiabilidade das informações \cite{postgresql2024}.
 
 A escolha de um banco relacional se mostrou adequada para a natureza estruturada dos dados do projeto, como os perfis sensoriais e as sugestões geradas pelo algoritmo. Isso permitiu a definição de restrições de integridade rigorosas e a execução de consultas eficientes. A comunicação com o banco é mediada pela API RESTful em Node.js, que centraliza e valida todas as operações de leitura e escrita, garantindo que o acesso às informações do usuário ocorra de forma segura.
+
+\subsection{Ferramentas de Apoio à Escrita}
+
+Para apoio na revisão textual, estruturação de seções e aprimoramento da clareza da redação, foram utilizadas ferramenta de inteligência artificial, como o ChatGPT e o Gemini. Sua aplicação restringiu-se a sugestões de melhoria linguística e organização de texto, sem interferir no conteúdo técnico ou nos resultados do projeto.
+
 
 % Nomenclaturas de Siglas e Abreviações para este capítulo (coloque as do Capítulo 1 + as novas deste capítulo aqui, de forma única)
 \nomenclature[A]{UNB}{Universidade de Brasília}

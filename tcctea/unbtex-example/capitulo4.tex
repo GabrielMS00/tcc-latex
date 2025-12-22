@@ -143,7 +143,7 @@ Além disso, o protótipo interativo de média fidelidade, que serviu de base pa
 
 A estrutura do código-fonte da aplicação reflete a arquitetura em 3 camadas (3-Tier). Este padrão de \textit{design} divide a aplicação em três unidades lógicas separadas para garantir a separação de responsabilidades: a Camada de Apresentação (a interface do usuário), a Camada de Negócio (o servidor com a lógica) e a Camada de Dados (o banco de dados).
 
-O projeto foi organizado em um formato \textit{monorepo}, onde o código-fonte do cliente (front-end) e do servidor (back-end) coexistem no mesmo repositório, mas estão desacoplados em diretórios distintos (\texttt{/app-tea} e \texttt{/backend}) para implementar fisicamente essa separação.
+O projeto foi organizado em um formato \textit{monorepo}, onde o código-fonte do cliente (front-end) e do servidor (back-end) coexistem no mesmo repositório, mas estão desacoplados em diretórios distintos (\texttt{/app-tea} e \texttt{/back-end}) para implementar fisicamente essa separação.
 
 O código-fonte completo da solução implementada está disponível no repositório do projeto e está hospedado na plataforma GitHub, no seguinte endereço: \url{https://github.com/GabrielMS00/Aplicativo_TCC_TEA}. 
 
@@ -163,7 +163,7 @@ O front-end está contido no diretório \texttt{/app-tea} e consiste em um aplic
 
 \subsection{Camada de Negócio e Dados (Back-end)}
 
-O back-end está contido no diretório \texttt{/backend} e consiste na API RESTful desenvolvida em Node.js com o framework Express.js. Esta implementação agrupa tanto a Camada de Negócio quanto a Camada de Dados:
+O back-end está contido no diretório \texttt{/back-end} e consiste na API RESTful desenvolvida em Node.js com o framework Express.js. Esta implementação agrupa tanto a Camada de Negócio quanto a Camada de Dados:
 
 \begin{itemize}
     \item \textbf{Rotas (src/api/routes/):} Define os \textit{endpoints} da API. O arquivo \texttt{index.js} centraliza os diferentes arquivos de rota (ex: \texttt{sugestaoRoutes.js}, \texttt{authRoutes.js}), que mapeiam os verbos HTTP (GET, POST, etc.) para os \textit{controllers} correspondentes.
@@ -400,11 +400,19 @@ O sistema é projetado para evoluir com o uso, através de um ciclo de feedback 
 
 \section{Testes}
 
-Com a conclusão do aplicativo, realizaram-se verificações para garantir o funcionamento correto de recursos específicos e da aplicação como um todo. O processo incluiu testes unitários, funcionais e de integração, descritos nas próximas seções.
+Com a conclusão do aplicativo, foram realizadas verificações para garantir o funcionamento correto de recursos específicos e da aplicação como um todo. O processo incluiu testes unitários, funcionais e de integração, descritos nas próximas seções.
 
 \subsection{Testes Unitários}
 
-Como indicado na metodologia, foi utilizado o Jest para realização dos testes unitários. Foram realizados 56 testes no Font-End e 25 no Back-End. A figura 4.4 e 4.5 indicam a cobertura de testes do código.
+Conforme definido na metodologia, utilizou-se o \textit{Jest} para a realização dos testes unitários. No \textit{front-end}, foram executados 56 testes, enquanto no \textit{back-end} foram realizados 25. As Figuras 4.4 e 4.5 apresentam a cobertura de testes obtida no projeto. Os resultados foram satisfatórios, alcançando aproximadamente 70\% de cobertura geral.
+
+\subsection{Testes de Integração}
+
+Além dos testes implementados no código, foram realizados 13 testes de integração utilizando a plataforma \textit{Postman}. Esses testes consistiram no envio de requisições às rotas da API, com o objetivo de verificar o correto funcionamento dos serviços e suas respostas. Todos os 13 testes foram bem sucedidos.
+
+\subsection{Teste Funcional}
+
+Também foi conduzida uma rodada de testes funcionais, na qual a \textit{Product Owner} avaliou o aplicativo em uso real. Nessa etapa, foram verificadas as principais funcionalidades do sistema e validado o atendimento ao escopo estabelecido para a primeira \textit{release} do projeto.
 
 \begin{figure}[H]
    \centering

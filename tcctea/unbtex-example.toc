@@ -4,7 +4,7 @@
 \babel@toc {brazil}{}\relax 
 \contentsline {chapter}{\chapternumberline {1}Introdução}{14}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Contextualização}{14}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Justificativa}{15}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Justificativa}{14}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Questões de Pesquisa e Desenvolvimento}{15}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Objetivos}{16}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Objetivo Geral}{16}{subsection.1.4.1}%
@@ -56,6 +56,7 @@
 \contentsline {subsection}{\numberline {3.5.2}Ferramentas de comunicação}{45}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Persistência de dados}{45}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}PostgreSQL}{46}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Ferramentas de Apoio à Escrita}{46}{subsection.3.5.5}%
 \contentsline {chapter}{\chapternumberline {4}Solução Implementada}{47}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Sobre o Aplicativo}{47}{section.4.1}%
 \contentsline {section}{\numberline {4.2}\textit {Backlog} do produto}{47}{section.4.2}%
@@ -79,6 +80,8 @@
 \contentsline {subsection}{\numberline {4.6.3}Dinamismo e Adaptação: O Ciclo de Feedback}{60}{subsection.4.6.3}%
 \contentsline {section}{\numberline {4.7}Testes}{60}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}Testes Unitários}{60}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Testes de Integração}{60}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Teste Funcional}{60}{subsection.4.7.3}%
 \contentsline {section}{\numberline {4.8}Resultados das Métricas (GQM)}{62}{section.4.8}%
 \contentsline {section}{\numberline {4.9}Cronograma de Desenvolvimento}{62}{section.4.9}%
 \contentsline {chapter}{\chapternumberline {5}Conclusões}{64}{chapter.5}%

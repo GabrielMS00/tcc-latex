@@ -24,7 +24,7 @@ O processo definido foi, em geral, cumprido, ainda que com ajustes pontuais que 
 
 O método GQM possibilitou uma avaliação objetiva do andamento do projeto. As métricas utilizadas foram efetivas para validar as decisões adotadas e assegurar o cumprimento dos objetivos. Os dados coletados no processo formaram uma base concreta para o aprimoramento contínuo e a otimização da ferramenta.
 
-Os testes unitários do backend indicaram um nível satisfatório de cobertura e confiabilidade do código. Sua execução foi fundamental para atestar o funcionamento esperado das funcionalidades críticas e para identificar falhas antecipadamente, contribuindo para a robustez do sistema. Desta forma, o desenvolvimento manteve um padrão de qualidade consistente e alinhado às práticas de engenharia de software.
+Os testes unitários do back-end indicaram um nível satisfatório de cobertura e confiabilidade do código. Sua execução foi fundamental para atestar o funcionamento esperado das funcionalidades críticas e para identificar falhas antecipadamente, contribuindo para a robustez do sistema. Desta forma, o desenvolvimento manteve um padrão de qualidade consistente e alinhado às práticas de engenharia de software.
 
 Por fim, a aplicação dos testes de usabilidade com a PO confirmou que as necessidades dos usuários finais, levantadas no início do processo, foram atendidas. Além disso, os testes forneceram percepções valiosas sobre usabilidade e navegação, que indicam caminhos para futuras melhorias no projeto.
 
@@ -42,7 +42,7 @@ As fragilidades identificadas foram classificadas em duas categorias, as interna
 
    \item \textbf{Recuperação de Credenciais Simplificada:} O fluxo de recuperação de conta (para "esqueci minha senha") foi implementado de forma simplificada. Ao invés de um sistema de redefinição baseado em token enviado por e-mail, o projeto utilizará um mecanismo de "palavra de segurança" definida pelo usuário no cadastro. Esta implementação é temporária. A abordagem foi adotada por não haver, no momento, um serviço de envio de e-mails configurado e uma infraestrutura de hospedagem definitiva. Embora funcional, este método é considerado menos robusto que os padrões de mercado e representa uma fragilidade na segurança da autenticação.
 
-    \item \textbf{Hospedagem do software:} Não há nenhum serviço de hospedagem sendo utilzado para o software. Além disso, não há um instalador do aplicativo e isso limita o uso do software pois ele só pode ser utilizado localmente.
+    \item \textbf{Hospedagem do software:} Não há nenhum serviço de hospedagem sendo utilizado para o software. Além disso, não há um instalador do aplicativo e isso limita o uso do software pois ele só pode ser utilizado localmente.
 
     \item \textbf{Gerenciamento de Estado no Aplicativo - Fontend:} O aplicativo pode apresentar fragilidades na gestão de estado, especialmente em cenários de uso offline. Se o usuário registrar uma refeição ou aceitação sem conexão, o sistema pode não ter mecanismos robustos para sincronizar esses dados de forma segura quando a conexão for reestabelecida, gerando potencial perda de dados ou inconsistências.
 \end{enumerate}
@@ -64,7 +64,7 @@ As fragilidades identificadas foram classificadas em duas categorias, as interna
 Uma série de sugestões foi mapeada com o propósito de documentação para um futuro trabalho de evolução do aplicativo. A lista com as propostas para futuras implementações é apresentada a seguir.
 
 \begin{enumerate}
-    \item \textbf{Criação de um novo tipo de conta:} Atualmente, o software possui dois tipos de conta: a do cuidador e a do indivíduo com TEA e seletividade alimentar. No entanto, identificou-se a oportunidade para a criação de um terceiro tipo, destinado ao profissional da área da saúde. Este perfil teria acesso aos dados dos indivíduos com TEA, permitindo a realização de acompanhamentos recorrentes.
+    \item \textbf{Criação de um novo tipo de conta:} Atualmente, o software possui dois tipos de conta: cuidador e indivíduo com TEA e seletividade alimentar. No entanto, identificou-se a oportunidade para a criação de um terceiro tipo, destinado ao profissional da área da saúde. Este perfil teria acesso aos dados dos indivíduos com TEA, permitindo a realização de acompanhamentos recorrentes.
 
     \item \textbf{Utilização de IA:} O uso de Inteligência Artificial pode aprimorar as sugestões de troca alimentar. A tecnologia permitiria uma análise mais refinada dos padrões sensoriais dos alimentos já consumidos por indivíduos com TEA, com o objetivo de gerar propostas mais assertivas.
 
