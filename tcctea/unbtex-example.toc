@@ -69,7 +69,7 @@
 \contentsline {subsection}{\numberline {4.4.2}Camada de Negócio e Dados (Back-end)}{52}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}Ambiente e Orquestração}{53}{subsection.4.4.3}%
 \contentsline {section}{\numberline {4.5}Organização dos Dados}{53}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Estrutura de Usuários e Pacientes}{53}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.1}Estrutura de Usuários e assistidos}{53}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Armazenamento de Dados de Avaliação (Questionários)}{54}{subsection.4.5.2}%
 \contentsline {subsection}{\numberline {4.5.3}Base de Conhecimento Alimentar e Perfil Sensorial}{54}{subsection.4.5.3}%
 \contentsline {subsection}{\numberline {4.5.4}Modelo de Sugestão, Opções e Feedback}{54}{subsection.4.5.4}%
@@ -89,8 +89,8 @@
 \contentsline {subsection}{\numberline {5.1.1}Objetivos Específicos}{64}{subsection.5.1.1}%
 \contentsline {subsection}{\numberline {5.1.2}Processo de desenvolvimento}{64}{subsection.5.1.2}%
 \contentsline {section}{\numberline {5.2}Fragilidades e Propostas de Evolução}{65}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Fragilidas Internas}{65}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Fragilidas Externas}{66}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.1}Fragilidades Internas}{65}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Fragilidades Externas}{66}{subsection.5.2.2}%
 \contentsline {subsection}{\numberline {5.2.3}Proposta de Evolução}{66}{subsection.5.2.3}%
 \contentsline {subsection}{\numberline {5.2.4}Conclusões finais}{67}{subsection.5.2.4}%
 \vspace {\cftbeforepartskip }

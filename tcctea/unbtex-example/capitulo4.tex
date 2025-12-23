@@ -184,20 +184,20 @@ Finalmente, a plataforma Docker é utilizada para padronizar e gerenciar o ambie
 
 \section{Organização dos Dados}
 
-A funcionalidade do aplicativo é suportada por um modelo de dados relacional. Para isso, a arquitetura do banco de dados foi projetada para gerenciar as interações entre usuários, pacientes, avaliações e a lógica de recomendação. O modelo está estruturado nos domínios principais a seguir.
+A funcionalidade do aplicativo é suportada por um modelo de dados relacional. Para isso, a arquitetura do banco de dados foi projetada para gerenciar as interações entre usuários, assistidos, avaliações e a lógica de recomendação. O modelo está estruturado nos domínios principais a seguir.
 
-\subsection{Estrutura de Usuários e Pacientes}
+\subsection{Estrutura de Usuários e assistidos}
 
-Neste domínio, é feita a distinção entre o usuário do sistema e o paciente que recebe a intervenção.
+Neste domínio, é feita a distinção entre o usuário do sistema e o assistido que recebe a intervenção.
 
 \begin{itemize}
-   \item \textbf{Entidade \texttt{User}:} Armazena as credenciais de acesso e dados de identificação dos usuários. Os perfis são categorizados em \texttt{cuidador} (que gerencia pacientes) ou \texttt{paciente} (usuário independente que gerencia o próprio perfil).
-   \item \textbf{Entidade \texttt{Patient}:} Representa o sujeito central da intervenção, contendo suas informações demográficas e clínicas. A entidade estabelece o relacionamento de dependência (1:N) com a entidade \texttt{User}, onde um cuidador pode ser responsável por um ou mais pacientes, através de uma chave estrangeira (\texttt{id\_user\_caregiver}).
+   \item \textbf{Entidade \texttt{User}:} Armazena as credenciais de acesso e dados de identificação dos usuários. Os perfis são categorizados em \texttt{cuidador} (que gerencia assistidos) ou \texttt{assistido} (usuário independente que gerencia o próprio perfil).
+   \item \textbf{Entidade \texttt{Patient}:} Representa o sujeito central da intervenção, contendo suas informações demográficas e clínicas. A entidade estabelece o relacionamento de dependência (1:N) com a entidade \texttt{User}, onde um cuidador pode ser responsável por um ou mais assistidos, através de uma chave estrangeira (\texttt{id\_user\_caregiver}).
 \end{itemize}
 
 \subsection{Armazenamento de Dados de Avaliação (Questionários)}
 
-Para documentar o estado inicial e a evolução do paciente, o modelo permite o registro de avaliações contínuas.
+Para documentar o estado inicial e a evolução do assistido, o modelo permite o registro de avaliações contínuas.
 
 \begin{itemize}
    \item \textbf{Entidade \texttt{Questionnaire}:} Funciona como um registro mestre para cada instância de um questionário aplicado, armazenando metadados como o tipo de instrumento e a data da aplicação.
@@ -211,7 +211,7 @@ Este domínio estrutura a informação sobre os alimentos, sendo o pilar para o 
 \begin{itemize}
    \item \textbf{Entidade \texttt{Food}:} Constitui o catálogo central de alimentos, contendo suas propriedades intrínsecas, como grupo alimentar e classificação nutricional (e.g., caseiro, processado).
    \item \textbf{Entidade \texttt{Food\_Sensory\_Profile}:} Vinculada à entidade \texttt{Food}, armazena os atributos extrínsecos de cada alimento (textura, cor, etc.). A separação entre \texttt{Food} e \texttt{Food\_Sensory\_Profile} é fundamental para a execução do algoritmo de similaridade.
-   \item \textbf{Entidade \texttt{Safe\_Food}:} Representa o subconjunto de alimentos validados como seguros para um paciente. Esta entidade funciona como o principal insumo para o motor de sugestões, ao definir os "Alimentos Ponte".
+   \item \textbf{Entidade \texttt{Safe\_Food}:} Representa o subconjunto de alimentos validados como seguros para um assistido. Esta entidade funciona como o principal insumo para o motor de sugestões, ao definir os "Alimentos Ponte".
 \end{itemize}
 
 \subsection{Modelo de Sugestão, Opções e Feedback}
@@ -219,9 +219,9 @@ Este domínio estrutura a informação sobre os alimentos, sendo o pilar para o 
 Este domínio gerencia o ciclo de vida de uma recomendação, desde sua geração até a resposta do usuário.
 
 \begin{itemize}
-   \item \textbf{Entidade \texttt{Exchange\_Suggestion}:} É uma entidade transacional que registra cada execução do algoritmo, armazenando o contexto da sugestão (paciente, data, grupo-meta e o \texttt{Safe\_Food} de referência).
+   \item \textbf{Entidade \texttt{Exchange\_Suggestion}:} É uma entidade transacional que registra cada execução do algoritmo, armazenando o contexto da sugestão (assistido, data, grupo-meta e o \texttt{Safe\_Food} de referência).
    \item \textbf{Entidade \texttt{Exchange\_Option}:} Filha de \texttt{Exchange\_Suggestion}, armazena cada uma das opções de troca geradas, vinculando um alimento sugerido a uma refeição e registrando as pontuações calculadas.
-   \item \textbf{Entidade \texttt{Feedback}:} Esta entidade fecha o ciclo de aprendizado do sistema, pois armazena a interação do usuário final (cuidador ou paciente) com uma \texttt{Exchange\_Option}, registrando o status de \texttt{ACEITA} ou \texttt{REJEITADA}.
+   \item \textbf{Entidade \texttt{Feedback}:} Esta entidade fecha o ciclo de aprendizado do sistema, pois armazena a interação do usuário final (cuidador ou assistido) com uma \texttt{Exchange\_Option}, registrando o status de \texttt{ACEITA} ou \texttt{REJEITADA}.
 \end{itemize}
 
 \subsection{Modelo Relacional e DER}
@@ -440,27 +440,26 @@ Este tópico apresenta os resultados da aferição do processo de desenvolviment
 \centering
 \caption{Resultados das Métricas GQM}
 \label{tab:gqm_resultados}
-\footnotesize % Reduz o tamanho da fonte para a tabela caber
+\footnotesize
 \begin{tabularx}{\textwidth}{| 
-    >{\raggedright\arraybackslash}p{3.2cm} | 
-    >{\raggedright\arraybackslash}p{2.8cm} | 
-    >{\raggedright\arraybackslash}p{2.0cm} | 
-    >{\raggedright\arraybackslash}p{1.5cm} | 
+    >{\raggedright\arraybackslash}p{3.5cm} | 
+    >{\raggedright\arraybackslash}p{3cm} | 
+    >{\raggedright\arraybackslash}p{1.8cm} | 
     >{\raggedright\arraybackslash}p{1.8cm} | 
     X |}
 \hline
-\textbf{Métrica} & \textbf{Cálculo Realizado} & \textbf{Escala} & \textbf{Valor Obtido} & \textbf{Valor Esperado} & \textbf{Conclusão} \\ \hline
+\textbf{Métrica} & \textbf{Cálculo Realizado} & \textbf{Valor Obtido} & \textbf{Valor Esperado} & \textbf{Conclusão} \\ \hline
 
-\multicolumn{6}{|l|}{\textbf{Objetivo 1: Gerenciamento do Backlog (Questões 1.1 e 1.2)}} \\ \hline
-M 1.1.1 e 1.2.1: Tarefas concluídas do backlog & Contagem de tarefas (US + TK) finalizadas & Inteiro & 15 & 15 & O backlog planejado foi integralmente cumprido, atendendo às necessidades mapeadas. \\ \hline
+\multicolumn{5}{|l|}{\textbf{Objetivo 1: Gerenciamento do Backlog (Questões 1.1 e 1.2)}} \\ \hline
+M 1.1.1 e 1.2.1: Tarefas concluídas do backlog & Contagem de tarefas (US + TK) finalizadas  & 15  & 15  & O backlog planejado foi integralmente cumprido, atendendo às necessidades mapeadas. \\ \hline
 
-\multicolumn{6}{|l|}{\textbf{Objetivo 2: Gerenciamento do Cronograma (Questão 2.1)}} \\ \hline
-M 2.1.1: Funcionalidades mínimas do MVP & (Func. Entregues / Func. MVP Planejadas) & Percentual & 100\% & 100\% & O MVP foi entregue dentro do cronograma estipulado. \\ \hline
+\multicolumn{5}{|l|}{\textbf{Objetivo 2: Gerenciamento do Cronograma (Questão 2.1)}} \\ \hline
+M 2.1.1: Funcionalidades mínimas do MVP & (Func. Entregues / Func. MVP Planejadas)  & 100\%  & 100\%  & O MVP foi entregue dentro do cronograma estipulado. \\ \hline
 
-\multicolumn{6}{|l|}{\textbf{Objetivo 3: Progresso do Desenvolvimento (Questões 3.1, 3.2 e 3.3)}} \\ \hline
-M 3.1: Taxa de bugs corrigidos & (Bugs Corrigidos / Total Bugs Encontrados) & Percentual & (16/17) 94\% & > 90\% & A qualidade foi mantida com a correção ágil das falhas. \\ \hline
-M 3.2.1: Total de releases entregues & Contagem de releases/versões & Inteiro & 2 & >= 2 & Houve entregas incrementais e contínuas do software. \\ \hline
-M 3.3.1: Débitos técnicos registrados & Contagem de débitos (To Do/Refactor) & Inteiro & 3 & < 5 & O endividamento técnico foi controlado e mantido em níveis abaixo do esperado. \\ \hline
+\multicolumn{5}{|l|}{\textbf{Objetivo 3: Progresso do Desenvolvimento (Questões 3.1, 3.2 e 3.3)}} \\ \hline
+M 3.1: Taxa de bugs corrigidos & (Bugs Corrigidos / Total Bugs Encontrados)  & 94\%  & > 90\%  & A qualidade foi mantida com a correção ágil das falhas. \\ \hline
+M 3.2.1: Total de releases entregues & Contagem de releases/versões  & 2  & >= 2  & Houve entregas incrementais e contínuas do software. \\ \hline
+M 3.3.1: Débitos técnicos registrados & Contagem de débitos (To Do/Refactor)  & 3  & < 5  & O endividamento técnico foi controlado e mantido abaixo do esperado. \\ \hline
 
 \end{tabularx}
 \caption*{Fonte: Autor, 2025.}
